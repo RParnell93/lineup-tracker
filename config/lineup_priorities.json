@@ -1,0 +1,177 @@
+{
+    "_comment": [
+        "Player priority rankings per league.",
+        "When more players are eligible for a slot than slots available,",
+        "players listed here start (in order). Unlisted players fall back to salary.",
+        "Use ottoneu player IDs. Find IDs by running: python scripts/set_lineups.py --roster <league_id>"
+    ],
+    "do_not_move": [
+        33600
+    ],
+    "must_start": [
+        23327,
+        33600,
+        33654,
+        18546,
+        23601,
+        18466,
+        37806,
+        33625,
+        22559
+    ],
+    "_must_start_names": [
+        "Ronald Acuna Jr. (23327)",
+        "Shohei Ohtani (33600)",
+        "Cal Raleigh (33654)",
+        "Kyle Tucker (18546)",
+        "Edwin Diaz (23601)",
+        "Ketel Marte (18466)",
+        "Gunnar Henderson (37806)",
+        "Julio Rodriguez (33625)",
+        "Jhoan Duran (22559)"
+    ],
+    "rp_fatigue_protected": [
+        23601,
+        22559
+    ],
+    "_rp_fatigue_protected_names": [
+        "Edwin Diaz (23601)",
+        "Jhoan Duran (22559)",
+        "Mason Miller - not on any roster"
+    ],
+    "100": {
+        "OF": [
+            18347,
+            23793,
+            32291,
+            23805,
+            37216,
+            45720,
+            23745
+        ],
+        "MI": [
+            45713,
+            36048
+        ],
+        "SP": [
+            15962,
+            23625,
+            42711,
+            20732,
+            18171,
+            15261
+        ],
+        "RP": [
+            22559,
+            18422,
+            43911,
+            29992,
+            18283
+        ],
+        "Util": [
+            18347,
+            23745,
+            23805
+        ]
+    },
+    "530": {
+        "OF": [
+            33625,
+            19328,
+            18479,
+            43896,
+            44524,
+            45947
+        ],
+        "SP": [
+            22426,
+            45706,
+            41042,
+            35922,
+            44336
+        ],
+        "RP": [
+            19268,
+            23601,
+            22559,
+            32051,
+            34396
+        ]
+    },
+    "649": {
+        "C": [
+            33654,
+            37427
+        ],
+        "OF": [
+            18546,
+            44524,
+            27058,
+            38367,
+            42279
+        ],
+        "SP": [
+            35196,
+            45706,
+            33670,
+            42765,
+            35811
+        ],
+        "RP": [
+            31951,
+            38754,
+            35602,
+            18985,
+            19904
+        ]
+    },
+    "663": {
+        "OF": [
+            18546,
+            14893,
+            32291,
+            38367,
+            23805,
+            21200,
+            22331
+        ],
+        "SP": [
+            36671,
+            20975,
+            31194,
+            33607,
+            18171
+        ],
+        "RP": [
+            33259,
+            32051,
+            29992,
+            43911,
+            41452
+        ]
+    },
+    "rules": {
+        "lhb_vs_lhp_block": true,
+        "active_roster_filter": true,
+        "rp_freshness": true,
+        "flex_optimization": true,
+        "salary_tiebreak": true
+    },
+    "791": {
+        "OF": [
+            23745
+        ],
+        "C": [
+            42221
+        ],
+        "SS": [
+            18407
+        ],
+        "2B": [
+            31741
+        ],
+        "MI": [
+            31741
+        ]
+    }
+}

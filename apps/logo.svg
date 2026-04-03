@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Baseball diamond shape -->
+  <path d="M24 4 L44 24 L24 44 L4 24 Z" fill="none" stroke="#83bdc0" stroke-width="2" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Inner diamond (infield) -->
+  <path d="M24 14 L34 24 L24 34 L14 24 Z" fill="rgba(131,189,192,0.12)" stroke="#83bdc0" stroke-width="1.2" stroke-linejoin="round" opacity="0.6"/>
+  <!-- Basepaths glow -->
+  <circle cx="24" cy="14" r="2.2" fill="#f5bb5b"/><!-- home -->
+  <circle cx="34" cy="24" r="2" fill="#83bdc0"/><!-- 1B -->
+  <circle cx="24" cy="34" r="2" fill="#83bdc0"/><!-- 2B -->
+  <circle cx="14" cy="24" r="2" fill="#83bdc0"/><!-- 3B -->
+  <!-- Automation arrows (circular) -->
+  <path d="M37 10 A18 18 0 0 1 38 14" stroke="#f5bb5b" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M39.5 13 L38 14 L36.5 12.5" stroke="#f5bb5b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+  <path d="M11 38 A18 18 0 0 1 10 34" stroke="#f5bb5b" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M8.5 35 L10 34 L11.5 35.5" stroke="#f5bb5b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+</svg>

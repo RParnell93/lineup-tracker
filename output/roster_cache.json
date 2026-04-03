@@ -1,0 +1,10524 @@
+{
+  "players": {
+    "23327": {
+      "name": "Ronald Acu\u00f1a Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 57,
+      "ppg": 2.63,
+      "pts": 18.4,
+      "minor_leaguer": false,
+      "mlb_id": 660670
+    },
+    "33600": {
+      "name": "Shohei Ohtani",
+      "positions": [
+        "Util",
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 86,
+      "ppg": 41.8,
+      "minor_leaguer": false,
+      "mlb_id": 660271
+    },
+    "33654": {
+      "name": "Cal Raleigh",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 26,
+      "ppg": 1.6,
+      "pts": 11.2,
+      "minor_leaguer": false,
+      "mlb_id": 663728
+    },
+    "18546": {
+      "name": "Kyle Tucker",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 54,
+      "ppg": 4.6,
+      "minor_leaguer": false,
+      "mlb_id": 663656
+    },
+    "23601": {
+      "name": "Edwin Diaz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 17,
+      "ppg": 0.0,
+      "pts": 33.0,
+      "minor_leaguer": false,
+      "mlb_id": 621242
+    },
+    "18466": {
+      "name": "Ketel Marte",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 35,
+      "ppg": 2.54,
+      "pts": 17.8,
+      "minor_leaguer": false,
+      "mlb_id": 606466
+    },
+    "37806": {
+      "name": "Gunnar Henderson",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 44,
+      "ppg": 6.0,
+      "minor_leaguer": false,
+      "mlb_id": 683002
+    },
+    "33625": {
+      "name": "Julio Rodriguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 43,
+      "ppg": -0.4,
+      "pts": -2.8,
+      "minor_leaguer": false,
+      "mlb_id": 677594
+    },
+    "22559": {
+      "name": "Jhoan Duran",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 14,
+      "ppg": 9.7,
+      "minor_leaguer": false,
+      "mlb_id": 661395
+    },
+    "18347": {
+      "name": "Kyle Schwarber",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 46,
+      "ppg": 7.9,
+      "minor_leaguer": false,
+      "mlb_id": 656941
+    },
+    "23793": {
+      "name": "Brent Rooker",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 15,
+      "ppg": -0.27,
+      "pts": -1.6,
+      "minor_leaguer": false,
+      "mlb_id": 667670
+    },
+    "32291": {
+      "name": "Oneil Cruz",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 19,
+      "ppg": 7.9,
+      "pts": 47.4,
+      "minor_leaguer": false,
+      "mlb_id": 665833
+    },
+    "23805": {
+      "name": "Austin Hays",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 2.02,
+      "pts": 10.1,
+      "minor_leaguer": false,
+      "mlb_id": 669720
+    },
+    "37216": {
+      "name": "Spencer Steer",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 2.4,
+      "minor_leaguer": false,
+      "mlb_id": 668715
+    },
+    "45720": {
+      "name": "Jac Caglianone",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 4.6,
+      "minor_leaguer": false,
+      "mlb_id": 695506
+    },
+    "23745": {
+      "name": "Adolis Garc\u00eda",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 5.3,
+      "minor_leaguer": false,
+      "mlb_id": 666969
+    },
+    "45713": {
+      "name": "JJ Wetherholt",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 5.25,
+      "pts": 31.5,
+      "minor_leaguer": false,
+      "mlb_id": 802139
+    },
+    "36048": {
+      "name": "Luisangel Acuna",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 2.7,
+      "minor_leaguer": false,
+      "mlb_id": 682668
+    },
+    "15962": {
+      "name": "Zack Wheeler",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 29,
+      "ppg": 6.0,
+      "pts": 18.0,
+      "minor_leaguer": false,
+      "mlb_id": 554430
+    },
+    "23625": {
+      "name": "Cole Ragans",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 23,
+      "ppg": 10.9,
+      "minor_leaguer": false,
+      "mlb_id": 666142
+    },
+    "42711": {
+      "name": "Jacob Misiorowski",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 8,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 694819
+    },
+    "20732": {
+      "name": "Sandy Alcantara",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 645261
+    },
+    "18171": {
+      "name": "Michael Wacha",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 608379
+    },
+    "15261": {
+      "name": "Justin Verlander",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": -5.3,
+      "minor_leaguer": false,
+      "mlb_id": 434378
+    },
+    "18422": {
+      "name": "Raisel Iglesias",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 8,
+      "ppg": 8.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 628452
+    },
+    "43911": {
+      "name": "Hunter Barco",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 47.0,
+      "minor_leaguer": false,
+      "mlb_id": 682995
+    },
+    "29992": {
+      "name": "Jose Alvarado",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 1.3,
+      "minor_leaguer": false,
+      "mlb_id": 621237
+    },
+    "18283": {
+      "name": "Hunter Harvey",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": -3.4,
+      "minor_leaguer": false,
+      "mlb_id": 640451
+    },
+    "19328": {
+      "name": "Cody Bellinger",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 19,
+      "ppg": 5.5,
+      "minor_leaguer": false,
+      "mlb_id": 641355
+    },
+    "18479": {
+      "name": "Ian Happ",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 17,
+      "ppg": 6.2,
+      "minor_leaguer": false,
+      "mlb_id": 664023
+    },
+    "43896": {
+      "name": "Wyatt Langford",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 33,
+      "ppg": 0.02,
+      "pts": 0.1,
+      "minor_leaguer": false,
+      "mlb_id": 694671
+    },
+    "44524": {
+      "name": "Jung Hoo Lee",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 11,
+      "ppg": 2.87,
+      "pts": 20.1,
+      "minor_leaguer": false,
+      "mlb_id": 808982
+    },
+    "45947": {
+      "name": "Carson Benge",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 2.8,
+      "minor_leaguer": false,
+      "mlb_id": 701807
+    },
+    "22426": {
+      "name": "Framber Valdez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 25,
+      "ppg": 36.9,
+      "minor_leaguer": false,
+      "mlb_id": 664285
+    },
+    "45706": {
+      "name": "Chase Burns",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 78.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 695505
+    },
+    "41042": {
+      "name": "Bryan Woo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 16,
+      "ppg": 48.8,
+      "minor_leaguer": false,
+      "mlb_id": 693433
+    },
+    "35922": {
+      "name": "Drew Rasmussen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 656876
+    },
+    "44336": {
+      "name": "Nolan McLean",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 21.1,
+      "minor_leaguer": false,
+      "mlb_id": 690997
+    },
+    "19268": {
+      "name": "Devin Williams",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 11,
+      "ppg": 12.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 642207
+    },
+    "32051": {
+      "name": "Camilo Doval",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 2.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 666808
+    },
+    "34396": {
+      "name": "Jose A. Ferrer",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 15.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 678606
+    },
+    "37427": {
+      "name": "Francisco Alvarez",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 3.96,
+      "pts": 27.7,
+      "minor_leaguer": false,
+      "mlb_id": 682626
+    },
+    "27058": {
+      "name": "Wilyer Abreu",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 9,
+      "ppg": 11.48,
+      "pts": 68.9,
+      "minor_leaguer": false,
+      "mlb_id": 677800
+    },
+    "38367": {
+      "name": "Owen Caissie",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 7.8,
+      "minor_leaguer": false,
+      "mlb_id": 683357
+    },
+    "42279": {
+      "name": "Dylan Beavers",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 5.6,
+      "minor_leaguer": false,
+      "mlb_id": 687637
+    },
+    "35196": {
+      "name": "Joe Ryan",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 12,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 657746
+    },
+    "33670": {
+      "name": "Ryan Weathers",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 77.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 677960
+    },
+    "42765": {
+      "name": "Parker Messick",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 41.4,
+      "minor_leaguer": false,
+      "mlb_id": 800048
+    },
+    "35811": {
+      "name": "Mike Burrows",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 11.6,
+      "minor_leaguer": false,
+      "mlb_id": 681347
+    },
+    "31951": {
+      "name": "David Bednar",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 9.1,
+      "minor_leaguer": false,
+      "mlb_id": 670280
+    },
+    "38754": {
+      "name": "Cade Smith",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 29.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 671922
+    },
+    "35602": {
+      "name": "Abner Uribe",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 8.6,
+      "minor_leaguer": false,
+      "mlb_id": 682842
+    },
+    "18985": {
+      "name": "Dennis Santana",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 17.0,
+      "minor_leaguer": false,
+      "mlb_id": 642701
+    },
+    "19904": {
+      "name": "Tyler Rogers",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 7.4,
+      "minor_leaguer": false,
+      "mlb_id": 643511
+    },
+    "14893": {
+      "name": "Christian Yelich",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 25,
+      "ppg": 6.8,
+      "minor_leaguer": false,
+      "mlb_id": 592885
+    },
+    "21200": {
+      "name": "Ramon Laureano",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 5,
+      "ppg": 9.56,
+      "pts": 47.8,
+      "minor_leaguer": false,
+      "mlb_id": 657656
+    },
+    "22331": {
+      "name": "Jesus Sanchez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 7.8,
+      "pts": 39.0,
+      "minor_leaguer": false,
+      "mlb_id": 660821
+    },
+    "36671": {
+      "name": "George Kirby",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 22,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669923
+    },
+    "20975": {
+      "name": "Cristopher Sanchez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 16,
+      "ppg": 43.8,
+      "minor_leaguer": false,
+      "mlb_id": 650911
+    },
+    "31194": {
+      "name": "Ranger Suarez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 9,
+      "ppg": -8.1,
+      "minor_leaguer": false,
+      "mlb_id": 624133
+    },
+    "33607": {
+      "name": "Trevor Rogers",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 10,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669432
+    },
+    "33259": {
+      "name": "Andres Munoz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 10,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 662253
+    },
+    "41452": {
+      "name": "Didier Fuentes",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 800311
+    },
+    "37181": {
+      "name": "Brett Baty",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 2.1,
+      "minor_leaguer": false,
+      "mlb_id": 683146
+    },
+    "33634": {
+      "name": "Brice Turang",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 10.4,
+      "minor_leaguer": false,
+      "mlb_id": 668930
+    },
+    "19378": {
+      "name": "Brad Keller",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 2.3,
+      "minor_leaguer": false,
+      "mlb_id": 641745
+    },
+    "23831": {
+      "name": "Isaac Paredes",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 13,
+      "ppg": 4.93,
+      "pts": 29.6,
+      "minor_leaguer": false,
+      "mlb_id": 670623
+    },
+    "48240": {
+      "name": "Munetaka Murakami",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 15,
+      "ppg": 7.87,
+      "pts": 47.2,
+      "minor_leaguer": false,
+      "mlb_id": 808959
+    },
+    "5918": {
+      "name": "Jose Altuve",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 26,
+      "ppg": 9.5,
+      "minor_leaguer": false,
+      "mlb_id": 514888
+    },
+    "33217": {
+      "name": "Jonathan Aranda",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 8.82,
+      "pts": 52.9,
+      "minor_leaguer": false,
+      "mlb_id": 666018
+    },
+    "38403": {
+      "name": "Carmen Mlodzinski",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 32.3,
+      "minor_leaguer": false,
+      "mlb_id": 669387
+    },
+    "38330": {
+      "name": "Mick Abel",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": -0.6,
+      "minor_leaguer": false,
+      "mlb_id": 690953
+    },
+    "31958": {
+      "name": "Ernie Clement",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 4.75,
+      "pts": 28.5,
+      "minor_leaguer": false,
+      "mlb_id": 676391
+    },
+    "33645": {
+      "name": "Xavier Edwards",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 8,
+      "ppg": 7.5,
+      "minor_leaguer": false,
+      "mlb_id": 669364
+    },
+    "36509": {
+      "name": "Riley Greene",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 29,
+      "ppg": 3.6,
+      "minor_leaguer": false,
+      "mlb_id": 682985
+    },
+    "26292": {
+      "name": "Yainer Diaz",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 0.2,
+      "minor_leaguer": false,
+      "mlb_id": 673237
+    },
+    "33619": {
+      "name": "Jonathan India",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 2.0,
+      "minor_leaguer": false,
+      "mlb_id": 663697
+    },
+    "27208": {
+      "name": "Jeremiah Estrada",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 18.0,
+      "minor_leaguer": false,
+      "mlb_id": 669093
+    },
+    "35205": {
+      "name": "Ryan Walker",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 22.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 676254
+    },
+    "48241": {
+      "name": "Tatsuya Imai",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 25,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 837227
+    },
+    "26807": {
+      "name": "Janson Junk",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 79.0,
+      "minor_leaguer": false,
+      "mlb_id": 676083
+    },
+    "21961": {
+      "name": "Cody Ponce",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 47.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 664074
+    },
+    "18644": {
+      "name": "Jeff Mcneil",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "salary": 0,
+      "mlb_team": "",
+      "is_pitcher": false,
+      "ppg": -0.5,
+      "pts": -2.5
+    },
+    "18160": {
+      "name": "Carlos Correa",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 11,
+      "ppg": 5.59,
+      "pts": 39.1,
+      "minor_leaguer": false,
+      "mlb_id": 621043
+    },
+    "34619": {
+      "name": "Brendan Donovan",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 13,
+      "ppg": 10.53,
+      "pts": 73.7,
+      "minor_leaguer": false,
+      "mlb_id": 680977
+    },
+    "38378": {
+      "name": "Coby Mayo",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 8,
+      "ppg": 1.6,
+      "pts": 8.0,
+      "minor_leaguer": false,
+      "mlb_id": 691723
+    },
+    "45881": {
+      "name": "Kaelen Culpepper",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "38315": {
+      "name": "Emerson Hancock",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 56.4,
+      "minor_leaguer": false,
+      "mlb_id": 676106
+    },
+    "40460": {
+      "name": "Max Muncy",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 3.42,
+      "pts": 20.5,
+      "minor_leaguer": false,
+      "mlb_id": 571970
+    },
+    "18491": {
+      "name": "Andrew Benintendi",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 0.96,
+      "pts": 4.8,
+      "minor_leaguer": false,
+      "mlb_id": 643217
+    },
+    "13962": {
+      "name": "Steven Matz",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "salary": 0,
+      "mlb_team": "",
+      "is_pitcher": true
+    },
+    "43895": {
+      "name": "Rhett Lowder",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 20.7,
+      "minor_leaguer": false,
+      "mlb_id": 695076
+    },
+    "14393": {
+      "name": "Chris Sale",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 23,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 519242
+    },
+    "18465": {
+      "name": "Matthew Boyd",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 571510
+    },
+    "42592": {
+      "name": "Shane Smith",
+      "positions": [
+        "SP"
+      ],
+      "salary": 0,
+      "mlb_team": "",
+      "is_pitcher": true
+    },
+    "34817": {
+      "name": "Addison Barger",
+      "positions": [
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": -1.4,
+      "pts": -7.0,
+      "minor_leaguer": false,
+      "mlb_id": 680718
+    },
+    "40496": {
+      "name": "T.J. Rumfield",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "39978": {
+      "name": "Colton Cowser",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 3.86,
+      "pts": 19.3,
+      "minor_leaguer": false,
+      "mlb_id": 681297
+    },
+    "21075": {
+      "name": "Tanner Scott",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 16.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 656945
+    },
+    "38559": {
+      "name": "Eury Perez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 9,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 691587
+    },
+    "38410": {
+      "name": "Kyle Harrison",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 87.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 690986
+    },
+    "33647": {
+      "name": "Shane McClanahan",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 8,
+      "ppg": 0.0,
+      "pts": 79.0,
+      "minor_leaguer": false,
+      "mlb_id": 663556
+    },
+    "31984": {
+      "name": "Robert Garcia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 7.0,
+      "minor_leaguer": false,
+      "mlb_id": 676395
+    },
+    "21170": {
+      "name": "Jordan Romano",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 12.0,
+      "minor_leaguer": false,
+      "mlb_id": 605447
+    },
+    "37826": {
+      "name": "Ryne Nelson",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669194
+    },
+    "23701": {
+      "name": "Seth Lugo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 39.9,
+      "minor_leaguer": false,
+      "mlb_id": 607625
+    },
+    "40937": {
+      "name": "Noah Cameron",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 702070
+    },
+    "35566": {
+      "name": "Kris Bubic",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 75.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 663460
+    },
+    "40607": {
+      "name": "Andrew Abbott",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 671096
+    },
+    "5201": {
+      "name": "Giancarlo Stanton",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 10.24,
+      "pts": 51.2,
+      "minor_leaguer": false,
+      "mlb_id": 519317
+    },
+    "18355": {
+      "name": "Luis Severino",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 622663
+    },
+    "44223": {
+      "name": "Kevin McGonigle",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 7.22,
+      "pts": 43.3,
+      "minor_leaguer": false,
+      "mlb_id": 805808
+    },
+    "18375": {
+      "name": "Grant Holmes",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 13.4,
+      "minor_leaguer": false,
+      "mlb_id": 656550
+    },
+    "18113": {
+      "name": "Sonny Gray",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 14,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 543243
+    },
+    "40095": {
+      "name": "Marcelo Mayer",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 5.0,
+      "minor_leaguer": false,
+      "mlb_id": 691785
+    },
+    "18506": {
+      "name": "Dansby Swanson",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 11,
+      "ppg": 1.53,
+      "pts": 9.2,
+      "minor_leaguer": false,
+      "mlb_id": 621020
+    },
+    "37094": {
+      "name": "Vinnie Pasquantino",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 12,
+      "ppg": 2.88,
+      "pts": 17.3,
+      "minor_leaguer": false,
+      "mlb_id": 686469
+    },
+    "44003": {
+      "name": "Jacob Wilson",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 12,
+      "ppg": 1.95,
+      "pts": 11.7,
+      "minor_leaguer": false,
+      "mlb_id": 805779
+    },
+    "37091": {
+      "name": "Spencer Horwitz",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": -0.1,
+      "minor_leaguer": false,
+      "mlb_id": 687462
+    },
+    "38424": {
+      "name": "Joey Wiemer",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 15.7,
+      "minor_leaguer": false,
+      "mlb_id": 686894
+    },
+    "6130": {
+      "name": "Marcell Ozuna",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": -0.9,
+      "minor_leaguer": false,
+      "mlb_id": 542303
+    },
+    "22655": {
+      "name": "Josh Naylor",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 12,
+      "ppg": -1.8,
+      "minor_leaguer": false,
+      "mlb_id": 647304
+    },
+    "33325": {
+      "name": "Edward Cabrera",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 80.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 665795
+    },
+    "21708": {
+      "name": "Willi Castro",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 0.93,
+      "pts": 5.6,
+      "minor_leaguer": false,
+      "mlb_id": 650489
+    },
+    "18164": {
+      "name": "Max Fried",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 25,
+      "ppg": 46.8,
+      "minor_leaguer": false,
+      "mlb_id": 608331
+    },
+    "40820": {
+      "name": "Landen Roupp",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 47.2,
+      "minor_leaguer": false,
+      "mlb_id": 694738
+    },
+    "44534": {
+      "name": "Brandon Sproat",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": -37.0,
+      "minor_leaguer": false,
+      "mlb_id": 687075
+    },
+    "19296": {
+      "name": "Tyler O'Neill",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 3.1,
+      "minor_leaguer": false,
+      "mlb_id": 641933
+    },
+    "18547": {
+      "name": "Trent Grisham",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 3.65,
+      "pts": 21.9,
+      "minor_leaguer": false,
+      "mlb_id": 663757
+    },
+    "18263": {
+      "name": "Marcus Semien",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 10,
+      "ppg": 1.24,
+      "pts": 8.7,
+      "minor_leaguer": false,
+      "mlb_id": 543760
+    },
+    "18383": {
+      "name": "Mike Yastrzemski",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 5.5,
+      "minor_leaguer": false,
+      "mlb_id": 573262
+    },
+    "38374": {
+      "name": "Colt Keith",
+      "positions": [
+        "1B",
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 8,
+      "ppg": 6.73,
+      "pts": 40.4,
+      "minor_leaguer": false,
+      "mlb_id": 690993
+    },
+    "22668": {
+      "name": "Michael Soroka",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 43.6,
+      "minor_leaguer": false,
+      "mlb_id": 647336
+    },
+    "32611": {
+      "name": "Dustin May",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669160
+    },
+    "38480": {
+      "name": "Slade Cecconi",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 677944
+    },
+    "44526": {
+      "name": "Shota Imanaga",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 16.7,
+      "minor_leaguer": false,
+      "mlb_id": 684007
+    },
+    "37536": {
+      "name": "Dominic Canzone",
+      "positions": [
+        "OF"
+      ],
+      "salary": 0,
+      "mlb_team": "",
+      "is_pitcher": false,
+      "ppg": 7.1,
+      "pts": 42.6
+    },
+    "18480": {
+      "name": "Alex Bregman",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 25,
+      "ppg": 5.2,
+      "minor_leaguer": false,
+      "mlb_id": 608324
+    },
+    "40564": {
+      "name": "Bubba Chandler",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 0.0,
+      "pts": 81.0,
+      "minor_leaguer": false,
+      "mlb_id": 696149
+    },
+    "42221": {
+      "name": "Drake Baldwin",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 8.6,
+      "minor_leaguer": false,
+      "mlb_id": 686948
+    },
+    "43949": {
+      "name": "Kyle Teel",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "minor_leaguer": true
+    },
+    "45739": {
+      "name": "Braden Montgomery",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "44554": {
+      "name": "Quinn Mathews",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 4.45,
+      "pts": 16.33,
+      "minor_leaguer": false,
+      "mlb_id": 687273
+    },
+    "45715": {
+      "name": "Charlie Condon",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "minor_leaguer": true
+    },
+    "44114": {
+      "name": "Zyhir Hope",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "minor_leaguer": true
+    },
+    "42873": {
+      "name": "Noah Schultz",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "47554": {
+      "name": "Tyler Bremner",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "21514": {
+      "name": "Tim Hill",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 9.6,
+      "minor_leaguer": false,
+      "mlb_id": 657612
+    },
+    "34103": {
+      "name": "Ronny Henriquez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "34389": {
+      "name": "Randy Rodriguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "47565": {
+      "name": "Jamie Arnold",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 701364
+    },
+    "40927": {
+      "name": "Seiya Suzuki",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 26,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 673548
+    },
+    "18487": {
+      "name": "Gleyber Torres",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 17,
+      "ppg": 3.9,
+      "pts": 23.4,
+      "minor_leaguer": false,
+      "mlb_id": 650402
+    },
+    "37295": {
+      "name": "Michael Harris II",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 17,
+      "ppg": 3.21,
+      "pts": 22.5,
+      "minor_leaguer": false,
+      "mlb_id": 671739
+    },
+    "18116": {
+      "name": "Gerrit Cole",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 8,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 543037
+    },
+    "12398": {
+      "name": "Willson Contreras",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 11,
+      "ppg": 2.47,
+      "pts": 14.8,
+      "minor_leaguer": false,
+      "mlb_id": 575929
+    },
+    "45790": {
+      "name": "Trey Yesavage",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 702056
+    },
+    "26198": {
+      "name": "Geraldo Perdomo",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 9,
+      "ppg": 4.3,
+      "pts": 30.1,
+      "minor_leaguer": false,
+      "mlb_id": 672695
+    },
+    "44515": {
+      "name": "Connelly Early",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 813349
+    },
+    "21039": {
+      "name": "Justin Steele",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 657006
+    },
+    "23813": {
+      "name": "Corbin Burnes",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669203
+    },
+    "37480": {
+      "name": "Kyle Stowers",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 10,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669065
+    },
+    "9668": {
+      "name": "Eugenio Suarez",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 5,
+      "ppg": 4.47,
+      "pts": 26.8,
+      "minor_leaguer": false,
+      "mlb_id": 553993
+    },
+    "18786": {
+      "name": "Pablo Lopez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 4,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 641154
+    },
+    "45714": {
+      "name": "Cam Smith",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 5.59,
+      "pts": 39.1,
+      "minor_leaguer": false,
+      "mlb_id": 701358
+    },
+    "18462": {
+      "name": "Joe Musgrove",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 605397
+    },
+    "23691": {
+      "name": "Matt Strahm",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 621381
+    },
+    "42559": {
+      "name": "Jacob Reimer",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 702544
+    },
+    "40147": {
+      "name": "Joshua Baez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 5.06,
+      "pts": 25.3,
+      "minor_leaguer": false,
+      "mlb_id": 695491
+    },
+    "40972": {
+      "name": "Will Warren",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 701542
+    },
+    "38317": {
+      "name": "Austin Wells",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 0.76,
+      "pts": 3.8,
+      "minor_leaguer": false,
+      "mlb_id": 669224
+    },
+    "40097": {
+      "name": "Jackson Jobe",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 695549
+    },
+    "38386": {
+      "name": "Will Klein",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 694361
+    },
+    "23654": {
+      "name": "Will Smith",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 22,
+      "ppg": 3.7,
+      "minor_leaguer": false,
+      "mlb_id": 669257
+    },
+    "42126": {
+      "name": "Jackson Holliday",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 14,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 702616
+    },
+    "18255": {
+      "name": "Max Muncy",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 11,
+      "ppg": 4.97,
+      "pts": 29.8,
+      "minor_leaguer": false,
+      "mlb_id": 571970
+    },
+    "46310": {
+      "name": "Payton Tolle",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "minor_leaguer": true
+    },
+    "46358": {
+      "name": "Ryan Sloan",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 815549
+    },
+    "45862": {
+      "name": "James Tibbs III",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "minor_leaguer": true
+    },
+    "45789": {
+      "name": "Ryan Waldschmidt",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "minor_leaguer": true
+    },
+    "45769": {
+      "name": "Konnor Griffin",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 8.5,
+      "minor_leaguer": false,
+      "mlb_id": 804606
+    },
+    "45090": {
+      "name": "Luis Pena",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 821270
+    },
+    "18455": {
+      "name": "Chris Martin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 19.0,
+      "minor_leaguer": false,
+      "mlb_id": 455119
+    },
+    "45018": {
+      "name": "Rainiel Rodriguez",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 823787
+    },
+    "46397": {
+      "name": "Caleb Bonemer",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "38398": {
+      "name": "Jordan Westburg",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 8,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 676059
+    },
+    "18391": {
+      "name": "Josh Hader",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 13,
+      "minor_leaguer": true
+    },
+    "37841": {
+      "name": "Michael Busch",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 10,
+      "ppg": 4.2,
+      "minor_leaguer": false,
+      "mlb_id": 683737
+    },
+    "44147": {
+      "name": "Bryce Eldridge",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 7.38,
+      "pts": 36.9,
+      "minor_leaguer": false,
+      "mlb_id": 805811
+    },
+    "45884": {
+      "name": "Sam Antonacci",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "minor_leaguer": true
+    },
+    "37234": {
+      "name": "Matt Brash",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 17.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 666374
+    },
+    "42741": {
+      "name": "Robby Snelling",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 6.75,
+      "pts": 27.0,
+      "minor_leaguer": false,
+      "mlb_id": 702281
+    },
+    "18276": {
+      "name": "Mookie Betts",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 36,
+      "ppg": 4.4,
+      "minor_leaguer": false,
+      "mlb_id": 605141
+    },
+    "18196": {
+      "name": "Kevin Gausman",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 14,
+      "ppg": 55.3,
+      "minor_leaguer": false,
+      "mlb_id": 592332
+    },
+    "39557": {
+      "name": "Bradgley Rodriguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 16.3,
+      "minor_leaguer": false,
+      "mlb_id": 699134
+    },
+    "34601": {
+      "name": "Lars Nootbaar",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 663457
+    },
+    "38699": {
+      "name": "Brandon Pfaadt",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 31.3,
+      "minor_leaguer": false,
+      "mlb_id": 694297
+    },
+    "38428": {
+      "name": "Clayton Beeter",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 690925
+    },
+    "37304": {
+      "name": "Nasim Nunez",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 3.0,
+      "minor_leaguer": false,
+      "mlb_id": 683083
+    },
+    "23741": {
+      "name": "Jesus Luzardo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 13,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 666200
+    },
+    "43950": {
+      "name": "Dylan Crews",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "minor_leaguer": true
+    },
+    "42428": {
+      "name": "Justin Crawford",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 5.62,
+      "pts": 28.1,
+      "minor_leaguer": false,
+      "mlb_id": 702222
+    },
+    "18162": {
+      "name": "Jorge Soler",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 3.2,
+      "minor_leaguer": false,
+      "mlb_id": 624585
+    },
+    "39285": {
+      "name": "Moises Ballesteros",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 0.5,
+      "minor_leaguer": false,
+      "mlb_id": 694208
+    },
+    "47555": {
+      "name": "Seth Hernandez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false
+    },
+    "42719": {
+      "name": "Cade Horton",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 690990
+    },
+    "40181": {
+      "name": "River Ryan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 689981
+    },
+    "45716": {
+      "name": "Nick Kurtz",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 22,
+      "ppg": 0.5,
+      "pts": 2.5,
+      "minor_leaguer": false,
+      "mlb_id": 701762
+    },
+    "18407": {
+      "name": "Willy Adames",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 19,
+      "ppg": 3.0,
+      "minor_leaguer": false,
+      "mlb_id": 642715
+    },
+    "31741": {
+      "name": "Brandon Lowe",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 15,
+      "ppg": 11.2,
+      "minor_leaguer": false,
+      "mlb_id": 664040
+    },
+    "22078": {
+      "name": "Robert Suarez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 6.6,
+      "minor_leaguer": false,
+      "mlb_id": 663158
+    },
+    "23672": {
+      "name": "Adrian Morejon",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 670970
+    },
+    "45064": {
+      "name": "Jesus Made",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 815908
+    },
+    "22809": {
+      "name": "Phil Maton",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 28.0,
+      "minor_leaguer": false,
+      "mlb_id": 664208
+    },
+    "22651": {
+      "name": "Ryan Helsley",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 9,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 664854
+    },
+    "40262": {
+      "name": "Colson Montgomery",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 2.63,
+      "pts": 15.8,
+      "minor_leaguer": false,
+      "mlb_id": 695657
+    },
+    "40550": {
+      "name": "Bryce Miller",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 8,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 682243
+    },
+    "38781": {
+      "name": "Daniel Palencia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 5.5,
+      "minor_leaguer": false,
+      "mlb_id": 694037
+    },
+    "44539": {
+      "name": "Leo De Vries",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 4.0,
+      "pts": 4.0,
+      "minor_leaguer": false,
+      "mlb_id": 815888
+    },
+    "38361": {
+      "name": "Jared Jones",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "minor_leaguer": true
+    },
+    "44310": {
+      "name": "Ralphy Velazquez",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "minor_leaguer": true
+    },
+    "46099": {
+      "name": "Josuar Gonzalez",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 829034
+    },
+    "34602": {
+      "name": "Romy Gonzalez",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "44703": {
+      "name": "Jaxon Wiggins",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "minor_leaguer": true
+    },
+    "18312": {
+      "name": "Aaron Judge",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 76,
+      "ppg": 1.97,
+      "pts": 11.8,
+      "minor_leaguer": false,
+      "mlb_id": 592450
+    },
+    "18236": {
+      "name": "Tyler Glasnow",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 23,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 607192
+    },
+    "36686": {
+      "name": "Nick Lodolo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 13,
+      "minor_leaguer": true
+    },
+    "36325": {
+      "name": "Agustin Ramirez",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 8,
+      "ppg": 3.9,
+      "minor_leaguer": false,
+      "mlb_id": 682663
+    },
+    "23779": {
+      "name": "Zac Gallen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 20.0,
+      "minor_leaguer": false,
+      "mlb_id": 668678
+    },
+    "42312": {
+      "name": "Logan Henderson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 8.87,
+      "pts": 26.6,
+      "minor_leaguer": false,
+      "mlb_id": 701656
+    },
+    "26531": {
+      "name": "Riley O'Brien",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 11.0,
+      "minor_leaguer": false,
+      "mlb_id": 676617
+    },
+    "31812": {
+      "name": "Brendon Little",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": -1.4,
+      "minor_leaguer": false,
+      "mlb_id": 663893
+    },
+    "18216": {
+      "name": "Corey Seager",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 35,
+      "ppg": 10.07,
+      "pts": 60.4,
+      "minor_leaguer": false,
+      "mlb_id": 608369
+    },
+    "18122": {
+      "name": "Francisco Lindor",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "salary": 33,
+      "ppg": 5.03,
+      "pts": 35.2,
+      "minor_leaguer": false,
+      "mlb_id": 596019
+    },
+    "14982": {
+      "name": "Bryce Harper",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 31,
+      "ppg": 1.2,
+      "pts": 7.2,
+      "minor_leaguer": false,
+      "mlb_id": 547180
+    },
+    "33682": {
+      "name": "Logan Gilbert",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 31,
+      "ppg": 0.0,
+      "pts": 95.0,
+      "minor_leaguer": false,
+      "mlb_id": 669302
+    },
+    "23810": {
+      "name": "MacKenzie Gore",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 10,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669022
+    },
+    "32009": {
+      "name": "Jose Soriano",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 0.0,
+      "pts": 90.0,
+      "minor_leaguer": false,
+      "mlb_id": 667755
+    },
+    "31438": {
+      "name": "Griffin Jax",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 7,
+      "ppg": 15.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 643377
+    },
+    "38320": {
+      "name": "Spencer Torkelson",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 0.58,
+      "pts": 2.9,
+      "minor_leaguer": false,
+      "mlb_id": 679529
+    },
+    "37174": {
+      "name": "Matt Wallner",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 6,
+      "ppg": 4.53,
+      "pts": 27.2,
+      "minor_leaguer": false,
+      "mlb_id": 670242
+    },
+    "42737": {
+      "name": "Spencer Schwellenbach",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 6,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 680885
+    },
+    "23794": {
+      "name": "Shane Baz",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 5,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 669358
+    },
+    "44308": {
+      "name": "Kristian Campbell",
+      "positions": [
+        "1B",
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 4,
+      "ppg": 2.74,
+      "pts": 13.7,
+      "minor_leaguer": false,
+      "mlb_id": 692225
+    },
+    "38389": {
+      "name": "Evan Carter",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 3.53,
+      "pts": 21.2,
+      "minor_leaguer": false,
+      "mlb_id": 694497
+    },
+    "26134": {
+      "name": "Gabriel Moreno",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "salary": 3,
+      "ppg": 2.97,
+      "pts": 17.8,
+      "minor_leaguer": false,
+      "mlb_id": 672515
+    },
+    "18357": {
+      "name": "Aaron Nola",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 605400
+    },
+    "38328": {
+      "name": "Reid Detmers",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 3,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 672282
+    },
+    "44544": {
+      "name": "Grant Taylor",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 691799
+    },
+    "42653": {
+      "name": "Zebby Matthews",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 2,
+      "ppg": -0.73,
+      "pts": -2.9,
+      "minor_leaguer": false,
+      "mlb_id": 805673
+    },
+    "37635": {
+      "name": "Jasson Dominguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 2,
+      "ppg": 5.63,
+      "pts": 22.5,
+      "minor_leaguer": false,
+      "mlb_id": 691176
+    },
+    "26882": {
+      "name": "Tyler Freeman",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 4.6,
+      "pts": 4.6,
+      "minor_leaguer": false,
+      "mlb_id": 671289
+    },
+    "32655": {
+      "name": "Luke Raley",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 8.24,
+      "pts": 41.2,
+      "minor_leaguer": false,
+      "mlb_id": 670042
+    },
+    "33672": {
+      "name": "Aaron Ashby",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 24.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 676879
+    },
+    "38366": {
+      "name": "Jordan Walker",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 5.53,
+      "pts": 33.2,
+      "minor_leaguer": false,
+      "mlb_id": 691023
+    },
+    "20936": {
+      "name": "Mitch Keller",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "salary": 1,
+      "ppg": 0.0,
+      "pts": 0.0,
+      "minor_leaguer": false,
+      "mlb_id": 656605
+    },
+    "36738": {
+      "name": "Isaac Collins",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "salary": 1,
+      "ppg": 3.88,
+      "pts": 23.3,
+      "minor_leaguer": false,
+      "mlb_id": 686555
+    },
+    "23717": {
+      "name": "Juan Soto",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.17,
+      "pts": 50.2
+    },
+    "23682": {
+      "name": "Fernando Tatis Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18284": {
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "36668": {
+      "name": "Bobby Witt Jr.",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.07,
+      "pts": 18.4
+    },
+    "18549": {
+      "name": "Vladimir Guerrero Jr.",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.77,
+      "pts": 34.6
+    },
+    "23795": {
+      "name": "Yordan Alvarez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 13.54,
+      "pts": 94.8
+    },
+    "43894": {
+      "name": "Paul Skenes",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "44525": {
+      "name": "Yoshinobu Yamamoto",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35204": {
+      "name": "Tarik Skubal",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "37182": {
+      "name": "Corbin Carroll",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.37,
+      "pts": 51.6
+    },
+    "18344": {
+      "name": "Rafael Devers",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.79,
+      "pts": 33.5
+    },
+    "23859": {
+      "name": "Pete Alonso",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.77,
+      "pts": 34.6
+    },
+    "18368": {
+      "name": "Trea Turner",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18386": {
+      "name": "Matt Olson",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.06,
+      "pts": 49.4
+    },
+    "5680": {
+      "name": "Freddie Freeman",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.22,
+      "pts": 19.3
+    },
+    "36338": {
+      "name": "Elly De La Cruz",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.83,
+      "pts": 29.0
+    },
+    "14934": {
+      "name": "Manny Machado",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "22674": {
+      "name": "Austin Riley",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "21015": {
+      "name": "Logan Webb",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 104.0
+    },
+    "38312": {
+      "name": "Garrett Crochet",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "21052": {
+      "name": "Dylan Cease",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23767": {
+      "name": "Bo Bichette",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": -0.39,
+      "pts": -2.7
+    },
+    "39277": {
+      "name": "Jackson Chourio",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "18460": {
+      "name": "Blake Snell",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "39108": {
+      "name": "Junior Caminero",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.17,
+      "pts": 25.0
+    },
+    "6305": {
+      "name": "Mike Trout",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38736": {
+      "name": "Spencer Strider",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23762": {
+      "name": "Jazz Chisholm Jr.",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.57,
+      "pts": 3.4
+    },
+    "19168": {
+      "name": "Freddy Peralta",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40188": {
+      "name": "James Wood",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23840": {
+      "name": "Randy Arozarena",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37201": {
+      "name": "Hunter Brown",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33685": {
+      "name": "Jarren Duran",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23651": {
+      "name": "Teoscar Hernandez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.17,
+      "pts": 7.0
+    },
+    "23824": {
+      "name": "Hunter Greene",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "40142": {
+      "name": "Jackson Merrill",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.88,
+      "pts": 23.3
+    },
+    "14294": {
+      "name": "Jacob DeGrom",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 79.0
+    },
+    "22391": {
+      "name": "William Contreras",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.37,
+      "pts": 32.2
+    },
+    "18126": {
+      "name": "Brandon Nimmo",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 8.1,
+      "pts": 48.6
+    },
+    "40862": {
+      "name": "Mason Miller",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "36922": {
+      "name": "CJ Abrams",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18163": {
+      "name": "Byron Buxton",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.83,
+      "pts": 11.0
+    },
+    "23825": {
+      "name": "Bryan Reynolds",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.73,
+      "pts": 28.4
+    },
+    "38327": {
+      "name": "Pete Crow-Armstrong",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "48239": {
+      "name": "Kazuma Okamoto",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.17,
+      "pts": 43.0
+    },
+    "42409": {
+      "name": "Roman Anthony",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.07,
+      "pts": 24.4
+    },
+    "23732": {
+      "name": "Luis Castillo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 95.0,
+      "pts": 0.0
+    },
+    "35824": {
+      "name": "Steven Kwan",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.31,
+      "pts": 23.2
+    },
+    "31751": {
+      "name": "Michael King",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "46091": {
+      "name": "Roki Sasaki",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23780": {
+      "name": "Luis Robert Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.17,
+      "pts": 36.2
+    },
+    "18517": {
+      "name": "Yandy Diaz",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "22048": {
+      "name": "Taylor Ward",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.93,
+      "pts": 35.6
+    },
+    "42156": {
+      "name": "Zach Neto",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.06,
+      "pts": 49.4
+    },
+    "18359": {
+      "name": "Carlos Rodon",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "18397": {
+      "name": "Ozzie Albies",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "9335": {
+      "name": "Nathan Eovaldi",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "18124": {
+      "name": "George Springer",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37257": {
+      "name": "Adley Rutschman",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33627": {
+      "name": "Nico Hoerner",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "19398": {
+      "name": "Nick Pivetta",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40371": {
+      "name": "Matt McLain",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.25,
+      "pts": 19.5
+    },
+    "35939": {
+      "name": "Jeremy Pena",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "40978": {
+      "name": "Tanner Bibee",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 74.0
+    },
+    "18378": {
+      "name": "Matt Chapman",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.99,
+      "pts": 27.9
+    },
+    "37649": {
+      "name": "Ryan Pepiot",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "34788": {
+      "name": "Lawrence Butler",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": -0.68,
+      "pts": -3.4
+    },
+    "37300": {
+      "name": "Kerry Carpenter",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35628": {
+      "name": "Ezequiel Tovar",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.82,
+      "pts": 34.9
+    },
+    "40941": {
+      "name": "Gavin Williams",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "20435": {
+      "name": "Pete Fairbanks",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23834": {
+      "name": "Heliot Ramos",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.41,
+      "pts": 9.9
+    },
+    "38388": {
+      "name": "Tyler Soderstrom",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.88,
+      "pts": 5.3
+    },
+    "8626": {
+      "name": "Salvador Perez",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.22,
+      "pts": 19.3
+    },
+    "23613": {
+      "name": "Carlos Estevez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42723": {
+      "name": "Kodai Senga",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 92.0
+    },
+    "26154": {
+      "name": "Maikel Garcia",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.73,
+      "pts": 34.4
+    },
+    "35674": {
+      "name": "J.P. France",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "2916": {
+      "name": "Kenley Jansen",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 8.0
+    },
+    "36669": {
+      "name": "Shea Langeliers",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "40260": {
+      "name": "Jordan Lawlar",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "20900": {
+      "name": "Bryan Abreu",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40255": {
+      "name": "Ben Rice",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 10.46,
+      "pts": 52.3
+    },
+    "20920": {
+      "name": "Jack Flaherty",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "29666": {
+      "name": "John Means",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20545": {
+      "name": "Luis Arraez",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "5644": {
+      "name": "Aroldis Chapman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23693": {
+      "name": "Brandon Woodruff",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 67.0
+    },
+    "37531": {
+      "name": "Bryson Stott",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.34,
+      "pts": 6.7
+    },
+    "23796": {
+      "name": "Royce Lewis",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "33907": {
+      "name": "Ceddanne Rafaela",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35874": {
+      "name": "Kyle Bradish",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33612": {
+      "name": "Grayson Rodriguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23814": {
+      "name": "Shane Bieber",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "14941": {
+      "name": "Robbie Ray",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "43589": {
+      "name": "Cam Schlittler",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "20989": {
+      "name": "Trevor Megill",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42169": {
+      "name": "Jakob Marsee",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 2.38,
+      "pts": 14.3
+    },
+    "23788": {
+      "name": "TJ Friedl",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37072": {
+      "name": "Michael Toglia",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "18482": {
+      "name": "Dillon Tate",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18364": {
+      "name": "Jeff Hoffman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 15.0
+    },
+    "33609": {
+      "name": "Alec Bohm",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40389": {
+      "name": "Hunter Goodman",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "36030": {
+      "name": "Noelvi Marte",
+      "positions": [
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": -0.5,
+      "pts": -2.0
+    },
+    "23792": {
+      "name": "Jo Adell",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 2.6,
+      "pts": 18.2
+    },
+    "39288": {
+      "name": "Samuel Basallo",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "38368": {
+      "name": "Alec Burleson",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33949": {
+      "name": "Andy Pages",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45709": {
+      "name": "Travis Bazzana",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.62,
+      "pts": 27.7
+    },
+    "26099": {
+      "name": "Ivan Herrera",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.03,
+      "pts": 18.2
+    },
+    "36803": {
+      "name": "Brenton Doyle",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.27,
+      "pts": 7.6
+    },
+    "14809": {
+      "name": "Tommy Kahnle",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "13117": {
+      "name": "Xander Bogaerts",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.72,
+      "pts": 4.3
+    },
+    "40508": {
+      "name": "Kyle Manzardo",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "18153": {
+      "name": "Trevor Story",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.95,
+      "pts": 5.7
+    },
+    "44057": {
+      "name": "Luke Keaschall",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "ppg": 2.32,
+      "pts": 13.9
+    },
+    "40714": {
+      "name": "Daylen Lile",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.75,
+      "pts": 46.5
+    },
+    "31735": {
+      "name": "Ian Hamilton",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "48037": {
+      "name": "Kruz Schoolcraft",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20332": {
+      "name": "Connor Joe",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "34059": {
+      "name": "Johan Rojas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37489": {
+      "name": "Mitch Spence",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "15081": {
+      "name": "Tyler Anderson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "21160": {
+      "name": "Erik Swanson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18382": {
+      "name": "Luke Jackson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33646": {
+      "name": "Marco Luciano",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42408": {
+      "name": "Zach Dezenzo",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42358": {
+      "name": "Sal Stewart",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 13.32,
+      "pts": 79.9
+    },
+    "40505": {
+      "name": "Carter Jensen",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "40829": {
+      "name": "Andrew Painter",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35776": {
+      "name": "Braxton Ashcraft",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 87.0,
+      "pts": 0.0
+    },
+    "30196": {
+      "name": "Seranthony Dominguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33306": {
+      "name": "Javier Assad",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38404": {
+      "name": "Masyn Winn",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.85,
+      "pts": 11.1
+    },
+    "42728": {
+      "name": "Drew Thorpe",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38004": {
+      "name": "Kyren Paris",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40552": {
+      "name": "Emmet Sheehan",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "36070": {
+      "name": "Jonatan Clase",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "13702": {
+      "name": "Jurickson Profar",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23639": {
+      "name": "Mickey Moniak",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23790": {
+      "name": "Clay Holmes",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 90.0,
+      "pts": 0.0
+    },
+    "35808": {
+      "name": "Reese Olson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42277": {
+      "name": "Jordan Beck",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37125": {
+      "name": "Brett Wisely",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "31598": {
+      "name": "Jason Delay",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "2499": {
+      "name": "David Robertson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37527": {
+      "name": "Logan Davidson",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "38311": {
+      "name": "Justin Foscue",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "40964": {
+      "name": "Ty Madden",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33643": {
+      "name": "Nick Sandlin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "31173": {
+      "name": "Giovanny Gallegos",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32585": {
+      "name": "Jose Miranda",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "18476": {
+      "name": "Brendan Rodgers",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "33767": {
+      "name": "Brayan Bello",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "17763": {
+      "name": "Merrill Kelly",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "40155": {
+      "name": "Jack Leiter",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 92.0,
+      "pts": 0.0
+    },
+    "43988": {
+      "name": "Walker Jenkins",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.08,
+      "pts": 20.3
+    },
+    "43966": {
+      "name": "Matt Shaw",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "23373": {
+      "name": "Luis Gil",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "19394": {
+      "name": "Emilio Pagan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "23833": {
+      "name": "Daulton Varsho",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.8,
+      "pts": 4.8
+    },
+    "13217": {
+      "name": "Jorge Polanco",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.37,
+      "pts": 20.2
+    },
+    "43841": {
+      "name": "Jonah Tong",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40298": {
+      "name": "Sal Frelick",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44529": {
+      "name": "Yariel Rodriguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40398": {
+      "name": "Caleb Durbin",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": -3.0,
+      "pts": -15.0
+    },
+    "43879": {
+      "name": "Hurston Waldrep",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "21156": {
+      "name": "Ryan O'Hearn",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23864": {
+      "name": "Jordan Hicks",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "27207": {
+      "name": "Alejandro Kirk",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "26446": {
+      "name": "Will Vest",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 27.0
+    },
+    "42176": {
+      "name": "Chase DeLauter",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42991": {
+      "name": "Sebastian Walcott",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "33548": {
+      "name": "Luis Garc\u00eda Jr.",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.82,
+      "pts": 10.9
+    },
+    "26472": {
+      "name": "MJ Melendez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "36682": {
+      "name": "Quinn Priester",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "27148": {
+      "name": "Joey Cantillo",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43893": {
+      "name": "Max Clark",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 9.07,
+      "pts": 54.4
+    },
+    "18389": {
+      "name": "Christian Walker",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 6.19,
+      "pts": 43.3
+    },
+    "18619": {
+      "name": "Kyle Finnegan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23856": {
+      "name": "Anthony Santander",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "47553": {
+      "name": "Kade Anderson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "27185": {
+      "name": "Garrett Whitlock",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "37960": {
+      "name": "Josh Smith",
+      "positions": [
+        "1B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33620": {
+      "name": "Brady Singer",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42416": {
+      "name": "Chandler Simpson",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "31541": {
+      "name": "David Peterson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33616": {
+      "name": "Casey Mize",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 93.0
+    },
+    "39022": {
+      "name": "Yoniel Curet",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "26047": {
+      "name": "Osvaldo Bido",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18608": {
+      "name": "Trevor Williams",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38335": {
+      "name": "Bobby Miller",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37235": {
+      "name": "Hayden Wesneski",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32880": {
+      "name": "Bowden Francis",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40251": {
+      "name": "Tim Tawa",
+      "positions": [
+        "1B",
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40674": {
+      "name": "Edwin Arroyo",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18303": {
+      "name": "Amed Rosario",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "34565": {
+      "name": "Osleivis Basabe",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "10626": {
+      "name": "Jose Quintana",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46093": {
+      "name": "Kenny Serwa",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26857": {
+      "name": "Mark Vientos",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.03,
+      "pts": 20.1
+    },
+    "23752": {
+      "name": "Josh Lowe",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.42,
+      "pts": 8.5
+    },
+    "34804": {
+      "name": "Miguel Vargas",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.37,
+      "pts": 32.2
+    },
+    "23818": {
+      "name": "JoJo Romero",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22004": {
+      "name": "Jake Cronenworth",
+      "positions": [
+        "1B",
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.73,
+      "pts": 10.4
+    },
+    "43932": {
+      "name": "Nolan Schanuel",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "38043": {
+      "name": "Ryan Gusto",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20421": {
+      "name": "Garrett Cleavinger",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 16.0,
+      "pts": 0.0
+    },
+    "42146": {
+      "name": "Brooks Lee",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.24,
+      "pts": 1.2
+    },
+    "38307": {
+      "name": "Max Meyer",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "26570": {
+      "name": "Otto Lopez",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "19481": {
+      "name": "Danny Jansen",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "23201": {
+      "name": "Ty France",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "32722": {
+      "name": "Santiago Espinal",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38334": {
+      "name": "Cade Cavalli",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18201": {
+      "name": "Jose Berrios",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42266": {
+      "name": "Spencer Jones",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.14,
+      "pts": 20.7
+    },
+    "33395": {
+      "name": "Edwin Uceta",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "40266": {
+      "name": "Carson Williams",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18257": {
+      "name": "Sean Manaea",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "23656": {
+      "name": "Lucas Erceg",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26489": {
+      "name": "Brewer Hicklen",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40311": {
+      "name": "Justyn-Henry Malloy",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38683": {
+      "name": "Shay Whitcomb",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "39977": {
+      "name": "Gunnar Hoglund",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38436": {
+      "name": "Nick Yorke",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "26525": {
+      "name": "Dedniel Nunez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32123": {
+      "name": "Esteury Ruiz",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40465": {
+      "name": "James Triantos",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42712": {
+      "name": "Troy Melton",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22926": {
+      "name": "Alexis Diaz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33667": {
+      "name": "Orelvis Martinez",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "37786": {
+      "name": "Josh Jung",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "38469": {
+      "name": "Markevian Hence",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18415": {
+      "name": "Reynaldo Lopez",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "35878": {
+      "name": "Cole Sands",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42627": {
+      "name": "Carson Whisenhunt",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "47533": {
+      "name": "Liam Doyle",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36683": {
+      "name": "Anthony Volpe",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "40707": {
+      "name": "AJ Smith-Shawver",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "39362": {
+      "name": "Thayron Liranzo",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "38448": {
+      "name": "Adael Amador",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "42267": {
+      "name": "Tyler Locklear",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "19348": {
+      "name": "Adam Frazier",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "47552": {
+      "name": "Ethan Holliday",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "40284": {
+      "name": "Connor Norby",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "37239": {
+      "name": "Hunter Gaddis",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44487": {
+      "name": "Thomas White",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33194": {
+      "name": "Ronel Blanco",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32966": {
+      "name": "Bailey Ober",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44248": {
+      "name": "Colt Emerson",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.02,
+      "pts": 25.1
+    },
+    "40772": {
+      "name": "David Festa",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44588": {
+      "name": "Andrew Walters",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44528": {
+      "name": "Yuki Matsui",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37469": {
+      "name": "Andrew Vaughn",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "40554": {
+      "name": "Ryan Bergert",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38689": {
+      "name": "Mitchell Parker",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44052": {
+      "name": "Aidan Miller",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "38339": {
+      "name": "J.T. Ginn",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "19422": {
+      "name": "Tyler Mahle",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "26915": {
+      "name": "Jose Caballero",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.05,
+      "pts": 6.3
+    },
+    "42746": {
+      "name": "Colby Thomas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "6175": {
+      "name": "Kirby Yates",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "42193": {
+      "name": "Dalton Rushing",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.6,
+      "pts": 3.6
+    },
+    "32765": {
+      "name": "Nathaniel Lowe",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "37624": {
+      "name": "Andrew Saalfrank",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22694": {
+      "name": "Cristian Javier",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "31937": {
+      "name": "Jason Foley",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37662": {
+      "name": "Tyler Fitzgerald",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "42666": {
+      "name": "Orion Kerkering",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35181": {
+      "name": "Logan O'Hoppe",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.9,
+      "pts": 11.4
+    },
+    "38349": {
+      "name": "Logan Allen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40615": {
+      "name": "Spencer Arrighetti",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 6.5,
+      "pts": 26.0
+    },
+    "40771": {
+      "name": "Cade Povich",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38456": {
+      "name": "Emmanuel Rodriguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33611": {
+      "name": "Matthew Liberatore",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "40861": {
+      "name": "Chad Patrick",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "14864": {
+      "name": "J.T. Realmuto",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "11508": {
+      "name": "Enrique Hernandez",
+      "positions": [
+        "1B",
+        "2B",
+        "3B",
+        "OF",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23870": {
+      "name": "Nolan Jones",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "27164": {
+      "name": "Alex Lange",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42214": {
+      "name": "Hayden Harris",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "25806": {
+      "name": "Eric Wagaman",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "36900": {
+      "name": "Luis Mey",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18239": {
+      "name": "Jesse Winker",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "23622": {
+      "name": "Brock Stewart",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43928": {
+      "name": "Chase Davis",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46077": {
+      "name": "Dylan Ross",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20465": {
+      "name": "Manuel Rodriguez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37320": {
+      "name": "Vaughn Grissom",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "23582": {
+      "name": "Jeimer Candelario",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42206": {
+      "name": "Nacho Alvarez Jr.",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "27115": {
+      "name": "Luis Garcia",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42160": {
+      "name": "Ivan Melendez",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "33812": {
+      "name": "Jose Tena",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "20670": {
+      "name": "Bryan De La Cruz",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "6106": {
+      "name": "Miles Mikolas",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "19982": {
+      "name": "Thairo Estrada",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "22701": {
+      "name": "Bryan Hudson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38661": {
+      "name": "Brandon Young",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18363": {
+      "name": "Kyle Freeland",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "37098": {
+      "name": "Michael Massey",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40254": {
+      "name": "Trey Sweeney",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "40936": {
+      "name": "Ricky Tiedemann",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23630": {
+      "name": "Anthony Banda",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36939": {
+      "name": "Blaine Crim",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "42147": {
+      "name": "Termarr Johnson",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "37166": {
+      "name": "Luis L. Ortiz",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33683": {
+      "name": "Josiah Gray",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36045": {
+      "name": "Warming Bernabel",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40167": {
+      "name": "Gordon Graceffo",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44424": {
+      "name": "Matt Wilkinson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "21964": {
+      "name": "LaMonte Wade Jr.",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38348": {
+      "name": "Gage Workman",
+      "positions": [
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18190": {
+      "name": "Andrew Heaney",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23716": {
+      "name": "Tirso Ornelas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38919": {
+      "name": "Cristian Mena",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "4943": {
+      "name": "Kyle Gibson",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26049": {
+      "name": "Steven Cruz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20399": {
+      "name": "Jose Trevino",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "37843": {
+      "name": "Kameron Misner",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "21207": {
+      "name": "Tanner Banks",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42308": {
+      "name": "Jack Perkins",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38733": {
+      "name": "Matt Mervis",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "19520": {
+      "name": "Gabe Speier",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41419": {
+      "name": "Jarlin Susana",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44512": {
+      "name": "Chase Dollander",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "43275": {
+      "name": "Luis Morales",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42141": {
+      "name": "Victor Scott II",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42582": {
+      "name": "Cole Young",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "41342": {
+      "name": "Josue De Paula",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38461": {
+      "name": "Robert Hassell III",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40267": {
+      "name": "Tyler Black",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33147": {
+      "name": "Zach McKinstry",
+      "positions": [
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37837": {
+      "name": "Sawyer Gipson-Long",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37401": {
+      "name": "Brandon Walter",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42110": {
+      "name": "Kumar Rocker",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44348": {
+      "name": "C.J. Kayfus",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": -0.25,
+      "pts": -1.0
+    },
+    "18380": {
+      "name": "Luke Weaver",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "40456": {
+      "name": "Zack Gelof",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "18493": {
+      "name": "Michael Kopech",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37107": {
+      "name": "Rece Hinds",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42175": {
+      "name": "Jett Williams",
+      "positions": [
+        "2B",
+        "SS",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "21017": {
+      "name": "Jordan Montgomery",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35450": {
+      "name": "Parker Meadows",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44315": {
+      "name": "Craig Yoho",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18330": {
+      "name": "Pierce Johnson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33604": {
+      "name": "Griffin Canning",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23675": {
+      "name": "Taylor Rogers",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35618": {
+      "name": "Jake Irvin",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "10429": {
+      "name": "Yimi Garcia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33651": {
+      "name": "Triston Casas",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "26234": {
+      "name": "Wenceel Perez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38562": {
+      "name": "Gavin Stone",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42727": {
+      "name": "Ethan Salas",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "38383": {
+      "name": "Casey Schmitt",
+      "positions": [
+        "1B",
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40308": {
+      "name": "Matt Svanson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45708": {
+      "name": "Christian Moore",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false,
+      "ppg": 6.18,
+      "pts": 24.7
+    },
+    "23144": {
+      "name": "Jeffrey Springs",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33656": {
+      "name": "Yusei Kikuchi",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "41160": {
+      "name": "Lazaro Montes",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "18534": {
+      "name": "Erick Fedde",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33677": {
+      "name": "Kevin Alcantara",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45721": {
+      "name": "Hagen Smith",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true,
+      "ppg": 5.68,
+      "pts": 34.1
+    },
+    "38319": {
+      "name": "Heston Kjerstad",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18195": {
+      "name": "Lucas Giolito",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23838": {
+      "name": "Paul Sewald",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 12.0,
+      "pts": 13.0
+    },
+    "47745": {
+      "name": "Jace LaViolette",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false,
+      "ppg": -4.0,
+      "pts": -4.0
+    },
+    "42179": {
+      "name": "Jace Jung",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42769": {
+      "name": "Thomas Harrington",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35817": {
+      "name": "Victor Vodnik",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42304": {
+      "name": "Chase Meidroth",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.14,
+      "pts": 25.7
+    },
+    "35725": {
+      "name": "Curtis Mead",
+      "positions": [
+        "1B",
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "41027": {
+      "name": "Hunter Dobbins",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35532": {
+      "name": "Alex Vesia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23809": {
+      "name": "Jake Burger",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false,
+      "ppg": 8.18,
+      "pts": 49.1
+    },
+    "26411": {
+      "name": "Lenyn Sosa",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "38409": {
+      "name": "Ian Seymour",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38397": {
+      "name": "Joe Boyle",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40648": {
+      "name": "Michael McGreevy",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40261": {
+      "name": "Brady House",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42621": {
+      "name": "Xavier Isaac",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "35367": {
+      "name": "Taj Bradley",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44199": {
+      "name": "Jonathon Long",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "18228": {
+      "name": "Lance McCullers Jr.",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40052": {
+      "name": "Henry Davis",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "19360": {
+      "name": "Jonah Heim",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33652": {
+      "name": "Ryan Jeffers",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.68,
+      "pts": 14.7
+    },
+    "37660": {
+      "name": "Jake Mangum",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "22219": {
+      "name": "Keibert Ruiz",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "22679": {
+      "name": "Tony Santillan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18398": {
+      "name": "Chris Bassitt",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "31714": {
+      "name": "Keegan Akin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "14906": {
+      "name": "Jameson Taillon",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35696": {
+      "name": "Jacob Lopez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18365": {
+      "name": "Michael Conforto",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40879": {
+      "name": "Chase Petty",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35440": {
+      "name": "Randy Vasquez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44659": {
+      "name": "Travis Sykora",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "22670": {
+      "name": "Ryan Mountcastle",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "31819": {
+      "name": "Dean Kremer",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "31703": {
+      "name": "Tommy Edman",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35548": {
+      "name": "Jake Bird",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "8550": {
+      "name": "Fernando Cruz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37674": {
+      "name": "Tyler Holton",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "14914": {
+      "name": "Nick Castellanos",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18328": {
+      "name": "Ryan McMahon",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "21041": {
+      "name": "Lane Thomas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42310": {
+      "name": "Ben Joyce",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22654": {
+      "name": "Tyler Stephenson",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "37599": {
+      "name": "Andre Pallante",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "27074": {
+      "name": "Ben Brown",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 50.0
+    },
+    "40748": {
+      "name": "Christian Encarnacion-Strand",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "22616": {
+      "name": "Cedric Mullins",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40675": {
+      "name": "Harry Ford",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "42713": {
+      "name": "Alex Freeland",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "44354": {
+      "name": "Logan Evans",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44054": {
+      "name": "Aidan Smith",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "32213": {
+      "name": "Gregory Santos",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23865": {
+      "name": "JP Sears",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "27458": {
+      "name": "Hoby Milner",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26408": {
+      "name": "Gabriel Arias",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "31687": {
+      "name": "Sean Murphy",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "42380": {
+      "name": "Caden Dana",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "43974": {
+      "name": "Brock Wilken",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "22568": {
+      "name": "Emmanuel Clase",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40609": {
+      "name": "Andrew Alvarez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44268": {
+      "name": "Noble Meyer",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "26384": {
+      "name": "Calvin Faucher",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33640": {
+      "name": "Ronny Mauricio",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "23722": {
+      "name": "Lourdes Gurriel Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42105": {
+      "name": "Druw Jones",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38818": {
+      "name": "Deyvison De Los Santos",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "18449": {
+      "name": "Nick Martinez",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34874": {
+      "name": "Keaton Winn",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 13.0,
+      "pts": 0.0
+    },
+    "19242": {
+      "name": "Felix Bautista",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "36808": {
+      "name": "Hogan Harris",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "19437": {
+      "name": "Zack Littell",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23714": {
+      "name": "Carson Kelly",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33679": {
+      "name": "Clarke Schmidt",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "27723": {
+      "name": "Jason Adam",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38308": {
+      "name": "Dillon Dingler",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "35473": {
+      "name": "Tylor Megill",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "23612": {
+      "name": "Zach Eflin",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "31572": {
+      "name": "Gavin Sheets",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.43,
+      "pts": 8.6
+    },
+    "41865": {
+      "name": "Carlos Lagrange",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "39099": {
+      "name": "Jhostynxon Garcia",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35299": {
+      "name": "Jeremiah Jackson",
+      "positions": [
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "26404": {
+      "name": "Luis Campusano",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "40568": {
+      "name": "Sean Burke",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18272": {
+      "name": "J.P. Crawford",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "34843": {
+      "name": "Daniel Schneemann",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46089": {
+      "name": "Hyeseong Kim",
+      "positions": [
+        "2B",
+        "SS",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18394": {
+      "name": "Ryne Stanek",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "12379": {
+      "name": "Nolan Arenado",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.23,
+      "pts": 1.4
+    },
+    "44016": {
+      "name": "Brice Matthews",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "46221": {
+      "name": "Gage Jump",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "47548": {
+      "name": "Aiva Arquette",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "26783": {
+      "name": "Jake Meyers",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "19574": {
+      "name": "Mark Leiter Jr.",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18504": {
+      "name": "Walker Buehler",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32576": {
+      "name": "Gavin Lux",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23817": {
+      "name": "Joey Wentz",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "8583": {
+      "name": "Wilmer Flores",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "42276": {
+      "name": "Drew Gilbert",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33613": {
+      "name": "Joey Bart",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "19747": {
+      "name": "Ryan Yarbrough",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26080": {
+      "name": "Christopher Morel",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44349": {
+      "name": "Cooper Ingle",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "22876": {
+      "name": "Patrick Sandoval",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23696": {
+      "name": "Eric Lauer",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40834": {
+      "name": "Ben Casparius",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40476": {
+      "name": "Robert Gasser",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38854": {
+      "name": "Jose Fernandez",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "23705": {
+      "name": "Andres Gimenez",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 7.95,
+      "pts": 47.7
+    },
+    "44470": {
+      "name": "George Lombard Jr.",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "27165": {
+      "name": "DL Hall",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18414": {
+      "name": "Blake Treinen",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38613": {
+      "name": "Justin Sterner",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 11.0,
+      "pts": 28.0
+    },
+    "37942": {
+      "name": "DJ Herz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23723": {
+      "name": "Braxton Garrett",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38780": {
+      "name": "Erik Sabrowski",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 20.0,
+      "pts": 0.0
+    },
+    "19136": {
+      "name": "Gregory Soto",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 17.0
+    },
+    "15556": {
+      "name": "Yu Darvish",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38321": {
+      "name": "Patrick Bailey",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "42726": {
+      "name": "Felnin Celesten",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "42854": {
+      "name": "Jackson Ferris",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44975": {
+      "name": "Edward Florentino",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "33622": {
+      "name": "Trevor Larnach",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 2.82,
+      "pts": 14.1
+    },
+    "41335": {
+      "name": "Josue Briceno",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "33424": {
+      "name": "Johan Oviedo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "6289": {
+      "name": "Shelby Miller",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42552": {
+      "name": "Hayden Birdsong",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "4514": {
+      "name": "Max Scherzer",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "36539": {
+      "name": "Edgardo Henriquez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34132": {
+      "name": "Justin Martinez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42410": {
+      "name": "Alan Roden",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42798": {
+      "name": "Brad Lord",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33905": {
+      "name": "Jhonkensy Noel",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23868": {
+      "name": "Brandon Marsh",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 5.48,
+      "pts": 32.9
+    },
+    "18516": {
+      "name": "Victor Robles",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44029": {
+      "name": "Seth Halvorsen",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32084": {
+      "name": "Carlos Narvaez",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "38313": {
+      "name": "Zac Veen",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33623": {
+      "name": "Nolan Gorman",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.8,
+      "pts": 28.8
+    },
+    "28712": {
+      "name": "Adrian Houser",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32784": {
+      "name": "John Schreiber",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44015": {
+      "name": "Kemp Alderman",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38314": {
+      "name": "Nick Gonzales",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18135": {
+      "name": "Robert Stephenson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33954": {
+      "name": "Heriberto Hernandez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18548": {
+      "name": "Ke'Bryan Hayes",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "46302": {
+      "name": "Khal Stephen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42359": {
+      "name": "Cam Collier",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "38887": {
+      "name": "Edgar Quero",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "22524": {
+      "name": "Brusdar Graterol",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35941": {
+      "name": "Bennett Sousa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43129": {
+      "name": "Eduardo Quintero",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23720": {
+      "name": "Miguel Andujar",
+      "positions": [
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.55,
+      "pts": 2.2
+    },
+    "37007": {
+      "name": "Justin Slaten",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47918": {
+      "name": "Kyson Witherspoon",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38365": {
+      "name": "Cody Bradford",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18345": {
+      "name": "Rob Refsnyder",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "19369": {
+      "name": "Mike Tauchman",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "30982": {
+      "name": "Justin Topa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35742": {
+      "name": "Simeon Woods Richardson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "40870": {
+      "name": "Christian Scott",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37797": {
+      "name": "JJ Bleday",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "26903": {
+      "name": "Kutter Crawford",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18123": {
+      "name": "Javier Baez",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37113": {
+      "name": "Ryan Ward",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35030": {
+      "name": "Kyle Leahy",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38127": {
+      "name": "Ha-seong Kim",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "35436": {
+      "name": "Braydon Fisher",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40656": {
+      "name": "Jordan Leasure",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "21968": {
+      "name": "Harrison Bader",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40931": {
+      "name": "Brant Hurter",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45923": {
+      "name": "Joseph Sullivan",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42836": {
+      "name": "Austin Peterson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18890": {
+      "name": "Edmundo Sosa",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "23669": {
+      "name": "Dietrich Enns",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40541": {
+      "name": "Liam Hicks",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "42376": {
+      "name": "Blade Tidwell",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40077": {
+      "name": "Kendry Rojas",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46071": {
+      "name": "Braylon Payne",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44146": {
+      "name": "Blake Mitchell",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "37400": {
+      "name": "Justin Yeager",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37202": {
+      "name": "Louis Varland",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 30.0,
+      "pts": 0.0
+    },
+    "27284": {
+      "name": "Danny Coulombe",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38808": {
+      "name": "Emiliano Teodo",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45924": {
+      "name": "Ivan Brethowr",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "43892": {
+      "name": "Arjun Nimmala",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "38894": {
+      "name": "Brandan Bidois",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "39065": {
+      "name": "Antwone Kelly",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46191": {
+      "name": "David Hagaman",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "36040": {
+      "name": "Luis Matos",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46429": {
+      "name": "Johnny King",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33632": {
+      "name": "Kristian Robinson",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40238": {
+      "name": "Adrian Del Castillo",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "47545": {
+      "name": "Steele Hall",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44533": {
+      "name": "Juaron Watts-Brown",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "22922": {
+      "name": "Myles Straw",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "39453": {
+      "name": "Yorman Gomez",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44218": {
+      "name": "LuJames Groover",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "45149": {
+      "name": "Anderson Brito",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46019": {
+      "name": "Tyson Neighbors",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47547": {
+      "name": "Ike Irish",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44421": {
+      "name": "Josh Adamczewski",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "33232": {
+      "name": "Tommy Nance",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45406": {
+      "name": "Esteban Mejia",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "19368": {
+      "name": "Isiah Kiner-Falefa",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "38545": {
+      "name": "Eric Orze",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37705": {
+      "name": "Hunter Bigge",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38323": {
+      "name": "Austin Martin",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "31947": {
+      "name": "Dane Myers",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46198": {
+      "name": "Griffin Herring",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "31930": {
+      "name": "James Karinchak",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22725": {
+      "name": "Bailey Falter",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "39583": {
+      "name": "Welinton Herrera",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38316": {
+      "name": "Blaze Jordan",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "31969": {
+      "name": "Taylor Walls",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "39919": {
+      "name": "Miguel Ullola",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38412": {
+      "name": "Bryce Elder",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "47883": {
+      "name": "Devin Taylor",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "40641": {
+      "name": "Jacob Young",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23808": {
+      "name": "Pavin Smith",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "42580": {
+      "name": "Reggie Crawford",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38793": {
+      "name": "Coleman Crow",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46092": {
+      "name": "Shotaro Morii",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "46164": {
+      "name": "Victor Figueroa",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "20427": {
+      "name": "Jalen Beeks",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42992": {
+      "name": "Starlyn Caba",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "43981": {
+      "name": "Raudi Rodriguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37807": {
+      "name": "Alek Manoah",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "25866": {
+      "name": "Keider Montero",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42250": {
+      "name": "Josh White",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "21655": {
+      "name": "Reed Garrett",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42413": {
+      "name": "Mikey Romero",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "46441": {
+      "name": "Brandon Clarke",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "41400": {
+      "name": "Jack Dreyer",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37946": {
+      "name": "Yennier Cano",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23660": {
+      "name": "A.J. Puk",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41926": {
+      "name": "Justin Wrobleski",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 60.0,
+      "pts": 0.0
+    },
+    "42722": {
+      "name": "Masataka Yoshida",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18459": {
+      "name": "Sean Newcomb",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47549": {
+      "name": "Eli Willits",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "37210": {
+      "name": "Bryan King",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41151": {
+      "name": "Jaison Chourio",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "31488": {
+      "name": "Bryan Baker",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "31509": {
+      "name": "Kevin Ginkel",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45990": {
+      "name": "Jurrangelo Cijntje",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35865": {
+      "name": "Nick Mears",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41050": {
+      "name": "Walbert Urena",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42238": {
+      "name": "Zach Cole",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40472": {
+      "name": "Mason Montgomery",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "23787": {
+      "name": "Jakob Junis",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "4374": {
+      "name": "Paul Goldschmidt",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "38989": {
+      "name": "Jeferson Quero",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "45950": {
+      "name": "Cam Caminiti",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "6225": {
+      "name": "Caleb Thielbar",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41901": {
+      "name": "Elmer Rodriguez-Cruz",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42538": {
+      "name": "JR Ritchie",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "37762": {
+      "name": "Kade Strowd",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41180": {
+      "name": "Michael Arroyo",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "40562": {
+      "name": "Denzel Clarke",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35475": {
+      "name": "Stephen Kolek",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33216": {
+      "name": "Elvis Alvarado",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "3435": {
+      "name": "Andrew McCutchen",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44650": {
+      "name": "Alejandro Rosario",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37812": {
+      "name": "Daniel Espino",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36665": {
+      "name": "Juan Brito",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "37975": {
+      "name": "Porter Hodge",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36743": {
+      "name": "Joey Ortiz",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "38344": {
+      "name": "David Hamilton",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "44473": {
+      "name": "Trey Gibson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42988": {
+      "name": "Alfredo Duno",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "35928": {
+      "name": "Griffin Conine",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18524": {
+      "name": "Colin Rea",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38350": {
+      "name": "Edouard Julien",
+      "positions": [
+        "1B",
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "5735": {
+      "name": "Ryan Pressly",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42445": {
+      "name": "Mason Fluharty",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42219": {
+      "name": "Brooks Baldwin",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "27995": {
+      "name": "Andrew Kittredge",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": -1.9,
+      "pts": -1.27
+    },
+    "32804": {
+      "name": "Tyler Wells",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34921": {
+      "name": "Jake McCarthy",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18558": {
+      "name": "Shawn Armstrong",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33650": {
+      "name": "Brayan Rocchio",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "42659": {
+      "name": "Otto Kemp",
+      "positions": [
+        "1B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23679": {
+      "name": "A.J. Minter",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "19575": {
+      "name": "Tyler Alexander",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18425": {
+      "name": "Yoan Moncada",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42340": {
+      "name": "AJ Blubaugh",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42283": {
+      "name": "Jacob Melton",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38325": {
+      "name": "Garrett Mitchell",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23811": {
+      "name": "Tanner Houck",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "45797": {
+      "name": "Bryce Rainer",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "23850": {
+      "name": "Tobias Myers",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "13335": {
+      "name": "Eduardo Rodriguez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "41172": {
+      "name": "Nelson Rada",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33675": {
+      "name": "Brennen Davis",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42362": {
+      "name": "Luke Adams",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42405": {
+      "name": "Ryan Ritter",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "5025": {
+      "name": "Starling Marte",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "8147": {
+      "name": "Martin Perez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44072": {
+      "name": "Kendall George",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35675": {
+      "name": "Davis Martin",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32904": {
+      "name": "Greg Weissert",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42491": {
+      "name": "Owen Murphy",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "18421": {
+      "name": "Steven Okert",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26734": {
+      "name": "Davis Schneider",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 4.53,
+      "pts": 13.6
+    },
+    "32871": {
+      "name": "Anthony Bender",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "31505": {
+      "name": "Jacob Latz",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "48238": {
+      "name": "Sung Mun Song",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "44918": {
+      "name": "Emil Morales",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false,
+      "ppg": 3.0,
+      "pts": 3.0
+    },
+    "18095": {
+      "name": "Drew Pomeranz",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36046": {
+      "name": "Angel Martinez",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46343": {
+      "name": "Elian Pe\u00f1a",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "29222": {
+      "name": "Aaron Bummer",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "26075": {
+      "name": "Jose Butto",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "30367": {
+      "name": "Huascar Brazoban",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35487": {
+      "name": "Kody Clemens",
+      "positions": [
+        "1B",
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38443": {
+      "name": "Luis Perales",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40989": {
+      "name": "Richard Fitts",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38056": {
+      "name": "Trevor McDonald",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "28784": {
+      "name": "Scott Barlow",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47657": {
+      "name": "Andrew Fischer",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "37171": {
+      "name": "Graham Ashcraft",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "14895": {
+      "name": "Joc Pederson",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "37700": {
+      "name": "Erik Miller",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32719": {
+      "name": "Dylan Lee",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "35319": {
+      "name": "Ryan Weiss",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44639": {
+      "name": "Brody Hopkins",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33676": {
+      "name": "Bo Naylor",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "36199": {
+      "name": "Jesus Rodriguez",
+      "positions": [
+        "C",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "23709": {
+      "name": "Cionel Perez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44039": {
+      "name": "Cole Carrigg",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44696": {
+      "name": "Payton Eeles",
+      "positions": [
+        "2B",
+        "SS",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "22675": {
+      "name": "Triston Mckenzie",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46094": {
+      "name": "Cris Rodriguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44568": {
+      "name": "Ty Johnson",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38402": {
+      "name": "Thomas Saggese",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "44244": {
+      "name": "Tre' Morgan",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "45819": {
+      "name": "Jared Thomas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45771": {
+      "name": "Theo Gillen",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35300": {
+      "name": "Blaze Alexander",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "30979": {
+      "name": "Evan Phillips",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43726": {
+      "name": "Eduardo Tait",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33666": {
+      "name": "Matt Vierling",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46408": {
+      "name": "Wei-En Lin",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44538": {
+      "name": "Jonny Farmelo",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "19197": {
+      "name": "Jonathan Loaisiga",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43569": {
+      "name": "Franklin Arias",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "37916": {
+      "name": "Jonny Deluca",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33681": {
+      "name": "Alek Thomas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44202": {
+      "name": "Cooper Pratt",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "38343": {
+      "name": "Connor Phillips",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42299": {
+      "name": "Henry Bolte",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "4970": {
+      "name": "Brooks Raley",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38351": {
+      "name": "Cole Henry",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37622": {
+      "name": "Ryan Zeferjahn",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "19285": {
+      "name": "Victor Caratini",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "39279": {
+      "name": "Angel Genao",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "32321": {
+      "name": "Miguel Amaya",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "40578": {
+      "name": "Tanner McDougal",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "27081": {
+      "name": "Nelson Velazquez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37639": {
+      "name": "Andrew Nardi",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42145": {
+      "name": "Nathan Church",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33684": {
+      "name": "Anthony Kay",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44589": {
+      "name": "George Klassen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38641": {
+      "name": "Jared Koenig",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18354": {
+      "name": "Michael Lorenzen",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "22766": {
+      "name": "Chris Paddack",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44242": {
+      "name": "Enrique Bradfield Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "26213": {
+      "name": "Oswald Peraza",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "32455": {
+      "name": "Joel Peguero",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18522": {
+      "name": "Jake Bauers",
+      "positions": [
+        "1B",
+        "OF",
+        "RP"
+      ],
+      "is_pitcher": true,
+      "ppg": 0.0,
+      "pts": 0.0
+    },
+    "44286": {
+      "name": "A.J. Ewing",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18152": {
+      "name": "Josh Bell",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "36984": {
+      "name": "Jared Triolo",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "22920": {
+      "name": "Justin Lawrence",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "20350": {
+      "name": "Rhys Hoskins",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "39340": {
+      "name": "Esmerlyn Valdez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44617": {
+      "name": "Michael Forret",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "47546": {
+      "name": "Ethan Conrad",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "35650": {
+      "name": "Endy Rodriguez",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "43455": {
+      "name": "Gage Stanifer",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42794": {
+      "name": "Connor Prielipp",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "45665": {
+      "name": "Caden Scarborough",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46371": {
+      "name": "Tyson Lewis",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "39140": {
+      "name": "Javier Sanoja",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33662": {
+      "name": "Everson Pereira",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "20682": {
+      "name": "Enmanuel De Jesus",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47541": {
+      "name": "JoJo Parker",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44117": {
+      "name": "Bo Davidson",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "30833": {
+      "name": "Drew Anderson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33605": {
+      "name": "George Valera",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "47920": {
+      "name": "Gage Wood",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44014": {
+      "name": "Tommy Troy",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40214": {
+      "name": "Abimelec Ortiz",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44020": {
+      "name": "Max Anderson",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "44646": {
+      "name": "Bishop Letson",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "20291": {
+      "name": "Luis Rengifo",
+      "positions": [
+        "2B",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.05,
+      "pts": 4.2
+    },
+    "22527": {
+      "name": "Eduard Bazardo",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42354": {
+      "name": "Ryan Clifford",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "25903": {
+      "name": "Angel Zerpa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46289": {
+      "name": "Mike Sirota",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "33633": {
+      "name": "Cole Winn",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "31423": {
+      "name": "Eli White",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "48019": {
+      "name": "Dax Kilby",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44012": {
+      "name": "Kyle Karros",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40520": {
+      "name": "Joe Mack",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "36940": {
+      "name": "Anthony Nunez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42643": {
+      "name": "Zach Agnos",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "39400": {
+      "name": "Hector Rodriguez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44501": {
+      "name": "Jack Wenninger",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "19649": {
+      "name": "Mauricio Dubon",
+      "positions": [
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23688": {
+      "name": "German Marquez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "38379": {
+      "name": "Carter Baumler",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34646": {
+      "name": "Grant Anderson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40438": {
+      "name": "Sam Bachman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46047": {
+      "name": "Ryan Lambert",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "41322": {
+      "name": "Jefferson Rojas",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "20917": {
+      "name": "Foster Griffin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37811": {
+      "name": "Brandon Williamson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "23632": {
+      "name": "Will Benson",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false,
+      "ppg": 1.78,
+      "pts": 8.9
+    },
+    "40301": {
+      "name": "Joey Loperfido",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37458": {
+      "name": "Troy Johnston",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42754": {
+      "name": "Jake Bennett",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "26504": {
+      "name": "Chas McCormick",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "31524": {
+      "name": "Connor Seabold",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46090": {
+      "name": "Tomoyuki Sugano",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46034": {
+      "name": "Will Watson",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37919": {
+      "name": "Drey Jameson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46435": {
+      "name": "Juan Sanchez",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "34494": {
+      "name": "Luinder Avila",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33635": {
+      "name": "Richie Palacios",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "45859": {
+      "name": "Najer Victor",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33419": {
+      "name": "Yohan Ramirez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "13080": {
+      "name": "Hector Neris",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47653": {
+      "name": "Anthony Eyanson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40747": {
+      "name": "Joe Rock",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "4475": {
+      "name": "Miguel Rojas",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42144": {
+      "name": "Jimmy Crooks",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33686": {
+      "name": "Kyle Isbel",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "47667": {
+      "name": "Ethan Frey",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46726": {
+      "name": "Breyson Guedez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "9395": {
+      "name": "Kyle Higashioka",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "18311": {
+      "name": "Derek Law",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38352": {
+      "name": "Shane Drohan",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "22782": {
+      "name": "Nathan Lukes",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "30520": {
+      "name": "Tyler Heineman",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "21321": {
+      "name": "Ryan Thompson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44948": {
+      "name": "Roldy Brito",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42444": {
+      "name": "David Morgan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36000": {
+      "name": "Jose Franco",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "5677": {
+      "name": "Craig Kimbrel",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38006": {
+      "name": "Caleb Kilian",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46595": {
+      "name": "Kendry Chourio",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "34707": {
+      "name": "David Fry",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "45821": {
+      "name": "Walker Janek",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33503": {
+      "name": "Jerar Encarnacion",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "36825": {
+      "name": "Kevin Kelly",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "30258": {
+      "name": "Jesus Tinoco",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40722": {
+      "name": "Mitch Bratt",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35274": {
+      "name": "James McArthur",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47578": {
+      "name": "Caden Bodine",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "36050": {
+      "name": "Victor Bericoto",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23453": {
+      "name": "Jose Urquidy",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "48245": {
+      "name": "Francisco Renteria",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "40384": {
+      "name": "Cameron Cauley",
+      "positions": [
+        "2B",
+        "SS",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "35094": {
+      "name": "James Outman",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40498": {
+      "name": "Braiden Ward",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42646": {
+      "name": "C.J. Culpepper",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35617": {
+      "name": "Ryan Feltner",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "33049": {
+      "name": "Rico Garcia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "4607": {
+      "name": "Luis Garcia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18943": {
+      "name": "Jose Siri",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "22689": {
+      "name": "Jahmai Jones",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "23830": {
+      "name": "Jimmy Herget",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45921": {
+      "name": "Dante Nori",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "28735": {
+      "name": "Tayler Scott",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46087": {
+      "name": "Ben Hess",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "44322": {
+      "name": "T.J. Nichols",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "34020": {
+      "name": "Junior Perez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "34844": {
+      "name": "Drew Avans",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45919": {
+      "name": "Griff O'Ferrall",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "26068": {
+      "name": "Juan Mejia",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40639": {
+      "name": "Kyler Fedko",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "18511": {
+      "name": "Daz Cameron",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38093": {
+      "name": "Brent Headrick",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35018": {
+      "name": "Kai-Wei Teng",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42791": {
+      "name": "Cade Winquest",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47855": {
+      "name": "Chase Shores",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22236": {
+      "name": "Jose Suarez",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "48314": {
+      "name": "Luis Hernandez",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "38849": {
+      "name": "Kala'i Rosario",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "37687": {
+      "name": "Darell Hernaiz",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "48132": {
+      "name": "Xavier Neyens",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44804": {
+      "name": "Justin Gonzales",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "41808": {
+      "name": "Luis De Leon",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "34653": {
+      "name": "Nick Fortes",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "40306": {
+      "name": "Kyle Backhus",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "14646": {
+      "name": "Taijuan Walker",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34973": {
+      "name": "Nate Eaton",
+      "positions": [
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "21742": {
+      "name": "Andruw Monasterio",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "33801": {
+      "name": "Lazaro Estrada",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "2933": {
+      "name": "Carlos Santana",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "37035": {
+      "name": "Pedro Pages",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "42815": {
+      "name": "Riley Cornelio",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35051": {
+      "name": "Tim Herrin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "22688": {
+      "name": "Blake Perkins",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "32612": {
+      "name": "Lake Bachar",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45899": {
+      "name": "Blake Burke",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "48080": {
+      "name": "Billy Carlson",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "38380": {
+      "name": "Owen White",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46375": {
+      "name": "JD Dix",
+      "positions": [
+        "2B"
+      ],
+      "is_pitcher": false
+    },
+    "46406": {
+      "name": "Dasan Hill",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "46717": {
+      "name": "Kevin Alvarez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "43205": {
+      "name": "John Gil",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "20414": {
+      "name": "Matt Gage",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40381": {
+      "name": "Braxton Fulford",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "33617": {
+      "name": "Jarred Kelenic",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "46038": {
+      "name": "Dakota Jordan",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "34879": {
+      "name": "Jonathan Bowlan",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "31004": {
+      "name": "Tyler Ferguson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45848": {
+      "name": "Parks Harber",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42598": {
+      "name": "Spencer Miles",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "40852": {
+      "name": "Mike Vasil",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "44760": {
+      "name": "Jose Made",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "46217": {
+      "name": "Ryan Johnson",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42352": {
+      "name": "Rhylan Thomas",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "42759": {
+      "name": "Peyton Pallette",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35320": {
+      "name": "Kody Funderburk",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "32852": {
+      "name": "Kyle Hart",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46012": {
+      "name": "Micah Ashman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "19470": {
+      "name": "Tyler Kinley",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42561": {
+      "name": "Nick Morabito",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "21315": {
+      "name": "Jacob Webb",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "37033": {
+      "name": "Tyler Tolbert",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45770": {
+      "name": "Seaver King",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18300": {
+      "name": "Dominic Smith",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "47665": {
+      "name": "Tanner Franklin",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "35875": {
+      "name": "Cooper Criswell",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "39295": {
+      "name": "Gabriel Gonzalez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40821": {
+      "name": "Chase Silseth",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "43939": {
+      "name": "Ben Williamson",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "29790": {
+      "name": "Kyle Farmer",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "31623": {
+      "name": "Jake Fraley",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "14131": {
+      "name": "Max Kepler",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "25890": {
+      "name": "Danis Correa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "31933": {
+      "name": "Isaac Mattson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "5778": {
+      "name": "Liam Hendriks",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "34222": {
+      "name": "Daysbel Hernandez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "14078": {
+      "name": "Gary Sanchez",
+      "positions": [
+        "C"
+      ],
+      "is_pitcher": false
+    },
+    "32648": {
+      "name": "Matt Festa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38445": {
+      "name": "Kevin Made",
+      "positions": [
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "20103": {
+      "name": "Joe Jimenez",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "47839": {
+      "name": "Zachary Root",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42968": {
+      "name": "Yunior Tur",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "35677": {
+      "name": "Grant Wolfram",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "6320": {
+      "name": "Randal Grichuk",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "13361": {
+      "name": "Wandy Peralta",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "45901": {
+      "name": "Tommy White",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "28708": {
+      "name": "Michael Kelly",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "48097": {
+      "name": "Gavin Fien",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "21751": {
+      "name": "Eloy Jimenez",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40524": {
+      "name": "Garrett Hawkins",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "8520": {
+      "name": "Patrick Corbin",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32027": {
+      "name": "Cristian Pache",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "39406": {
+      "name": "Pedro Ramirez",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "42497": {
+      "name": "Braden Nett",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "41861": {
+      "name": "Santiago Suarez",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "32710": {
+      "name": "Colin Holderman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    }
+  },
+  "league_rosters": {
+    "100": [
+      "33600",
+      "18347",
+      "23793",
+      "18480",
+      "23625",
+      "15962",
+      "18160",
+      "22559",
+      "32291",
+      "33217",
+      "42711",
+      "40564",
+      "37216",
+      "33634",
+      "20732",
+      "42221",
+      "23745",
+      "43949",
+      "40095",
+      "37181",
+      "18422",
+      "45713",
+      "45720",
+      "45739",
+      "44554",
+      "23805",
+      "45715",
+      "36048",
+      "44114",
+      "42873",
+      "47554",
+      "43911",
+      "18171",
+      "21514",
+      "15261",
+      "26807",
+      "19904",
+      "19378",
+      "34103",
+      "34389",
+      "18283",
+      "47565"
+    ],
+    "530": [
+      "33625",
+      "37806",
+      "22426",
+      "43896",
+      "19328",
+      "18479",
+      "23601",
+      "23654",
+      "41042",
+      "48240",
+      "23831",
+      "42126",
+      "22559",
+      "18255",
+      "44524",
+      "19268",
+      "45706",
+      "44003",
+      "35922",
+      "21039",
+      "33217",
+      "44336",
+      "37480",
+      "46310",
+      "33634",
+      "34396",
+      "45947",
+      "45715",
+      "46358",
+      "45862",
+      "45789",
+      "45769",
+      "45090",
+      "32051",
+      "37091",
+      "45881",
+      "18455",
+      "45018",
+      "21961",
+      "34389",
+      "46397"
+    ],
+    "649": [
+      "37806",
+      "18546",
+      "18466",
+      "40927",
+      "33654",
+      "48240",
+      "38398",
+      "18391",
+      "35196",
+      "44524",
+      "37841",
+      "27058",
+      "38378",
+      "38315",
+      "44515",
+      "38754",
+      "41452",
+      "45790",
+      "42765",
+      "45706",
+      "35922",
+      "35811",
+      "33670",
+      "31951",
+      "44147",
+      "37480",
+      "38367",
+      "23805",
+      "45884",
+      "42279",
+      "37427",
+      "18985",
+      "38330",
+      "37234",
+      "35602",
+      "42741",
+      "45769",
+      "45713",
+      "38424",
+      "19904",
+      "46358",
+      "34389"
+    ],
+    "663": [
+      "18546",
+      "18276",
+      "36671",
+      "23654",
+      "18480",
+      "14893",
+      "15962",
+      "32291",
+      "20975",
+      "34619",
+      "18196",
+      "37094",
+      "22655",
+      "18160",
+      "33607",
+      "33259",
+      "31194",
+      "44147",
+      "33647",
+      "33325",
+      "21200",
+      "38367",
+      "38378",
+      "46358",
+      "39557",
+      "45881",
+      "34601",
+      "41452",
+      "36048",
+      "18171",
+      "6130",
+      "45739",
+      "22331",
+      "29992",
+      "23805",
+      "38699",
+      "38428",
+      "23813",
+      "32051",
+      "38315",
+      "37304",
+      "46397"
+    ],
+    "836": [
+      "18546",
+      "36509",
+      "18480",
+      "14893",
+      "22426",
+      "48241",
+      "36671",
+      "5918",
+      "18113",
+      "22651",
+      "40262",
+      "33645",
+      "38378",
+      "40550",
+      "18422",
+      "38781",
+      "37480",
+      "33217",
+      "44539",
+      "35205",
+      "40607",
+      "38361",
+      "27208",
+      "18465",
+      "18462",
+      "18547",
+      "23813",
+      "45714",
+      "33619",
+      "38330",
+      "44147",
+      "31958",
+      "45090",
+      "23805",
+      "38403",
+      "35566",
+      "45064",
+      "44310",
+      "46099",
+      "44223",
+      "34602",
+      "26292",
+      "34389",
+      "44703"
+    ],
+    "301": [
+      "23327",
+      "18466",
+      "40927",
+      "15962",
+      "18487",
+      "37295",
+      "18116",
+      "37094",
+      "12398",
+      "18506",
+      "45790",
+      "26198",
+      "44515",
+      "32051",
+      "44003",
+      "21039",
+      "38378",
+      "23813",
+      "35922",
+      "37480",
+      "9668",
+      "44223",
+      "18786",
+      "18171",
+      "40607",
+      "45714",
+      "18462",
+      "5201",
+      "18985",
+      "35566",
+      "23691",
+      "26807",
+      "23805",
+      "21170",
+      "42559",
+      "37826",
+      "40147",
+      "40972",
+      "38317",
+      "44554",
+      "45713",
+      "40097",
+      "38386"
+    ],
+    "757": [
+      "33600",
+      "18546",
+      "18164",
+      "14893",
+      "14393",
+      "18160",
+      "48240",
+      "48241",
+      "23741",
+      "12398",
+      "34619",
+      "43895",
+      "43950",
+      "44003",
+      "44336",
+      "5201",
+      "21039",
+      "42428",
+      "18162",
+      "44534",
+      "39285",
+      "31984",
+      "23805",
+      "18465",
+      "38315",
+      "40460",
+      "45881",
+      "21708",
+      "45789",
+      "46358",
+      "47555",
+      "18355",
+      "42719",
+      "41452",
+      "40820",
+      "40181",
+      "38428",
+      "18491",
+      "26807",
+      "23701",
+      "21514"
+    ],
+    "791": [
+      "33600",
+      "18546",
+      "18480",
+      "45716",
+      "18407",
+      "18113",
+      "23831",
+      "31741",
+      "23793",
+      "44003",
+      "18116",
+      "45790",
+      "22078",
+      "42221",
+      "38754",
+      "45947",
+      "37181",
+      "38315",
+      "45884",
+      "45720",
+      "18462",
+      "19296",
+      "23672",
+      "38403",
+      "44223",
+      "44114",
+      "45789",
+      "42765",
+      "40937",
+      "45064",
+      "18375",
+      "45881",
+      "23745",
+      "34389",
+      "45018",
+      "22809",
+      "19378",
+      "40181",
+      "19904",
+      "23805"
+    ],
+    "1487": [
+      "18312",
+      "18276",
+      "15962",
+      "5918",
+      "40927",
+      "18236",
+      "45716",
+      "36686",
+      "44003",
+      "18263",
+      "38559",
+      "36325",
+      "38374",
+      "21039",
+      "23779",
+      "39978",
+      "41452",
+      "35566",
+      "34817",
+      "40262",
+      "5201",
+      "22668",
+      "23805",
+      "43949",
+      "42312",
+      "18383",
+      "21075",
+      "45947",
+      "44526",
+      "44114",
+      "21514",
+      "38403",
+      "26531",
+      "32611",
+      "31812",
+      "40181",
+      "44703",
+      "34389",
+      "38315",
+      "38410",
+      "38480",
+      "40496"
+    ],
+    "1940": [
+      "23327",
+      "18216",
+      "43896",
+      "18122",
+      "14982",
+      "33682",
+      "34619",
+      "23831",
+      "18160",
+      "18255",
+      "37480",
+      "23810",
+      "38398",
+      "38374",
+      "32009",
+      "31438",
+      "38320",
+      "37174",
+      "42737",
+      "23794",
+      "44308",
+      "27208",
+      "38389",
+      "34601",
+      "39978",
+      "26134",
+      "18357",
+      "38328",
+      "18462",
+      "44544",
+      "42653",
+      "37635",
+      "22809",
+      "21075",
+      "37826",
+      "26882",
+      "32655",
+      "33672",
+      "38366",
+      "20936",
+      "36738",
+      "45018"
+    ]
+  },
+  "updated_at": "2026-04-03T20:00:00+00:00",
+  "_note": "Bootstrap cache - will be fully populated on next bot run"
+}

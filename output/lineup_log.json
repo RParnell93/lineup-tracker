@@ -1,0 +1,4717 @@
+[
+  {
+    "timestamp": "2026-03-28T19:21:05Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-28",
+    "teams_playing": 8,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "Luisangel Acuna",
+        "player_id": 36048,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Hunter Barco",
+        "player_id": 43911,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Tyler Rogers",
+        "player_id": 19904,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:21:16Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-28",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "from": "MI",
+        "to": "Bench"
+      },
+      {
+        "player": "Spencer Steer",
+        "player_id": 37216,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jac Caglianone",
+        "player_id": 45720,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Adolis Garc\u00eda",
+        "player_id": 23745,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Oneil Cruz",
+        "player_id": 32291,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Brice Turang",
+        "player_id": 33634,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Luisangel Acuna",
+        "player_id": 36048,
+        "from": "Bench",
+        "to": "MI"
+      },
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Hunter Barco",
+        "player_id": 43911,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Zack Wheeler",
+        "player_id": 15962,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:21:18Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-28",
+    "teams_playing": 8,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Isaac Paredes",
+        "player_id": 23831,
+        "from": "3B",
+        "to": "Util"
+      },
+      {
+        "player": "Wyatt Langford",
+        "player_id": 43896,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Munetaka Murakami",
+        "player_id": 48240,
+        "from": "Util",
+        "to": "3B"
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:21:21Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-28",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Chase Burns",
+        "player_id": 45706,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Drew Rasmussen",
+        "player_id": 35922,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T14:23:38Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-28",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "from": "MI",
+        "to": "Bench"
+      },
+      {
+        "player": "Spencer Steer",
+        "player_id": 37216,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jac Caglianone",
+        "player_id": 45720,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Adolis Garc\u00eda",
+        "player_id": 23745,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Oneil Cruz",
+        "player_id": 32291,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Brice Turang",
+        "player_id": 33634,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Luisangel Acuna",
+        "player_id": 36048,
+        "from": "Bench",
+        "to": "MI"
+      },
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Hunter Barco",
+        "player_id": 43911,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Zack Wheeler",
+        "player_id": 15962,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:34:20Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Jose Altuve",
+        "player_id": 5918,
+        "from": "OF",
+        "to": "Util"
+      },
+      {
+        "player": "Jonathan Aranda",
+        "player_id": 33217,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:35:00Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Jose Altuve",
+        "player_id": 5918,
+        "from": "OF",
+        "to": "Util"
+      },
+      {
+        "player": "Jonathan Aranda",
+        "player_id": 33217,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:36:29Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Jose Altuve",
+        "player_id": 5918,
+        "from": "OF",
+        "to": "Util"
+      },
+      {
+        "player": "Jonathan Aranda",
+        "player_id": 33217,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:37:21Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Ernie Clement",
+        "player_id": 31958,
+        "from": "2B",
+        "to": "MI"
+      },
+      {
+        "player": "Xavier Edwards",
+        "player_id": 33645,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan Aranda",
+        "player_id": 33217,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Yainer Diaz",
+        "player_id": 26292,
+        "from": "Bench",
+        "to": "Util"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Jeremiah Estrada",
+        "player_id": 27208,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Ryan Walker",
+        "player_id": 35205,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:09Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Ernie Clement",
+        "player_id": 31958,
+        "from": "2B",
+        "to": "MI"
+      },
+      {
+        "player": "Xavier Edwards",
+        "player_id": 33645,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Jeremiah Estrada",
+        "player_id": 27208,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Ryan Walker",
+        "player_id": 35205,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:17Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Brice Turang",
+        "player_id": 33634,
+        "from": "2B",
+        "to": "MI"
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "MI",
+        "to": "Bench"
+      },
+      {
+        "player": "Jac Caglianone",
+        "player_id": 45720,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Luisangel Acuna",
+        "player_id": 36048,
+        "from": "Bench",
+        "to": "2B"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:18Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Camilo Doval",
+        "player_id": 32051,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:18Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Framber Valdez",
+        "player_id": 22426,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Cody Ponce",
+        "player_id": 21961,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:19Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Ketel Marte",
+        "player_id": 18466,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jeff Mcneil",
+        "player_id": 18644,
+        "from": "Bench",
+        "to": "MI"
+      },
+      {
+        "player": "Owen Caissie",
+        "player_id": 38367,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:19Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Carlos Correa",
+        "player_id": 18160,
+        "from": "SS",
+        "to": "Bench"
+      },
+      {
+        "player": "Jesus Sanchez",
+        "player_id": 22331,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Brendan Donovan",
+        "player_id": 34619,
+        "from": "OF",
+        "to": "Util"
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Owen Caissie",
+        "player_id": 38367,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Kaelen Culpepper",
+        "player_id": 45881,
+        "from": "Bench",
+        "to": "SS"
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "George Kirby",
+        "player_id": 36671,
+        "from": "RP",
+        "to": "SP"
+      },
+      {
+        "player": "Jose Alvarado",
+        "player_id": 29992,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:19Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Brendan Donovan",
+        "player_id": 34619,
+        "from": "2B",
+        "to": "Util"
+      },
+      {
+        "player": "Max Muncy",
+        "player_id": 40460,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Andrew Benintendi",
+        "player_id": 18491,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Carlos Correa",
+        "player_id": 18160,
+        "from": "Util",
+        "to": "MI"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Steven Matz",
+        "player_id": 13962,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Rhett Lowder",
+        "player_id": 43895,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Didier Fuentes",
+        "player_id": 41452,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Chris Sale",
+        "player_id": 14393,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:20Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Jac Caglianone",
+        "player_id": 45720,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Shane Smith",
+        "player_id": 42592,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:20Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Ernie Clement",
+        "player_id": 31958,
+        "from": "2B",
+        "to": "MI"
+      },
+      {
+        "player": "Xavier Edwards",
+        "player_id": 33645,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Jeremiah Estrada",
+        "player_id": 27208,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Ryan Walker",
+        "player_id": 35205,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:38:20Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Addison Barger",
+        "player_id": 34817,
+        "from": "OF",
+        "to": "Util"
+      },
+      {
+        "player": "T.J. Rumfield",
+        "player_id": 40496,
+        "from": "Util",
+        "to": "Bench"
+      },
+      {
+        "player": "Colton Cowser",
+        "player_id": 39978,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Tanner Scott",
+        "player_id": 21075,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Eury Perez",
+        "player_id": 38559,
+        "from": "RP",
+        "to": "SP"
+      },
+      {
+        "player": "Didier Fuentes",
+        "player_id": 41452,
+        "from": "RP",
+        "to": "SP"
+      },
+      {
+        "player": "Kyle Harrison",
+        "player_id": 38410,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:42:53Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Jeremiah Estrada",
+        "player_id": 27208,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      },
+      {
+        "player": "Ryan Walker",
+        "player_id": 35205,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "RP"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:47:06Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:47:30Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:10Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-29T19:48:29Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-29T19:48:31Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:33Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Framber Valdez",
+        "player_id": 22426,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Cody Ponce",
+        "player_id": 21961,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:36Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Ketel Marte",
+        "player_id": 18466,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "Jeff Mcneil",
+        "player_id": 18644,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Owen Caissie",
+        "player_id": 38367,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Chase Burns",
+        "player_id": 45706,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:38Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Andres Munoz",
+        "player_id": 33259,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Jose Alvarado",
+        "player_id": 29992,
+        "from": "Bench",
+        "to": "RP"
+      },
+      {
+        "player": "Didier Fuentes",
+        "player_id": 41452,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Shane McClanahan",
+        "player_id": 33647,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:40Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Robert Garcia",
+        "player_id": 31984,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:42Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-29T19:48:44Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Kyle Tucker",
+        "player_id": 18546,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:48:46Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Tanner Scott",
+        "player_id": 21075,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Kyle Harrison",
+        "player_id": 38410,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:16Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Andres Munoz",
+        "player_id": 33259,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Shane McClanahan",
+        "player_id": 33647,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:30Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-29T19:55:32Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:34Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Framber Valdez",
+        "player_id": 22426,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Cody Ponce",
+        "player_id": 21961,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:37Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Owen Caissie",
+        "player_id": 38367,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Chase Burns",
+        "player_id": 45706,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:39Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Andres Munoz",
+        "player_id": 33259,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Shane McClanahan",
+        "player_id": 33647,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:41Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Robert Garcia",
+        "player_id": 31984,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:43Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-29T19:55:45Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Riley Greene",
+        "player_id": 36509,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-29T19:55:47Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-03-29",
+    "teams_playing": 24,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Tanner Scott",
+        "player_id": 21075,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Kyle Harrison",
+        "player_id": 38410,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T18:17:26Z",
+    "league_id": 1940,
+    "league_name": "Spud and Zucchini",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T18:20:42Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T18:21:27Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:51:21Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Jordan Romano",
+        "player_id": 21170,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T21:52:34Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Jordan Romano",
+        "player_id": 21170,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T21:53:23Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:27Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Jordan Romano",
+        "player_id": 21170,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T21:53:31Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:35Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:39Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:43Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Robert Garcia",
+        "player_id": 31984,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-30T21:53:47Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:52Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:53:55Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T21:54:00Z",
+    "league_id": 1940,
+    "league_name": "Spud and Zucchini",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-30T22:01:11Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-30",
+    "teams_playing": 30,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench"
+      },
+      {
+        "player": "Jordan Romano",
+        "player_id": 21170,
+        "from": "Bench",
+        "to": "RP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:09:01Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Ryne Nelson",
+        "player_id": 37826,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:09:49Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-31T14:09:53Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Ryne Nelson",
+        "player_id": 37826,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:09:57Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-31T14:10:01Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Joe Ryan",
+        "player_id": 35196,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Parker Messick",
+        "player_id": 42765,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mike Burrows",
+        "player_id": 35811,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:10:04Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-03-31T14:10:06Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Seth Lugo",
+        "player_id": 23701,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Chris Sale",
+        "player_id": 14393,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:10:11Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Noah Cameron",
+        "player_id": 40937,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Parker Messick",
+        "player_id": 42765,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:10:14Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "dry_run",
+    "changes": [
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Framber Valdez",
+        "player_id": 22426,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Andrew Abbott",
+        "player_id": 40607,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-31T14:10:19Z",
+    "league_id": 1940,
+    "league_name": "Spud and Zucchini",
+    "game_date": "2026-03-31",
+    "teams_playing": 28,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-04-02T03:35:55Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Brice Turang",
+        "player_id": 33634,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Kyle Schwarber",
+        "player_id": 18347,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Sandy Alcantara",
+        "player_id": 20732,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Cole Ragans",
+        "player_id": 23625,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:00Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Ian Happ",
+        "player_id": 18479,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "from": "Bench",
+        "to": "OF"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:04Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Wilyer Abreu",
+        "player_id": 27058,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Mike Burrows",
+        "player_id": 35811,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:08Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Cristopher Sanchez",
+        "player_id": 20975,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:12Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Giancarlo Stanton",
+        "player_id": 5201,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Christian Yelich",
+        "player_id": 14893,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Andrew Benintendi",
+        "player_id": 18491,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Luis Severino",
+        "player_id": 18355,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Nolan McLean",
+        "player_id": 44336,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Seth Lugo",
+        "player_id": 23701,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:17Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Kevin McGonigle",
+        "player_id": 44223,
+        "from": "MI",
+        "to": "Bench"
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "Bench",
+        "to": "MI"
+      },
+      {
+        "player": "Adolis Garc\u00eda",
+        "player_id": 23745,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Brent Rooker",
+        "player_id": 23793,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Grant Holmes",
+        "player_id": 18375,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:21Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Xavier Edwards",
+        "player_id": 33645,
+        "from": "2B",
+        "to": "Bench"
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "from": "Bench",
+        "to": "2B"
+      },
+      {
+        "player": "Jose Altuve",
+        "player_id": 5918,
+        "from": "OF",
+        "to": "Bench"
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "from": "Bench",
+        "to": "OF"
+      },
+      {
+        "player": "Sonny Gray",
+        "player_id": 18113,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Mick Abel",
+        "player_id": 38330,
+        "from": "Bench",
+        "to": "SP"
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "from": "SP",
+        "to": "Bench"
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "from": "Bench",
+        "to": "SP"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-02T03:36:24Z",
+    "league_id": 1940,
+    "league_name": "Spud and Zucchini",
+    "game_date": "2026-04-02",
+    "teams_playing": 8,
+    "status": "optimal",
+    "changes": []
+  },
+  {
+    "timestamp": "2026-04-03T20:06:09Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Spencer Steer",
+        "player_id": 37216,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "CIN",
+        "bat_hand": "R",
+        "vs_pitcher": "MacKenzie Gore",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Marcelo Mayer",
+        "player_id": 40095,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "BOS",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Justin Verlander",
+        "player_id": 15261,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "DET",
+        "bat_hand": "",
+        "vs_pitcher": "Michael McGreevy",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Hunter Harvey",
+        "player_id": 18283,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open RP slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Sandy Alcantara",
+        "player_id": 20732,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Hunter Barco",
+        "player_id": 43911,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:11Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Dansby Swanson",
+        "player_id": 18506,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "CHC",
+        "bat_hand": "R",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Vinnie Pasquantino",
+        "player_id": 37094,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "KCR",
+        "bat_hand": "L",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Ryne Nelson",
+        "player_id": 37826,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "ARI",
+        "bat_hand": "",
+        "vs_pitcher": "Grant Holmes",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:14Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Spencer Horwitz",
+        "player_id": 37091,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "L",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "SFG",
+        "bat_hand": "L",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Munetaka Murakami",
+        "player_id": 48240,
+        "position": "Bench",
+        "salary": 16,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jose A. Ferrer",
+        "player_id": 34396,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open RP slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:16Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Joey Wiemer",
+        "player_id": 38424,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "WSN",
+        "bat_hand": "R",
+        "vs_pitcher": "Emmet Sheehan",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "SFG",
+        "bat_hand": "L",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "David Bednar",
+        "player_id": 31951,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Ryan Weathers",
+        "player_id": 33670,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Mike Burrows",
+        "player_id": 35811,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "HOU",
+        "bat_hand": "",
+        "vs_pitcher": "Jeffrey Springs",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Parker Messick",
+        "player_id": 42765,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "CLE",
+        "bat_hand": "",
+        "vs_pitcher": "Cade Horton",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:19Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Marcell Ozuna",
+        "player_id": 6130,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PIT",
+        "bat_hand": "R",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Josh Naylor",
+        "player_id": 22655,
+        "position": "Bench",
+        "salary": 12,
+        "mlb_team": "SEA",
+        "bat_hand": "L",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Ranger Suarez",
+        "player_id": 31194,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "BOS",
+        "bat_hand": "",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Edward Cabrera",
+        "player_id": 33325,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Shane McClanahan",
+        "player_id": 33647,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "TBR",
+        "bat_hand": "",
+        "vs_pitcher": "Bailey Ober",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:21Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Andrew Benintendi",
+        "player_id": 18491,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Willi Castro",
+        "player_id": 21708,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "COL",
+        "bat_hand": "S",
+        "vs_pitcher": "Aaron Nola",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Max Fried",
+        "player_id": 18164,
+        "position": "Bench",
+        "salary": 25,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Luis Severino",
+        "player_id": 18355,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATH",
+        "bat_hand": "",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Landen Roupp",
+        "player_id": 40820,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SFG",
+        "bat_hand": "",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Rhett Lowder",
+        "player_id": 43895,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "CIN",
+        "bat_hand": "",
+        "vs_pitcher": "MacKenzie Gore",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Brandon Sproat",
+        "player_id": 44534,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "MIL",
+        "bat_hand": "",
+        "vs_pitcher": "Luinder Avila",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "position": "Bench",
+        "salary": 13,
+        "mlb_team": "HOU",
+        "bat_hand": "",
+        "vs_pitcher": "Jeffrey Springs",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:23Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Tyler O'Neill",
+        "player_id": 19296,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Isaac Paredes",
+        "player_id": 23831,
+        "position": "Bench",
+        "salary": 17,
+        "mlb_team": "HOU",
+        "bat_hand": "R",
+        "vs_pitcher": "Jeffrey Springs",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PHI",
+        "bat_hand": "",
+        "vs_pitcher": "Michael Lorenzen",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:26Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Trent Grisham",
+        "player_id": 18547,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "L",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "KCR",
+        "bat_hand": "R",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "George Kirby",
+        "player_id": 36671,
+        "position": "Bench",
+        "salary": 22,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:28Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Marcus Semien",
+        "player_id": 18263,
+        "position": "Bench",
+        "salary": 10,
+        "mlb_team": "NYM",
+        "bat_hand": "R",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "player_id": 18383,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "ATL",
+        "bat_hand": "L",
+        "vs_pitcher": "Eduardo Rodriguez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Colt Keith",
+        "player_id": 38374,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "DET",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael McGreevy",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Colton Cowser",
+        "player_id": 39978,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "BAL",
+        "bat_hand": "L",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Michael Soroka",
+        "player_id": 22668,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "ARI",
+        "bat_hand": "",
+        "vs_pitcher": "Grant Holmes",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Dustin May",
+        "player_id": 32611,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "STL",
+        "bat_hand": "",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Slade Cecconi",
+        "player_id": 38480,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CLE",
+        "bat_hand": "",
+        "vs_pitcher": "Cade Horton",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Shota Imanaga",
+        "player_id": 44526,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T20:06:31Z",
+    "league_id": 1940,
+    "league_name": "Duran Duran",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Dominic Canzone",
+        "player_id": 37536,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "L",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Marcelo Mayer",
+        "player_id": 40095,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "BOS",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Max Muncy",
+        "player_id": 40460,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATH",
+        "bat_hand": "L",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:29Z",
+    "league_id": 100,
+    "league_name": "CaNtZ",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Brice Turang",
+        "player_id": 33634,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "from": "2B",
+        "to": "MI"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Spencer Steer",
+        "player_id": 37216,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "CIN",
+        "bat_hand": "R",
+        "vs_pitcher": "MacKenzie Gore",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.4
+      },
+      {
+        "player": "Marcelo Mayer",
+        "player_id": 40095,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "BOS",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.8
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 5.2
+      },
+      {
+        "player": "Justin Verlander",
+        "player_id": 15261,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "DET",
+        "bat_hand": "",
+        "vs_pitcher": "Michael McGreevy",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -8.2
+      },
+      {
+        "player": "Hunter Harvey",
+        "player_id": 18283,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -5.0
+      },
+      {
+        "player": "Sandy Alcantara",
+        "player_id": 20732,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 57.6
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 24.3
+      },
+      {
+        "player": "Hunter Barco",
+        "player_id": 43911,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -18.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:34Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Dansby Swanson",
+        "player_id": 18506,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "CHC",
+        "bat_hand": "R",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.5
+      },
+      {
+        "player": "Vinnie Pasquantino",
+        "player_id": 37094,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "KCR",
+        "bat_hand": "L",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.9
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.3
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.9
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 5.2
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 24.3
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 25.9
+      },
+      {
+        "player": "Ryne Nelson",
+        "player_id": 37826,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "ARI",
+        "bat_hand": "",
+        "vs_pitcher": "Grant Holmes",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -2.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:39Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Spencer Horwitz",
+        "player_id": 37091,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "L",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.0
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.9
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "SFG",
+        "bat_hand": "L",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.9
+      },
+      {
+        "player": "Munetaka Murakami",
+        "player_id": 48240,
+        "position": "Bench",
+        "salary": 16,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 7.4
+      },
+      {
+        "player": "Jose A. Ferrer",
+        "player_id": 34396,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 3.3
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:45Z",
+    "league_id": 649,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Cal Raleigh",
+        "player_id": 33654,
+        "from": "Util",
+        "to": "C"
+      },
+      {
+        "player": "Francisco Alvarez",
+        "player_id": 37427,
+        "from": "C",
+        "to": "Util"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.3
+      },
+      {
+        "player": "Joey Wiemer",
+        "player_id": 38424,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "WSN",
+        "bat_hand": "R",
+        "vs_pitcher": "Emmet Sheehan",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 15.7
+      },
+      {
+        "player": "Jung Hoo Lee",
+        "player_id": 44524,
+        "position": "Bench",
+        "salary": 11,
+        "mlb_team": "SFG",
+        "bat_hand": "L",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.9
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 5.2
+      },
+      {
+        "player": "David Bednar",
+        "player_id": 31951,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 8.5
+      },
+      {
+        "player": "Ryan Weathers",
+        "player_id": 33670,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 27.9
+      },
+      {
+        "player": "Mike Burrows",
+        "player_id": 35811,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "HOU",
+        "bat_hand": "",
+        "vs_pitcher": "Jeffrey Springs",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 10.2
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      },
+      {
+        "player": "Parker Messick",
+        "player_id": 42765,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "CLE",
+        "bat_hand": "",
+        "vs_pitcher": "Cade Horton",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 41.4
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:49Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Marcell Ozuna",
+        "player_id": 6130,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PIT",
+        "bat_hand": "R",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": -0.9
+      },
+      {
+        "player": "Josh Naylor",
+        "player_id": 22655,
+        "position": "Bench",
+        "salary": 12,
+        "mlb_team": "SEA",
+        "bat_hand": "L",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": -1.8
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.3
+      },
+      {
+        "player": "Ranger Suarez",
+        "player_id": 31194,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "BOS",
+        "bat_hand": "",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -9.5
+      },
+      {
+        "player": "Edward Cabrera",
+        "player_id": 33325,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 48.8
+      },
+      {
+        "player": "Shane McClanahan",
+        "player_id": 33647,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "TBR",
+        "bat_hand": "",
+        "vs_pitcher": "Bailey Ober",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 24.9
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:54Z",
+    "league_id": 757,
+    "league_name": "SabrWhiskeyCatzo",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Brendan Donovan",
+        "player_id": 34619,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Max Muncy",
+        "player_id": 40460,
+        "from": "2B",
+        "to": "MI"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Andrew Benintendi",
+        "player_id": 18491,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.1
+      },
+      {
+        "player": "Willi Castro",
+        "player_id": 21708,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "COL",
+        "bat_hand": "S",
+        "vs_pitcher": "Aaron Nola",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.4
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.9
+      },
+      {
+        "player": "Max Fried",
+        "player_id": 18164,
+        "position": "Bench",
+        "salary": 25,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 46.0
+      },
+      {
+        "player": "Luis Severino",
+        "player_id": 18355,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATH",
+        "bat_hand": "",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 18.9
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 27.0
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "Will Warren",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 24.3
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      },
+      {
+        "player": "Landen Roupp",
+        "player_id": 40820,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SFG",
+        "bat_hand": "",
+        "vs_pitcher": "Nolan McLean",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 47.2
+      },
+      {
+        "player": "Rhett Lowder",
+        "player_id": 43895,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "CIN",
+        "bat_hand": "",
+        "vs_pitcher": "MacKenzie Gore",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 20.9
+      },
+      {
+        "player": "Brandon Sproat",
+        "player_id": 44534,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "MIL",
+        "bat_hand": "",
+        "vs_pitcher": "Luinder Avila",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -36.3
+      },
+      {
+        "player": "Tatsuya Imai",
+        "player_id": 48241,
+        "position": "Bench",
+        "salary": 13,
+        "mlb_team": "HOU",
+        "bat_hand": "",
+        "vs_pitcher": "Jeffrey Springs",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 4.5
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:05:58Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Tyler O'Neill",
+        "player_id": 19296,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.9
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PHI",
+        "bat_hand": "",
+        "vs_pitcher": "Michael Lorenzen",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 2.4
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 30.7
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:06:01Z",
+    "league_id": 836,
+    "league_name": "SabrCatz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Trent Grisham",
+        "player_id": 18547,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYY",
+        "bat_hand": "L",
+        "vs_pitcher": "Eury P\u00e9rez",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.5
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Dylan Cease",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Jonathan India",
+        "player_id": 33619,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "KCR",
+        "bat_hand": "R",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.0
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.3
+      },
+      {
+        "player": "Matthew Boyd",
+        "player_id": 18465,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 27.0
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 25.9
+      },
+      {
+        "player": "George Kirby",
+        "player_id": 36671,
+        "position": "Bench",
+        "salary": 22,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 26.0
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 30.7
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:06:06Z",
+    "league_id": 1487,
+    "league_name": "SabrWarKurtz",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Marcus Semien",
+        "player_id": 18263,
+        "position": "Bench",
+        "salary": 10,
+        "mlb_team": "NYM",
+        "bat_hand": "R",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.2
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "player_id": 18383,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "ATL",
+        "bat_hand": "L",
+        "vs_pitcher": "Eduardo Rodriguez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.8
+      },
+      {
+        "player": "Colt Keith",
+        "player_id": 38374,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "DET",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael McGreevy",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 6.7
+      },
+      {
+        "player": "Colton Cowser",
+        "player_id": 39978,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "BAL",
+        "bat_hand": "L",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 3.2
+      },
+      {
+        "player": "Michael Soroka",
+        "player_id": 22668,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "ARI",
+        "bat_hand": "",
+        "vs_pitcher": "Grant Holmes",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 43.6
+      },
+      {
+        "player": "Dustin May",
+        "player_id": 32611,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "STL",
+        "bat_hand": "",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 6.6
+      },
+      {
+        "player": "Kris Bubic",
+        "player_id": 35566,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Chad Patrick",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 25.9
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 30.7
+      },
+      {
+        "player": "Slade Cecconi",
+        "player_id": 38480,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CLE",
+        "bat_hand": "",
+        "vs_pitcher": "Cade Horton",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": -2.6
+      },
+      {
+        "player": "Shota Imanaga",
+        "player_id": 44526,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "CHC",
+        "bat_hand": "",
+        "vs_pitcher": "Joey Cantillo",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 17.1
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T23:06:10Z",
+    "league_id": 1940,
+    "league_name": "Duran Duran",
+    "game_date": "2026-04-03",
+    "teams_playing": 30,
+    "status": "error: Gleyber Torres is locked",
+    "changes": [
+      {
+        "player": "Gleyber Torres",
+        "player_id": 18487,
+        "from": "MI",
+        "to": "2B"
+      },
+      {
+        "player": "Ketel Marte",
+        "player_id": 18466,
+        "from": "2B",
+        "to": "MI"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Dominic Canzone",
+        "player_id": 37536,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "L",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 11.2
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Mitch Keller",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 1.3
+      },
+      {
+        "player": "Marcelo Mayer",
+        "player_id": 40095,
+        "position": "Bench",
+        "salary": 6,
+        "mlb_team": "BOS",
+        "bat_hand": "L",
+        "vs_pitcher": "Michael King",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.8
+      },
+      {
+        "player": "Max Muncy",
+        "player_id": 40460,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATH",
+        "bat_hand": "L",
+        "vs_pitcher": "Cristian Javier",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 5.2
+      },
+      {
+        "player": "JJ Wetherholt",
+        "player_id": 45713,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "STL",
+        "bat_hand": "L",
+        "vs_pitcher": "Framber Valdez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "is_pitcher": false,
+        "fgpts_per_g": 5.2
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Tyler Mahle",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 3.8
+      },
+      {
+        "player": "Emerson Hancock",
+        "player_id": 38315,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Reid Detmers",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 56.4
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Kyle Bradish",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 30.7
+      }
+    ]
+  }
+]
