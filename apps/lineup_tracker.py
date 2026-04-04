@@ -1849,74 +1849,79 @@ with tab_config:
 
         league_cfg = config.get(sel_lid, {})
 
-        # Show positions in card grid (3 cols desktop, stacks on mobile)
-        for row_start in range(0, len(POSITION_SLOTS), 3):
-            row_slots = POSITION_SLOTS[row_start:row_start + 3]
-            cols = st.columns(len(row_slots))
-            for col, slot in zip(cols, row_slots):
-                with col:
-                    with st.container(border=True):
-                        st.markdown(f'<div style="font-size:1.1rem;font-weight:700;color:#83bdc0;margin-bottom:2px;">{slot}</div>', unsafe_allow_html=True)
-                        current_ids = league_cfg.get(slot, [])
+        # Show positions in card grid, split by hitting/pitching
+        hitting_slots = [s for s in POSITION_SLOTS if s in HITTING_POSITIONS]
+        pitching_slots = [s for s in POSITION_SLOTS if s in PITCHING_POSITIONS]
 
-                        if has_cache:
-                            eligible = eligible_players_for_position(slot, sel_lid_int, roster_cache)
-                            eligible_map = {pid: name for pid, name in eligible}
+        for section_label, section_slots in [("Hitting", hitting_slots), ("Pitching", pitching_slots)]:
+            st.markdown(f'<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin:20px 0 8px;">{section_label}</p>', unsafe_allow_html=True)
+            for row_start in range(0, len(section_slots), 3):
+                row_slots = section_slots[row_start:row_start + 3]
+                cols = st.columns(len(row_slots))
+                for col, slot in zip(cols, row_slots):
+                    with col:
+                        with st.container(border=True):
+                            st.markdown(f'<div style="font-size:1.1rem;font-weight:700;color:#83bdc0;margin-bottom:2px;">{slot}</div>', unsafe_allow_html=True)
+                            current_ids = league_cfg.get(slot, [])
 
-                            stat_unit = "P/IP" if slot in PITCHING_POSITIONS else "P/G"
-                            for rank, pid in enumerate(current_ids):
-                                name = eligible_map.get(str(pid), player_name(pid, roster_cache, config))
-                                ppg_val = roster_cache.get("players", {}).get(str(pid), {}).get("ppg")
-                                ppg_label = f" *{ppg_val} {stat_unit}*" if ppg_val else ""
-                                if can_edit:
-                                    c_name, c_rm = st.columns([4, 1])
-                                    c_name.markdown(f"`{rank+1}.` {name}{ppg_label}")
-                                    if c_rm.button("\u2715", key=f"rm_{sel_lid}_{slot}_{pid}"):
-                                        config.setdefault(sel_lid, {})[slot] = [p for p in current_ids if p != pid]
-                                        changed = True
-                                else:
-                                    st.markdown(f"`{rank+1}.` {name}{ppg_label}")
+                            if has_cache:
+                                eligible = eligible_players_for_position(slot, sel_lid_int, roster_cache)
+                                eligible_map = {pid: name for pid, name in eligible}
 
-                            if not current_ids:
-                                st.caption("No custom order set")
-
-                            if can_edit:
-                                not_in_list = [(pid, name) for pid, name in eligible if int(pid) not in current_ids]
-                                if not_in_list:
-                                    add_options = {}
-                                    for apid, aname in not_in_list:
-                                        appg = roster_cache.get("players", {}).get(str(apid), {}).get("ppg")
-                                        label = f"{aname} ({appg} {stat_unit})" if appg else aname
-                                        add_options[label] = int(apid)
-                                    add_sel = st.selectbox("Add", [""] + list(add_options.keys()), key=f"add_{sel_lid}_{slot}", label_visibility="collapsed")
-                                    if add_sel:
-                                        new_pid = add_options[add_sel]
-                                        if new_pid not in current_ids:
-                                            highest_rank = 0
-                                            for other_slot, other_ids in league_cfg.items():
-                                                if other_slot != slot and isinstance(other_ids, list) and new_pid in other_ids:
-                                                    rank = other_ids.index(new_pid)
-                                                    highest_rank = max(highest_rank, rank + 1)
-                                            slot_list = config.setdefault(sel_lid, {}).setdefault(slot, [])
-                                            insert_pos = max(highest_rank, len(slot_list))
-                                            slot_list.insert(insert_pos, new_pid)
+                                stat_unit = "P/IP" if slot in PITCHING_POSITIONS else "P/G"
+                                for rank, pid in enumerate(current_ids):
+                                    name = eligible_map.get(str(pid), player_name(pid, roster_cache, config))
+                                    ppg_val = roster_cache.get("players", {}).get(str(pid), {}).get("ppg")
+                                    ppg_label = f" *{ppg_val} {stat_unit}*" if ppg_val else ""
+                                    if can_edit:
+                                        c_name, c_rm = st.columns([4, 1])
+                                        c_name.markdown(f"`{rank+1}.` {name}{ppg_label}")
+                                        if c_rm.button("\u2715", key=f"rm_{sel_lid}_{slot}_{pid}"):
+                                            config.setdefault(sel_lid, {})[slot] = [p for p in current_ids if p != pid]
                                             changed = True
-                        elif can_edit:
-                            new_val = st.text_area(
-                                f"{slot} IDs",
-                                value="\n".join(str(x) for x in current_ids),
-                                height=150,
-                                key=f"cfg_{sel_lid}_{slot}",
-                                label_visibility="collapsed",
-                            )
-                            parsed = []
-                            for line in new_val.strip().split("\n"):
-                                line = line.strip()
-                                if line.isdigit():
-                                    parsed.append(int(line))
-                            if parsed != current_ids:
-                                config.setdefault(sel_lid, {})[slot] = parsed
-                                changed = True
+                                    else:
+                                        st.markdown(f"`{rank+1}.` {name}{ppg_label}")
+
+                                if not current_ids:
+                                    st.caption("No custom order set")
+
+                                if can_edit:
+                                    not_in_list = [(pid, name) for pid, name in eligible if int(pid) not in current_ids]
+                                    if not_in_list:
+                                        add_options = {}
+                                        for apid, aname in not_in_list:
+                                            appg = roster_cache.get("players", {}).get(str(apid), {}).get("ppg")
+                                            label = f"{aname} ({appg} {stat_unit})" if appg else aname
+                                            add_options[label] = int(apid)
+                                        add_sel = st.selectbox("Add", [""] + list(add_options.keys()), key=f"add_{sel_lid}_{slot}", label_visibility="collapsed")
+                                        if add_sel:
+                                            new_pid = add_options[add_sel]
+                                            if new_pid not in current_ids:
+                                                highest_rank = 0
+                                                for other_slot, other_ids in league_cfg.items():
+                                                    if other_slot != slot and isinstance(other_ids, list) and new_pid in other_ids:
+                                                        rank = other_ids.index(new_pid)
+                                                        highest_rank = max(highest_rank, rank + 1)
+                                                slot_list = config.setdefault(sel_lid, {}).setdefault(slot, [])
+                                                insert_pos = max(highest_rank, len(slot_list))
+                                                slot_list.insert(insert_pos, new_pid)
+                                                changed = True
+                            elif can_edit:
+                                new_val = st.text_area(
+                                    f"{slot} IDs",
+                                    value="\n".join(str(x) for x in current_ids),
+                                    height=150,
+                                    key=f"cfg_{sel_lid}_{slot}",
+                                    label_visibility="collapsed",
+                                )
+                                parsed = []
+                                for line in new_val.strip().split("\n"):
+                                    line = line.strip()
+                                    if line.isdigit():
+                                        parsed.append(int(line))
+                                if parsed != current_ids:
+                                    config.setdefault(sel_lid, {})[slot] = parsed
+                                    changed = True
 
         # --- Save ---
         if changed and can_edit:
