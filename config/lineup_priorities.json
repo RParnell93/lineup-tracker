@@ -155,7 +155,8 @@
         "active_roster_filter": true,
         "rp_freshness": true,
         "flex_optimization": true,
-        "salary_tiebreak": true
+        "salary_tiebreak": true,
+        "rp_doubleheader": true
     },
     "791": {
         "OF": [
