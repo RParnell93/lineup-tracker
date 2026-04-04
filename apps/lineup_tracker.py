@@ -1029,7 +1029,7 @@ st.markdown(f"""
 
 
 # --- Tabs ---
-tab_insights, tab_changes, tab_schedule, tab_config = st.tabs(["Insights", "Change Log", "Schedule", "Configure"])
+tab_changes, tab_schedule, tab_insights, tab_config = st.tabs(["Change Log", "Schedule", "Insights", "Configure"])
 
 
 # ==================== CHANGES TAB ====================
