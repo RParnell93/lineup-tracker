@@ -1904,7 +1904,7 @@ with tab_config:
             st.markdown(f'<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin:20px 0 8px;">{section_label}</p>', unsafe_allow_html=True)
             for row_start in range(0, len(section_slots), 3):
                 row_slots = section_slots[row_start:row_start + 3]
-                cols = st.columns(len(row_slots))
+                cols = st.columns(3)
                 for col, slot in zip(cols, row_slots):
                     with col:
                         with st.container(border=True):
