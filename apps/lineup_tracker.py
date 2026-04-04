@@ -1278,7 +1278,7 @@ with tab_changes:
                         {overnight_html}
                     </div>
                     <div>
-                        <span class="timestamp">{ts} &middot; {game_date} &middot; {teams_playing} teams</span>
+                        <span class="timestamp">{ts} &middot; {game_date}</span>
                     </div>
                 </div>
                 {moves_html}
@@ -1313,12 +1313,16 @@ with tab_schedule:
         for entry in schedule.get("entries", []):
             by_date[entry.get("date", "")].append(entry)
 
-        # Build lookup: for each game_date, collect run timestamps to determine success/fail
+        # Build lookup: for each game_date, collect run results and teams playing
         run_results_by_date = defaultdict(list)
+        teams_by_date = {}
         for r in log:
             gd = r.get("game_date", "")
             status = r.get("status", "")
             run_results_by_date[gd].append(status)
+            tp = r.get("teams_playing", 0)
+            if tp and gd:
+                teams_by_date[gd] = tp
 
         next_found = False
         for date_str in sorted(by_date.keys()):
@@ -1370,11 +1374,13 @@ with tab_schedule:
                     pass
                 time_pills += f'<span class="schedule-time {css_class}">{et_time}{status_icon}</span>'
 
+            teams_count = teams_by_date.get(date_str, 0)
+            teams_html = f' &middot; {teams_count} MLB teams playing' if teams_count else ""
             st.markdown(f"""
             <div class="schedule-day">
                 <div class="schedule-day-header">
                     <span>{day_label}</span>
-                    <span class="schedule-day-count">{len(entries)} runs</span>
+                    <span class="schedule-day-count">{len(entries)} runs{teams_html}</span>
                 </div>
                 {time_pills}
             </div>""", unsafe_allow_html=True)
