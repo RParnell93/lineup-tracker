@@ -32,12 +32,14 @@
     ],
     "rp_fatigue_protected": [
         23601,
-        22559
+        22559,
+        40862
     ],
     "_rp_fatigue_protected_names": [
         "Edwin Diaz (23601)",
         "Jhoan Duran (22559)",
-        "Mason Miller - not on any roster"
+        "Mason Miller - not on any roster",
+        "Mason Miller (40862)"
     ],
     "100": {
         "OF": [
