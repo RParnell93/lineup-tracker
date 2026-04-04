@@ -221,7 +221,35 @@ def load_config():
 
 def save_config(config):
     CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    CONFIG_PATH.write_text(json.dumps(config, indent=4))
+    config_json = json.dumps(config, indent=4)
+    CONFIG_PATH.write_text(config_json)
+    # Persist to GitHub repo so changes survive redeploys
+    _save_config_to_github(config_json)
+
+
+def _save_config_to_github(config_json):
+    """Push config to both deploy and source repos via GitHub API."""
+    import requests
+    try:
+        token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
+        if not token:
+            return
+        headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+        repos = ["RParnell93/lineup-tracker", "RParnell93/ottoneu-lineups"]
+        for repo in repos:
+            path = "config/lineup_priorities.json"
+            url = f"https://api.github.com/repos/{repo}/contents/{path}"
+            resp = requests.get(url, headers=headers, timeout=10)
+            sha = resp.json().get("sha", "") if resp.status_code == 200 else ""
+            payload = {
+                "message": "Update config from tracker app",
+                "content": base64.b64encode(config_json.encode()).decode(),
+            }
+            if sha:
+                payload["sha"] = sha
+            requests.put(url, headers=headers, json=payload, timeout=10)
+    except Exception:
+        pass  # Don't block UI if GitHub API fails
 
 
 @st.cache_data(ttl=120)
@@ -839,6 +867,17 @@ st.markdown("""
     .block-container {
         overflow: visible !important;
         touch-action: pan-y !important;
+    }
+
+    /* Equal-height position cards in same row */
+    div[data-testid="stHorizontalBlock"] {
+        align-items: stretch !important;
+    }
+    div[data-testid="stHorizontalBlock"] > div[data-testid="column"] > div[data-testid="stVerticalBlockBorderWrapper"] {
+        height: 100%;
+    }
+    div[data-testid="stHorizontalBlock"] > div[data-testid="column"] > div[data-testid="stVerticalBlockBorderWrapper"] > div {
+        height: 100%;
     }
 
     /* One scroll root */
