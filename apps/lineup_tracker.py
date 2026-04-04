@@ -6,6 +6,7 @@ Reads from output/lineup_log.json and output/schedule.json.
 
 import html
 import json
+import os
 from collections import Counter, defaultdict
 from datetime import date as date_type, datetime, timedelta, timezone
 from pathlib import Path
@@ -342,6 +343,7 @@ def get_next_run(schedule):
     if not schedule:
         return None
     now_utc = datetime.now(timezone.utc)
+    upcoming = []
     for entry in schedule.get("entries", []):
         try:
             parts = entry["cron"].split()
@@ -352,9 +354,12 @@ def get_next_run(schedule):
                     int(parts[1]), int(parts[0]), tzinfo=timezone.utc
                 )
                 if cron_dt > now_utc:
-                    return cron_dt, entry.get("et_time", "")
+                    upcoming.append((cron_dt, entry.get("et_time", "")))
         except (ValueError, KeyError, IndexError):
             continue
+    if upcoming:
+        upcoming.sort(key=lambda x: x[0])
+        return upcoming[0]
     return None
 
 
@@ -802,11 +807,54 @@ st.markdown("""
         .stTabs [data-baseweb="tab"] { font-size: 0.8rem !important; padding: 8px 12px !important; min-height: 44px; }
     }
 
-    @media (max-width: 640px) {
-        /* Ensure configure tab content doesn't overflow */
-        div[data-testid="stVerticalBlock"] { overflow-x: hidden; }
-        /* Keep name + X button on same row in configure tab */
-        div[data-testid="stHorizontalBlock"] { flex-wrap: nowrap !important; }
+    @media (max-width: 768px) {
+        /* Force position priority grid and other multi-col layouts to stack vertically */
+        div[data-testid="stHorizontalBlock"] {
+            flex-direction: column !important;
+            gap: 0.25rem !important;
+        }
+        /* But name + X button rows stay horizontal */
+        div[data-testid="stHorizontalBlock"]:has(button) {
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+        }
+    }
+
+    /* === SINGLE SCROLL: only the page itself scrolls === */
+    /* Un-fix header so it scrolls with page */
+    header[data-testid="stHeader"] { position: absolute !important; }
+
+    /* Kill ALL inner scrolling - every Streamlit container */
+    section[data-testid="stMain"],
+    div[data-testid="stMainBlockContainer"],
+    div[data-testid="stVerticalBlockBorderWrapper"],
+    div[data-testid="stVerticalBlock"],
+    div[data-testid="stHorizontalBlock"],
+    div[data-testid="stElementContainer"],
+    div[data-testid="stExpander"],
+    div[data-testid="stTabs"],
+    div[data-testid="stTabContent"],
+    div[data-testid="column"],
+    .stMainBlockContainer,
+    .block-container {
+        overflow: visible !important;
+        touch-action: pan-y !important;
+    }
+
+    /* One scroll root */
+    div[data-testid="stAppViewContainer"] {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Iframes (st.html) and Plotly pass touch through */
+    iframe { touch-action: pan-y !important; pointer-events: none; }
+    .stPlotlyChart { touch-action: pan-y !important; pointer-events: none; }
+
+    /* All text and non-interactive elements: never trap touch */
+    p, span, div, h1, h2, h3, h4, label, code,
+    .stMarkdown, .stCaption, .stText {
+        touch-action: pan-y !important;
     }
 
     /* Config section titles */
@@ -826,9 +874,11 @@ st.markdown("""
         .config-section-rule { display: block; margin: 24px 0 8px 0; }
     }
 
-    /* Remove Streamlit's default scrollable containers on markdown elements */
-    div[data-testid="stMarkdownContainer"] { overflow: visible !important; }
-    div[data-testid="element-container"] { overflow: visible !important; }
+    /* Markdown/element containers - no inner scroll */
+    div[data-testid="stMarkdownContainer"],
+    div[data-testid="element-container"] {
+        overflow: visible !important;
+    }
 
     /* Skeleton loading */
     .skeleton {
@@ -1574,16 +1624,44 @@ with tab_insights:
 
 
 # ==================== CONFIGURE TAB ====================
+def _get_config_password():
+    """Get config password from Streamlit secrets or environment."""
+    try:
+        return st.secrets["CONFIG_PASSWORD"]
+    except Exception:
+        return os.environ.get("CONFIG_PASSWORD", "")
+
+
 with tab_config:
     @st.fragment
     def configure_fragment():
+        # Password gate - view-only unless authenticated
+        config_pw = _get_config_password()
+        if "config_authenticated" not in st.session_state:
+            st.session_state.config_authenticated = False
+        can_edit = not config_pw or st.session_state.config_authenticated
+
         config = load_config()
         roster_cache = load_roster_cache()
         has_cache = bool(roster_cache.get("players"))
         changed = False
 
         st.markdown('<h2 class="section-header">Lineup Configuration</h2>', unsafe_allow_html=True)
-        st.caption("Manage bot rules, player lists, and per-league position priorities")
+
+        if not can_edit:
+            lock_col1, lock_col2 = st.columns([3, 1])
+            with lock_col1:
+                st.caption("View only - enter password to make changes")
+            with lock_col2:
+                pw = st.text_input("Password", type="password", key="config_pw_input", label_visibility="collapsed", placeholder="Password")
+                if pw:
+                    if pw == config_pw:
+                        st.session_state.config_authenticated = True
+                        st.rerun()
+                    else:
+                        st.error("Wrong password")
+        else:
+            st.caption("Manage bot rules, player lists, and per-league position priorities")
 
         if not has_cache:
             st.info("Player name lookup will be available after the bot runs once and populates the roster cache.")
@@ -1593,28 +1671,21 @@ with tab_config:
 
         rules = config.get("rules", {})
 
-        # Locked core rules first
+        # Locked core rules (vertical list)
         st.markdown('<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Core Rules (locked)</p>', unsafe_allow_html=True)
-        core_col1, core_col2, core_col3 = st.columns(3)
-        with core_col1:
-            st.toggle("Conservative swaps", value=True, disabled=True, key="rule_core1", help="Only swap red X for green check. Never rearrange active players.")
-            st.toggle("Three-pass system", value=True, disabled=True, key="rule_core2", help="Pass 0: must_start. Pass 1: direct swaps. Pass 2: three-way indirect.")
-        with core_col2:
-            st.toggle("Never touch IL/Minors", value=True, disabled=True, key="rule_core3", help="Injured list and minor league slots are always left alone.")
-            st.toggle("SP/RP role boundary", value=True, disabled=True, key="rule_core4", help="Starters can't fill RP slots. Relievers can't fill SP. Followers can fill SP.")
+        st.toggle("Conservative swaps", value=True, disabled=True, key="rule_core1", help="Only swap red X for green check. Never rearrange active players.")
+        st.toggle("Three-pass system", value=True, disabled=True, key="rule_core2", help="Pass 0: must_start. Pass 1: direct swaps. Pass 2: three-way indirect.")
+        st.toggle("Never touch IL/Minors", value=True, disabled=True, key="rule_core3", help="Injured list and minor league slots are always left alone.")
+        st.toggle("SP/RP role boundary", value=True, disabled=True, key="rule_core4", help="Starters can't fill RP slots. Relievers can't fill SP. Followers can fill SP.")
         st.markdown('<hr class="section-rule">', unsafe_allow_html=True)
 
-        # Configurable rules
+        # Configurable rules (vertical list)
         st.markdown('<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Configurable Rules</p>', unsafe_allow_html=True)
-        cfg_col1, cfg_col2, cfg_col3 = st.columns(3)
-        with cfg_col1:
-            lhb_block = st.toggle("LHB vs LHP block", value=rules.get("lhb_vs_lhp_block", True), key="rule_lhb", help="Skip left-handed batters facing a left-handed pitcher.")
-            active_roster = st.toggle("Active roster filter", value=rules.get("active_roster_filter", True), key="rule_active", help="Skip bench players not on the MLB 26-man active roster.")
-        with cfg_col2:
-            rp_freshness = st.toggle("RP freshness priority", value=rules.get("rp_freshness", True), key="rule_freshness", help="Prefer well-rested relievers when filling RP slots. Factors in consecutive days, pitch counts, and rest.")
-            flex_optimization = st.toggle("Flex slot optimization", value=rules.get("flex_optimization", True), key="rule_flex", help="Put latest-game-time players in Util/MI flex slots.")
-        with cfg_col3:
-            salary_tiebreak = st.toggle("Salary tiebreak", value=rules.get("salary_tiebreak", True), key="rule_salary", help="When priority rank is equal, higher-salary players start first.")
+        lhb_block = st.toggle("LHB vs LHP block", value=rules.get("lhb_vs_lhp_block", True), key="rule_lhb", help="Skip left-handed batters facing a left-handed pitcher.", disabled=not can_edit)
+        active_roster = st.toggle("Active roster filter", value=rules.get("active_roster_filter", True), key="rule_active", help="Skip bench players not on the MLB 26-man active roster.", disabled=not can_edit)
+        rp_freshness = st.toggle("RP freshness priority", value=rules.get("rp_freshness", True), key="rule_freshness", help="Prefer well-rested relievers when filling RP slots. Factors in consecutive days, pitch counts, and rest.", disabled=not can_edit)
+        flex_optimization = st.toggle("Flex slot optimization", value=rules.get("flex_optimization", True), key="rule_flex", help="Put latest-game-time players in Util/MI flex slots.", disabled=not can_edit)
+        salary_tiebreak = st.toggle("Salary tiebreak", value=rules.get("salary_tiebreak", True), key="rule_salary", help="When priority rank is equal, higher-salary players start first.", disabled=not can_edit)
 
         new_rules = {
             "lhb_vs_lhp_block": lhb_block,
@@ -1644,37 +1715,41 @@ with tab_config:
             ms_ids = config.get("must_start", [])
             for pid in ms_ids:
                 name = player_name(pid, roster_cache, config)
-                col_name, col_rm = st.columns([4, 1])
-                col_name.markdown(f"**{name}**")
-                if col_rm.button("x", key=f"rm_ms_{pid}"):
-                    config["must_start"] = [p for p in ms_ids if p != pid]
-                    config["_must_start_names"] = [n for n in config.get("_must_start_names", []) if f"({pid})" not in str(n)]
-                    changed = True
+                if can_edit:
+                    col_name, col_rm = st.columns([4, 1])
+                    col_name.markdown(f"**{name}**")
+                    if col_rm.button("x", key=f"rm_ms_{pid}"):
+                        config["must_start"] = [p for p in ms_ids if p != pid]
+                        config["_must_start_names"] = [n for n in config.get("_must_start_names", []) if f"({pid})" not in str(n)]
+                        changed = True
+                else:
+                    st.markdown(f"**{name}**")
 
             # Add player - name search or ID
-            if has_cache:
-                all_players = [(pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()]
-                all_players.sort(key=lambda x: x[1])
-                options = {f"{name} ({pid})": int(pid) for pid, name in all_players}
-                ms_add = st.selectbox("Add player", [""] + list(options.keys()), key="add_ms_select")
-                if ms_add and st.button("Add Must Start", key="btn_ms"):
-                    pid = options[ms_add]
-                    if pid not in ms_ids:
-                        config.setdefault("must_start", []).append(pid)
-                        name = ms_add.split(" (")[0]
-                        config.setdefault("_must_start_names", []).append(f"{name} ({pid})")
-                        changed = True
-            else:
-                new_ms_id = st.text_input("Player ID", key="add_ms", placeholder="e.g. 23327")
-                new_ms_name = st.text_input("Name", key="add_ms_name", placeholder="e.g. Ronald Acuna Jr.")
-                if st.button("Add Must Start", key="btn_ms_id"):
-                    if new_ms_id.strip().isdigit():
-                        pid = int(new_ms_id.strip())
+            if can_edit:
+                if has_cache:
+                    all_players = [(pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()]
+                    all_players.sort(key=lambda x: x[1])
+                    options = {f"{name} ({pid})": int(pid) for pid, name in all_players}
+                    ms_add = st.selectbox("Add player", [""] + list(options.keys()), key="add_ms_select")
+                    if ms_add and st.button("Add Must Start", key="btn_ms"):
+                        pid = options[ms_add]
                         if pid not in ms_ids:
                             config.setdefault("must_start", []).append(pid)
-                            label = f"{new_ms_name.strip()} ({pid})" if new_ms_name.strip() else str(pid)
-                            config.setdefault("_must_start_names", []).append(label)
+                            name = ms_add.split(" (")[0]
+                            config.setdefault("_must_start_names", []).append(f"{name} ({pid})")
                             changed = True
+                else:
+                    new_ms_id = st.text_input("Player ID", key="add_ms", placeholder="e.g. 23327")
+                    new_ms_name = st.text_input("Name", key="add_ms_name", placeholder="e.g. Ronald Acuna Jr.")
+                    if st.button("Add Must Start", key="btn_ms_id"):
+                        if new_ms_id.strip().isdigit():
+                            pid = int(new_ms_id.strip())
+                            if pid not in ms_ids:
+                                config.setdefault("must_start", []).append(pid)
+                                label = f"{new_ms_name.strip()} ({pid})" if new_ms_name.strip() else str(pid)
+                                config.setdefault("_must_start_names", []).append(label)
+                                changed = True
 
         # Do Not Move
         with col_dnm:
@@ -1686,30 +1761,34 @@ with tab_config:
                 name = player_name(pid, roster_cache, config)
                 lc = player_league_count(pid, roster_cache)
                 league_note = f" ({lc} league{'s' if lc != 1 else ''})" if lc > 0 else ""
-                col_name, col_rm = st.columns([4, 1])
-                col_name.markdown(f"**{name}**{league_note}")
-                if col_rm.button("x", key=f"rm_dnm_{pid}"):
-                    config["do_not_move"] = [p for p in dnm_ids if p != pid]
-                    changed = True
-
-            if has_cache:
-                all_players = [(pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()]
-                all_players.sort(key=lambda x: x[1])
-                options_dnm = {f"{name} ({pid})": int(pid) for pid, name in all_players}
-                dnm_add = st.selectbox("Add player", [""] + list(options_dnm.keys()), key="add_dnm_select")
-                if dnm_add and st.button("Add Do Not Move", key="btn_dnm"):
-                    pid = options_dnm[dnm_add]
-                    if pid not in dnm_ids:
-                        config.setdefault("do_not_move", []).append(pid)
+                if can_edit:
+                    col_name, col_rm = st.columns([4, 1])
+                    col_name.markdown(f"**{name}**{league_note}")
+                    if col_rm.button("x", key=f"rm_dnm_{pid}"):
+                        config["do_not_move"] = [p for p in dnm_ids if p != pid]
                         changed = True
-            else:
-                new_dnm_id = st.text_input("Player ID", key="add_dnm", placeholder="e.g. 33600")
-                if st.button("Add Do Not Move", key="btn_dnm_id"):
-                    if new_dnm_id.strip().isdigit():
-                        pid = int(new_dnm_id.strip())
+                else:
+                    st.markdown(f"**{name}**{league_note}")
+
+            if can_edit:
+                if has_cache:
+                    all_players = [(pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()]
+                    all_players.sort(key=lambda x: x[1])
+                    options_dnm = {f"{name} ({pid})": int(pid) for pid, name in all_players}
+                    dnm_add = st.selectbox("Add player", [""] + list(options_dnm.keys()), key="add_dnm_select")
+                    if dnm_add and st.button("Add Do Not Move", key="btn_dnm"):
+                        pid = options_dnm[dnm_add]
                         if pid not in dnm_ids:
                             config.setdefault("do_not_move", []).append(pid)
                             changed = True
+                else:
+                    new_dnm_id = st.text_input("Player ID", key="add_dnm", placeholder="e.g. 33600")
+                    if st.button("Add Do Not Move", key="btn_dnm_id"):
+                        if new_dnm_id.strip().isdigit():
+                            pid = int(new_dnm_id.strip())
+                            if pid not in dnm_ids:
+                                config.setdefault("do_not_move", []).append(pid)
+                                changed = True
 
         # RP Fatigue Protected
         with col_rpp:
@@ -1721,39 +1800,42 @@ with tab_config:
                 name = player_name(pid, roster_cache, config)
                 lc = player_league_count(pid, roster_cache)
                 league_note = f" ({lc} league{'s' if lc != 1 else ''})" if lc > 0 else ""
-                col_name, col_rm = st.columns([4, 1])
-                col_name.markdown(f"**{name}**{league_note}")
-                if col_rm.button("x", key=f"rm_rpp_{pid}"):
-                    config["rp_fatigue_protected"] = [p for p in rpp_ids if p != pid]
-                    config["_rp_fatigue_protected_names"] = [
-                        n for n in config.get("_rp_fatigue_protected_names", []) if f"({pid})" not in str(n)
-                    ]
-                    changed = True
-
-            if has_cache:
-                # Only show players with RP eligibility
-                rp_players = [
-                    (pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()
-                    if "RP" in p.get("positions", [])
-                ]
-                rp_players.sort(key=lambda x: x[1])
-                options_rpp = {f"{name} ({pid})": int(pid) for pid, name in rp_players}
-                rpp_add = st.selectbox("Add pitcher", [""] + list(options_rpp.keys()), key="add_rpp_select")
-                if rpp_add and st.button("Add RP Protected", key="btn_rpp"):
-                    pid = options_rpp[rpp_add]
-                    if pid not in rpp_ids:
-                        config.setdefault("rp_fatigue_protected", []).append(pid)
-                        name = rpp_add.split(" (")[0]
-                        config.setdefault("_rp_fatigue_protected_names", []).append(f"{name} ({pid})")
+                if can_edit:
+                    col_name, col_rm = st.columns([4, 1])
+                    col_name.markdown(f"**{name}**{league_note}")
+                    if col_rm.button("x", key=f"rm_rpp_{pid}"):
+                        config["rp_fatigue_protected"] = [p for p in rpp_ids if p != pid]
+                        config["_rp_fatigue_protected_names"] = [
+                            n for n in config.get("_rp_fatigue_protected_names", []) if f"({pid})" not in str(n)
+                        ]
                         changed = True
-            else:
-                new_rpp_id = st.text_input("Player ID", key="add_rpp", placeholder="e.g. 23601")
-                if st.button("Add RP Protected", key="btn_rpp_id"):
-                    if new_rpp_id.strip().isdigit():
-                        pid = int(new_rpp_id.strip())
+                else:
+                    st.markdown(f"**{name}**{league_note}")
+
+            if can_edit:
+                if has_cache:
+                    rp_players = [
+                        (pid, p["name"]) for pid, p in roster_cache.get("players", {}).items()
+                        if "RP" in p.get("positions", [])
+                    ]
+                    rp_players.sort(key=lambda x: x[1])
+                    options_rpp = {f"{name} ({pid})": int(pid) for pid, name in rp_players}
+                    rpp_add = st.selectbox("Add pitcher", [""] + list(options_rpp.keys()), key="add_rpp_select")
+                    if rpp_add and st.button("Add RP Protected", key="btn_rpp"):
+                        pid = options_rpp[rpp_add]
                         if pid not in rpp_ids:
                             config.setdefault("rp_fatigue_protected", []).append(pid)
+                            name = rpp_add.split(" (")[0]
+                            config.setdefault("_rp_fatigue_protected_names", []).append(f"{name} ({pid})")
                             changed = True
+                else:
+                    new_rpp_id = st.text_input("Player ID", key="add_rpp", placeholder="e.g. 23601")
+                    if st.button("Add RP Protected", key="btn_rpp_id"):
+                        if new_rpp_id.strip().isdigit():
+                            pid = int(new_rpp_id.strip())
+                            if pid not in rpp_ids:
+                                config.setdefault("rp_fatigue_protected", []).append(pid)
+                                changed = True
 
         # --- Per-League Position Priority ---
         st.markdown('<h3 style="color:#FFF;margin-top:32px;">League Position Priorities</h3>', unsafe_allow_html=True)
@@ -1767,82 +1849,77 @@ with tab_config:
 
         league_cfg = config.get(sel_lid, {})
 
-        # Show positions in 5x2 grid with spacing between rows
-        row1_cols = st.columns(5)
+        # Show positions in card grid (3 cols desktop, stacks on mobile)
+        for row_start in range(0, len(POSITION_SLOTS), 3):
+            row_slots = POSITION_SLOTS[row_start:row_start + 3]
+            cols = st.columns(len(row_slots))
+            for col, slot in zip(cols, row_slots):
+                with col:
+                    with st.container(border=True):
+                        st.markdown(f'<div style="font-size:1.1rem;font-weight:700;color:#83bdc0;margin-bottom:2px;">{slot}</div>', unsafe_allow_html=True)
+                        current_ids = league_cfg.get(slot, [])
 
-        for i, slot in enumerate(POSITION_SLOTS):
-            # Insert spacing and second row after first 5
-            if i == 5:
-                st.markdown("<br>", unsafe_allow_html=True)
-                row2_cols = st.columns(5)
+                        if has_cache:
+                            eligible = eligible_players_for_position(slot, sel_lid_int, roster_cache)
+                            eligible_map = {pid: name for pid, name in eligible}
 
-            col = row1_cols[i] if i < 5 else row2_cols[i - 5]
+                            stat_unit = "P/IP" if slot in PITCHING_POSITIONS else "P/G"
+                            for rank, pid in enumerate(current_ids):
+                                name = eligible_map.get(str(pid), player_name(pid, roster_cache, config))
+                                ppg_val = roster_cache.get("players", {}).get(str(pid), {}).get("ppg")
+                                ppg_label = f" *{ppg_val} {stat_unit}*" if ppg_val else ""
+                                if can_edit:
+                                    c_name, c_rm = st.columns([4, 1])
+                                    c_name.markdown(f"`{rank+1}.` {name}{ppg_label}")
+                                    if c_rm.button("\u2715", key=f"rm_{sel_lid}_{slot}_{pid}"):
+                                        config.setdefault(sel_lid, {})[slot] = [p for p in current_ids if p != pid]
+                                        changed = True
+                                else:
+                                    st.markdown(f"`{rank+1}.` {name}{ppg_label}")
 
-            with col:
-                current_ids = league_cfg.get(slot, [])
-                st.markdown(f"**{slot}**")
+                            if not current_ids:
+                                st.caption("No custom order set")
 
-                if has_cache:
-                    eligible = eligible_players_for_position(slot, sel_lid_int, roster_cache)
-                    eligible_map = {pid: name for pid, name in eligible}
-
-                    # Player list with remove button
-                    for rank, pid in enumerate(current_ids):
-                        name = eligible_map.get(str(pid), player_name(pid, roster_cache, config))
-                        ppg_val = roster_cache.get("players", {}).get(str(pid), {}).get("ppg")
-                        ppg_label = f" *{ppg_val} P/G*" if ppg_val else ""
-                        c_name, c_rm = st.columns([5, 1])
-                        c_name.markdown(f"`{rank+1}.` {name}{ppg_label}")
-                        if c_rm.button("\u2715", key=f"rm_{sel_lid}_{slot}_{pid}"):
-                            config.setdefault(sel_lid, {})[slot] = [p for p in current_ids if p != pid]
-                            changed = True
-
-                    if not current_ids:
-                        st.caption("No custom order set")
-
-                    # Always show add dropdown (filtered to players not already in this slot)
-                    not_in_list = [(pid, name) for pid, name in eligible if int(pid) not in current_ids]
-                    if not_in_list:
-                        # Show P/G next to names in dropdown
-                        add_options = {}
-                        for apid, aname in not_in_list:
-                            appg = roster_cache.get("players", {}).get(str(apid), {}).get("ppg")
-                            label = f"{aname} ({appg} P/G)" if appg else aname
-                            add_options[label] = int(apid)
-                        add_sel = st.selectbox("Add", [""] + list(add_options.keys()), key=f"add_{sel_lid}_{slot}", label_visibility="collapsed")
-                        if add_sel:
-                            new_pid = add_options[add_sel]
-                            if new_pid not in current_ids:
-                                # Check rank conflict: find this player's highest rank in other positions
-                                highest_rank = 0
-                                for other_slot, other_ids in league_cfg.items():
-                                    if other_slot != slot and isinstance(other_ids, list) and new_pid in other_ids:
-                                        rank = other_ids.index(new_pid)
-                                        highest_rank = max(highest_rank, rank + 1)
-                                slot_list = config.setdefault(sel_lid, {}).setdefault(slot, [])
-                                # Insert after the highest conflicting rank (or append if no conflict)
-                                insert_pos = max(highest_rank, len(slot_list))
-                                slot_list.insert(insert_pos, new_pid)
+                            if can_edit:
+                                not_in_list = [(pid, name) for pid, name in eligible if int(pid) not in current_ids]
+                                if not_in_list:
+                                    add_options = {}
+                                    for apid, aname in not_in_list:
+                                        appg = roster_cache.get("players", {}).get(str(apid), {}).get("ppg")
+                                        label = f"{aname} ({appg} {stat_unit})" if appg else aname
+                                        add_options[label] = int(apid)
+                                    add_sel = st.selectbox("Add", [""] + list(add_options.keys()), key=f"add_{sel_lid}_{slot}", label_visibility="collapsed")
+                                    if add_sel:
+                                        new_pid = add_options[add_sel]
+                                        if new_pid not in current_ids:
+                                            highest_rank = 0
+                                            for other_slot, other_ids in league_cfg.items():
+                                                if other_slot != slot and isinstance(other_ids, list) and new_pid in other_ids:
+                                                    rank = other_ids.index(new_pid)
+                                                    highest_rank = max(highest_rank, rank + 1)
+                                            slot_list = config.setdefault(sel_lid, {}).setdefault(slot, [])
+                                            insert_pos = max(highest_rank, len(slot_list))
+                                            slot_list.insert(insert_pos, new_pid)
+                                            changed = True
+                        elif can_edit:
+                            new_val = st.text_area(
+                                f"{slot} IDs",
+                                value="\n".join(str(x) for x in current_ids),
+                                height=150,
+                                key=f"cfg_{sel_lid}_{slot}",
+                                label_visibility="collapsed",
+                            )
+                            parsed = []
+                            for line in new_val.strip().split("\n"):
+                                line = line.strip()
+                                if line.isdigit():
+                                    parsed.append(int(line))
+                            if parsed != current_ids:
+                                config.setdefault(sel_lid, {})[slot] = parsed
                                 changed = True
-                else:
-                    new_val = st.text_area(
-                        f"{slot} IDs",
-                        value="\n".join(str(x) for x in current_ids),
-                        height=150,
-                        key=f"cfg_{sel_lid}_{slot}",
-                        label_visibility="collapsed",
-                    )
-                    parsed = []
-                    for line in new_val.strip().split("\n"):
-                        line = line.strip()
-                        if line.isdigit():
-                            parsed.append(int(line))
-                    if parsed != current_ids:
-                        config.setdefault(sel_lid, {})[slot] = parsed
-                        changed = True
 
         # --- Save ---
-        if changed:
+        if changed and can_edit:
             save_config(config)
             st.success("Configuration saved. Changes take effect on next bot run.")
             st.rerun()
