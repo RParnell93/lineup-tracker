@@ -555,6 +555,17 @@ st.markdown("""
         margin-right: 4px;
     }
 
+    /* Metric grid */
+    .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+    .metric-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     /* Metric cards */
     .metric-card {
         background: rgba(28,35,51,0.6);
@@ -769,9 +780,11 @@ st.markdown("""
         .league-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
         .league-mini { padding: 10px; }
         .league-mini-name { font-size: 0.75rem; }
-        .metric-card { padding: 14px 10px; }
-        .metric-value { font-size: 1.5rem; }
-        .metric-label { font-size: 0.68rem; }
+        .metric-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+        .metric-grid-3 { grid-template-columns: repeat(3, 1fr); }
+        .metric-card { padding: 12px 8px; }
+        .metric-value { font-size: 1.3rem; }
+        .metric-label { font-size: 0.62rem; }
         .schedule-day { padding: 14px 16px; }
         .schedule-time { font-size: 0.78rem; padding: 6px 10px; min-height: 44px; }
         .schedule-meta { font-size: 0.75rem; padding: 10px; }
@@ -792,7 +805,30 @@ st.markdown("""
     @media (max-width: 640px) {
         /* Ensure configure tab content doesn't overflow */
         div[data-testid="stVerticalBlock"] { overflow-x: hidden; }
+        /* Keep name + X button on same row in configure tab */
+        div[data-testid="stHorizontalBlock"] { flex-wrap: nowrap !important; }
     }
+
+    /* Config section titles */
+    .config-section-title {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #FFF;
+        padding: 10px 14px;
+        background: rgba(28,35,51,0.6);
+        border: 1px solid rgba(131,189,192,0.12);
+        border-radius: 8px;
+        margin-bottom: 4px;
+    }
+    /* Hide config section dividers on desktop (only show when stacked) */
+    .config-section-rule { display: none; }
+    @media (max-width: 640px) {
+        .config-section-rule { display: block; margin: 24px 0 8px 0; }
+    }
+
+    /* Remove Streamlit's default scrollable containers on markdown elements */
+    div[data-testid="stMarkdownContainer"] { overflow: visible !important; }
+    div[data-testid="element-container"] { overflow: visible !important; }
 
     /* Skeleton loading */
     .skeleton {
@@ -919,6 +955,16 @@ with tab_changes:
     else:
         # League health grid
         st.markdown('<h2 class="section-header">League Status</h2>', unsafe_allow_html=True)
+        st.markdown(
+            '<div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:0.75rem;color:rgba(255,255,255,0.5);">'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f5bb5b;margin-right:4px;"></span>Changes Made</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#5a9f76;margin-right:4px;"></span>Lineup Set</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f8cf8b;margin-right:4px;"></span>Dry Run</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d05950;margin-right:4px;"></span>Error</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.2);margin-right:4px;"></span>No Data</span>'
+            '</div>',
+            unsafe_allow_html=True,
+        )
         league_cards_html = '<div class="league-grid">'
         for lid, lname in LEAGUES.items():
             league_runs = [r for r in log if r.get("league_id") == lid]
@@ -984,20 +1030,13 @@ with tab_changes:
         total_moves = sum(len(r.get("changes", [])) for r in filtered)
         error_runs = sum(1 for r in filtered if r.get("status", "").startswith("error"))
 
-        c1, c2, c3, c4 = st.columns(4)
-        for col, val, label in [
-            (c1, total_runs, "Total Runs"),
-            (c2, lineups_changed, "Lineups Changed"),
-            (c3, total_moves, "Total Moves"),
-            (c4, error_runs, "Errors"),
-        ]:
-            col.markdown(f"""
-            <div class="metric-card">
-                <div class="metric-value">{val}</div>
-                <div class="metric-label">{label}</div>
-            </div>""", unsafe_allow_html=True)
-
-        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown(f"""
+        <div class="metric-grid">
+            <div class="metric-card"><div class="metric-value">{total_runs}</div><div class="metric-label">Total Runs</div></div>
+            <div class="metric-card"><div class="metric-value">{lineups_changed}</div><div class="metric-label">Lineups Changed</div></div>
+            <div class="metric-card"><div class="metric-value">{total_moves}</div><div class="metric-label">Total Moves</div></div>
+            <div class="metric-card"><div class="metric-value">{error_runs}</div><div class="metric-label">Errors</div></div>
+        </div>""", unsafe_allow_html=True)
 
         # Change feed - with day headers
         current_day_label = None
@@ -1300,18 +1339,13 @@ with tab_insights:
         i_total_moves = sum(len(r.get("changes", [])) for r in i_filtered)
         i_error_runs = sum(1 for r in i_filtered if r.get("status", "").startswith("error"))
 
-        ic1, ic2, ic3, ic4 = st.columns(4)
-        for col, val, label in [
-            (ic1, i_total_runs, "Total Runs"),
-            (ic2, i_lineups_changed, "Lineups Changed"),
-            (ic3, i_total_moves, "Total Moves"),
-            (ic4, i_error_runs, "Errors"),
-        ]:
-            col.markdown(f"""
-            <div class="metric-card">
-                <div class="metric-value">{val}</div>
-                <div class="metric-label">{label}</div>
-            </div>""", unsafe_allow_html=True)
+        st.markdown(f"""
+        <div class="metric-grid">
+            <div class="metric-card"><div class="metric-value">{i_total_runs}</div><div class="metric-label">Total Runs</div></div>
+            <div class="metric-card"><div class="metric-value">{i_lineups_changed}</div><div class="metric-label">Lineups Changed</div></div>
+            <div class="metric-card"><div class="metric-value">{i_total_moves}</div><div class="metric-label">Total Moves</div></div>
+            <div class="metric-card"><div class="metric-value">{i_error_runs}</div><div class="metric-label">Errors</div></div>
+        </div>""", unsafe_allow_html=True)
 
         st.markdown('<hr class="section-rule">', unsafe_allow_html=True)
 
@@ -1392,10 +1426,12 @@ with tab_insights:
             avg = sum(counts) / len(counts) if counts else 0
 
             # Summary metrics above chart
-            mc1, mc2, mc3 = st.columns(3)
-            mc1.markdown(f"""<div class="metric-card"><div class="metric-value">{sum(counts)}</div><div class="metric-label">Total Changes</div></div>""", unsafe_allow_html=True)
-            mc2.markdown(f"""<div class="metric-card"><div class="metric-value">{avg:.0f}</div><div class="metric-label">Avg / Day</div></div>""", unsafe_allow_html=True)
-            mc3.markdown(f"""<div class="metric-card"><div class="metric-value">{max(counts)}</div><div class="metric-label">Peak Day</div></div>""", unsafe_allow_html=True)
+            st.markdown(f"""
+            <div class="metric-grid metric-grid-3">
+                <div class="metric-card"><div class="metric-value">{sum(counts)}</div><div class="metric-label">Total Changes</div></div>
+                <div class="metric-card"><div class="metric-value">{avg:.0f}</div><div class="metric-label">Avg / Day</div></div>
+                <div class="metric-card"><div class="metric-value">{max(counts)}</div><div class="metric-label">Peak Day</div></div>
+            </div>""", unsafe_allow_html=True)
 
             fig = go.Figure()
             # Average line
@@ -1438,7 +1474,10 @@ with tab_insights:
                 hovermode="x unified",
                 hoverlabel=dict(bgcolor="#1c2333", font_color="#fff", font_size=13),
             )
-            st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "scrollZoom": False})
+            st.plotly_chart(fig, use_container_width=True, config={
+                "displayModeBar": False, "scrollZoom": False,
+                "staticPlot": True,
+            })
 
         st.markdown('<hr class="section-rule">', unsafe_allow_html=True)
 
@@ -1597,7 +1636,10 @@ with tab_config:
 
         # Must Start
         with col_ms:
-            st.markdown("**Must Start**")
+            st.markdown(
+                '<div class="config-section-title">Must Start</div>',
+                unsafe_allow_html=True,
+            )
             st.caption("Always activated if playing")
             ms_ids = config.get("must_start", [])
             for pid in ms_ids:
@@ -1636,7 +1678,8 @@ with tab_config:
 
         # Do Not Move
         with col_dnm:
-            st.markdown("**Do Not Move**")
+            st.markdown('<hr class="section-rule config-section-rule">', unsafe_allow_html=True)
+            st.markdown('<div class="config-section-title">Do Not Move</div>', unsafe_allow_html=True)
             st.caption("Never swapped from current slot")
             dnm_ids = config.get("do_not_move", [])
             for pid in dnm_ids:
@@ -1670,7 +1713,8 @@ with tab_config:
 
         # RP Fatigue Protected
         with col_rpp:
-            st.markdown("**RP Fatigue Protected**")
+            st.markdown('<hr class="section-rule config-section-rule">', unsafe_allow_html=True)
+            st.markdown('<div class="config-section-title">RP Fatigue Protected</div>', unsafe_allow_html=True)
             st.caption("Exempt from fatigue benching")
             rpp_ids = config.get("rp_fatigue_protected", [])
             for pid in rpp_ids:
@@ -1808,6 +1852,6 @@ with tab_config:
 # Signature
 st.markdown(
     '<div style="text-align:right;padding:40px 12px 12px;color:rgba(131,189,192,0.18);font-size:0.72rem;'
-    'font-weight:600;letter-spacing:0.06em;">sabrmagician</div>',
+    'font-weight:600;letter-spacing:0.06em;">@sabrmagician</div>',
     unsafe_allow_html=True,
 )
