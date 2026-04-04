@@ -5826,5 +5826,107 @@
         "fgpts_per_g": 17.1
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-04T13:55:37Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-04-04",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Tyler O'Neill",
+        "player_id": 19296,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "BAL",
+        "bat_hand": "R",
+        "vs_pitcher": "Carmen Mlodzinski",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4
+      },
+      {
+        "player": "Austin Hays",
+        "player_id": 23805,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "R",
+        "vs_pitcher": "Mason Fluharty",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8
+      },
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Landen Roupp",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 4.2
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Tatsuya Imai",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": false,
+        "fgpts_per_g": 2.7
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PHI",
+        "bat_hand": "",
+        "vs_pitcher": "TBD",
+        "vs_hand": "?",
+        "reason": "no open RP slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 2.4
+      },
+      {
+        "player": "Noah Cameron",
+        "player_id": 40937,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "KCR",
+        "bat_hand": "",
+        "vs_pitcher": "Brandon Sproat",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 33.6
+      },
+      {
+        "player": "Parker Messick",
+        "player_id": 42765,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "CLE",
+        "bat_hand": "",
+        "vs_pitcher": "Shota Imanaga",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "is_pitcher": true,
+        "fgpts_per_g": 41.4
+      }
+    ]
   }
 ]
