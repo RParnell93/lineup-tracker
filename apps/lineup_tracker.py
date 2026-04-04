@@ -836,15 +836,81 @@ st.markdown("""
     }
 
     @media (max-width: 768px) {
-        /* Force position priority grid and other multi-col layouts to stack vertically */
+        /* Force ALL multi-col layouts to stack vertically on mobile */
         div[data-testid="stHorizontalBlock"] {
             flex-direction: column !important;
             gap: 0.25rem !important;
         }
-        /* But name + X button rows stay horizontal */
-        div[data-testid="stHorizontalBlock"]:has(button) {
+        /* Name + X button rows (2-column layouts like [4,1]) stay horizontal.
+           Target: exactly 2 direct column children where the last is narrow (has a button).
+           Use child count: 3+ col grids stack, but 2-col name+button rows stay inline. */
+        div[data-testid="stHorizontalBlock"]:has(> div:nth-child(2):last-child > div button) {
             flex-direction: row !important;
             flex-wrap: nowrap !important;
+            align-items: center !important;
+        }
+        /* Ensure the name column in name+X rows doesn't overflow */
+        div[data-testid="stHorizontalBlock"]:has(> div:nth-child(2):last-child > div button) > div:first-child {
+            flex: 1 1 0 !important;
+            min-width: 0 !important;
+            overflow: hidden !important;
+        }
+        div[data-testid="stHorizontalBlock"]:has(> div:nth-child(2):last-child > div button) > div:first-child p,
+        div[data-testid="stHorizontalBlock"]:has(> div:nth-child(2):last-child > div button) > div:first-child strong {
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            white-space: nowrap !important;
+        }
+        /* X button column: fixed narrow width */
+        div[data-testid="stHorizontalBlock"]:has(> div:nth-child(2):last-child > div button) > div:last-child {
+            flex: 0 0 auto !important;
+            width: auto !important;
+            min-width: 44px !important;
+        }
+
+        /* Password row: keep horizontal */
+        div[data-testid="stHorizontalBlock"]:has(input[type="password"]) {
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+        }
+
+        /* Add-player selectboxes: constrain width */
+        div[data-testid="stSelectbox"] {
+            max-width: 100% !important;
+        }
+        div[data-testid="stSelectbox"] > div {
+            max-width: 100% !important;
+        }
+
+        /* Position cards inside stacked columns: full width */
+        div[data-testid="column"] {
+            width: 100% !important;
+            flex: 1 1 100% !important;
+        }
+
+        /* Position card containers: prevent overflow */
+        div[data-testid="stVerticalBlockBorderWrapper"] {
+            max-width: 100% !important;
+            overflow: hidden !important;
+            box-sizing: border-box !important;
+        }
+
+        /* Prevent long player names from causing horizontal scroll */
+        div[data-testid="stMarkdownContainer"] p,
+        div[data-testid="stMarkdownContainer"] strong {
+            overflow-wrap: break-word !important;
+            word-break: break-word !important;
+        }
+
+        /* Config section titles: scale down on mobile */
+        .config-section-title {
+            font-size: 0.9rem;
+            padding: 8px 12px;
+        }
+
+        /* Position slot header: slightly smaller on mobile */
+        div[data-testid="stVerticalBlockBorderWrapper"] div[style*="font-size:1.1rem"] {
+            font-size: 1rem !important;
         }
     }
 
@@ -909,7 +975,7 @@ st.markdown("""
     }
     /* Hide config section dividers on desktop (only show when stacked) */
     .config-section-rule { display: none; }
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
         .config-section-rule { display: block; margin: 24px 0 8px 0; }
     }
 
