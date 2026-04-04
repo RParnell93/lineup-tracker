@@ -1731,6 +1731,7 @@ with tab_config:
         rp_freshness = st.toggle("RP freshness priority", value=rules.get("rp_freshness", True), key="rule_freshness", help="Prefer well-rested relievers when filling RP slots. Factors in consecutive days, pitch counts, and rest.", disabled=not can_edit)
         flex_optimization = st.toggle("Flex slot optimization", value=rules.get("flex_optimization", True), key="rule_flex", help="Put latest-game-time players in Util/MI flex slots.", disabled=not can_edit)
         salary_tiebreak = st.toggle("Salary tiebreak", value=rules.get("salary_tiebreak", True), key="rule_salary", help="When priority rank is equal, higher-salary players start first.", disabled=not can_edit)
+        rp_doubleheader = st.toggle("RP doubleheader boost", value=rules.get("rp_doubleheader", True), key="rule_dh", help="Prioritize activating RPs whose teams have a doubleheader (two chances to pitch). RP protected list still takes priority.", disabled=not can_edit)
 
         new_rules = {
             "lhb_vs_lhp_block": lhb_block,
@@ -1738,6 +1739,7 @@ with tab_config:
             "rp_freshness": rp_freshness,
             "flex_optimization": flex_optimization,
             "salary_tiebreak": salary_tiebreak,
+            "rp_doubleheader": rp_doubleheader,
         }
         if new_rules != rules:
             config["rules"] = new_rules
