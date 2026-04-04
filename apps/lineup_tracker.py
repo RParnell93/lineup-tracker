@@ -33,7 +33,7 @@ CARD_CSS = """
     }
     .change-card:hover { border-color: rgba(255,255,255,0.12); transform: translateX(3px); }
     .change-card.optimal { border-left-color: #5a9f76; }
-    .change-card.dry-run { border-left-color: #f8cf8b; }
+    .change-card.dry-run { border-left-color: #5b9bf5; }
     .change-card.error { border-left-color: #d05950; }
     .change-header {
         display: flex;
@@ -174,7 +174,7 @@ LEAGUES = {
 STATUS_COLORS = {
     "applied": "#f5bb5b",
     "optimal": "#5a9f76",
-    "dry_run": "#f8cf8b",
+    "dry_run": "#5b9bf5",
     "error": "#d05950",
 }
 
@@ -959,7 +959,7 @@ with tab_changes:
             '<div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;font-size:0.75rem;color:rgba(255,255,255,0.5);">'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f5bb5b;margin-right:4px;"></span>Changes Made</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#5a9f76;margin-right:4px;"></span>Lineup Set</span>'
-            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f8cf8b;margin-right:4px;"></span>Dry Run</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#5b9bf5;margin-right:4px;"></span>Dry Run</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d05950;margin-right:4px;"></span>Error</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.2);margin-right:4px;"></span>No Data</span>'
             '</div>',
@@ -980,7 +980,7 @@ with tab_changes:
             elif last_status.startswith("error"):
                 dot_color = "#d05950"
             elif last_status == "dry_run":
-                dot_color = "#f8cf8b"
+                dot_color = "#5b9bf5"
             else:
                 dot_color = "rgba(255,255,255,0.2)"
 
