@@ -190,26 +190,33 @@ STATUS_ICONS = {
 # --- Data loading ---
 @st.cache_data(ttl=60)
 def _fetch_from_github(path):
-    """Fetch a file from the source repo via GitHub API.
+    """Fetch a file from GitHub API, trying source repo then deploy repo.
 
-    Used on Streamlit Cloud where data files may not be up to date.
+    Used on Streamlit Cloud where local data files may be stale.
     Returns parsed JSON or None on failure.
     """
     import requests
+    token = ""
     try:
         token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
-        headers = {"Accept": "application/vnd.github.v3+json"}
-        if token:
-            headers["Authorization"] = f"token {token}"
-        url = f"https://api.github.com/repos/RParnell93/ottoneu-lineups/contents/{path}"
-        resp = requests.get(url, headers=headers, timeout=10)
-        if resp.status_code != 200:
-            return None
-        import base64 as b64
-        content = b64.b64decode(resp.json()["content"]).decode()
-        return json.loads(content)
     except Exception:
-        return None
+        token = os.environ.get("GITHUB_TOKEN", "")
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if token:
+        headers["Authorization"] = f"token {token}"
+    # Try source repo first (private, needs token), then public deploy repo
+    repos = ["RParnell93/ottoneu-lineups", "RParnell93/lineup-tracker"]
+    for repo in repos:
+        try:
+            url = f"https://api.github.com/repos/{repo}/contents/{path}"
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code == 200:
+                import base64 as b64
+                content = b64.b64decode(resp.json()["content"]).decode()
+                return json.loads(content)
+        except Exception:
+            continue
+    return None
 
 
 @st.cache_data(ttl=90)
