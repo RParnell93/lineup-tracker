@@ -189,7 +189,40 @@ STATUS_ICONS = {
 
 # --- Data loading ---
 @st.cache_data(ttl=60)
+def _fetch_from_github(path):
+    """Fetch a file from the source repo via GitHub API.
+
+    Used on Streamlit Cloud where data files may not be up to date.
+    Returns parsed JSON or None on failure.
+    """
+    import requests
+    try:
+        token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
+        headers = {"Accept": "application/vnd.github.v3+json"}
+        if token:
+            headers["Authorization"] = f"token {token}"
+        url = f"https://api.github.com/repos/RParnell93/ottoneu-lineups/contents/{path}"
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code != 200:
+            return None
+        import base64 as b64
+        content = b64.b64decode(resp.json()["content"]).decode()
+        return json.loads(content)
+    except Exception:
+        return None
+
+
+@st.cache_data(ttl=90)
+def _github_data(path):
+    """Cached wrapper for GitHub API fetches."""
+    return _fetch_from_github(path)
+
+
 def load_log():
+    # Try GitHub API first (always fresh from source repo)
+    data = _github_data("output/lineup_log.json")
+    if data is not None:
+        return data
     if not LOG_PATH.exists():
         return []
     try:
@@ -200,6 +233,9 @@ def load_log():
 
 @st.cache_data(ttl=60)
 def load_schedule():
+    data = _github_data("output/schedule.json")
+    if data is not None:
+        return data
     if not SCHEDULE_PATH.exists():
         return None
     try:
@@ -254,6 +290,9 @@ def _save_config_to_github(config_json):
 
 @st.cache_data(ttl=120)
 def load_roster_cache():
+    data = _github_data("output/roster_cache.json")
+    if data is not None:
+        return data
     if not ROSTER_CACHE_PATH.exists():
         return {"players": {}, "league_rosters": {}}
     try:
