@@ -1307,21 +1307,19 @@ with tab_changes:
             recs = entry.get("recommendations", [])
             rec_html = ""
             if recs:
-                # Split into hitters and pitchers, show hitters only (pitchers less actionable)
                 hitter_recs = [r for r in recs if not r.get("is_pitcher")]
-                if hitter_recs:
-                    rec_html = '<div class="rec-container"><div class="rec-header">Bench - Playing Today</div>'
-                    # Sort by FGPts/GS descending (N/A sorts last)
-                    for r in sorted(hitter_recs, key=lambda x: -(x.get("fgpts_per_g") or -999))[:8]:
+                playing_recs = [r for r in hitter_recs if r.get("playing_today", True)]
+                no_game_recs = [r for r in hitter_recs if not r.get("playing_today", True)]
+
+                def _render_rec_rows(rec_list, limit=8):
+                    rows = ""
+                    for r in sorted(rec_list, key=lambda x: -(x.get("fgpts_per_g") or -999))[:limit]:
                         r_name = html.escape(r.get("player", ""))
-                        r_team = html.escape(r.get("mlb_team", ""))
                         r_vs = html.escape(r.get("vs_pitcher", "TBD"))
                         r_hand = html.escape(r.get("bat_hand", "?"))
                         r_vs_hand = html.escape(r.get("vs_hand", "?"))
-                        r_reason = html.escape(r.get("reason", ""))
                         fgpts = r.get("fgpts_per_g")
                         salary = r.get("salary")
-                        # Fall back to roster cache P/G if log doesn't have it
                         if fgpts is None:
                             r_pid = str(r.get("player_id", ""))
                             cached_p = roster_cache.get("players", {}).get(r_pid, {})
@@ -1332,12 +1330,41 @@ with tab_changes:
                             stat_label = f'<span style="opacity:0.4">${salary}</span>'
                         else:
                             stat_label = '<span style="opacity:0.4">N/A</span>'
-                        rec_html += f"""
+                        # Matchup info
+                        matchup = f"{r_hand} vs {r_vs_hand} {r_vs}" if r.get("playing_today", True) and r_vs else ""
+                        matchup_html = f'<span class="rec-matchup">{html.escape(matchup)}</span>' if matchup else ""
+                        # Render each reason as a separate tag
+                        reasons = r.get("reasons", [])
+                        if not reasons:
+                            raw = r.get("reason", "")
+                            reasons = [s.strip() for s in raw.split("|")] if raw else []
+                        reason_colors = {
+                            "no game": ("rgba(255,255,255,0.08)", "rgba(255,255,255,0.35)"),
+                            "LHB vs LHP": ("rgba(208,89,80,0.15)", "rgba(208,89,80,0.7)"),
+                            "no open slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
+                            "no open RP slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
+                            "no open SP slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
+                        }
+                        tags = ""
+                        for rsn in reasons:
+                            bg, fg = reason_colors.get(rsn, ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"))
+                            if rsn.startswith("fatigued"):
+                                bg, fg = "rgba(245,187,91,0.15)", "rgba(245,187,91,0.7)"
+                            tags += f'<span class="rec-reason" style="background:{bg};color:{fg};">{html.escape(rsn)}</span>'
+                        rows += f"""
                         <div class="rec-row">
                             <span class="rec-name">{r_name} {stat_label}</span>
-                            <span class="rec-matchup">{r_hand} vs {r_vs_hand} {r_vs}</span>
-                            <span class="rec-reason">{r_reason}</span>
+                            {matchup_html}{tags}
                         </div>"""
+                    return rows
+
+                if playing_recs:
+                    rec_html += '<div class="rec-container"><div class="rec-header">Bench - Playing Today</div>'
+                    rec_html += _render_rec_rows(playing_recs)
+                    rec_html += '</div>'
+                if no_game_recs:
+                    rec_html += '<div class="rec-container" style="margin-top:8px;border-color:rgba(255,255,255,0.04);"><div class="rec-header" style="color:rgba(255,255,255,0.35);">Bench - No Game</div>'
+                    rec_html += _render_rec_rows(no_game_recs, limit=5)
                     rec_html += '</div>'
 
             # IL players who are playing (alert to activate)
