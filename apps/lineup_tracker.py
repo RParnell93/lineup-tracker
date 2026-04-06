@@ -54,10 +54,14 @@ CARD_CSS = """
     .moves-container { background: rgba(0,0,0,0.15); border-radius: 8px; padding: 10px 14px; }
     .move-row {
         display: grid;
-        grid-template-columns: minmax(140px, 1fr) auto auto auto;
+        grid-template-columns: minmax(140px, 1fr) auto auto auto auto;
         align-items: center; gap: 10px; padding: 7px 0;
         font-size: 0.9rem; color: rgba(255,255,255,0.7);
         border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .move-reason {
+        font-size: 0.72rem; font-weight: 500; letter-spacing: 0.02em;
+        padding: 2px 8px; border-radius: 4px; white-space: nowrap;
     }
     .move-row:last-child { border-bottom: none; }
     .player-name { color: #FFF; font-weight: 600; letter-spacing: -0.01em; overflow-wrap: break-word; }
@@ -1277,16 +1281,34 @@ with tab_changes:
                 pitching_pos = {"SP", "RP"}
                 hitting_moves = []
                 pitching_moves = []
+                reason_styles = {
+                    "no game": ("rgba(255,255,255,0.08)", "rgba(255,255,255,0.4)"),
+                    "has game": ("rgba(90,159,118,0.15)", "rgba(90,159,118,0.8)"),
+                    "probable starter": ("rgba(131,189,192,0.15)", "rgba(131,189,192,0.9)"),
+                    "must start": ("rgba(245,187,91,0.15)", "rgba(245,187,91,0.8)"),
+                    "fatigued": ("rgba(208,89,80,0.15)", "rgba(208,89,80,0.7)"),
+                    "lower priority": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.35)"),
+                    "displaced by probable starter": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.35)"),
+                    "slot shuffle": ("rgba(131,189,192,0.08)", "rgba(131,189,192,0.5)"),
+                    "flex optimization": ("rgba(131,189,192,0.08)", "rgba(131,189,192,0.5)"),
+                    "rested RP": ("rgba(90,159,118,0.15)", "rgba(90,159,118,0.8)"),
+                }
                 for c in changes:
                     p_name = html.escape(c.get("player", "Unknown"))
                     p_from = html.escape(c.get("from", "?"))
                     p_to = html.escape(c.get("to", "?"))
+                    reason = c.get("reason", "")
+                    reason_tag = ""
+                    if reason:
+                        bg, fg = reason_styles.get(reason, ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.35)"))
+                        reason_tag = f'<span class="move-reason" style="background:{bg};color:{fg};">{html.escape(reason)}</span>'
                     row = f"""
                     <div class="move-row">
                         <span class="player-name">{p_name}</span>
                         <span class="pos-from">{p_from}</span>
                         <span class="arrow">&rarr;</span>
                         <span class="pos-to">{p_to}</span>
+                        {reason_tag}
                     </div>"""
                     if c.get("from", "") in pitching_pos or c.get("to", "") in pitching_pos:
                         pitching_moves.append(row)
