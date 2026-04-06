@@ -1448,9 +1448,14 @@ with tab_schedule:
                 pass
 
         now_utc = datetime.now(timezone.utc)
+        now_et = now_utc.astimezone(ET)
+        today_str = now_et.strftime("%Y-%m-%d")
         by_date = defaultdict(list)
         for entry in schedule.get("entries", []):
             by_date[entry.get("date", "")].append(entry)
+
+        # Game counts from schedule.json (set at generation time)
+        games_per_date = schedule.get("games_per_date", {})
 
         # Build lookup: for each game_date, collect run results and teams playing
         run_results_by_date = defaultdict(list)
@@ -1466,6 +1471,9 @@ with tab_schedule:
         next_found = False
         for date_str in sorted(by_date.keys()):
             if not date_str:
+                continue
+            # Skip past days (before today ET)
+            if date_str < today_str:
                 continue
             try:
                 d = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1514,20 +1522,26 @@ with tab_schedule:
                 time_pills += f'<span class="schedule-time {css_class}">{et_time}{status_icon}</span>'
 
             teams_count = teams_by_date.get(date_str, 0)
-            teams_html = f' &middot; {teams_count} MLB teams playing' if teams_count else ""
+            game_count = games_per_date.get(date_str, 0)
+            meta_parts = []
+            if teams_count:
+                meta_parts.append(f"{teams_count} MLB teams playing")
+            if game_count:
+                meta_parts.append(f"{game_count} games")
+            meta_html = (" &middot; " + " &middot; ".join(meta_parts)) if meta_parts else ""
             st.markdown(f"""
             <div class="schedule-day">
                 <div class="schedule-day-header">
                     <span>{day_label}</span>
-                    <span class="schedule-day-count">{len(entries)} runs{teams_html}</span>
+                    <span class="schedule-day-count">{len(entries)} runs{meta_html}</span>
                 </div>
                 {time_pills}
             </div>""", unsafe_allow_html=True)
 
         st.markdown("""
         <div class="schedule-meta">
-            Schedule regenerates nightly at midnight ET. Each run fires ~1 hour before game time,
-            clustered within 15-min windows. Max 20 entries per cycle (GitHub Actions limit).
+            Schedule regenerates nightly. The 4:01 AM ET run sets lineups for today + 4 days ahead.
+            Game-time runs fire ~1 hour before each game cluster. Max 20 entries per cycle.
         </div>""", unsafe_allow_html=True)
 
 
