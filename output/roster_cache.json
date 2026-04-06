@@ -150,7 +150,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -804,7 +804,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 17,
+      "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1061,7 +1061,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -1365,7 +1365,7 @@
         "SS",
         "3B"
       ],
-      "salary": 2,
+      "salary": 4,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1439,7 +1439,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 8,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -1890,7 +1890,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 8,
+      "salary": 16,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -1915,7 +1915,7 @@
         "SP",
         "RP"
       ],
-      "salary": 7,
+      "salary": 11,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -10308,6 +10308,14 @@
         "C"
       ],
       "is_pitcher": false
+    },
+    "31750": {
+      "name": "Aaron Civale",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -10555,9 +10563,9 @@
       "42559",
       "37480",
       "40927",
-      "18171",
       "26807",
       "35566",
+      "35922",
       "40607",
       "44515",
       "18985",
@@ -10565,8 +10573,8 @@
       "23691",
       "35878",
       "38386",
+      "18171",
       "32051",
-      "35922",
       "37826",
       "40972",
       "15962",
@@ -10734,8 +10742,8 @@
       "44539",
       "44975",
       "45715",
-      "38315",
-      "40564",
+      "18236",
+      "38403",
       "43895",
       "45706",
       "48241",
@@ -10744,8 +10752,8 @@
       "23691",
       "38780",
       "39557",
-      "18236",
-      "38403",
+      "38315",
+      "40564",
       "43841",
       "46310",
       "46358",
@@ -10755,6 +10763,6 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-06T19:56:44.547748+00:00",
+  "updated_at": "2026-04-06T22:05:36.916480+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run"
 }
