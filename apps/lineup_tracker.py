@@ -194,9 +194,9 @@ STATUS_ICONS = {
 # --- Data loading ---
 @st.cache_data(ttl=300)
 def _github_data(path):
-    """Fetch a file from GitHub API (public deploy repo).
+    """Fetch a file from GitHub API (private source repo, token required).
 
-    TTL of 300s keeps us under the 60 req/hr unauthenticated rate limit.
+    TTL of 300s keeps us under rate limits.
     Falls back to None on failure; callers try local files next.
     """
     import requests
@@ -205,10 +205,10 @@ def _github_data(path):
         token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
     except Exception:
         token = os.environ.get("GITHUB_TOKEN", "")
-    headers = {"Accept": "application/vnd.github.v3+json"}
-    if token:
-        headers["Authorization"] = f"token {token}"
-    repos = ["RParnell93/lineup-tracker", "RParnell93/ottoneu-lineups"]
+    if not token:
+        return None
+    headers = {"Accept": "application/vnd.github.v3+json", "Authorization": f"token {token}"}
+    repos = ["RParnell93/ottoneu-lineups"]
     for repo in repos:
         try:
             url = f"https://api.github.com/repos/{repo}/contents/{path}"
