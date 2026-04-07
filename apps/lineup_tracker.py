@@ -226,13 +226,13 @@ def load_log():
     # Try GitHub API first (always fresh from source repo)
     data = _github_data("output/lineup_log.json")
     if data is not None:
-        return data
+        return data, "api"
     if not LOG_PATH.exists():
-        return []
+        return [], "no_file"
     try:
-        return json.loads(LOG_PATH.read_text())
+        return json.loads(LOG_PATH.read_text()), "local"
     except (json.JSONDecodeError, ValueError):
-        return []
+        return [], "parse_error"
 
 
 @st.cache_data(ttl=60)
@@ -1059,9 +1059,13 @@ st.markdown("""
 
 
 # --- Load data ---
-log = load_log()
+log, _log_source = load_log()
 schedule = load_schedule()
 roster_cache = load_roster_cache()
+
+# Debug: show data source in sidebar
+_source_labels = {"api": "GitHub API (private repo)", "local": "Local file (deploy repo)", "no_file": "No data file found", "parse_error": "File parse error"}
+st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries")
 
 # --- Hero header ---
 total_log_runs = len(log)
