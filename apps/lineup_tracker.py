@@ -192,12 +192,12 @@ STATUS_ICONS = {
 
 
 # --- Data loading ---
-@st.cache_data(ttl=60)
-def _fetch_from_github(path):
-    """Fetch a file from GitHub API, trying source repo then deploy repo.
+@st.cache_data(ttl=300)
+def _github_data(path):
+    """Fetch a file from GitHub API (public deploy repo).
 
-    Used on Streamlit Cloud where local data files may be stale.
-    Returns parsed JSON or None on failure.
+    TTL of 300s keeps us under the 60 req/hr unauthenticated rate limit.
+    Falls back to None on failure; callers try local files next.
     """
     import requests
     token = ""
@@ -208,8 +208,7 @@ def _fetch_from_github(path):
     headers = {"Accept": "application/vnd.github.v3+json"}
     if token:
         headers["Authorization"] = f"token {token}"
-    # Try source repo first (private, needs token), then public deploy repo
-    repos = ["RParnell93/ottoneu-lineups", "RParnell93/lineup-tracker"]
+    repos = ["RParnell93/lineup-tracker", "RParnell93/ottoneu-lineups"]
     for repo in repos:
         try:
             url = f"https://api.github.com/repos/{repo}/contents/{path}"
@@ -221,12 +220,6 @@ def _fetch_from_github(path):
         except Exception:
             continue
     return None
-
-
-@st.cache_data(ttl=90)
-def _github_data(path):
-    """Cached wrapper for GitHub API fetches."""
-    return _fetch_from_github(path)
 
 
 def load_log():
