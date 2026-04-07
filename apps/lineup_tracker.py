@@ -1073,7 +1073,19 @@ roster_cache = load_roster_cache()
 
 # Debug: show data source in sidebar
 _source_labels = {"api": "GitHub API (private repo)", "local": "Local file (deploy repo)", "no_file": "No data file found", "parse_error": "File parse error"}
-st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries\n{_api_debug}")
+# Uncached token diagnostic
+_diag = ""
+try:
+    _tk = st.secrets.get("GITHUB_TOKEN", "")
+    if _tk:
+        import requests as _rq
+        _r = _rq.get("https://api.github.com/repos/RParnell93/ottoneu-lineups", headers={"Authorization": f"token {_tk}"}, timeout=5)
+        _diag = f"token: {_tk[:4]}...{_tk[-4:]} | repo check: {_r.status_code}"
+    else:
+        _diag = "no GITHUB_TOKEN in secrets"
+except Exception as _e:
+    _diag = f"diag error: {_e}"
+st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries\n{_diag}")
 
 # --- Hero header ---
 total_log_runs = len(log)
