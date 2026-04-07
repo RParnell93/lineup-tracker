@@ -192,6 +192,8 @@ STATUS_ICONS = {
 
 
 # --- Data loading ---
+_api_debug = ""
+
 @st.cache_data(ttl=300)
 def _github_data(path):
     """Fetch a file from GitHub API (private source repo, token required).
@@ -199,26 +201,32 @@ def _github_data(path):
     TTL of 300s keeps us under rate limits.
     Falls back to None on failure; callers try local files next.
     """
+    global _api_debug
     import requests
     token = ""
     try:
         token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
-    except Exception:
+    except Exception as e:
+        _api_debug = f"secrets error: {e}"
         token = os.environ.get("GITHUB_TOKEN", "")
     if not token:
+        _api_debug = "no token found"
         return None
+    _api_debug = f"token: {token[:4]}...{token[-4:]}"
     headers = {"Accept": "application/vnd.github.v3+json", "Authorization": f"token {token}"}
-    repos = ["RParnell93/ottoneu-lineups"]
-    for repo in repos:
-        try:
-            url = f"https://api.github.com/repos/{repo}/contents/{path}"
-            resp = requests.get(url, headers=headers, timeout=10)
-            if resp.status_code == 200:
-                import base64 as b64
-                content = b64.b64decode(resp.json()["content"]).decode()
-                return json.loads(content)
-        except Exception:
-            continue
+    repo = "RParnell93/ottoneu-lineups"
+    try:
+        url = f"https://api.github.com/repos/{repo}/contents/{path}"
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code == 200:
+            import base64 as b64
+            content = b64.b64decode(resp.json()["content"]).decode()
+            _api_debug += f" | {resp.status_code} OK"
+            return json.loads(content)
+        else:
+            _api_debug += f" | {resp.status_code}: {resp.text[:100]}"
+    except Exception as e:
+        _api_debug += f" | error: {e}"
     return None
 
 
@@ -1065,7 +1073,7 @@ roster_cache = load_roster_cache()
 
 # Debug: show data source in sidebar
 _source_labels = {"api": "GitHub API (private repo)", "local": "Local file (deploy repo)", "no_file": "No data file found", "parse_error": "File parse error"}
-st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries")
+st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries\n{_api_debug}")
 
 # --- Hero header ---
 total_log_runs = len(log)
