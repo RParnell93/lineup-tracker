@@ -1562,7 +1562,7 @@ with tab_schedule:
 
         st.markdown("""
         <div class="schedule-meta">
-            Schedule regenerates nightly. The 4:01 AM ET run sets lineups for today + 4 days ahead.
+            Schedule regenerates nightly at midnight ET. The 4:01 AM ET run sets lineups for today.
             Game-time runs fire ~1 hour before each game cluster. Max 20 entries per cycle.
         </div>""", unsafe_allow_html=True)
 
