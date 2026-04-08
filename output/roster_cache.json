@@ -610,7 +610,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -649,7 +649,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -853,7 +853,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 17,
+      "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1127,7 +1127,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -1521,7 +1521,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 8,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -1987,7 +1987,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 8,
+      "salary": 16,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2014,7 +2014,7 @@
         "SP",
         "RP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -10706,7 +10706,6 @@
       "23813"
     ],
     "836": [
-      "26292",
       "33217",
       "33619",
       "40262",
@@ -10719,6 +10718,7 @@
       "45714",
       "44223",
       "18547",
+      "26292",
       "31958",
       "37304",
       "44147",
@@ -10754,9 +10754,9 @@
       "14864",
       "38317",
       "12398",
-      "45713",
-      "26198",
       "18466",
+      "26198",
+      "45713",
       "44223",
       "5201",
       "23327",
@@ -10971,16 +10971,16 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-08T16:44:22.943995+00:00",
+  "updated_at": "2026-04-08T18:50:36.779132+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
       "14864": 1,
       "38317": 1,
       "12398": 15,
-      "45713": 1,
-      "26198": 9,
       "18466": 46,
+      "26198": 9,
+      "45713": 1,
       "44223": 4,
       "5201": 3,
       "23327": 69,
@@ -11149,7 +11149,6 @@
       "45790": 7
     },
     "836": {
-      "26292": 1,
       "33217": 6,
       "33619": 4,
       "40262": 9,
@@ -11162,6 +11161,7 @@
       "45714": 4,
       "44223": 1,
       "18547": 4,
+      "26292": 1,
       "31958": 3,
       "37304": 1,
       "44147": 3,
