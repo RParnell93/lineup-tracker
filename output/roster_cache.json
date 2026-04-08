@@ -42,7 +42,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 54,
+      "salary": 45,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -66,7 +66,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 35,
+      "salary": 41,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -102,7 +102,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 14,
+      "salary": 13,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -201,7 +201,7 @@
         "2B",
         "SS"
       ],
-      "salary": 2,
+      "salary": 15,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -225,7 +225,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 26,
+      "salary": 24,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -357,7 +357,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 17,
+      "salary": 16,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -418,7 +418,7 @@
         "SP",
         "RP"
       ],
-      "salary": 6,
+      "salary": 24,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -842,7 +842,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 6,
+      "salary": 11,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -855,7 +855,7 @@
         "SP",
         "RP"
       ],
-      "salary": 3,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -970,7 +970,7 @@
         "SP",
         "RP"
       ],
-      "salary": 25,
+      "salary": 12,
       "mlb_team": "HOU",
       "is_pitcher": true,
       "ppg": null,
@@ -1074,7 +1074,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 5,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -1758,7 +1758,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -1866,7 +1866,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 17,
+      "salary": 7,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -2000,7 +2000,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2036,7 +2036,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "KCR",
       "is_pitcher": true,
       "ppg": null,
@@ -2060,7 +2060,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -2158,7 +2158,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2583,7 +2583,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "SDP",
       "is_pitcher": true,
       "ppg": null,
@@ -2668,7 +2668,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 3,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2680,7 +2680,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -2720,8 +2720,8 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false
     },
     "44703": {
@@ -5077,7 +5077,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -10326,6 +10326,14 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "42933": {
+      "name": "Jesus Tillero",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -10377,16 +10385,16 @@
     "530": [
       "23654",
       "33217",
-      "33634",
       "45769",
       "37806",
       "18255",
-      "18479",
       "19328",
       "33625",
       "43896",
       "45947",
       "23831",
+      "18479",
+      "33634",
       "37091",
       "44003",
       "44524",
@@ -10421,17 +10429,17 @@
       "33654",
       "37427",
       "37841",
-      "18466",
-      "37806",
       "45713",
+      "45769",
+      "18466",
+      "48240",
       "18546",
       "27058",
       "38367",
       "38424",
       "42279",
-      "45769",
+      "37806",
       "44524",
-      "48240",
       "44147",
       "45018",
       "45884",
@@ -10443,15 +10451,15 @@
       "35922",
       "44515",
       "45706",
-      "18985",
       "19904",
       "31951",
       "35602",
       "37234",
+      "38754",
+      "18985",
       "19136",
       "33670",
       "38330",
-      "38754",
       "42765",
       "41452",
       "42741",
@@ -10513,12 +10521,12 @@
       "44223",
       "18480",
       "5918",
-      "14893",
       "18546",
+      "18547",
       "36509",
       "45714",
-      "18547",
       "31958",
+      "14893",
       "33619",
       "37304",
       "44147",
@@ -10730,17 +10738,17 @@
       "37427",
       "33217",
       "18466",
-      "35939",
       "45713",
+      "35939",
       "48239",
-      "18479",
       "18546",
       "32291",
       "33685",
+      "37536",
       "40188",
       "42358",
+      "18479",
       "18487",
-      "37536",
       "40095",
       "40460",
       "45947",
@@ -10771,6 +10779,6 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-07T18:04:48.339508+00:00",
+  "updated_at": "2026-04-08T03:43:33.921289+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run"
 }
