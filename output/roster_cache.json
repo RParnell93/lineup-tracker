@@ -10,7 +10,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33600": {
       "name": "Shohei Ohtani",
@@ -23,7 +24,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33654": {
       "name": "Cal Raleigh",
@@ -35,7 +37,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18546": {
       "name": "Kyle Tucker",
@@ -47,7 +50,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23601": {
       "name": "Edwin Diaz",
@@ -59,7 +63,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18466": {
       "name": "Ketel Marte",
@@ -71,7 +76,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "37806": {
       "name": "Gunnar Henderson",
@@ -83,7 +89,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33625": {
       "name": "Julio Rodriguez",
@@ -95,7 +102,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "22559": {
       "name": "Jhoan Duran",
@@ -107,7 +115,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18347": {
       "name": "Kyle Schwarber",
@@ -131,7 +140,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "32291": {
       "name": "Oneil Cruz",
@@ -143,7 +153,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23805": {
       "name": "Austin Hays",
@@ -181,7 +192,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23745": {
       "name": "Adolis Garc\u00eda",
@@ -193,7 +205,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45713": {
       "name": "JJ Wetherholt",
@@ -206,7 +219,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "36048": {
       "name": "Luisangel Acuna",
@@ -230,7 +244,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "23625": {
       "name": "Cole Ragans",
@@ -278,7 +293,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "15261": {
       "name": "Justin Verlander",
@@ -301,7 +317,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "43911": {
       "name": "Hunter Barco",
@@ -350,7 +367,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18479": {
       "name": "Ian Happ",
@@ -362,7 +380,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "43896": {
       "name": "Wyatt Langford",
@@ -374,7 +393,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44524": {
       "name": "Jung Hoo Lee",
@@ -386,7 +406,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45947": {
       "name": "Carson Benge",
@@ -398,7 +419,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "22426": {
       "name": "Framber Valdez",
@@ -410,7 +432,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45706": {
       "name": "Chase Burns",
@@ -423,7 +446,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "41042": {
       "name": "Bryan Woo",
@@ -435,7 +459,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35922": {
       "name": "Drew Rasmussen",
@@ -447,7 +472,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44336": {
       "name": "Nolan McLean",
@@ -459,7 +485,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "19268": {
       "name": "Devin Williams",
@@ -471,7 +498,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "32051": {
       "name": "Camilo Doval",
@@ -483,7 +511,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "34396": {
       "name": "Jose A. Ferrer",
@@ -495,7 +524,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "37427": {
       "name": "Francisco Alvarez",
@@ -507,7 +537,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "27058": {
       "name": "Wilyer Abreu",
@@ -519,7 +550,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38367": {
       "name": "Owen Caissie",
@@ -531,7 +563,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42279": {
       "name": "Dylan Beavers",
@@ -543,7 +576,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35196": {
       "name": "Joe Ryan",
@@ -555,7 +589,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33670": {
       "name": "Ryan Weathers",
@@ -567,7 +602,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42765": {
       "name": "Parker Messick",
@@ -579,7 +615,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35811": {
       "name": "Mike Burrows",
@@ -591,7 +628,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "31951": {
       "name": "David Bednar",
@@ -603,7 +641,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38754": {
       "name": "Cade Smith",
@@ -615,7 +654,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35602": {
       "name": "Abner Uribe",
@@ -627,7 +667,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18985": {
       "name": "Dennis Santana",
@@ -639,7 +680,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "19904": {
       "name": "Tyler Rogers",
@@ -651,7 +693,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "14893": {
       "name": "Christian Yelich",
@@ -663,7 +706,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "21200": {
       "name": "Ramon Laureano",
@@ -699,7 +743,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "20975": {
       "name": "Cristopher Sanchez",
@@ -760,7 +805,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "37181": {
       "name": "Brett Baty",
@@ -773,7 +819,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33634": {
       "name": "Brice Turang",
@@ -785,7 +832,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "19378": {
       "name": "Brad Keller",
@@ -797,7 +845,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23831": {
       "name": "Isaac Paredes",
@@ -809,7 +858,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "48240": {
       "name": "Munetaka Murakami",
@@ -822,7 +872,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "5918": {
       "name": "Jose Altuve",
@@ -835,7 +886,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33217": {
       "name": "Jonathan Aranda",
@@ -847,7 +899,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38403": {
       "name": "Carmen Mlodzinski",
@@ -860,7 +913,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38330": {
       "name": "Mick Abel",
@@ -872,7 +926,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "31958": {
       "name": "Ernie Clement",
@@ -887,7 +942,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33645": {
       "name": "Xavier Edwards",
@@ -900,7 +956,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "36509": {
       "name": "Riley Greene",
@@ -912,7 +969,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "26292": {
       "name": "Yainer Diaz",
@@ -924,7 +982,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33619": {
       "name": "Jonathan India",
@@ -938,7 +997,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "27208": {
       "name": "Jeremiah Estrada",
@@ -950,7 +1010,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35205": {
       "name": "Ryan Walker",
@@ -962,7 +1023,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "48241": {
       "name": "Tatsuya Imai",
@@ -975,7 +1037,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "26807": {
       "name": "Janson Junk",
@@ -988,7 +1051,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "21961": {
       "name": "Cody Ponce",
@@ -1001,7 +1065,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "18644": {
       "name": "Jeff Mcneil",
@@ -1054,7 +1119,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45881": {
       "name": "Kaelen Culpepper",
@@ -1066,7 +1132,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "38315": {
       "name": "Emerson Hancock",
@@ -1079,7 +1146,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40460": {
       "name": "Max Muncy",
@@ -1093,7 +1161,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18491": {
       "name": "Andrew Benintendi",
@@ -1128,7 +1197,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "14393": {
       "name": "Chris Sale",
@@ -1152,7 +1222,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "42592": {
       "name": "Shane Smith",
@@ -1272,7 +1343,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "37826": {
       "name": "Ryne Nelson",
@@ -1285,7 +1357,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23701": {
       "name": "Seth Lugo",
@@ -1309,7 +1382,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35566": {
       "name": "Kris Bubic",
@@ -1321,7 +1395,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40607": {
       "name": "Andrew Abbott",
@@ -1333,7 +1408,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "5201": {
       "name": "Giancarlo Stanton",
@@ -1345,7 +1421,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18355": {
       "name": "Luis Severino",
@@ -1370,7 +1447,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18375": {
       "name": "Grant Holmes",
@@ -1382,7 +1460,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18113": {
       "name": "Sonny Gray",
@@ -1394,7 +1473,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40095": {
       "name": "Marcelo Mayer",
@@ -1408,7 +1488,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18506": {
       "name": "Dansby Swanson",
@@ -1432,7 +1513,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44003": {
       "name": "Jacob Wilson",
@@ -1444,7 +1526,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "37091": {
       "name": "Spencer Horwitz",
@@ -1456,7 +1539,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38424": {
       "name": "Joey Wiemer",
@@ -1468,7 +1552,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "6130": {
       "name": "Marcell Ozuna",
@@ -1567,7 +1652,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18547": {
       "name": "Trent Grisham",
@@ -1579,7 +1665,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18263": {
       "name": "Marcus Semien",
@@ -1678,7 +1765,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18480": {
       "name": "Alex Bregman",
@@ -1690,7 +1778,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40564": {
       "name": "Bubba Chandler",
@@ -1703,7 +1792,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42221": {
       "name": "Drake Baldwin",
@@ -1715,7 +1805,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "43949": {
       "name": "Kyle Teel",
@@ -1763,7 +1854,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "44114": {
       "name": "Zyhir Hope",
@@ -1775,7 +1867,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "42873": {
       "name": "Noah Schultz",
@@ -1835,7 +1928,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "47565": {
       "name": "Jamie Arnold",
@@ -1859,7 +1953,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "18487": {
       "name": "Gleyber Torres",
@@ -1871,7 +1966,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "37295": {
       "name": "Michael Harris II",
@@ -1883,7 +1979,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18116": {
       "name": "Gerrit Cole",
@@ -1895,7 +1992,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "12398": {
       "name": "Willson Contreras",
@@ -1907,7 +2005,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45790": {
       "name": "Trey Yesavage",
@@ -1920,7 +2019,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "26198": {
       "name": "Geraldo Perdomo",
@@ -1932,7 +2032,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44515": {
       "name": "Connelly Early",
@@ -1945,7 +2046,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "21039": {
       "name": "Justin Steele",
@@ -1957,7 +2059,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "23813": {
       "name": "Corbin Burnes",
@@ -1969,7 +2072,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "37480": {
       "name": "Kyle Stowers",
@@ -1981,7 +2085,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "9668": {
       "name": "Eugenio Suarez",
@@ -1993,7 +2098,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18786": {
       "name": "Pablo Lopez",
@@ -2005,7 +2111,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "45714": {
       "name": "Cam Smith",
@@ -2017,7 +2124,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18462": {
       "name": "Joe Musgrove",
@@ -2029,7 +2137,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "23691": {
       "name": "Matt Strahm",
@@ -2041,7 +2150,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42559": {
       "name": "Jacob Reimer",
@@ -2053,7 +2163,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "40147": {
       "name": "Joshua Baez",
@@ -2065,7 +2176,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "40972": {
       "name": "Will Warren",
@@ -2077,7 +2189,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38317": {
       "name": "Austin Wells",
@@ -2089,7 +2202,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40097": {
       "name": "Jackson Jobe",
@@ -2101,7 +2215,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "38386": {
       "name": "Will Klein",
@@ -2113,7 +2228,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23654": {
       "name": "Will Smith",
@@ -2125,7 +2241,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42126": {
       "name": "Jackson Holliday",
@@ -2138,7 +2255,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "18255": {
       "name": "Max Muncy",
@@ -2150,7 +2268,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "46310": {
       "name": "Payton Tolle",
@@ -2163,7 +2282,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "46358": {
       "name": "Ryan Sloan",
@@ -2175,7 +2295,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "45862": {
       "name": "James Tibbs III",
@@ -2187,7 +2308,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "45789": {
       "name": "Ryan Waldschmidt",
@@ -2199,7 +2321,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "45769": {
       "name": "Konnor Griffin",
@@ -2211,7 +2334,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45090": {
       "name": "Luis Pena",
@@ -2224,7 +2348,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "18455": {
       "name": "Chris Martin",
@@ -2236,7 +2361,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45018": {
       "name": "Rainiel Rodriguez",
@@ -2248,7 +2374,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "46397": {
       "name": "Caleb Bonemer",
@@ -2261,7 +2388,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "38398": {
       "name": "Jordan Westburg",
@@ -2274,7 +2402,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "18391": {
       "name": "Josh Hader",
@@ -2286,7 +2415,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "37841": {
       "name": "Michael Busch",
@@ -2298,7 +2428,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44147": {
       "name": "Bryce Eldridge",
@@ -2310,7 +2441,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "45884": {
       "name": "Sam Antonacci",
@@ -2323,7 +2455,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "37234": {
       "name": "Matt Brash",
@@ -2335,7 +2468,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42741": {
       "name": "Robby Snelling",
@@ -2347,7 +2481,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "18276": {
       "name": "Mookie Betts",
@@ -2383,7 +2518,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "34601": {
       "name": "Lars Nootbaar",
@@ -2432,7 +2568,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23741": {
       "name": "Jesus Luzardo",
@@ -2456,7 +2593,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "42428": {
       "name": "Justin Crawford",
@@ -2504,7 +2642,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "42719": {
       "name": "Cade Horton",
@@ -2528,7 +2667,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "45716": {
       "name": "Nick Kurtz",
@@ -2540,7 +2680,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18407": {
       "name": "Willy Adames",
@@ -2552,7 +2693,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "31741": {
       "name": "Brandon Lowe",
@@ -2564,7 +2706,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "22078": {
       "name": "Robert Suarez",
@@ -2576,7 +2719,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23672": {
       "name": "Adrian Morejon",
@@ -2588,7 +2732,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "45064": {
       "name": "Jesus Made",
@@ -2600,7 +2745,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "22809": {
       "name": "Phil Maton",
@@ -2612,7 +2758,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "22651": {
       "name": "Ryan Helsley",
@@ -2624,7 +2771,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40262": {
       "name": "Colson Montgomery",
@@ -2637,7 +2785,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40550": {
       "name": "Bryce Miller",
@@ -2649,7 +2798,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "38781": {
       "name": "Daniel Palencia",
@@ -2661,7 +2811,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44539": {
       "name": "Leo De Vries",
@@ -2673,7 +2824,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "38361": {
       "name": "Jared Jones",
@@ -2685,7 +2837,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": true
     },
     "44310": {
       "name": "Ralphy Velazquez",
@@ -2697,7 +2850,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "46099": {
       "name": "Josuar Gonzalez",
@@ -2709,7 +2863,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "34602": {
       "name": "Romy Gonzalez",
@@ -2720,9 +2875,10 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": 0.0,
-      "pts": 0.0,
-      "minor_leaguer": false
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": true
     },
     "44703": {
       "name": "Jaxon Wiggins",
@@ -2734,7 +2890,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "18312": {
       "name": "Aaron Judge",
@@ -2758,7 +2915,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "36686": {
       "name": "Nick Lodolo",
@@ -3390,7 +3548,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23840": {
       "name": "Randy Arozarena",
@@ -3416,7 +3575,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23651": {
       "name": "Teoscar Hernandez",
@@ -3524,7 +3684,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42409": {
       "name": "Roman Anthony",
@@ -3675,7 +3836,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40978": {
       "name": "Tanner Bibee",
@@ -4212,7 +4374,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40505": {
       "name": "Carter Jensen",
@@ -4489,7 +4652,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "40298": {
       "name": "Sal Frelick",
@@ -4646,7 +4810,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "27185": {
       "name": "Garrett Whitlock",
@@ -5082,7 +5247,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42627": {
       "name": "Carson Whisenhunt",
@@ -5402,7 +5568,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "11508": {
       "name": "Enrique Hernandez",
@@ -6940,7 +7107,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "19136": {
       "name": "Gregory Soto",
@@ -6952,7 +7120,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "15556": {
       "name": "Yu Darvish",
@@ -6992,7 +7161,8 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "33622": {
       "name": "Trevor Larnach",
@@ -7893,7 +8063,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false
+      "minor_leaguer": false,
+      "on_il": false
     },
     "31509": {
       "name": "Kevin Ginkel",
@@ -10334,6 +10505,27 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "22692": {
+      "name": "Taylor Clarke",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "18625": {
+      "name": "Tim Mayza",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "27495": {
+      "name": "Joe Mantiply",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -10385,20 +10577,20 @@
     "530": [
       "23654",
       "33217",
-      "45769",
       "37806",
-      "18255",
+      "44003",
+      "48240",
+      "18479",
       "19328",
       "33625",
       "43896",
       "45947",
       "23831",
-      "18479",
+      "18255",
       "33634",
       "37091",
-      "44003",
       "44524",
-      "48240",
+      "45769",
       "45018",
       "45090",
       "45715",
@@ -10426,11 +10618,10 @@
       "34389"
     ],
     "649": [
-      "33654",
       "37427",
       "37841",
       "45713",
-      "45769",
+      "37806",
       "18466",
       "48240",
       "18546",
@@ -10438,8 +10629,9 @@
       "38367",
       "38424",
       "42279",
-      "37806",
+      "33654",
       "44524",
+      "45769",
       "44147",
       "45018",
       "45884",
@@ -10451,15 +10643,15 @@
       "35922",
       "44515",
       "45706",
+      "18985",
       "19904",
       "31951",
       "35602",
       "37234",
-      "38754",
-      "18985",
       "19136",
       "33670",
       "38330",
+      "38754",
       "42765",
       "41452",
       "42741",
@@ -10516,16 +10708,16 @@
     "836": [
       "26292",
       "33217",
-      "33645",
+      "33619",
       "40262",
-      "44223",
+      "33645",
       "18480",
       "5918",
       "14893",
       "18546",
-      "33619",
-      "45714",
       "36509",
+      "45714",
+      "44223",
       "18547",
       "31958",
       "37304",
@@ -10537,18 +10729,18 @@
       "46099",
       "34602",
       "37480",
+      "18113",
       "22426",
-      "35566",
       "36671",
       "40607",
       "48241",
       "18422",
+      "22651",
       "27208",
       "31488",
-      "35205",
       "38781",
-      "18113",
-      "22651",
+      "35205",
+      "35566",
       "38330",
       "38403",
       "44703",
@@ -10582,7 +10774,7 @@
       "26807",
       "35922",
       "37826",
-      "40607",
+      "40972",
       "44515",
       "18985",
       "21170",
@@ -10592,7 +10784,7 @@
       "18171",
       "23691",
       "35566",
-      "40972",
+      "40607",
       "15962",
       "18116",
       "18462",
@@ -10654,15 +10846,15 @@
       "44223",
       "18480",
       "18546",
+      "19296",
       "23745",
       "23793",
-      "45720",
       "45947",
       "33600",
-      "19296",
       "23831",
       "37181",
       "44003",
+      "45720",
       "44114",
       "44310",
       "45018",
@@ -10741,17 +10933,17 @@
       "45713",
       "35939",
       "48239",
+      "18479",
       "18546",
       "32291",
+      "40188",
+      "45947",
+      "42358",
+      "18487",
       "33685",
       "37536",
-      "40188",
-      "42358",
-      "18479",
-      "18487",
       "40095",
       "40460",
-      "45947",
       "40147",
       "43950",
       "44539",
@@ -10764,12 +10956,12 @@
       "48241",
       "22559",
       "23672",
+      "23691",
       "35878",
       "38780",
-      "39557",
       "18236",
-      "23691",
       "38403",
+      "39557",
       "43841",
       "46310",
       "46358",
@@ -10779,6 +10971,271 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-08T08:58:53.551329+00:00",
-  "_note": "Bootstrap cache - will be fully populated on next bot run"
+  "updated_at": "2026-04-08T16:44:22.943995+00:00",
+  "_note": "Bootstrap cache - will be fully populated on next bot run",
+  "league_salaries": {
+    "301": {
+      "14864": 1,
+      "38317": 1,
+      "12398": 15,
+      "45713": 1,
+      "26198": 9,
+      "18466": 46,
+      "44223": 4,
+      "5201": 3,
+      "23327": 69,
+      "37295": 17,
+      "45714": 3,
+      "18487": 17,
+      "9668": 5,
+      "37094": 15,
+      "38378": 6,
+      "44003": 7,
+      "40147": 2,
+      "42559": 2,
+      "37480": 5,
+      "40927": 34,
+      "26807": 2,
+      "35922": 6,
+      "37826": 2,
+      "40972": 1,
+      "44515": 9,
+      "18985": 3,
+      "21170": 2,
+      "32051": 8,
+      "35878": 2,
+      "38386": 1,
+      "18171": 4,
+      "23691": 3,
+      "35566": 3,
+      "40607": 3,
+      "15962": 26,
+      "18116": 16,
+      "18462": 3,
+      "18786": 4,
+      "21039": 6,
+      "23813": 6,
+      "40097": 1,
+      "45790": 11
+    },
+    "530": {
+      "23654": 16,
+      "33217": 6,
+      "37806": 40,
+      "44003": 9,
+      "48240": 16,
+      "18479": 17,
+      "19328": 19,
+      "33625": 43,
+      "43896": 20,
+      "45947": 3,
+      "23831": 15,
+      "18255": 13,
+      "33634": 4,
+      "37091": 2,
+      "44524": 11,
+      "45769": 2,
+      "45018": 1,
+      "45090": 2,
+      "45715": 3,
+      "45789": 2,
+      "45862": 2,
+      "45881": 2,
+      "46397": 1,
+      "37480": 5,
+      "42126": 14,
+      "22426": 28,
+      "35922": 7,
+      "41042": 16,
+      "44336": 6,
+      "45706": 9,
+      "18455": 1,
+      "19268": 11,
+      "22559": 14,
+      "23601": 17,
+      "32051": 2,
+      "34396": 3,
+      "46310": 5,
+      "46358": 2,
+      "21039": 6,
+      "21961": 1,
+      "34389": 1
+    },
+    "649": {
+      "37427": 3,
+      "37841": 10,
+      "45713": 2,
+      "37806": 44,
+      "18466": 35,
+      "48240": 19,
+      "18546": 38,
+      "27058": 9,
+      "38367": 4,
+      "38424": 2,
+      "42279": 3,
+      "33654": 26,
+      "44524": 11,
+      "45769": 2,
+      "44147": 4,
+      "45018": 1,
+      "45884": 3,
+      "37480": 4,
+      "38398": 14,
+      "40927": 29,
+      "35196": 12,
+      "35811": 5,
+      "35922": 5,
+      "44515": 6,
+      "45706": 6,
+      "18985": 3,
+      "19904": 1,
+      "31951": 4,
+      "35602": 3,
+      "37234": 3,
+      "19136": 1,
+      "33670": 4,
+      "38330": 3,
+      "38754": 6,
+      "42765": 6,
+      "41452": 6,
+      "42741": 2,
+      "46358": 1,
+      "47555": 2,
+      "18391": 13,
+      "34389": 1,
+      "45790": 6
+    },
+    "791": {
+      "42221": 6,
+      "45716": 27,
+      "31741": 15,
+      "18407": 19,
+      "44223": 2,
+      "18480": 28,
+      "18546": 54,
+      "19296": 3,
+      "23745": 1,
+      "23793": 15,
+      "45947": 5,
+      "33600": 86,
+      "23831": 17,
+      "37181": 4,
+      "44003": 8,
+      "45720": 3,
+      "44114": 2,
+      "44310": 1,
+      "45018": 1,
+      "45064": 2,
+      "45789": 2,
+      "45862": 2,
+      "45881": 1,
+      "45884": 3,
+      "18113": 18,
+      "18375": 1,
+      "40937": 2,
+      "42765": 2,
+      "19378": 1,
+      "19904": 1,
+      "22078": 7,
+      "23672": 3,
+      "38754": 5,
+      "22809": 1,
+      "38315": 4,
+      "38403": 2,
+      "40181": 1,
+      "46310": 4,
+      "18116": 8,
+      "34389": 1,
+      "45790": 7
+    },
+    "836": {
+      "26292": 1,
+      "33217": 6,
+      "33619": 4,
+      "40262": 9,
+      "33645": 8,
+      "18480": 25,
+      "5918": 19,
+      "14893": 25,
+      "18546": 54,
+      "36509": 29,
+      "45714": 4,
+      "44223": 1,
+      "18547": 4,
+      "31958": 3,
+      "37304": 1,
+      "44147": 3,
+      "44310": 2,
+      "44539": 6,
+      "45064": 2,
+      "45090": 3,
+      "46099": 2,
+      "34602": 1,
+      "37480": 6,
+      "18113": 14,
+      "22426": 25,
+      "36671": 22,
+      "40607": 5,
+      "48241": 25,
+      "18422": 8,
+      "22651": 9,
+      "27208": 5,
+      "31488": 1,
+      "38781": 7,
+      "35205": 6,
+      "35566": 3,
+      "38330": 4,
+      "38403": 3,
+      "44703": 1,
+      "18465": 4,
+      "23813": 4,
+      "34389": 1,
+      "38361": 5,
+      "40550": 8
+    },
+    "1940": {
+      "37427": 3,
+      "33217": 11,
+      "18466": 41,
+      "45713": 15,
+      "35939": 8,
+      "48239": 13,
+      "18479": 16,
+      "18546": 45,
+      "32291": 14,
+      "40188": 33,
+      "45947": 5,
+      "42358": 16,
+      "18487": 7,
+      "33685": 21,
+      "37536": 1,
+      "40095": 6,
+      "40460": 1,
+      "40147": 1,
+      "43950": 3,
+      "44539": 3,
+      "44975": 1,
+      "45715": 1,
+      "38315": 5,
+      "40564": 8,
+      "43895": 1,
+      "45706": 24,
+      "48241": 12,
+      "22559": 13,
+      "23672": 2,
+      "23691": 1,
+      "35878": 1,
+      "38780": 1,
+      "18236": 19,
+      "38403": 5,
+      "39557": 2,
+      "43841": 2,
+      "46310": 1,
+      "46358": 1,
+      "47553": 1,
+      "15962": 24,
+      "18786": 2,
+      "38361": 1
+    }
+  }
 }
