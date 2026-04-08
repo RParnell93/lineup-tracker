@@ -192,8 +192,6 @@ STATUS_ICONS = {
 
 
 # --- Data loading ---
-_api_debug = ""
-
 @st.cache_data(ttl=300)
 def _github_data(path):
     """Fetch a file from GitHub API (private source repo, token required).
@@ -201,18 +199,14 @@ def _github_data(path):
     TTL of 300s keeps us under rate limits.
     Falls back to None on failure; callers try local files next.
     """
-    global _api_debug
     import requests
     token = ""
     try:
         token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
-    except Exception as e:
-        _api_debug = f"secrets error: {e}"
+    except Exception:
         token = os.environ.get("GITHUB_TOKEN", "")
     if not token:
-        _api_debug = "no token found"
         return None
-    _api_debug = f"token: {token[:4]}...{token[-4:]}"
     headers = {"Accept": "application/vnd.github.v3+json", "Authorization": f"token {token}"}
     repo = "RParnell93/ottoneu-lineups"
     try:
@@ -221,12 +215,9 @@ def _github_data(path):
         if resp.status_code == 200:
             import base64 as b64
             content = b64.b64decode(resp.json()["content"]).decode()
-            _api_debug += f" | {resp.status_code} OK"
             return json.loads(content)
-        else:
-            _api_debug += f" | {resp.status_code}: {resp.text[:100]}"
-    except Exception as e:
-        _api_debug += f" | error: {e}"
+    except Exception:
+        pass
     return None
 
 
@@ -234,13 +225,13 @@ def load_log():
     # Try GitHub API first (always fresh from source repo)
     data = _github_data("output/lineup_log.json")
     if data is not None:
-        return data, "api"
+        return data
     if not LOG_PATH.exists():
-        return [], "no_file"
+        return []
     try:
-        return json.loads(LOG_PATH.read_text()), "local"
+        return json.loads(LOG_PATH.read_text())
     except (json.JSONDecodeError, ValueError):
-        return [], "parse_error"
+        return []
 
 
 @st.cache_data(ttl=60)
@@ -1067,25 +1058,9 @@ st.markdown("""
 
 
 # --- Load data ---
-log, _log_source = load_log()
+log = load_log()
 schedule = load_schedule()
 roster_cache = load_roster_cache()
-
-# Debug: show data source in sidebar
-_source_labels = {"api": "GitHub API (private repo)", "local": "Local file (deploy repo)", "no_file": "No data file found", "parse_error": "File parse error"}
-# Uncached token diagnostic
-_diag = ""
-try:
-    _tk = st.secrets.get("GITHUB_TOKEN", "")
-    if _tk:
-        import requests as _rq
-        _r = _rq.get("https://api.github.com/repos/RParnell93/ottoneu-lineups", headers={"Authorization": f"token {_tk}"}, timeout=5)
-        _diag = f"token: {_tk[:4]}...{_tk[-4:]} | repo check: {_r.status_code}"
-    else:
-        _diag = "no GITHUB_TOKEN in secrets"
-except Exception as _e:
-    _diag = f"diag error: {_e}"
-st.sidebar.caption(f"Data: {_source_labels.get(_log_source, _log_source)} | {len(log)} entries\n{_diag}")
 
 # --- Hero header ---
 total_log_runs = len(log)
@@ -1761,7 +1736,7 @@ with tab_insights:
                 hovermode="x unified",
                 hoverlabel=dict(bgcolor="#1c2333", font_color="#fff", font_size=13),
             )
-            st.plotly_chart(fig, use_container_width=True, config={
+            st.plotly_chart(fig, width="stretch", config={
                 "displayModeBar": False, "scrollZoom": False,
                 "staticPlot": True,
             })
