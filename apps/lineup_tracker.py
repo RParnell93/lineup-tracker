@@ -338,6 +338,7 @@ def eligible_players_for_position(pos, league_id, roster_cache):
     If a player has positions data, uses strict matching.
     If positions data is empty, falls back to hitter/pitcher classification:
     hitters are eligible for hitting slots, pitchers for pitching slots.
+    Excludes IL and minor league players. Returns (pid, display_label) sorted by salary desc.
     """
     lid = str(league_id)
     player_ids = roster_cache.get("league_rosters", {}).get(lid, [])
@@ -347,26 +348,32 @@ def eligible_players_for_position(pos, league_id, roster_cache):
         p = players.get(str(pid))
         if not p:
             continue
-        if p.get("minor_leaguer"):
+        if p.get("minor_leaguer") or p.get("on_il"):
             continue
         positions = p.get("positions", [])
         is_pitcher = p.get("is_pitcher", False)
+        salary = p.get("salary", 0)
+        name = p["name"]
 
+        matched = False
         if positions:
-            # Strict match when position data is available
             if pos == "Util" and not is_pitcher:
-                eligible.append((str(pid), p["name"]))
+                matched = True
             elif pos == "MI" and any(x in positions for x in ["2B", "SS"]):
-                eligible.append((str(pid), p["name"]))
+                matched = True
             elif pos in positions:
-                eligible.append((str(pid), p["name"]))
+                matched = True
         else:
-            # No position data - use hitter/pitcher classification
             if pos in HITTING_POSITIONS and not is_pitcher:
-                eligible.append((str(pid), p["name"]))
+                matched = True
             elif pos in PITCHING_POSITIONS and is_pitcher:
-                eligible.append((str(pid), p["name"]))
-    return sorted(eligible, key=lambda x: x[1])
+                matched = True
+
+        if matched:
+            label = f"{name} (${salary})"
+            eligible.append((str(pid), label, salary))
+    eligible.sort(key=lambda x: (-x[2], x[1]))
+    return [(pid, label) for pid, label, _ in eligible]
 
 
 TS_FORMATS = ["%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%S%z"]
