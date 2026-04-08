@@ -343,16 +343,18 @@ def eligible_players_for_position(pos, league_id, roster_cache):
     lid = str(league_id)
     player_ids = roster_cache.get("league_rosters", {}).get(lid, [])
     players = roster_cache.get("players", {})
+    league_salaries = roster_cache.get("league_salaries", {}).get(lid, {})
     eligible = []
     for pid in player_ids:
-        p = players.get(str(pid))
+        pid_str = str(pid)
+        p = players.get(pid_str)
         if not p:
             continue
         if p.get("minor_leaguer") or p.get("on_il"):
             continue
         positions = p.get("positions", [])
         is_pitcher = p.get("is_pitcher", False)
-        salary = p.get("salary", 0)
+        salary = league_salaries.get(pid_str, p.get("salary", 0))
         name = p["name"]
 
         matched = False
@@ -371,7 +373,7 @@ def eligible_players_for_position(pos, league_id, roster_cache):
 
         if matched:
             label = f"{name} (${salary})"
-            eligible.append((str(pid), label, salary))
+            eligible.append((pid_str, label, salary))
     eligible.sort(key=lambda x: (-x[2], x[1]))
     return [(pid, label) for pid, label, _ in eligible]
 
@@ -2109,11 +2111,7 @@ with tab_config:
                                 if can_edit:
                                     not_in_list = [(pid, name) for pid, name in eligible if int(pid) not in current_ids]
                                     if not_in_list:
-                                        add_options = {}
-                                        for apid, aname in not_in_list:
-                                            appg = roster_cache.get("players", {}).get(str(apid), {}).get("ppg")
-                                            label = f"{aname} ({appg} {stat_unit})" if appg else aname
-                                            add_options[label] = int(apid)
+                                        add_options = {aname: int(apid) for apid, aname in not_in_list}
                                         add_sel = st.selectbox("Add", [""] + list(add_options.keys()), key=f"add_{sel_lid}_{slot}", label_visibility="collapsed")
                                         if add_sel:
                                             new_pid = add_options[add_sel]
