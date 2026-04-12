@@ -10737,6 +10737,24 @@
         "SS"
       ],
       "is_pitcher": false
+    },
+    "41265": {
+      "name": "Luis Lara",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "27162": {
+      "name": "Ezequiel Duran",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B",
+        "OF"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -11184,7 +11202,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-12T19:46:48.737115+00:00",
+  "updated_at": "2026-04-12T22:59:22.302856+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
