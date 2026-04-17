@@ -50089,5 +50089,568 @@
         "playing_today": true
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-17T09:52:55Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-17",
+    "teams_playing": 30,
+    "status": "error: Please move one or more of your SPs to the Bench and try again",
+    "changes": [
+      {
+        "player": "Dennis Santana",
+        "player_id": 18985,
+        "from": "RP",
+        "to": "Bench",
+        "reason": "fatigued"
+      },
+      {
+        "player": "Jordan Romano",
+        "player_id": 21170,
+        "from": "Bench",
+        "to": "RP",
+        "reason": "has game"
+      },
+      {
+        "player": "Michael Wacha",
+        "player_id": 18171,
+        "from": "Bench",
+        "to": "SP",
+        "reason": "must start"
+      },
+      {
+        "player": "Janson Junk",
+        "player_id": 26807,
+        "from": "Bench",
+        "to": "SP",
+        "reason": "has game"
+      },
+      {
+        "player": "Ryne Nelson",
+        "player_id": 37826,
+        "from": "Bench",
+        "to": "SP",
+        "reason": "has game"
+      },
+      {
+        "player": "Will Warren",
+        "player_id": 40972,
+        "from": "Bench",
+        "to": "SP",
+        "reason": "has game"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Dominic Smith",
+        "player_id": 18300,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "ATL",
+        "bat_hand": "L",
+        "vs_pitcher": "Taijuan Walker",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 7.6,
+        "playing_today": true
+      },
+      {
+        "player": "Geraldo Perdomo",
+        "player_id": 26198,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "ARI",
+        "bat_hand": "S",
+        "vs_pitcher": "Eric Lauer",
+        "vs_hand": "L",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 3.3,
+        "playing_today": true
+      },
+      {
+        "player": "Vinnie Pasquantino",
+        "player_id": 37094,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "KCR",
+        "bat_hand": "L",
+        "vs_pitcher": "Cam Schlittler",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 1.2,
+        "playing_today": true
+      },
+      {
+        "player": "Jakob Marsee",
+        "player_id": 42169,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "MIA",
+        "bat_hand": "L",
+        "vs_pitcher": "TBD",
+        "vs_hand": "?",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.3,
+        "playing_today": true
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Davis Martin",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4,
+        "playing_today": true
+      },
+      {
+        "player": "Andrew Nardi",
+        "player_id": 37639,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "MIA",
+        "bat_hand": "",
+        "vs_pitcher": "TBD",
+        "vs_hand": "?",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 1.6,
+        "playing_today": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-17T09:52:58Z",
+    "league_id": 530,
+    "league_name": "SABRmagician",
+    "game_date": "2026-04-17",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Isaac Paredes",
+        "player_id": 23831,
+        "position": "Bench",
+        "salary": 15,
+        "mlb_team": "HOU",
+        "bat_hand": "R",
+        "vs_pitcher": "Kyle Leahy",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 3.2,
+        "playing_today": true
+      },
+      {
+        "player": "Curtis Mead",
+        "player_id": 35725,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "WSN",
+        "bat_hand": "R",
+        "vs_pitcher": "Logan Webb",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 5.6,
+        "playing_today": true
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Davis Martin",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4,
+        "playing_today": true
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Edward Cabrera",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 1.5,
+        "playing_today": true
+      },
+      {
+        "player": "Camilo Doval",
+        "player_id": 32051,
+        "position": "Bench",
+        "salary": 2,
+        "mlb_team": "NYY",
+        "bat_hand": "",
+        "vs_pitcher": "Michael Wacha",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 0.7,
+        "playing_today": true
+      },
+      {
+        "player": "Jose A. Ferrer",
+        "player_id": 34396,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "SEA",
+        "bat_hand": "",
+        "vs_pitcher": "Jacob deGrom",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 5.5,
+        "playing_today": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-17T09:53:02Z",
+    "league_id": 791,
+    "league_name": "SabrKurtz",
+    "game_date": "2026-04-17",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Brandon Nimmo",
+        "player_id": 18126,
+        "position": "Bench",
+        "salary": 18,
+        "mlb_team": "TEX",
+        "bat_hand": "L",
+        "vs_pitcher": "Logan Gilbert",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 5.8,
+        "playing_today": true
+      },
+      {
+        "player": "Alex Bregman",
+        "player_id": 18480,
+        "position": "Bench",
+        "salary": 28,
+        "mlb_team": "CHC",
+        "bat_hand": "R",
+        "vs_pitcher": "Kodai Senga",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.5,
+        "playing_today": true
+      },
+      {
+        "player": "Jacob Wilson",
+        "player_id": 44003,
+        "position": "Bench",
+        "salary": 8,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Davis Martin",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.4,
+        "playing_today": true
+      },
+      {
+        "player": "Sam Antonacci",
+        "player_id": 45884,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Aaron Civale",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8,
+        "playing_today": true
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Edward Cabrera",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 1.5,
+        "playing_today": true
+      },
+      {
+        "player": "Sonny Gray",
+        "player_id": 18113,
+        "position": "Bench",
+        "salary": 18,
+        "mlb_team": "BOS",
+        "bat_hand": "",
+        "vs_pitcher": "Casey Mize",
+        "vs_hand": "R",
+        "reason": "no open SP slot",
+        "reasons": [
+          "no open SP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 15.4,
+        "playing_today": true
+      },
+      {
+        "player": "Grant Holmes",
+        "player_id": 18375,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATL",
+        "bat_hand": "",
+        "vs_pitcher": "Taijuan Walker",
+        "vs_hand": "R",
+        "reason": "no open SP slot",
+        "reasons": [
+          "no open SP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 25.0,
+        "playing_today": true
+      },
+      {
+        "player": "Brad Keller",
+        "player_id": 19378,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "PHI",
+        "bat_hand": "",
+        "vs_pitcher": "Mart\u00edn P\u00e9rez",
+        "vs_hand": "L",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 7.8,
+        "playing_today": true
+      },
+      {
+        "player": "Tyler Rogers",
+        "player_id": 19904,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "TOR",
+        "bat_hand": "",
+        "vs_pitcher": "Michael Soroka",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 3.6,
+        "playing_today": true
+      },
+      {
+        "player": "Robert Suarez",
+        "player_id": 22078,
+        "position": "Bench",
+        "salary": 7,
+        "mlb_team": "ATL",
+        "bat_hand": "",
+        "vs_pitcher": "Taijuan Walker",
+        "vs_hand": "R",
+        "reason": "no open RP slot",
+        "reasons": [
+          "no open RP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 8.1,
+        "playing_today": true
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-17T09:53:06Z",
+    "league_id": 1940,
+    "league_name": "Duran Duran",
+    "game_date": "2026-04-17",
+    "teams_playing": 30,
+    "status": "optimal",
+    "changes": [],
+    "recommendations": [
+      {
+        "player": "Dominic Canzone",
+        "player_id": 37536,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "SEA",
+        "bat_hand": "L",
+        "vs_pitcher": "Jacob deGrom",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 1.9,
+        "playing_today": true
+      },
+      {
+        "player": "Max Muncy",
+        "player_id": 40460,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "ATH",
+        "bat_hand": "R",
+        "vs_pitcher": "Davis Martin",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 4.5,
+        "playing_today": true
+      },
+      {
+        "player": "Sam Antonacci",
+        "player_id": 45884,
+        "position": "Bench",
+        "salary": 1,
+        "mlb_team": "CHW",
+        "bat_hand": "L",
+        "vs_pitcher": "Aaron Civale",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 0.8,
+        "playing_today": true
+      },
+      {
+        "player": "Carson Benge",
+        "player_id": 45947,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Edward Cabrera",
+        "vs_hand": "R",
+        "reason": "no open slot",
+        "reasons": [
+          "no open slot"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 1.5,
+        "playing_today": true
+      },
+      {
+        "player": "Carmen Mlodzinski",
+        "player_id": 38403,
+        "position": "Bench",
+        "salary": 5,
+        "mlb_team": "PIT",
+        "bat_hand": "",
+        "vs_pitcher": "Nick Martinez",
+        "vs_hand": "R",
+        "reason": "no open SP slot",
+        "reasons": [
+          "no open SP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 26.8,
+        "playing_today": true
+      },
+      {
+        "player": "Noah Schultz",
+        "player_id": 42873,
+        "position": "Bench",
+        "salary": 9,
+        "mlb_team": "CHW",
+        "bat_hand": "",
+        "vs_pitcher": "Aaron Civale",
+        "vs_hand": "R",
+        "reason": "no open SP slot",
+        "reasons": [
+          "no open SP slot"
+        ],
+        "is_pitcher": true,
+        "fgpts_per_g": 18.5,
+        "playing_today": true
+      }
+    ]
   }
 ]
