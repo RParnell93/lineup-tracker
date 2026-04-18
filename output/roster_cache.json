@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 40,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -467,7 +467,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -868,7 +868,7 @@
         "1B",
         "3B"
       ],
-      "salary": 19,
+      "salary": 16,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1953,7 +1953,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 29,
+      "salary": 34,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2046,7 +2046,7 @@
         "SP",
         "RP"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -9387,7 +9387,7 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -10314,7 +10314,7 @@
         "1B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -11384,7 +11384,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-18T19:24:16.053374+00:00",
+  "updated_at": "2026-04-18T20:05:20.329778+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
