@@ -10952,6 +10952,28 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "40817": {
+      "name": "Hao-Yu  Lee",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "47646": {
+      "name": "Joseph Dzierwa",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "46500": {
+      "name": "Ronny Cruz",
+      "positions": [
+        "SS"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -11279,10 +11301,10 @@
       "18126",
       "18546",
       "23745",
-      "32655",
       "45947",
       "33600",
       "31741",
+      "32655",
       "44223",
       "45720",
       "45884",
@@ -11400,7 +11422,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-19T19:27:10.726538+00:00",
+  "updated_at": "2026-04-19T20:54:25.256666+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -11548,10 +11570,10 @@
       "18126": 18,
       "18546": 54,
       "23745": 1,
-      "32655": 2,
       "45947": 5,
       "33600": 86,
       "31741": 15,
+      "32655": 2,
       "44223": 2,
       "45720": 3,
       "45884": 3,
