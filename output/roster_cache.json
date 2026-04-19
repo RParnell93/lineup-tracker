@@ -45,7 +45,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 45,
+      "salary": 54,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 46,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -214,7 +214,7 @@
         "2B",
         "SS"
       ],
-      "salary": 15,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -239,7 +239,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 26,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -375,7 +375,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -441,7 +441,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 9,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -895,7 +895,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -909,7 +909,7 @@
         "SP",
         "RP"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -1006,7 +1006,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 5,
       "mlb_team": "SDP",
       "is_pitcher": true,
       "ppg": null,
@@ -1144,7 +1144,7 @@
         "SP",
         "RP"
       ],
-      "salary": 5,
+      "salary": 4,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -1852,7 +1852,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -1966,7 +1966,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 7,
+      "salary": 17,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -2111,7 +2111,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 4,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2150,7 +2150,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "KCR",
       "is_pitcher": true,
       "ppg": null,
@@ -2176,7 +2176,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -2282,7 +2282,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2295,7 +2295,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2824,7 +2824,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 3,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2837,7 +2837,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -5273,7 +5273,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -10974,6 +10974,14 @@
         "SS"
       ],
       "is_pitcher": false
+    },
+    "22759": {
+      "name": "Jovani Moran",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11422,7 +11430,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-19T20:54:25.256666+00:00",
+  "updated_at": "2026-04-19T22:20:45.476184+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
