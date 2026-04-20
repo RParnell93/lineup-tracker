@@ -427,7 +427,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -1133,8 +1133,8 @@
       "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": false,
-      "ppg": 6.12,
-      "pts": 110.1,
+      "ppg": 6.35,
+      "pts": 120.6,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -1406,7 +1406,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -1445,7 +1445,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1471,7 +1471,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 14,
+      "salary": 18,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -1776,7 +1776,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2072,7 +2072,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 6,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2085,7 +2085,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -2124,7 +2124,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 3,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -2324,8 +2324,8 @@
       "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": false,
-      "ppg": 8.04,
-      "pts": 160.8,
+      "ppg": 8.31,
+      "pts": 174.5,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2348,11 +2348,11 @@
         "2B",
         "SS"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": false,
-      "ppg": 9.93,
-      "pts": 89.4,
+      "ppg": 8.82,
+      "pts": 88.2,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2391,8 +2391,8 @@
       "salary": 1,
       "mlb_team": "CHW",
       "is_pitcher": false,
-      "ppg": 9.55,
-      "pts": 124.1,
+      "ppg": 8.51,
+      "pts": 119.1,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2748,8 +2748,8 @@
       "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": false,
-      "ppg": 9.0,
-      "pts": 126.0,
+      "ppg": 9.71,
+      "pts": 145.6,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -4134,7 +4134,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 5,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -6755,7 +6755,13 @@
       "positions": [
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 2,
+      "mlb_team": "ARI",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42105": {
       "name": "Druw Jones",
@@ -7153,9 +7159,16 @@
     "23723": {
       "name": "Braxton Garrett",
       "positions": [
+        "SP",
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "MIA",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38780": {
       "name": "Erik Sabrowski",
@@ -7793,8 +7806,8 @@
       "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": false,
-      "ppg": 7.27,
-      "pts": 145.4,
+      "ppg": 7.31,
+      "pts": 153.5,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9087,7 +9100,13 @@
         "SS",
         "3B"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "LAA",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "32455": {
       "name": "Joel Peguero",
@@ -10725,8 +10744,8 @@
       "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": false,
-      "ppg": 8.21,
-      "pts": 98.5,
+      "ppg": 7.27,
+      "pts": 94.5,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -10993,6 +11012,20 @@
         "OF"
       ],
       "is_pitcher": false
+    },
+    "37987": {
+      "name": "Gavin Collyer",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "33669": {
+      "name": "Daniel Lynch IV",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11044,7 +11077,7 @@
     "530": [
       "23654",
       "33217",
-      "33634",
+      "35725",
       "37806",
       "44003",
       "18255",
@@ -11052,9 +11085,10 @@
       "19328",
       "19649",
       "33625",
-      "43896",
+      "37480",
       "23831",
-      "35725",
+      "33634",
+      "43896",
       "45769",
       "45947",
       "48240",
@@ -11065,7 +11099,6 @@
       "45862",
       "45881",
       "46397",
-      "37480",
       "42126",
       "22426",
       "35922",
@@ -11073,16 +11106,17 @@
       "44336",
       "45706",
       "19268",
-      "22559",
       "23601",
+      "23787",
       "34396",
       "35677",
-      "23787",
+      "23723",
       "32051",
       "46310",
       "46358",
       "21039",
       "21961",
+      "22559",
       "34389"
     ],
     "649": [
@@ -11235,6 +11269,7 @@
       "37295",
       "5201",
       "26198",
+      "26213",
       "37094",
       "37480",
       "42169",
@@ -11323,6 +11358,7 @@
       "45720",
       "33600",
       "18407",
+      "23722",
       "31741",
       "45884",
       "45947",
@@ -11440,7 +11476,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-20T10:07:55.242467+00:00",
+  "updated_at": "2026-04-20T15:06:03.195328+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -11458,6 +11494,7 @@
       "37295": 17,
       "5201": 3,
       "26198": 9,
+      "26213": 1,
       "37094": 15,
       "37480": 5,
       "42169": 5,
@@ -11491,7 +11528,7 @@
     "530": {
       "23654": 16,
       "33217": 6,
-      "33634": 4,
+      "35725": 1,
       "37806": 40,
       "44003": 9,
       "18255": 13,
@@ -11499,9 +11536,10 @@
       "19328": 19,
       "19649": 3,
       "33625": 43,
-      "43896": 20,
+      "37480": 5,
       "23831": 15,
-      "35725": 1,
+      "33634": 4,
+      "43896": 20,
       "45769": 2,
       "45947": 3,
       "48240": 16,
@@ -11512,7 +11550,6 @@
       "45862": 2,
       "45881": 2,
       "46397": 1,
-      "37480": 5,
       "42126": 14,
       "22426": 28,
       "35922": 7,
@@ -11520,16 +11557,17 @@
       "44336": 6,
       "45706": 9,
       "19268": 11,
-      "22559": 14,
       "23601": 17,
+      "23787": 1,
       "34396": 3,
       "35677": 1,
-      "23787": 1,
+      "23723": 1,
       "32051": 2,
       "46310": 5,
       "46358": 2,
       "21039": 6,
       "21961": 1,
+      "22559": 14,
       "34389": 1
     },
     "649": {
@@ -11591,6 +11629,7 @@
       "45720": 3,
       "33600": 86,
       "18407": 19,
+      "23722": 2,
       "31741": 15,
       "45884": 3,
       "45947": 5,
