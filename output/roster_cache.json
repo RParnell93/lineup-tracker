@@ -427,7 +427,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -1444,7 +1444,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1470,13 +1470,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 14,
+      "salary": 18,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "40095": {
       "name": "Marcelo Mayer",
@@ -1775,7 +1775,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2071,7 +2071,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 6,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2084,7 +2084,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 6,
+      "salary": 4,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -2123,7 +2123,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 3,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -2286,7 +2286,7 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "46358": {
@@ -2347,7 +2347,7 @@
         "2B",
         "SS"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -2440,7 +2440,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 4,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -4133,7 +4133,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 5,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -11051,6 +11051,29 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "40263": {
+      "name": "Kahlil Watson",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "31694": {
+      "name": "Weston Wilson",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "38813": {
+      "name": "Wilber Dotel",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11135,8 +11158,8 @@
       "32051",
       "34396",
       "35677",
-      "23723",
       "46310",
+      "23723",
       "46358",
       "21039",
       "21961",
@@ -11144,6 +11167,7 @@
       "34389"
     ],
     "649": [
+      "33654",
       "37427",
       "48240",
       "45713",
@@ -11155,12 +11179,11 @@
       "37480",
       "38367",
       "40927",
-      "33654",
+      "45769",
       "18300",
       "37841",
       "42279",
       "44524",
-      "45769",
       "45884",
       "43569",
       "44147",
@@ -11489,8 +11512,8 @@
       "38315",
       "41926",
       "42873",
-      "43841",
       "46310",
+      "43841",
       "46358",
       "47553",
       "15962",
@@ -11500,7 +11523,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-21T11:35:40.119472+00:00",
+  "updated_at": "2026-04-21T21:28:19.260254+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -11585,8 +11608,8 @@
       "32051": 2,
       "34396": 3,
       "35677": 1,
-      "23723": 1,
       "46310": 5,
+      "23723": 1,
       "46358": 2,
       "21039": 6,
       "21961": 1,
@@ -11594,6 +11617,7 @@
       "34389": 1
     },
     "649": {
+      "33654": 26,
       "37427": 3,
       "48240": 19,
       "45713": 2,
@@ -11605,12 +11629,11 @@
       "37480": 4,
       "38367": 4,
       "40927": 29,
-      "33654": 26,
+      "45769": 2,
       "18300": 1,
       "37841": 10,
       "42279": 3,
       "44524": 11,
-      "45769": 2,
       "45884": 3,
       "43569": 5,
       "44147": 4,
@@ -11760,8 +11783,8 @@
       "38315": 5,
       "41926": 1,
       "42873": 9,
-      "43841": 2,
       "46310": 1,
+      "43841": 2,
       "46358": 1,
       "47553": 1,
       "15962": 24,
