@@ -11010,8 +11010,8 @@
       "salary": 1,
       "mlb_team": "HOU",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -11678,7 +11678,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-29T22:08:43.046331+00:00",
+  "updated_at": "2026-04-29T23:09:47.610754+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
