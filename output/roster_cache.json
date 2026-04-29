@@ -2443,8 +2443,8 @@
       "salary": 3,
       "mlb_team": "SFG",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.37,
+      "pts": 165.6,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11678,7 +11678,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-04-29T20:46:33.070456+00:00",
+  "updated_at": "2026-04-29T22:08:43.046331+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
