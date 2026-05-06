@@ -11403,6 +11403,14 @@
         "OF"
       ],
       "is_pitcher": false
+    },
+    "39577": {
+      "name": "Yilber Diaz",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11849,7 +11857,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-05-06T20:55:25.369405+00:00",
+  "updated_at": "2026-05-06T22:09:05.441204+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
