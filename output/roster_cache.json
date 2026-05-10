@@ -45,7 +45,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 45,
+      "salary": 54,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 35,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 40,
+      "salary": 44,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -214,7 +214,7 @@
         "2B",
         "SS"
       ],
-      "salary": 15,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -239,7 +239,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 26,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -375,7 +375,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -441,7 +441,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 6,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -467,7 +467,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 5,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -869,7 +869,7 @@
         "1B",
         "3B"
       ],
-      "salary": 16,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -896,7 +896,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -910,7 +910,7 @@
         "SP",
         "RP"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -1857,7 +1857,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -1883,7 +1883,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 9,
+      "salary": 5,
       "mlb_team": "CHW",
       "is_pitcher": true,
       "ppg": null,
@@ -1957,7 +1957,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 34,
+      "salary": 29,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2050,7 +2050,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 9,
+      "salary": 6,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2115,7 +2115,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 4,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2180,7 +2180,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -2286,7 +2286,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2830,7 +2830,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 3,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2843,7 +2843,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -6206,7 +6206,7 @@
     "42727": {
       "name": "Ethan Salas",
       "positions": [
-        "Util"
+        "C"
       ],
       "salary": 1,
       "mlb_team": "SDP",
@@ -9015,7 +9015,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -9697,9 +9697,15 @@
     "47653": {
       "name": "Anthony Eyanson",
       "positions": [
-        "RP"
+        "SP"
       ],
-      "is_pitcher": true
+      "salary": 2,
+      "mlb_team": "BOS",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": true,
+      "on_il": false
     },
     "40747": {
       "name": "Joe Rock",
@@ -11503,6 +11509,13 @@
         "SP"
       ],
       "is_pitcher": true
+    },
+    "40985": {
+      "name": "Franco Aleman",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11623,18 +11636,18 @@
       "45790",
       "19136",
       "19268",
-      "19904",
       "31951",
       "35602",
+      "42308",
+      "19904",
       "31438",
       "33670",
       "38754",
-      "42308",
       "42741",
       "42873",
       "44515",
-      "48241",
       "47555",
+      "47653",
       "18391",
       "22651",
       "34389",
@@ -11690,19 +11703,19 @@
       "33645",
       "40262",
       "44223",
-      "18480",
+      "45884",
       "5918",
       "18546",
-      "18644",
+      "18547",
+      "37480",
       "45789",
-      "45884",
       "36509",
       "18407",
-      "18547",
+      "18480",
+      "18644",
       "31958",
       "33217",
       "37300",
-      "37480",
       "45714",
       "44310",
       "44539",
@@ -11951,7 +11964,7 @@
       "42592"
     ]
   },
-  "updated_at": "2026-05-10T15:36:36.547363+00:00",
+  "updated_at": "2026-05-10T17:01:17.157548+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12071,18 +12084,18 @@
       "45790": 6,
       "19136": 1,
       "19268": 11,
-      "19904": 1,
       "31951": 4,
       "35602": 3,
+      "42308": 4,
+      "19904": 1,
       "31438": 7,
       "33670": 4,
       "38754": 6,
-      "42308": 4,
       "42741": 2,
       "42873": 5,
       "44515": 6,
-      "48241": 13,
       "47555": 2,
+      "47653": 2,
       "18391": 13,
       "22651": 8,
       "34389": 1,
@@ -12137,19 +12150,19 @@
       "33645": 8,
       "40262": 9,
       "44223": 1,
-      "18480": 25,
+      "45884": 1,
       "5918": 19,
       "18546": 54,
-      "18644": 2,
+      "18547": 4,
+      "37480": 6,
       "45789": 1,
-      "45884": 1,
       "36509": 29,
       "18407": 11,
-      "18547": 4,
+      "18480": 25,
+      "18644": 2,
       "31958": 3,
       "33217": 6,
       "37300": 13,
-      "37480": 6,
       "45714": 4,
       "44310": 2,
       "44539": 6,
