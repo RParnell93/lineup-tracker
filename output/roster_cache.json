@@ -8,8 +8,8 @@
       "salary": 69,
       "mlb_team": "ATL",
       "is_pitcher": false,
-      "ppg": 5.03,
-      "pts": 171.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -9086,7 +9086,13 @@
       "positions": [
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 6,
+      "mlb_team": "ATH",
+      "is_pitcher": false,
+      "ppg": 10.38,
+      "pts": 383.9,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "4970": {
       "name": "Brooks Raley",
@@ -11326,7 +11332,13 @@
         "2B",
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "ATL",
+      "is_pitcher": false,
+      "ppg": 10.44,
+      "pts": 323.5,
+      "minor_leaguer": true,
+      "on_il": false
     },
     "18112": {
       "name": "Trevor Bauer",
@@ -11559,6 +11571,13 @@
         "1B"
       ],
       "is_pitcher": false
+    },
+    "47615": {
+      "name": "Aidan Cremarosa",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -11801,11 +11820,12 @@
       "37094",
       "19649",
       "37480",
-      "42169",
+      "42299",
       "44003",
       "44223",
       "40147",
       "44218",
+      "46395",
       "48013",
       "5201",
       "9668",
@@ -11827,7 +11847,6 @@
       "44515",
       "44554",
       "18116",
-      "18786",
       "21039",
       "23813",
       "40097"
@@ -12009,7 +12028,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-11T22:35:31.886476+00:00",
+  "updated_at": "2026-05-11T23:33:13.929547+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12026,11 +12045,12 @@
       "37094": 15,
       "19649": 1,
       "37480": 5,
-      "42169": 5,
+      "42299": 6,
       "44003": 7,
       "44223": 4,
       "40147": 2,
       "44218": 1,
+      "46395": 1,
       "48013": 1,
       "5201": 3,
       "9668": 5,
@@ -12052,7 +12072,6 @@
       "44515": 9,
       "44554": 1,
       "18116": 16,
-      "18786": 4,
       "21039": 6,
       "23813": 6,
       "40097": 1
