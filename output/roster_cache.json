@@ -45,7 +45,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 45,
+      "salary": 54,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -375,7 +375,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -441,7 +441,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 9,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -467,7 +467,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -493,7 +493,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 7,
+      "salary": 11,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -896,7 +896,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -910,7 +910,7 @@
         "SP",
         "RP"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -1453,8 +1453,8 @@
       "salary": 1,
       "mlb_team": "DET",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.16,
+      "pts": 240.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1857,7 +1857,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": 5.85,
@@ -2286,7 +2286,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2830,7 +2830,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 3,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": 5.47,
@@ -2843,7 +2843,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -4199,7 +4199,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 4,
+      "salary": 3,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -6554,7 +6554,13 @@
       "positions": [
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "CHC",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40879": {
       "name": "Chase Petty",
@@ -6634,7 +6640,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18328": {
       "name": "Ryan McMahon",
@@ -9529,7 +9535,7 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": 4.28,
@@ -10953,7 +10959,7 @@
         "3B",
         "OF"
       ],
-      "salary": 3,
+      "salary": 4,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -11734,6 +11740,7 @@
       "45714",
       "45789",
       "18344",
+      "18365",
       "18480",
       "18644",
       "23714",
@@ -11859,20 +11866,21 @@
     ],
     "791": [
       "42221",
-      "45716",
-      "31741",
+      "32655",
+      "27162",
       "44223",
+      "31741",
       "18480",
       "18126",
       "18546",
       "23722",
-      "45720",
       "45789",
+      "45884",
       "33600",
       "23745",
       "23793",
-      "32655",
-      "45884",
+      "45716",
+      "45720",
       "45947",
       "41160",
       "44286",
@@ -11891,7 +11899,6 @@
       "33049",
       "38006",
       "38754",
-      "18375",
       "19378",
       "22078",
       "23672",
@@ -11990,7 +11997,7 @@
       "38361"
     ]
   },
-  "updated_at": "2026-05-11T13:34:04.479717+00:00",
+  "updated_at": "2026-05-11T21:53:48.034076+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12129,20 +12136,21 @@
     },
     "791": {
       "42221": 6,
-      "45716": 27,
-      "31741": 15,
+      "32655": 2,
+      "27162": 4,
       "44223": 2,
+      "31741": 15,
       "18480": 28,
       "18126": 18,
       "18546": 54,
       "23722": 2,
-      "45720": 3,
       "45789": 2,
+      "45884": 3,
       "33600": 86,
       "23745": 1,
       "23793": 15,
-      "32655": 2,
-      "45884": 3,
+      "45716": 27,
+      "45720": 3,
       "45947": 5,
       "41160": 1,
       "44286": 1,
@@ -12160,7 +12168,6 @@
       "33049": 2,
       "38006": 1,
       "38754": 5,
-      "18375": 1,
       "19378": 1,
       "22078": 7,
       "23672": 3,
@@ -12182,6 +12189,7 @@
       "45714": 4,
       "45789": 1,
       "18344": 25,
+      "18365": 1,
       "18480": 25,
       "18644": 2,
       "23714": 1,
