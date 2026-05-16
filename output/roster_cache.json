@@ -1529,7 +1529,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -9097,7 +9097,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -9564,7 +9564,7 @@
         "3B",
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -12216,7 +12216,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-16T20:25:57.715106+00:00",
+  "updated_at": "2026-05-16T21:32:52.571056+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
