@@ -11790,6 +11790,14 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "37217": {
+      "name": "Ryan Kreidler",
+      "positions": [
+        "SS",
+        "OF"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -12237,7 +12245,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-17T17:40:17.437730+00:00",
+  "updated_at": "2026-05-17T18:41:11.724538+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
