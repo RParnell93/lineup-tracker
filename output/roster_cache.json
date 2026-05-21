@@ -2452,8 +2452,8 @@
       "salary": 3,
       "mlb_team": "SFG",
       "is_pitcher": false,
-      "ppg": 1.73,
-      "pts": 17.3,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -11916,6 +11916,16 @@
         "3B"
       ],
       "is_pitcher": false
+    },
+    "18433": {
+      "name": "Orlando Arcia",
+      "positions": [
+        "1B",
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -12363,7 +12373,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-21T17:38:32.459269+00:00",
+  "updated_at": "2026-05-21T19:10:03.504678+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
