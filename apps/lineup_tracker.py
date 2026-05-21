@@ -197,6 +197,7 @@ def _github_data(path):
     """Fetch a file from GitHub API (private source repo, token required).
 
     TTL of 300s keeps us under rate limits.
+    Uses raw content endpoint (no size limit) instead of Contents API (1MB cap).
     Falls back to None on failure; callers try local files next.
     """
     import requests
@@ -207,15 +208,12 @@ def _github_data(path):
         token = os.environ.get("GITHUB_TOKEN", "")
     if not token:
         return None
-    headers = {"Accept": "application/vnd.github.v3+json", "Authorization": f"token {token}"}
-    repo = "RParnell93/ottoneu-lineups"
+    headers = {"Authorization": f"token {token}"}
     try:
-        url = f"https://api.github.com/repos/{repo}/contents/{path}"
-        resp = requests.get(url, headers=headers, timeout=10)
+        url = f"https://raw.githubusercontent.com/RParnell93/ottoneu-lineups/main/{path}"
+        resp = requests.get(url, headers=headers, timeout=30)
         if resp.status_code == 200:
-            import base64 as b64
-            content = b64.b64decode(resp.json()["content"]).decode()
-            return json.loads(content)
+            return json.loads(resp.text)
     except Exception:
         pass
     return None
