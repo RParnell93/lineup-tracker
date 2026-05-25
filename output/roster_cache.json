@@ -5396,7 +5396,13 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "ATL",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "39362": {
       "name": "Thayron Liranzo",
@@ -12082,6 +12088,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "47682": {
+      "name": "Murf Gray",
+      "positions": [
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -12299,6 +12312,7 @@
       "40550",
       "18113",
       "18422",
+      "40707",
       "38361",
       "46221",
       "18465",
@@ -12529,7 +12543,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-25T19:57:08.462954+00:00",
+  "updated_at": "2026-05-25T20:51:23.786546+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12745,6 +12759,7 @@
       "40550": 8,
       "18113": 14,
       "18422": 8,
+      "40707": 1,
       "38361": 5,
       "46221": 1,
       "18465": 4,
