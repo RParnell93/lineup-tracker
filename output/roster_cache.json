@@ -45,7 +45,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 45,
+      "salary": 54,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 39,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -215,7 +215,7 @@
         "2B",
         "SS"
       ],
-      "salary": 15,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": 5.49,
@@ -240,7 +240,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -380,7 +380,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -446,7 +446,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 6,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -906,7 +906,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -1875,7 +1875,7 @@
         "1B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": 6.22,
@@ -2303,7 +2303,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2854,7 +2854,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 3,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": 5.58,
@@ -2868,12 +2868,12 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "44310": {
@@ -3104,7 +3104,7 @@
         "SP",
         "RP"
       ],
-      "salary": 7,
+      "salary": 5,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -4764,7 +4764,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -4938,7 +4938,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -9913,7 +9913,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -11180,7 +11180,7 @@
         "3B",
         "OF"
       ],
-      "salary": 3,
+      "salary": 4,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -12265,6 +12265,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "46738": {
+      "name": "Jhomnardo Reyes",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -12457,9 +12464,9 @@
       "45714",
       "45789",
       "45884",
-      "23714",
       "18407",
       "18547",
+      "23714",
       "33645",
       "37480",
       "44147",
@@ -12717,7 +12724,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-28T19:19:40.509494+00:00",
+  "updated_at": "2026-05-28T20:58:56.727207+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12907,9 +12914,9 @@
       "45714": 4,
       "45789": 1,
       "45884": 1,
-      "23714": 1,
       "18407": 11,
       "18547": 4,
+      "23714": 1,
       "33645": 8,
       "37480": 6,
       "44147": 3,
