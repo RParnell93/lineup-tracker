@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -879,13 +879,13 @@
         "1B",
         "3B"
       ],
-      "salary": 19,
+      "salary": 15,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "5918": {
       "name": "Jose Altuve",
@@ -1115,7 +1115,7 @@
         "3B",
         "OF"
       ],
-      "salary": 15,
+      "salary": 9,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -1541,7 +1541,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 9,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2029,7 +2029,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 15,
+      "salary": 11,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -2647,7 +2647,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 5,
+      "salary": 4,
       "mlb_team": "LAA",
       "is_pitcher": false,
       "ppg": null,
@@ -2815,7 +2815,7 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -9171,7 +9171,13 @@
       "positions": [
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "LAD",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": true
     },
     "43726": {
       "name": "Eduardo Tait",
@@ -9479,7 +9485,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -10703,9 +10709,15 @@
     "47665": {
       "name": "Tanner Franklin",
       "positions": [
-        "RP"
+        "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "STL",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35875": {
       "name": "Cooper Criswell",
@@ -11835,7 +11847,7 @@
       "positions": [
         "Util"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "WSN",
       "is_pitcher": false,
       "ppg": null,
@@ -12577,16 +12589,16 @@
       "40541",
       "12398",
       "39406",
-      "40262",
       "13117",
-      "48240",
+      "40262",
       "18162",
-      "39340",
       "42428",
       "43950",
+      "45720",
       "45789",
       "45716",
-      "45720",
+      "48240",
+      "39340",
       "42727",
       "44039",
       "44539",
@@ -12599,24 +12611,25 @@
       "44003",
       "14393",
       "21015",
+      "23701",
       "40820",
-      "44336",
       "44534",
       "20435",
       "23787",
-      "32736",
+      "38428",
       "41452",
-      "44274",
-      "23701",
       "23741",
       "31438",
       "43841",
+      "44336",
+      "47665",
       "46358",
       "47555",
       "47565",
       "18164",
       "18462",
       "23625",
+      "30979",
       "40707"
     ],
     "791": [
@@ -12752,7 +12765,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-30T21:13:05.481806+00:00",
+  "updated_at": "2026-05-30T22:38:07.714552+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13070,16 +13083,16 @@
       "40541": 1,
       "12398": 11,
       "39406": 1,
-      "40262": 7,
       "13117": 6,
-      "48240": 15,
+      "40262": 7,
       "18162": 4,
-      "39340": 2,
       "42428": 4,
       "43950": 8,
+      "45720": 6,
       "45789": 2,
       "45716": 12,
-      "45720": 6,
+      "48240": 15,
+      "39340": 2,
       "42727": 1,
       "44039": 1,
       "44539": 4,
@@ -13092,24 +13105,25 @@
       "44003": 6,
       "14393": 23,
       "21015": 24,
+      "23701": 1,
       "40820": 1,
-      "44336": 5,
       "44534": 4,
       "20435": 8,
       "23787": 1,
-      "32736": 1,
+      "38428": 1,
       "41452": 1,
-      "44274": 2,
-      "23701": 1,
       "23741": 13,
       "31438": 5,
       "43841": 3,
+      "44336": 5,
+      "47665": 1,
       "46358": 1,
       "47555": 1,
       "47565": 1,
       "18164": 25,
       "18462": 2,
       "23625": 24,
+      "30979": 1,
       "40707": 1
     }
   }
