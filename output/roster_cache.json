@@ -2081,13 +2081,13 @@
       "positions": [
         "RP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "CHC",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "23813": {
       "name": "Corbin Burnes",
@@ -12700,6 +12700,7 @@
       "22426",
       "41042",
       "18786",
+      "21039",
       "22078",
       "23787",
       "38315",
@@ -12799,7 +12800,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-05-31T17:11:38.247981+00:00",
+  "updated_at": "2026-05-31T17:42:17.628013+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12968,6 +12969,7 @@
       "22426": 27,
       "41042": 20,
       "18786": 3,
+      "21039": 5,
       "22078": 7,
       "23787": 1,
       "38315": 4,
