@@ -32,7 +32,7 @@
       "positions": [
         "C"
       ],
-      "salary": 17,
+      "salary": 18,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -167,7 +167,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "37216": {
       "name": "Spencer Steer",
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 16,
+      "salary": 20,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 19,
+      "salary": 21,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -796,7 +796,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 10,
+      "salary": 11,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -893,7 +893,7 @@
         "2B",
         "OF"
       ],
-      "salary": 14,
+      "salary": 11,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1156,7 +1156,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2016,7 +2016,7 @@
         "SP",
         "RP"
       ],
-      "salary": 5,
+      "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2042,7 +2042,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 7,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2081,7 +2081,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 3,
+      "salary": 5,
       "mlb_team": "CHC",
       "is_pitcher": true,
       "ppg": null,
@@ -2263,7 +2263,7 @@
       "positions": [
         "C"
       ],
-      "salary": 22,
+      "salary": 16,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -2316,7 +2316,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2517,7 +2517,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 25,
+      "salary": 30,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -2710,7 +2710,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 12,
+      "salary": 27,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -4810,7 +4810,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -7105,7 +7105,13 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true
+      "salary": 2,
+      "mlb_team": "NYY",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "39099": {
       "name": "Jhostynxon Garcia",
@@ -9946,7 +9952,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -12573,15 +12579,15 @@
       "23714",
       "33217",
       "33645",
-      "18407",
       "31958",
+      "18407",
       "18480",
       "18547",
       "36509",
       "37480",
       "45714",
-      "45789",
       "45884",
+      "45789",
       "40262",
       "44147",
       "44223",
@@ -12620,6 +12626,7 @@
       "12398",
       "18466",
       "45713",
+      "42156",
       "9668",
       "23327",
       "37295",
@@ -12629,7 +12636,6 @@
       "37094",
       "14864",
       "19649",
-      "42156",
       "44223",
       "38316",
       "40147",
@@ -12710,7 +12716,7 @@
       "23654",
       "45716",
       "31741",
-      "44223",
+      "18276",
       "18466",
       "18480",
       "14893",
@@ -12719,11 +12725,10 @@
       "23793",
       "45947",
       "33600",
-      "18276",
       "27162",
+      "44223",
       "45789",
       "45884",
-      "44114",
       "5918",
       "18216",
       "23805",
@@ -12743,6 +12748,7 @@
       "23787",
       "39868",
       "41042",
+      "41865",
       "42598",
       "45790",
       "37812",
@@ -12840,7 +12846,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-06-02T23:08:10.044605+00:00",
+  "updated_at": "2026-06-02T23:22:36.054252+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -12848,6 +12854,7 @@
       "12398": 15,
       "18466": 46,
       "45713": 1,
+      "42156": 9,
       "9668": 5,
       "23327": 69,
       "37295": 17,
@@ -12857,7 +12864,6 @@
       "37094": 15,
       "14864": 1,
       "19649": 1,
-      "42156": 9,
       "44223": 4,
       "38316": 1,
       "40147": 2,
@@ -12980,7 +12986,7 @@
       "23654": 16,
       "45716": 27,
       "31741": 15,
-      "44223": 2,
+      "18276": 30,
       "18466": 39,
       "18480": 28,
       "14893": 21,
@@ -12989,11 +12995,10 @@
       "23793": 15,
       "45947": 5,
       "33600": 86,
-      "18276": 30,
       "27162": 4,
+      "44223": 2,
       "45789": 2,
       "45884": 3,
-      "44114": 1,
       "5918": 11,
       "18216": 53,
       "23805": 1,
@@ -13012,6 +13017,7 @@
       "23787": 1,
       "39868": 1,
       "41042": 20,
+      "41865": 2,
       "42598": 1,
       "45790": 7,
       "37812": 1,
@@ -13026,15 +13032,15 @@
       "23714": 1,
       "33217": 6,
       "33645": 8,
-      "18407": 11,
       "31958": 3,
+      "18407": 11,
       "18480": 25,
       "18547": 4,
       "36509": 29,
       "37480": 6,
       "45714": 4,
-      "45789": 1,
       "45884": 1,
+      "45789": 1,
       "40262": 9,
       "44147": 3,
       "44223": 1,
