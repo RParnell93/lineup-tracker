@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 40,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -9260,7 +9260,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -12910,9 +12910,9 @@
       "22559",
       "23838",
       "38352",
-      "38409",
-      "39557",
       "38386",
+      "39557",
+      "38409",
       "45706",
       "43841",
       "47553",
@@ -12923,7 +12923,7 @@
       "43895"
     ]
   },
-  "updated_at": "2026-06-04T19:04:51.886295+00:00",
+  "updated_at": "2026-06-04T21:05:24.621587+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13185,9 +13185,9 @@
       "22559": 13,
       "23838": 3,
       "38352": 1,
-      "38409": 1,
-      "39557": 2,
       "38386": 2,
+      "39557": 2,
+      "38409": 1,
       "45706": 24,
       "43841": 2,
       "47553": 1,
