@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -879,13 +879,13 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 16,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "5918": {
       "name": "Jose Altuve",
@@ -1100,13 +1100,13 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 6,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "34619": {
       "name": "Brendan Donovan",
@@ -1544,13 +1544,13 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "37091": {
       "name": "Spencer Horwitz",
@@ -2319,7 +2319,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -7061,7 +7061,13 @@
       "positions": [
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "ATH",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "19437": {
       "name": "Zack Littell",
@@ -9543,7 +9549,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": 6.31,
@@ -11274,8 +11280,8 @@
       "salary": 3,
       "mlb_team": "TEX",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.61,
+      "pts": 262.7,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -13007,6 +13013,7 @@
       "38386",
       "39557",
       "40564",
+      "36808",
       "38361",
       "41926",
       "45706",
@@ -13018,7 +13025,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-08T12:26:24.888543+00:00",
+  "updated_at": "2026-06-08T14:36:15.873476+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13282,6 +13289,7 @@
       "38386": 2,
       "39557": 2,
       "40564": 8,
+      "36808": 1,
       "38361": 1,
       "41926": 1,
       "45706": 24,
