@@ -32,7 +32,7 @@
       "positions": [
         "C"
       ],
-      "salary": 18,
+      "salary": 17,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": 0.0,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 19,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -796,7 +796,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 11,
+      "salary": 10,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -893,7 +893,7 @@
         "2B",
         "OF"
       ],
-      "salary": 11,
+      "salary": 21,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1156,7 +1156,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -1417,8 +1417,8 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
-      "on_il": true
+      "minor_leaguer": true,
+      "on_il": false
     },
     "40607": {
       "name": "Andrew Abbott",
@@ -1441,8 +1441,8 @@
       "salary": 3,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.35,
+      "pts": 104.3,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -1464,7 +1464,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1800,7 +1800,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 25,
+      "salary": 20,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2019,7 +2019,7 @@
         "SP",
         "RP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2045,7 +2045,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2097,7 +2097,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2110,7 +2110,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 6,
+      "salary": 4,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -2149,7 +2149,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 3,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -2266,7 +2266,7 @@
       "positions": [
         "C"
       ],
-      "salary": 16,
+      "salary": 22,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -2319,7 +2319,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2345,7 +2345,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -2372,7 +2372,7 @@
         "2B",
         "SS"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": 7.03,
@@ -2465,7 +2465,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 9,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -2713,7 +2713,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 27,
+      "salary": 12,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2804,7 +2804,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 9,
+      "salary": 8,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2818,7 +2818,7 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -2831,7 +2831,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 9,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2844,7 +2844,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 7,
+      "salary": 2,
       "mlb_team": "CHC",
       "is_pitcher": true,
       "ppg": null,
@@ -3551,13 +3551,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 19,
+      "salary": 21,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "39108": {
       "name": "Junior Caminero",
@@ -4826,7 +4826,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -7251,7 +7251,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 7,
       "mlb_team": "ATH",
       "is_pitcher": true,
       "ppg": null,
@@ -9565,7 +9565,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -10014,7 +10014,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -12661,6 +12661,15 @@
         "SP"
       ],
       "is_pitcher": true
+    },
+    "33610": {
+      "name": "Anthony Seigler",
+      "positions": [
+        "C",
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -12716,15 +12725,15 @@
       "33634",
       "18255",
       "18479",
+      "37480",
       "39978",
       "43896",
-      "45789",
       "45947",
       "33625",
       "19328",
       "23831",
-      "37480",
       "42299",
+      "45789",
       "43569",
       "45018",
       "45090",
@@ -12759,13 +12768,13 @@
       "18466",
       "37806",
       "45713",
-      "18480",
+      "23796",
       "18546",
       "22048",
       "37480",
       "40927",
       "45884",
-      "23796",
+      "18480",
       "5918",
       "18300",
       "22331",
@@ -12896,7 +12905,6 @@
       "40707"
     ],
     "301": [
-      "8626",
       "14864",
       "37094",
       "18466",
@@ -12907,13 +12915,14 @@
       "23327",
       "37295",
       "37480",
-      "45789",
       "45739",
       "5918",
       "9668",
       "12398",
       "42156",
       "45714",
+      "45789",
+      "8626",
       "38316",
       "38456",
       "40147",
@@ -12952,10 +12961,10 @@
       "42428",
       "43950",
       "45720",
-      "45789",
       "13117",
       "44003",
       "48240",
+      "45789",
       "39340",
       "42727",
       "44039",
@@ -13119,11 +13128,10 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-11T12:18:01.158942+00:00",
+  "updated_at": "2026-06-11T18:37:55.104302+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
-      "8626": 3,
       "14864": 1,
       "37094": 15,
       "18466": 46,
@@ -13134,13 +13142,14 @@
       "23327": 69,
       "37295": 17,
       "37480": 5,
-      "45789": 1,
       "45739": 1,
       "5918": 12,
       "9668": 5,
       "12398": 15,
       "42156": 9,
       "45714": 3,
+      "45789": 1,
+      "8626": 3,
       "38316": 1,
       "38456": 3,
       "40147": 2,
@@ -13176,15 +13185,15 @@
       "33634": 4,
       "18255": 13,
       "18479": 17,
+      "37480": 5,
       "39978": 3,
       "43896": 20,
-      "45789": 2,
       "45947": 3,
       "33625": 43,
       "19328": 19,
       "23831": 15,
-      "37480": 5,
       "42299": 4,
+      "45789": 2,
       "43569": 1,
       "45018": 1,
       "45090": 2,
@@ -13219,13 +13228,13 @@
       "18466": 35,
       "37806": 44,
       "45713": 2,
-      "18480": 32,
+      "23796": 4,
       "18546": 38,
       "22048": 11,
       "37480": 4,
       "40927": 29,
       "45884": 3,
-      "23796": 4,
+      "18480": 32,
       "5918": 14,
       "18300": 1,
       "22331": 6,
@@ -13452,10 +13461,10 @@
       "42428": 4,
       "43950": 8,
       "45720": 6,
-      "45789": 2,
       "13117": 6,
       "44003": 6,
       "48240": 15,
+      "45789": 2,
       "39340": 2,
       "42727": 1,
       "44039": 1,
