@@ -32,13 +32,13 @@
       "positions": [
         "C"
       ],
-      "salary": 18,
+      "salary": 17,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "18546": {
       "name": "Kyle Tucker",
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 19,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -796,7 +796,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 11,
+      "salary": 10,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -893,7 +893,7 @@
         "2B",
         "OF"
       ],
-      "salary": 11,
+      "salary": 21,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1156,7 +1156,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2020,7 +2020,7 @@
         "SP",
         "RP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2046,7 +2046,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2268,7 +2268,7 @@
       "positions": [
         "C"
       ],
-      "salary": 16,
+      "salary": 22,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -2321,7 +2321,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2715,7 +2715,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 27,
+      "salary": 12,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -3557,13 +3557,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 19,
+      "salary": 21,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "39108": {
       "name": "Junior Caminero",
@@ -10027,7 +10027,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -12880,14 +12880,14 @@
       "14893",
       "18546",
       "22331",
-      "33147",
-      "37181",
       "44147",
       "18480",
       "22004",
       "38367",
       "39340",
       "43949",
+      "33147",
+      "37181",
       "38316",
       "41265",
       "46289",
@@ -13148,7 +13148,6 @@
       "36686"
     ],
     "1940": [
-      "22219",
       "33217",
       "18466",
       "27162",
@@ -13165,6 +13164,7 @@
       "40460",
       "45884",
       "45713",
+      "22219",
       "40147",
       "44349",
       "44539",
@@ -13192,7 +13192,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-13T18:55:08.968743+00:00",
+  "updated_at": "2026-06-13T20:06:53.326201+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13421,7 +13421,6 @@
       "40707": 1
     },
     "1940": {
-      "22219": 1,
       "33217": 11,
       "18466": 41,
       "27162": 3,
@@ -13438,6 +13437,7 @@
       "40460": 1,
       "45884": 1,
       "45713": 15,
+      "22219": 1,
       "40147": 1,
       "44349": 1,
       "44539": 3,
@@ -13473,14 +13473,14 @@
       "14893": 19,
       "18546": 56,
       "22331": 1,
-      "33147": 1,
-      "37181": 7,
       "44147": 9,
       "18480": 20,
       "22004": 3,
       "38367": 3,
       "39340": 1,
       "43949": 3,
+      "33147": 1,
+      "37181": 7,
       "38316": 1,
       "41265": 1,
       "46289": 1,
