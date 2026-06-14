@@ -12782,6 +12782,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "42775": {
+      "name": "Gabriel Rincones Jr.",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -13238,7 +13245,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-14T20:10:07.317150+00:00",
+  "updated_at": "2026-06-14T21:41:26.352959+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
