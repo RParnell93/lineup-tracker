@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -879,7 +879,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1543,7 +1543,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2889,8 +2889,8 @@
       "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.86,
+      "pts": 370.5,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -7366,8 +7366,8 @@
       "salary": 1,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 7.3,
+      "pts": 321.0,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9175,7 +9175,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -12958,8 +12958,8 @@
       "27207",
       "44147",
       "33645",
-      "44223",
       "31958",
+      "44223",
       "40262",
       "36509",
       "37480",
@@ -13224,7 +13224,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-14T16:14:32.211561+00:00",
+  "updated_at": "2026-06-14T17:41:22.635209+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13410,8 +13410,8 @@
       "27207": 2,
       "44147": 3,
       "33645": 8,
-      "44223": 1,
       "31958": 3,
+      "44223": 1,
       "40262": 9,
       "36509": 29,
       "37480": 6,
