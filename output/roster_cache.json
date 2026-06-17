@@ -167,7 +167,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "37216": {
       "name": "Spencer Steer",
@@ -253,7 +253,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 26,
+      "salary": 24,
       "mlb_team": "KCR",
       "is_pitcher": true,
       "ppg": null,
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -879,7 +879,7 @@
         "1B",
         "3B"
       ],
-      "salary": 19,
+      "salary": 15,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1145,8 +1145,8 @@
       "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 7.35,
+      "pts": 448.3,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -1543,7 +1543,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 9,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2678,7 +2678,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -3398,9 +3398,13 @@
       "positions": [
         "SP"
       ],
+      "salary": 50,
+      "mlb_team": "PIT",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 0.0
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44525": {
       "name": "Yoshinobu Yamamoto",
@@ -7317,7 +7321,13 @@
         "3B",
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "TBR",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23817": {
       "name": "Joey Wentz",
@@ -9192,7 +9202,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -11716,7 +11726,7 @@
         "2B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -13134,29 +13144,29 @@
     "757": [
       "40541",
       "45716",
-      "5918",
+      "40398",
       "13117",
       "44003",
       "40262",
+      "5918",
       "34601",
       "42428",
-      "43950",
       "44039",
       "45720",
       "33654",
+      "23805",
       "31703",
+      "32576",
       "39340",
       "39406",
-      "40398",
+      "43950",
       "42727",
-      "44349",
       "44539",
-      "44975",
       "45708",
-      "45789",
       "45862",
       "45881",
       "46395",
+      "45789",
       "18312",
       "48240",
       "21015",
@@ -13167,8 +13177,8 @@
       "23787",
       "38428",
       "41452",
+      "43894",
       "42716",
-      "46358",
       "47555",
       "47565",
       "18164",
@@ -13310,7 +13320,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-17T19:40:50.990391+00:00",
+  "updated_at": "2026-06-17T21:26:47.054329+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13635,29 +13645,29 @@
     "757": {
       "40541": 1,
       "45716": 12,
-      "5918": 21,
+      "40398": 1,
       "13117": 6,
       "44003": 6,
       "40262": 7,
+      "5918": 21,
       "34601": 4,
       "42428": 4,
-      "43950": 8,
       "44039": 1,
       "45720": 6,
       "33654": 17,
+      "23805": 1,
       "31703": 1,
+      "32576": 1,
       "39340": 2,
       "39406": 1,
-      "40398": 1,
+      "43950": 8,
       "42727": 1,
-      "44349": 1,
       "44539": 4,
-      "44975": 2,
       "45708": 1,
-      "45789": 2,
       "45862": 3,
       "45881": 2,
       "46395": 2,
+      "45789": 2,
       "18312": 67,
       "48240": 15,
       "21015": 24,
@@ -13668,8 +13678,8 @@
       "23787": 1,
       "38428": 1,
       "41452": 1,
+      "43894": 50,
       "42716": 4,
-      "46358": 1,
       "47555": 1,
       "47565": 1,
       "18164": 25,
