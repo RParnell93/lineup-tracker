@@ -45,7 +45,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 45,
+      "salary": 56,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 35,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -215,7 +215,7 @@
         "2B",
         "SS"
       ],
-      "salary": 15,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -240,7 +240,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -380,7 +380,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -419,7 +419,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -446,7 +446,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 6,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -908,7 +908,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -1883,7 +1883,7 @@
         "1B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -2142,7 +2142,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2207,7 +2207,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -2312,7 +2312,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2487,7 +2487,7 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -2864,7 +2864,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 3,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2877,7 +2877,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -4216,7 +4216,7 @@
         "1B",
         "3B"
       ],
-      "salary": 7,
+      "salary": 4,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -5003,7 +5003,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -13234,7 +13234,6 @@
       "42741"
     ],
     "663": [
-      "43949",
       "38374",
       "37304",
       "18216",
@@ -13242,15 +13241,16 @@
       "48239",
       "14893",
       "18546",
-      "22331",
-      "27162",
       "31703",
       "44147",
       "38316",
       "38367",
       "38378",
       "39340",
+      "43949",
       "45708",
+      "22331",
+      "27162",
       "41265",
       "42988",
       "46289",
@@ -13558,7 +13558,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-06-27T18:48:21.016123+00:00",
+  "updated_at": "2026-06-27T19:55:52.457207+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13838,7 +13838,6 @@
       "42873": 9
     },
     "663": {
-      "43949": 3,
       "38374": 4,
       "37304": 1,
       "18216": 25,
@@ -13846,15 +13845,16 @@
       "48239": 8,
       "14893": 19,
       "18546": 56,
-      "22331": 1,
-      "27162": 3,
       "31703": 1,
       "44147": 9,
       "38316": 1,
       "38367": 3,
       "38378": 1,
       "39340": 1,
+      "43949": 3,
       "45708": 1,
+      "22331": 1,
+      "27162": 3,
       "41265": 1,
       "42988": 1,
       "46289": 1,
