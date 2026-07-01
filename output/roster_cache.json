@@ -2682,7 +2682,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -3041,7 +3041,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 25,
+      "salary": 28,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -3572,7 +3572,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 23,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
@@ -11425,7 +11425,7 @@
         "3B",
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -13477,6 +13477,7 @@
       "23339",
       "23679",
       "38386",
+      "19575",
       "44568",
       "18786",
       "23813",
@@ -13666,7 +13667,7 @@
       "38339"
     ]
   },
-  "updated_at": "2026-07-01T22:39:31.661428+00:00",
+  "updated_at": "2026-07-01T23:54:47.985646+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13706,6 +13707,7 @@
       "23339": 1,
       "23679": 1,
       "38386": 1,
+      "19575": 1,
       "44568": 1,
       "18786": 1,
       "23813": 6,
