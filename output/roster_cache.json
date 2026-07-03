@@ -5,7 +5,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 55,
+      "salary": 69,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 27,
+      "salary": 28,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 19,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -797,7 +797,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 11,
+      "salary": 10,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -895,7 +895,7 @@
         "2B",
         "OF"
       ],
-      "salary": 11,
+      "salary": 21,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1158,7 +1158,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2024,7 +2024,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2050,7 +2050,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2720,7 +2720,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 27,
+      "salary": 12,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -10145,7 +10145,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -13362,8 +13362,8 @@
       "33654",
       "37841",
       "45713",
-      "37806",
       "45769",
+      "37806",
       "45884",
       "18546",
       "22048",
@@ -13731,7 +13731,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-03T20:58:28.035988+00:00",
+  "updated_at": "2026-07-03T22:17:05.806286+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13829,8 +13829,8 @@
       "33654": 26,
       "37841": 10,
       "45713": 2,
-      "37806": 44,
       "45769": 2,
+      "37806": 44,
       "45884": 3,
       "18546": 38,
       "22048": 11,
