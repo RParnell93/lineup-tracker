@@ -151,8 +151,8 @@
       "salary": 14,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": 6.37,
-      "pts": 407.9,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -1562,8 +1562,8 @@
       "salary": 3,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": 5.59,
-      "pts": 408.3,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -2422,8 +2422,8 @@
       "salary": 1,
       "mlb_team": "CHW",
       "is_pitcher": false,
-      "ppg": 7.32,
-      "pts": 563.7,
+      "ppg": 7.33,
+      "pts": 571.7,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2867,8 +2867,8 @@
       "salary": 3,
       "mlb_team": "ATH",
       "is_pitcher": false,
-      "ppg": 6.33,
-      "pts": 443.3,
+      "ppg": 6.29,
+      "pts": 446.8,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2893,8 +2893,8 @@
       "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": 6.64,
-      "pts": 471.3,
+      "ppg": 6.67,
+      "pts": 480.4,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -3143,8 +3143,8 @@
       "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
-      "ppg": 7.8,
-      "pts": 319.8,
+      "ppg": 8.02,
+      "pts": 336.7,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -8781,8 +8781,8 @@
       "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": false,
-      "ppg": 7.25,
-      "pts": 500.5,
+      "ppg": 7.08,
+      "pts": 495.5,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9581,7 +9581,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "42145": {
       "name": "Nathan Church",
@@ -11344,8 +11344,8 @@
       "salary": 1,
       "mlb_team": "CHC",
       "is_pitcher": false,
-      "ppg": 6.95,
-      "pts": 507.2,
+      "ppg": 6.87,
+      "pts": 515.4,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -12532,8 +12532,8 @@
       "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": 8.45,
-      "pts": 625.5,
+      "ppg": 8.56,
+      "pts": 642.1,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -13295,7 +13295,7 @@
       "salary": 4,
       "mlb_team": "MIA",
       "is_pitcher": false,
-      "ppg": 8.56,
+      "ppg": 8.37,
       "pts": 393.6,
       "minor_leaguer": true,
       "on_il": false
@@ -13321,6 +13321,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "48368": {
+      "name": "Jack O'Dowd",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -13462,9 +13469,9 @@
     ],
     "663": [
       "44147",
-      "38374",
-      "27162",
+      "37304",
       "18276",
+      "27162",
       "48239",
       "14893",
       "18546",
@@ -13472,7 +13479,7 @@
       "38367",
       "39340",
       "38316",
-      "37304",
+      "38374",
       "38378",
       "43949",
       "37174",
@@ -13596,13 +13603,13 @@
       "19575",
       "23679",
       "38386",
-      "37639",
       "43264",
       "44568",
       "18786",
       "23813",
       "35566",
       "37234",
+      "37639",
       "38312",
       "40097"
     ],
@@ -13786,7 +13793,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-06T12:22:41.709678+00:00",
+  "updated_at": "2026-07-06T18:29:24.095275+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13827,13 +13834,13 @@
       "19575": 1,
       "23679": 1,
       "38386": 1,
-      "37639": 1,
       "43264": 1,
       "44568": 1,
       "18786": 1,
       "23813": 6,
       "35566": 3,
       "37234": 3,
+      "37639": 1,
       "38312": 21,
       "40097": 1
     },
@@ -14067,9 +14074,9 @@
     },
     "663": {
       "44147": 9,
-      "38374": 4,
-      "27162": 3,
+      "37304": 1,
       "18276": 25,
+      "27162": 3,
       "48239": 8,
       "14893": 19,
       "18546": 56,
@@ -14077,7 +14084,7 @@
       "38367": 3,
       "39340": 1,
       "38316": 1,
-      "37304": 1,
+      "38374": 4,
       "38378": 1,
       "43949": 3,
       "37174": 3,
