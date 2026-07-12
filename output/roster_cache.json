@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -881,7 +881,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1546,7 +1546,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -6752,7 +6752,13 @@
       "positions": [
         "C"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "ATH",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33652": {
       "name": "Ryan Jeffers",
@@ -8811,7 +8817,13 @@
       "positions": [
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 5,
+      "mlb_team": "MIA",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18524": {
       "name": "Colin Rea",
@@ -9314,7 +9326,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -11882,7 +11894,7 @@
         "2B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -13462,6 +13474,22 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "34583": {
+      "name": "Eduardo Valencia",
+      "positions": [
+        "C",
+        "1B"
+      ],
+      "is_pitcher": false
+    },
+    "22753": {
+      "name": "JT Brubaker",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -13523,6 +13551,7 @@
       "43896",
       "45947",
       "18255",
+      "35928",
       "23831",
       "33625",
       "42299",
@@ -13570,6 +13599,7 @@
       "4374",
       "5918",
       "18480",
+      "19360",
       "23651",
       "23796",
       "34602",
@@ -13717,6 +13747,7 @@
       "9668",
       "12398",
       "23651",
+      "23745",
       "34602",
       "38316",
       "45714",
@@ -13932,7 +13963,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-12T01:13:00.727099+00:00",
+  "updated_at": "2026-07-12T10:00:16.475646+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -13951,6 +13982,7 @@
       "9668": 5,
       "12398": 15,
       "23651": 10,
+      "23745": 1,
       "34602": 1,
       "38316": 1,
       "45714": 3,
@@ -13996,6 +14028,7 @@
       "43896": 20,
       "45947": 3,
       "18255": 13,
+      "35928": 5,
       "23831": 15,
       "33625": 43,
       "42299": 4,
@@ -14043,6 +14076,7 @@
       "4374": 6,
       "5918": 14,
       "18480": 32,
+      "19360": 1,
       "23651": 20,
       "23796": 4,
       "34602": 1,
