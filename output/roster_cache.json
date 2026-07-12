@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 40,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -3675,7 +3675,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 20,
+      "salary": 10,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -8884,7 +8884,13 @@
         "SP",
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 2,
+      "mlb_team": "BAL",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "34921": {
       "name": "Jake McCarthy",
@@ -9482,7 +9488,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -13579,6 +13585,7 @@
       "22559",
       "35677",
       "44274",
+      "32804",
       "35922",
       "41926",
       "46310",
@@ -13637,7 +13644,6 @@
     ],
     "663": [
       "43949",
-      "38316",
       "38374",
       "18276",
       "48239",
@@ -13651,6 +13657,7 @@
       "38367",
       "38378",
       "37304",
+      "38316",
       "37174",
       "41265",
       "42988",
@@ -13967,7 +13974,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-12T18:05:41.517194+00:00",
+  "updated_at": "2026-07-12T19:42:49.766824+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14056,6 +14063,7 @@
       "22559": 14,
       "35677": 1,
       "44274": 2,
+      "32804": 2,
       "35922": 7,
       "41926": 1,
       "46310": 5,
@@ -14255,7 +14263,6 @@
     },
     "663": {
       "43949": 3,
-      "38316": 1,
       "38374": 4,
       "18276": 25,
       "48239": 8,
@@ -14269,6 +14276,7 @@
       "38367": 3,
       "38378": 1,
       "37304": 1,
+      "38316": 1,
       "37174": 3,
       "41265": 1,
       "42988": 1,
