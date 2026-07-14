@@ -13500,6 +13500,68 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "38714": {
+      "name": "Adam Seminaris",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "41773": {
+      "name": "Cesar Perdomo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
+    },
+    "42290": {
+      "name": "Cayden Wallace",
+      "positions": [
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40236": {
+      "name": "Tyler Hardman",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "35709": {
+      "name": "Ronny Simon",
+      "positions": [
+        "2B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "47454": {
+      "name": "John Taylor",
+      "positions": [
+        "1B",
+        "2B",
+        "SS"
+      ],
+      "is_pitcher": false
+    },
+    "18376": {
+      "name": "Derek Hill",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "40457": {
+      "name": "BJ Murray",
+      "positions": [
+        "1B",
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
