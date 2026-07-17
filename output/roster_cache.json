@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 40,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -151,8 +151,8 @@
       "salary": 14,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.37,
+      "pts": 407.9,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -1562,8 +1562,8 @@
       "salary": 3,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.53,
+      "pts": 408.9,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -2749,8 +2749,8 @@
       "salary": 15,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.76,
+      "pts": 518.7,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2893,8 +2893,8 @@
       "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.69,
+      "pts": 508.1,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -3675,7 +3675,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 20,
+      "salary": 10,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -7588,8 +7588,8 @@
       "salary": 1,
       "mlb_team": "CLE",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -8902,7 +8902,7 @@
         "SP",
         "RP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -9512,7 +9512,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -12631,8 +12631,8 @@
       "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 8.29,
+      "pts": 671.8,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -13633,6 +13633,14 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "42372": {
+      "name": "Victor Mederos",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -13910,7 +13918,6 @@
       "35922",
       "40972",
       "45790",
-      "4970",
       "19575",
       "20421",
       "38386",
@@ -14110,7 +14117,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-17T19:54:07.520705+00:00",
+  "updated_at": "2026-07-17T22:27:23.252633+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14149,7 +14156,6 @@
       "35922": 6,
       "40972": 1,
       "45790": 11,
-      "4970": 1,
       "19575": 1,
       "20421": 1,
       "38386": 1,
