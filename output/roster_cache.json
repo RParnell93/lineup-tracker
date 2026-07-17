@@ -370,8 +370,8 @@
       "salary": 19,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.1,
+      "pts": 479.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -396,8 +396,8 @@
       "salary": 20,
       "mlb_team": "TEX",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.05,
+      "pts": 266.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -475,8 +475,8 @@
       "salary": 5,
       "mlb_team": "TBR",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -608,7 +608,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "42765": {
       "name": "Parker Messick",
@@ -709,8 +709,8 @@
       "salary": 21,
       "mlb_team": "MIL",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.7,
+      "pts": 291.6,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -870,8 +870,8 @@
       "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.99,
+      "pts": 454.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1349,13 +1349,13 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "TEX",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "21170": {
       "name": "Jordan Romano",
@@ -1444,8 +1444,8 @@
       "salary": 3,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.35,
+      "pts": 104.3,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -1846,8 +1846,8 @@
       "salary": 3,
       "mlb_team": "CHW",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 3.14,
+      "pts": 50.3,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2040,8 +2040,8 @@
       "salary": 15,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.56,
+      "pts": 577.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2275,8 +2275,8 @@
       "salary": 16,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": 4.11,
-      "pts": 213.7,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -2289,8 +2289,8 @@
       "salary": 11,
       "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 3.4,
+      "pts": 153.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2302,8 +2302,8 @@
       "salary": 13,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.28,
+      "pts": 469.6,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2946,8 +2946,8 @@
       "salary": 67,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.86,
+      "pts": 404.7,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -3665,8 +3665,8 @@
       "salary": 21,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 3.55,
+      "pts": 309.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -4342,8 +4342,8 @@
       "salary": 3,
       "mlb_team": "TOR",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 25.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -8357,8 +8357,8 @@
       "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 2.52,
+      "pts": 60.5,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -8930,7 +8930,13 @@
         "2B",
         "SS"
       ],
-      "is_pitcher": false
+      "salary": 4,
+      "mlb_team": "CLE",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42659": {
       "name": "Otto Kemp",
@@ -11188,8 +11194,8 @@
       "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 15.0,
+      "pts": 13.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -12648,8 +12654,8 @@
       "salary": 1,
       "mlb_team": "ATH",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.34,
+      "pts": 76.1,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -13612,6 +13618,21 @@
         "3B"
       ],
       "is_pitcher": false
+    },
+    "38471": {
+      "name": "CJ Van Eyk",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42488": {
+      "name": "Wilian Bormie",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -13673,9 +13694,9 @@
       "44039",
       "45947",
       "23831",
-      "35928",
       "18255",
       "33625",
+      "33650",
       "37480",
       "42299",
       "45789",
@@ -13745,14 +13766,14 @@
       "38754",
       "31951",
       "32804",
+      "33670",
       "42598",
+      "46221",
       "47555",
       "47653",
       "18460",
       "18786",
-      "33670",
-      "42741",
-      "46221"
+      "42741"
     ],
     "663": [
       "43949",
@@ -13943,6 +13964,7 @@
       "30979",
       "38428",
       "41452",
+      "31984",
       "41478",
       "42716",
       "47554",
@@ -13953,8 +13975,8 @@
     ],
     "791": [
       "33654",
-      "31741",
-      "44223",
+      "37181",
+      "23767",
       "18466",
       "45884",
       "14893",
@@ -13966,9 +13988,9 @@
       "5918",
       "18126",
       "22674",
-      "23767",
-      "37181",
+      "31741",
       "43932",
+      "44223",
       "45789",
       "37174",
       "47657",
@@ -14089,7 +14111,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-16T10:01:01.985913+00:00",
+  "updated_at": "2026-07-16T22:34:04.578336+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14156,9 +14178,9 @@
       "44039": 2,
       "45947": 3,
       "23831": 15,
-      "35928": 5,
       "18255": 13,
       "33625": 43,
+      "33650": 4,
       "37480": 5,
       "42299": 4,
       "45789": 2,
@@ -14228,19 +14250,19 @@
       "38754": 6,
       "31951": 4,
       "32804": 3,
+      "33670": 4,
       "42598": 1,
+      "46221": 7,
       "47555": 2,
       "47653": 2,
       "18460": 23,
       "18786": 3,
-      "33670": 4,
-      "42741": 1,
-      "46221": 7
+      "42741": 1
     },
     "791": {
       "33654": 18,
-      "31741": 15,
-      "44223": 2,
+      "37181": 2,
+      "23767": 22,
       "18466": 39,
       "45884": 3,
       "14893": 21,
@@ -14252,9 +14274,9 @@
       "5918": 11,
       "18126": 18,
       "22674": 18,
-      "23767": 22,
-      "37181": 2,
+      "31741": 15,
       "43932": 1,
+      "44223": 2,
       "45789": 2,
       "37174": 2,
       "47657": 1,
@@ -14467,6 +14489,7 @@
       "30979": 1,
       "38428": 1,
       "41452": 1,
+      "31984": 1,
       "41478": 1,
       "42716": 4,
       "47554": 1,
