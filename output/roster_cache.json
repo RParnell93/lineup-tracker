@@ -48,8 +48,8 @@
       "salary": 45,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.48,
+      "pts": 412.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -370,8 +370,8 @@
       "salary": 19,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.06,
+      "pts": 481.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -881,7 +881,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1444,8 +1444,8 @@
       "salary": 3,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.35,
+      "pts": 104.3,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -1546,7 +1546,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2262,8 +2262,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2530,8 +2530,8 @@
       "salary": 25,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.33,
+      "pts": 264.3,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -3678,8 +3678,8 @@
       "salary": 20,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.11,
+      "pts": 263.2,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -6893,8 +6893,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 5.3,
+      "pts": 122.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -8549,8 +8549,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -9366,7 +9366,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -9986,8 +9986,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 8.73,
+      "pts": 680.8,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11947,7 +11947,7 @@
         "2B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -13384,8 +13384,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 8.1,
+      "pts": 583.2,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -13718,6 +13718,13 @@
     },
     "49724": {
       "name": "Rintaro Sasaki",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49598": {
+      "name": "Ace Reese",
       "positions": [
         "Util"
       ],
@@ -14201,7 +14208,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-18T21:01:20.068731+00:00",
+  "updated_at": "2026-07-18T22:28:55.374205+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
