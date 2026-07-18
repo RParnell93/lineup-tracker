@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -881,7 +881,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -1546,7 +1546,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -9366,7 +9366,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -11947,7 +11947,7 @@
         "2B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -13647,6 +13647,68 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "49401": {
+      "name": "Roch Cholowsky",
+      "positions": [
+        "Util"
+      ],
+      "salary": 10,
+      "mlb_team": "",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
+    },
+    "49442": {
+      "name": "Jackson Flora",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "49391": {
+      "name": "Drew Burress",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49511": {
+      "name": "Vahn Lackey",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49750": {
+      "name": "Daniel Jackson",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49455": {
+      "name": "AJ Gracia",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49677": {
+      "name": "Tyler Bell",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "49464": {
+      "name": "Chris Hacopian",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -13805,6 +13867,7 @@
       "44147",
       "38367",
       "38378",
+      "49401",
       "37174",
       "41265",
       "42988",
@@ -14123,7 +14186,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-18T09:42:09.865391+00:00",
+  "updated_at": "2026-07-18T16:33:20.720329+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14427,6 +14490,7 @@
       "44147": 9,
       "38367": 3,
       "38378": 1,
+      "49401": 10,
       "37174": 3,
       "41265": 1,
       "42988": 1,
