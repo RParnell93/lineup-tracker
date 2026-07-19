@@ -5,13 +5,13 @@
       "positions": [
         "OF"
       ],
-      "salary": 55,
+      "salary": 69,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "33600": {
       "name": "Shohei Ohtani",
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -895,7 +895,7 @@
         "2B",
         "OF"
       ],
-      "salary": 11,
+      "salary": 14,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1985,7 +1985,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 27,
+      "salary": 29,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2050,7 +2050,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 6,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2272,7 +2272,7 @@
       "positions": [
         "C"
       ],
-      "salary": 16,
+      "salary": 8,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -10244,7 +10244,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -13779,6 +13779,13 @@
         "3B"
       ],
       "is_pitcher": false
+    },
+    "49396": {
+      "name": "Cole Carlon",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -14214,7 +14221,6 @@
       "36686"
     ],
     "1940": [
-      "22219",
       "33217",
       "42358",
       "45713",
@@ -14231,6 +14237,7 @@
       "33610",
       "33685",
       "37536",
+      "22219",
       "40147",
       "44539",
       "45715",
@@ -14259,7 +14266,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-07-19T19:45:15.819682+00:00",
+  "updated_at": "2026-07-19T21:07:55.495843+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14506,7 +14513,6 @@
       "40707": 1
     },
     "1940": {
-      "22219": 1,
       "33217": 11,
       "42358": 16,
       "45713": 15,
@@ -14523,6 +14529,7 @@
       "33610": 3,
       "33685": 21,
       "37536": 1,
+      "22219": 1,
       "40147": 1,
       "44539": 3,
       "45715": 1,
