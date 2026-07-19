@@ -5,13 +5,13 @@
       "positions": [
         "OF"
       ],
-      "salary": 69,
+      "salary": 55,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "33600": {
       "name": "Shohei Ohtani",
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 16,
+      "salary": 20,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 19,
+      "salary": 21,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -797,7 +797,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 10,
+      "salary": 11,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -895,7 +895,7 @@
         "2B",
         "OF"
       ],
-      "salary": 14,
+      "salary": 11,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1985,7 +1985,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 29,
+      "salary": 27,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2024,7 +2024,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2050,7 +2050,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 7,
       "mlb_team": "TOR",
       "is_pitcher": true,
       "ppg": null,
@@ -2272,7 +2272,7 @@
       "positions": [
         "C"
       ],
-      "salary": 8,
+      "salary": 16,
       "mlb_team": "LAD",
       "is_pitcher": false,
       "ppg": null,
@@ -2720,13 +2720,13 @@
       "positions": [
         "1B"
       ],
-      "salary": 12,
+      "salary": 27,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18407": {
       "name": "Willy Adames",
@@ -3847,13 +3847,13 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18517": {
       "name": "Yandy Diaz",
@@ -10244,7 +10244,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -13828,11 +13828,10 @@
       "34389"
     ],
     "530": [
-      "33610",
       "33217",
-      "33634",
-      "37806",
       "33650",
+      "37806",
+      "33634",
       "48240",
       "18479",
       "37480",
@@ -13846,6 +13845,7 @@
       "44003",
       "44039",
       "45789",
+      "33610",
       "43569",
       "45018",
       "45090",
@@ -14126,7 +14126,7 @@
       "45884",
       "44223",
       "18466",
-      "22674",
+      "37181",
       "5918",
       "14893",
       "18546",
@@ -14134,10 +14134,10 @@
       "40927",
       "33600",
       "18126",
+      "22674",
       "23327",
       "23767",
       "31741",
-      "37181",
       "45789",
       "45947",
       "37174",
@@ -14245,12 +14245,12 @@
       "22559",
       "26800",
       "30725",
-      "44274",
+      "36825",
       "23732",
       "23838",
-      "36825",
       "38780",
       "41926",
+      "44274",
       "49442",
       "47553",
       "18236",
@@ -14259,7 +14259,7 @@
       "42873"
     ]
   },
-  "updated_at": "2026-07-19T17:07:01.229402+00:00",
+  "updated_at": "2026-07-19T17:40:10.089628+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14313,11 +14313,10 @@
       "40097": 1
     },
     "530": {
-      "33610": 1,
       "33217": 6,
-      "33634": 4,
-      "37806": 40,
       "33650": 4,
+      "37806": 40,
+      "33634": 4,
       "48240": 16,
       "18479": 17,
       "37480": 5,
@@ -14331,6 +14330,7 @@
       "44003": 9,
       "44039": 2,
       "45789": 2,
+      "33610": 1,
       "43569": 1,
       "45018": 1,
       "45090": 2,
@@ -14414,7 +14414,7 @@
       "45884": 3,
       "44223": 2,
       "18466": 39,
-      "22674": 18,
+      "37181": 2,
       "5918": 11,
       "14893": 21,
       "18546": 54,
@@ -14422,10 +14422,10 @@
       "40927": 27,
       "33600": 86,
       "18126": 18,
+      "22674": 18,
       "23327": 55,
       "23767": 22,
       "31741": 15,
-      "37181": 2,
       "45789": 2,
       "45947": 5,
       "37174": 2,
@@ -14537,12 +14537,12 @@
       "22559": 13,
       "26800": 1,
       "30725": 1,
-      "44274": 1,
+      "36825": 1,
       "23732": 2,
       "23838": 3,
-      "36825": 1,
       "38780": 1,
       "41926": 1,
+      "44274": 1,
       "49442": 2,
       "47553": 1,
       "18236": 19,
