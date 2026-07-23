@@ -3559,8 +3559,8 @@
       "salary": 22,
       "mlb_team": "NYM",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 4.04,
+      "pts": 411.9,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -14348,7 +14348,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-23T19:59:48.358853+00:00",
+  "updated_at": "2026-07-23T20:41:56.947346+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
