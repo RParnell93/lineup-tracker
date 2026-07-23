@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -881,7 +881,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 19,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": 6.52,
@@ -1546,7 +1546,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -9373,7 +9373,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -11954,7 +11954,7 @@
         "2B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -13430,7 +13430,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 4,
+      "salary": 7,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": 8.08,
@@ -13699,7 +13699,7 @@
       "positions": [
         "Util"
       ],
-      "salary": 4,
+      "salary": 2,
       "mlb_team": "",
       "is_pitcher": false,
       "ppg": null,
@@ -13860,6 +13860,13 @@
       "name": "Randy Dobnak",
       "positions": [
         "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "36408": {
+      "name": "Angel Chivilli",
+      "positions": [
         "RP"
       ],
       "is_pitcher": true
@@ -14341,7 +14348,7 @@
       "34389"
     ]
   },
-  "updated_at": "2026-07-23T18:48:15.910549+00:00",
+  "updated_at": "2026-07-23T19:59:48.358853+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
