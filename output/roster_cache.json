@@ -5604,7 +5604,13 @@
       "positions": [
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 2,
+      "mlb_team": "CLE",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44487": {
       "name": "Thomas White",
@@ -14026,6 +14032,7 @@
       "38754",
       "19904",
       "32804",
+      "37239",
       "47555",
       "47653",
       "18460",
@@ -14371,7 +14378,7 @@
       "40564"
     ]
   },
-  "updated_at": "2026-07-25T16:28:58.495232+00:00",
+  "updated_at": "2026-07-25T18:05:20.936705+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14509,6 +14516,7 @@
       "38754": 6,
       "19904": 1,
       "32804": 3,
+      "37239": 2,
       "47555": 2,
       "47653": 2,
       "18460": 23,
