@@ -5604,7 +5604,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -7361,9 +7361,13 @@
       "positions": [
         "3B"
       ],
+      "salary": 2,
+      "mlb_team": "ARI",
       "is_pitcher": false,
-      "ppg": 0.23,
-      "pts": 1.4
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44016": {
       "name": "Brice Matthews",
@@ -14028,6 +14032,7 @@
       "45884",
       "23796",
       "5918",
+      "12379",
       "18480",
       "18546",
       "35928",
@@ -14392,7 +14397,7 @@
       "40564"
     ]
   },
-  "updated_at": "2026-07-26T17:41:23.358173+00:00",
+  "updated_at": "2026-07-26T18:09:55.444251+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14499,6 +14504,7 @@
       "45884": 3,
       "23796": 4,
       "5918": 14,
+      "12379": 2,
       "18480": 32,
       "18546": 38,
       "35928": 1,
@@ -14523,7 +14529,7 @@
       "38754": 6,
       "18391": 13,
       "31951": 4,
-      "37239": 2,
+      "37239": 1,
       "47555": 2,
       "47653": 2,
       "18460": 23,
