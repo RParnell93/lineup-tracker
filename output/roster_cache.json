@@ -1416,7 +1416,7 @@
         "SP"
       ],
       "salary": 3,
-      "mlb_team": "KCR",
+      "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -2567,7 +2567,7 @@
         "OF"
       ],
       "salary": 4,
-      "mlb_team": "STL",
+      "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
@@ -3879,7 +3879,7 @@
         "OF"
       ],
       "salary": 11,
-      "mlb_team": "BAL",
+      "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
@@ -4358,7 +4358,7 @@
         "RP"
       ],
       "salary": 3,
-      "mlb_team": "TOR",
+      "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -5769,7 +5769,7 @@
         "RP"
       ],
       "salary": 1,
-      "mlb_team": "LAA",
+      "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -8118,7 +8118,7 @@
         "1B"
       ],
       "salary": 1,
-      "mlb_team": "MIA",
+      "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
@@ -8959,7 +8959,7 @@
         "RP"
       ],
       "salary": 3,
-      "mlb_team": "BAL",
+      "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -10311,7 +10311,7 @@
         "SP"
       ],
       "salary": 3,
-      "mlb_team": "BOS",
+      "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -13930,7 +13930,7 @@
         "SP"
       ],
       "salary": 1,
-      "mlb_team": "PHI",
+      "mlb_team": "SFG",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -14582,7 +14582,7 @@
       "40564"
     ]
   },
-  "updated_at": "2026-08-04T10:33:43.512971+00:00",
+  "updated_at": "2026-08-04T12:29:52.104014+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
