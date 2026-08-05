@@ -5999,10 +5999,18 @@
     "37320": {
       "name": "Vaughn Grissom",
       "positions": [
+        "1B",
         "2B",
-        "SS"
+        "SS",
+        "3B"
       ],
-      "is_pitcher": false
+      "salary": 4,
+      "mlb_team": "LAA",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23582": {
       "name": "Jeimer Candelario",
@@ -14161,6 +14169,14 @@
         "SS"
       ],
       "is_pitcher": false
+    },
+    "44246": {
+      "name": "Brayden Taylor",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -14317,6 +14333,7 @@
       "48239",
       "14982",
       "37181",
+      "37320",
       "38367",
       "38378",
       "18216",
@@ -14633,7 +14650,7 @@
       "40564"
     ]
   },
-  "updated_at": "2026-08-05T22:18:12.017023+00:00",
+  "updated_at": "2026-08-05T22:40:46.741440+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -14934,6 +14951,7 @@
       "48239": 8,
       "14982": 41,
       "37181": 4,
+      "37320": 4,
       "38367": 3,
       "38378": 1,
       "18216": 25,
