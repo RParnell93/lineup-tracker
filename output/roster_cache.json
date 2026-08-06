@@ -5,7 +5,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 55,
+      "salary": 40,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -58,7 +58,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 9,
+      "salary": 5,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": 0.0,
@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 35,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -253,13 +253,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 30,
+      "salary": 1,
       "mlb_team": "KCR",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "42711": {
       "name": "Jacob Misiorowski",
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 24,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -706,7 +706,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 9,
       "mlb_team": "MIL",
       "is_pitcher": false,
       "ppg": null,
@@ -867,7 +867,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 13,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -951,7 +951,7 @@
         "SS",
         "3B"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
@@ -1019,13 +1019,13 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "SDP",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "35205": {
       "name": "Ryan Walker",
@@ -1101,7 +1101,7 @@
         "SS",
         "3B"
       ],
-      "salary": 6,
+      "salary": 1,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1362,8 +1362,8 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
-      "mlb_team": "LAA",
+      "salary": 1,
+      "mlb_team": "COL",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -1415,7 +1415,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
@@ -1480,7 +1480,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -1927,7 +1927,7 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "21514": {
@@ -2089,7 +2089,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "CHC",
       "is_pitcher": true,
       "ppg": null,
@@ -2102,7 +2102,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2813,7 +2813,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2892,7 +2892,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "CLE",
       "is_pitcher": false,
       "ppg": null,
@@ -2945,7 +2945,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 67,
+      "salary": 53,
       "mlb_team": "NYY",
       "is_pitcher": false,
       "ppg": null,
@@ -3056,19 +3056,20 @@
       "positions": [
         "SS"
       ],
+      "salary": 22,
+      "mlb_team": "NYM",
       "is_pitcher": false,
-      "salary": 33,
-      "ppg": 5.03,
-      "pts": 35.2,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
-      "mlb_id": 596019
+      "on_il": false
     },
     "14982": {
       "name": "Bryce Harper",
       "positions": [
         "1B"
       ],
-      "salary": 45,
+      "salary": 23,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3156,12 +3157,13 @@
       "positions": [
         "SP"
       ],
+      "salary": 2,
+      "mlb_team": "ATL",
       "is_pitcher": true,
-      "salary": 6,
-      "ppg": 0.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
-      "mlb_id": 680885
+      "on_il": true
     },
     "23794": {
       "name": "Shane Baz",
@@ -3332,12 +3334,13 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true,
       "salary": 1,
-      "ppg": 0.0,
-      "pts": 0.0,
+      "mlb_team": "PIT",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
-      "mlb_id": 656605
+      "on_il": false
     },
     "36738": {
       "name": "Isaac Collins",
@@ -3392,7 +3395,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 32,
+      "salary": 30,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
@@ -3547,7 +3550,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 6,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -3673,14 +3676,20 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true
+      "salary": 26,
+      "mlb_team": "HOU",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33685": {
       "name": "Jarren Duran",
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 6,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -3968,11 +3977,16 @@
     "40371": {
       "name": "Matt McLain",
       "positions": [
-        "2B"
+        "2B",
+        "SS"
       ],
+      "salary": 1,
+      "mlb_team": "CIN",
       "is_pitcher": false,
-      "ppg": 3.25,
-      "pts": 19.5
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35939": {
       "name": "Jeremy Pena",
@@ -4287,9 +4301,15 @@
     "33612": {
       "name": "Grayson Rodriguez",
       "positions": [
-        "RP"
+        "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "LAA",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "23814": {
       "name": "Shane Bieber",
@@ -4303,13 +4323,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
-      "mlb_team": "SFG",
+      "salary": 2,
+      "mlb_team": "SDP",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "43589": {
       "name": "Cam Schlittler",
@@ -5105,7 +5125,13 @@
       "positions": [
         "OF"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "TBR",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "31541": {
       "name": "David Peterson",
@@ -5570,10 +5596,15 @@
     "47533": {
       "name": "Liam Doyle",
       "positions": [
-        "SP",
-        "RP"
+        "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "STL",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": true,
+      "on_il": false
     },
     "36683": {
       "name": "Anthony Volpe",
@@ -5675,11 +5706,16 @@
     "44248": {
       "name": "Colt Emerson",
       "positions": [
-        "SS"
+        "SS",
+        "3B"
       ],
+      "salary": 1,
+      "mlb_team": "SEA",
       "is_pitcher": false,
-      "ppg": 5.02,
-      "pts": 25.1
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "40772": {
       "name": "David Festa",
@@ -5877,7 +5913,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -6599,7 +6635,13 @@
         "SP",
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "CHW",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33677": {
       "name": "Kevin Alcantara",
@@ -6928,7 +6970,13 @@
       "positions": [
         "1B"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "BAL",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": true
     },
     "31819": {
       "name": "Dean Kremer",
@@ -6999,8 +7047,8 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
-      "mlb_team": "KCR",
+      "salary": 2,
+      "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
@@ -7278,7 +7326,13 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "NYY",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": true
     },
     "27723": {
       "name": "Jason Adam",
@@ -7292,7 +7346,13 @@
       "positions": [
         "C"
       ],
-      "is_pitcher": false
+      "salary": 9,
+      "mlb_team": "DET",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "35473": {
       "name": "Tylor Megill",
@@ -9184,7 +9244,13 @@
       "positions": [
         "SP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "ATL",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "44072": {
       "name": "Kendall George",
@@ -9374,10 +9440,10 @@
       "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": true,
-      "ppg": 29.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "14895": {
       "name": "Joc Pederson",
@@ -12314,7 +12380,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "MIA",
       "is_pitcher": true,
       "ppg": null,
@@ -14398,7 +14464,6 @@
       "37304",
       "37320",
       "14893",
-      "38367",
       "45739",
       "38374",
       "18216",
@@ -14413,6 +14478,7 @@
       "37181",
       "39340",
       "22331",
+      "38367",
       "37174",
       "39287",
       "42988",
@@ -14725,9 +14791,65 @@
       "18236",
       "34389",
       "40564"
+    ],
+    "2020": [
+      "8626",
+      "38308",
+      "18549",
+      "31958",
+      "37806",
+      "18122",
+      "44248",
+      "14893",
+      "23327",
+      "33685",
+      "45739",
+      "45789",
+      "14982",
+      "18546",
+      "21041",
+      "22219",
+      "23831",
+      "40371",
+      "42416",
+      "45713",
+      "38456",
+      "44310",
+      "45018",
+      "18160",
+      "18312",
+      "22670",
+      "18375",
+      "18534",
+      "20936",
+      "37201",
+      "43895",
+      "21170",
+      "23601",
+      "26800",
+      "27208",
+      "6175",
+      "8147",
+      "14941",
+      "33612",
+      "44336",
+      "47554",
+      "40707",
+      "42716",
+      "47533",
+      "21039",
+      "22651",
+      "23625",
+      "23813",
+      "33679",
+      "35566",
+      "37171",
+      "38312",
+      "40097",
+      "42737"
     ]
   },
-  "updated_at": "2026-08-06T22:15:37.935363+00:00",
+  "updated_at": "2026-08-06T23:17:25.587116+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15024,7 +15146,6 @@
       "37304": 1,
       "37320": 4,
       "14893": 19,
-      "38367": 3,
       "45739": 1,
       "38374": 4,
       "18216": 25,
@@ -15039,6 +15160,7 @@
       "37181": 4,
       "39340": 1,
       "22331": 1,
+      "38367": 3,
       "37174": 3,
       "39287": 1,
       "42988": 1,
@@ -15113,6 +15235,62 @@
       "49442": 4,
       "22651": 4,
       "31984": 1
+    },
+    "2020": {
+      "8626": 1,
+      "38308": 9,
+      "18549": 30,
+      "31958": 2,
+      "37806": 35,
+      "18122": 22,
+      "44248": 1,
+      "14893": 9,
+      "23327": 40,
+      "33685": 6,
+      "45739": 1,
+      "45789": 1,
+      "14982": 23,
+      "18546": 33,
+      "21041": 2,
+      "22219": 1,
+      "23831": 13,
+      "40371": 1,
+      "42416": 1,
+      "45713": 19,
+      "38456": 1,
+      "44310": 1,
+      "45018": 1,
+      "18160": 1,
+      "18312": 53,
+      "22670": 1,
+      "18375": 1,
+      "18534": 1,
+      "20936": 1,
+      "37201": 26,
+      "43895": 1,
+      "21170": 1,
+      "23601": 5,
+      "26800": 1,
+      "27208": 1,
+      "6175": 1,
+      "8147": 1,
+      "14941": 2,
+      "33612": 1,
+      "44336": 24,
+      "47554": 1,
+      "40707": 1,
+      "42716": 1,
+      "47533": 1,
+      "21039": 1,
+      "22651": 1,
+      "23625": 1,
+      "23813": 1,
+      "33679": 1,
+      "35566": 1,
+      "37171": 1,
+      "38312": 6,
+      "40097": 1,
+      "42737": 2
     }
   }
 }
