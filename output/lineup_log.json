@@ -689322,5 +689322,174 @@
         "playing_today": true
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-06T10:48:42Z",
+    "league_id": 301,
+    "league_name": "SABRmagician",
+    "game_date": "2026-08-06",
+    "teams_playing": 22,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Christian Walker",
+        "player_id": 18389,
+        "from": "1B",
+        "to": "Bench",
+        "reason": "no game"
+      },
+      {
+        "player": "Kyle Stowers",
+        "player_id": 37480,
+        "from": "OF",
+        "to": "1B",
+        "reason": "slot shuffle"
+      },
+      {
+        "player": "Ryan Waldschmidt",
+        "player_id": 45789,
+        "from": "Bench",
+        "to": "OF",
+        "reason": "has game"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Corey Seager",
+        "player_id": 18216,
+        "position": "Bench",
+        "salary": 28,
+        "mlb_team": "TEX",
+        "bat_hand": "?",
+        "vs_pitcher": "",
+        "vs_hand": "",
+        "reason": "no game",
+        "reasons": [
+          "no game"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": null,
+        "playing_today": false
+      },
+      {
+        "player": "Cam Smith",
+        "player_id": 45714,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "HOU",
+        "bat_hand": "?",
+        "vs_pitcher": "",
+        "vs_hand": "",
+        "reason": "no game",
+        "reasons": [
+          "no game"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": null,
+        "playing_today": false
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-06T10:48:52Z",
+    "league_id": 663,
+    "league_name": "SabrCatz",
+    "game_date": "2026-08-06",
+    "teams_playing": 22,
+    "status": "applied",
+    "changes": [
+      {
+        "player": "Bryce Eldridge",
+        "player_id": 44147,
+        "from": "1B",
+        "to": "Bench",
+        "reason": "no game"
+      },
+      {
+        "player": "Bryce Harper",
+        "player_id": 14982,
+        "from": "Bench",
+        "to": "1B",
+        "reason": "has game"
+      },
+      {
+        "player": "Corey Seager",
+        "player_id": 18216,
+        "from": "SS",
+        "to": "Bench",
+        "reason": "no game"
+      },
+      {
+        "player": "Vaughn Grissom",
+        "player_id": 37320,
+        "from": "Bench",
+        "to": "SS",
+        "reason": "has game"
+      },
+      {
+        "player": "Tommy Edman",
+        "player_id": 31703,
+        "from": "3B",
+        "to": "Bench",
+        "reason": "no game"
+      },
+      {
+        "player": "Coby Mayo",
+        "player_id": 38378,
+        "from": "Bench",
+        "to": "3B",
+        "reason": "has game"
+      },
+      {
+        "player": "Gerrit Cole",
+        "player_id": 18116,
+        "from": "SP",
+        "to": "Bench",
+        "reason": "no game"
+      },
+      {
+        "player": "Kevin Gausman",
+        "player_id": 18196,
+        "from": "Bench",
+        "to": "SP",
+        "reason": "probable starter"
+      }
+    ],
+    "recommendations": [
+      {
+        "player": "Brett Baty",
+        "player_id": 37181,
+        "position": "Bench",
+        "salary": 4,
+        "mlb_team": "NYM",
+        "bat_hand": "L",
+        "vs_pitcher": "Foster Griffin",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "reasons": [
+          "LHB vs LHP"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 2.0,
+        "playing_today": true
+      },
+      {
+        "player": "Owen Caissie",
+        "player_id": 38367,
+        "position": "Bench",
+        "salary": 3,
+        "mlb_team": "MIA",
+        "bat_hand": "L",
+        "vs_pitcher": "Mart\u00edn P\u00e9rez",
+        "vs_hand": "L",
+        "reason": "LHB vs LHP",
+        "reasons": [
+          "LHB vs LHP"
+        ],
+        "is_pitcher": false,
+        "fgpts_per_g": 3.3,
+        "playing_today": true
+      }
+    ]
   }
 ]
