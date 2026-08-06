@@ -174,6 +174,7 @@ LEAGUES = {
     836: "SabrCatz",
     1487: "SabrWarKurtz",
     1940: "Duran Duran",
+    2020: "Dortmunder Walkers",
 }
 
 STATUS_COLORS = {
@@ -1907,14 +1908,15 @@ with tab_config:
         salary_tiebreak = st.toggle("Salary tiebreak", value=rules.get("salary_tiebreak", True), key="rule_salary", help="When priority rank is equal, higher-salary players start first.", disabled=not can_edit)
         rp_doubleheader = st.toggle("RP doubleheader boost", value=rules.get("rp_doubleheader", True), key="rule_dh", help="Prioritize activating RPs whose teams have a doubleheader (two chances to pitch). RP protected list still takes priority.", disabled=not can_edit)
 
-        new_rules = {
+        new_rules = dict(rules)
+        new_rules.update({
             "lhb_vs_lhp_block": lhb_block,
             "active_roster_filter": active_roster,
             "rp_freshness": rp_freshness,
             "flex_optimization": flex_optimization,
             "salary_tiebreak": salary_tiebreak,
             "rp_doubleheader": rp_doubleheader,
-        }
+        })
         if new_rules != rules:
             config["rules"] = new_rules
             changed = True
@@ -2070,6 +2072,97 @@ with tab_config:
 
         league_cfg = config.get(sel_lid, {})
 
+        st.markdown('<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin:16px 0 8px;">League Rules</p>', unsafe_allow_html=True)
+        rule_col1, rule_col2, rule_col3 = st.columns(3)
+        rules = config.setdefault("rules", {})
+
+        with rule_col1:
+            two_catcher_lids = {int(lid) for lid in rules.get("two_catcher_leagues", [])}
+            two_catcher_enabled = st.toggle(
+                "Two-catcher makeup",
+                value=sel_lid_int in two_catcher_lids,
+                key=f"rule_2c_{sel_lid}",
+                help="Start two catchers when possible, using C slots before Util.",
+                disabled=not can_edit,
+            )
+            if can_edit and two_catcher_enabled != (sel_lid_int in two_catcher_lids):
+                if two_catcher_enabled:
+                    two_catcher_lids.add(sel_lid_int)
+                else:
+                    two_catcher_lids.discard(sel_lid_int)
+                rules["two_catcher_leagues"] = sorted(two_catcher_lids)
+                changed = True
+
+        with rule_col2:
+            util_priority_lids = {int(lid) for lid in rules.get("util_priority_leagues", [])}
+            util_priority_enabled = st.toggle(
+                "Util makeup priority",
+                value=sel_lid_int in util_priority_lids,
+                key=f"rule_util_{sel_lid}",
+                help="When Util is behind pace, pull from bench bats to keep Util full.",
+                disabled=not can_edit,
+            )
+            if can_edit and util_priority_enabled != (sel_lid_int in util_priority_lids):
+                if util_priority_enabled:
+                    util_priority_lids.add(sel_lid_int)
+                else:
+                    util_priority_lids.discard(sel_lid_int)
+                rules["util_priority_leagues"] = sorted(util_priority_lids)
+                changed = True
+
+        with rule_col3:
+            st.markdown('<div class="config-section-title">Do Not Start SPs</div>', unsafe_allow_html=True)
+            st.caption("Never activate these pitchers into SP")
+            no_start_ids = [
+                int(pid) for pid in league_cfg.get("do_not_start_sp", [])
+                if str(pid).isdigit()
+            ]
+            if has_cache:
+                sp_options = eligible_players_for_position("SP", sel_lid_int, roster_cache)
+                sp_label_map = {pid: label for pid, label in sp_options}
+                for pid in no_start_ids:
+                    label = sp_label_map.get(str(pid), player_name(pid, roster_cache, config))
+                    if can_edit:
+                        c_name, c_rm = st.columns([4, 1])
+                        c_name.markdown(f"**{label}**")
+                        if c_rm.button("x", key=f"rm_nssp_{sel_lid}_{pid}"):
+                            config.setdefault(sel_lid, {})["do_not_start_sp"] = [
+                                p for p in no_start_ids if p != pid
+                            ]
+                            changed = True
+                    else:
+                        st.markdown(f"**{label}**")
+                if not no_start_ids:
+                    st.caption("No SPs blocked")
+                if can_edit:
+                    available_sp = [(pid, label) for pid, label in sp_options if int(pid) not in no_start_ids]
+                    if available_sp:
+                        add_sp_options = {label: int(pid) for pid, label in available_sp}
+                        sp_add = st.selectbox(
+                            "Add SP",
+                            [""] + list(add_sp_options.keys()),
+                            key=f"add_nssp_{sel_lid}",
+                            label_visibility="collapsed",
+                        )
+                        if sp_add and st.button("Block SP", key=f"btn_nssp_{sel_lid}"):
+                            config.setdefault(sel_lid, {}).setdefault("do_not_start_sp", []).append(add_sp_options[sp_add])
+                            changed = True
+            elif can_edit:
+                new_val = st.text_area(
+                    "Do Not Start SP IDs",
+                    value="\n".join(str(x) for x in no_start_ids),
+                    height=120,
+                    key=f"cfg_nssp_{sel_lid}",
+                )
+                parsed = []
+                for line in new_val.strip().split("\n"):
+                    line = line.strip()
+                    if line.isdigit():
+                        parsed.append(int(line))
+                if parsed != no_start_ids:
+                    config.setdefault(sel_lid, {})["do_not_start_sp"] = parsed
+                    changed = True
+
         # Show positions in card grid, split by hitting/pitching
         hitting_slots = [s for s in POSITION_SLOTS if s in HITTING_POSITIONS]
         pitching_slots = [s for s in POSITION_SLOTS if s in PITCHING_POSITIONS]
@@ -2116,7 +2209,12 @@ with tab_config:
                                             if new_pid not in current_ids:
                                                 highest_rank = 0
                                                 for other_slot, other_ids in league_cfg.items():
-                                                    if other_slot != slot and isinstance(other_ids, list) and new_pid in other_ids:
+                                                    if (
+                                                        other_slot in POSITION_SLOTS
+                                                        and other_slot != slot
+                                                        and isinstance(other_ids, list)
+                                                        and new_pid in other_ids
+                                                    ):
                                                         rank = other_ids.index(new_pid)
                                                         highest_rank = max(highest_rank, rank + 1)
                                                 slot_list = config.setdefault(sel_lid, {}).setdefault(slot, [])

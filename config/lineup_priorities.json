@@ -237,7 +237,16 @@
         "rp_freshness": true,
         "flex_optimization": true,
         "salary_tiebreak": true,
-        "rp_doubleheader": true
+        "rp_doubleheader": true,
+        "two_catcher_leagues": [
+            301,
+            530,
+            649,
+            1940
+        ],
+        "util_priority_leagues": [
+            1940
+        ]
     },
     "791": {
         "OF": [
@@ -386,6 +395,7 @@
             18422
         ]
     },
+    "2020": {},
     "301": {
         "C": [
             14864
