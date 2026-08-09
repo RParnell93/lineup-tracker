@@ -14369,6 +14369,20 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "44046": {
+      "name": "Brett Bateman",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "44081": {
+      "name": "Andrew Pinckney",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -14898,7 +14912,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-09T21:07:19.646494+00:00",
+  "updated_at": "2026-08-09T23:13:20.669337+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
