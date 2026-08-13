@@ -161,6 +161,12 @@
         ]
     },
     "649": {
+        "must_start_exempt": [
+            37806
+        ],
+        "_must_start_exempt_names": [
+            "Gunnar Henderson (37806)"
+        ],
         "C": [
             33654,
             37427
