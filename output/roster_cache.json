@@ -2184,8 +2184,8 @@
       "salary": 1,
       "mlb_team": "FA",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -14449,6 +14449,13 @@
         "1B"
       ],
       "is_pitcher": false
+    },
+    "37409": {
+      "name": "Bradley Hanner",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -14976,7 +14983,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-13T20:21:53.251845+00:00",
+  "updated_at": "2026-08-13T22:36:45.649002+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
