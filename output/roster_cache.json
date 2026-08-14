@@ -14465,6 +14465,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "47680": {
+      "name": "Ben Grable",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -14990,7 +14997,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-14T21:01:13.493546+00:00",
+  "updated_at": "2026-08-14T22:01:20.805188+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
