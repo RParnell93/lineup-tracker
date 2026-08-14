@@ -14457,6 +14457,14 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "46262": {
+      "name": "Dalton Pence",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -14982,7 +14990,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-14T17:41:33.835830+00:00",
+  "updated_at": "2026-08-14T19:37:46.906228+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
