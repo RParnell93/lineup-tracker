@@ -14524,6 +14524,14 @@
         "OF"
       ],
       "is_pitcher": false
+    },
+    "40806": {
+      "name": "Will Dion",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -15048,7 +15056,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-17T20:55:33.457583+00:00",
+  "updated_at": "2026-08-17T21:54:54.595962+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
