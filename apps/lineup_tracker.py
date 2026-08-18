@@ -35,6 +35,7 @@ CARD_CSS = """
     .change-card:hover { border-color: rgba(255,255,255,0.12); transform: translateX(3px); }
     .change-card.optimal { border-left-color: #5a9f76; }
     .change-card.dry-run { border-left-color: #5b9bf5; }
+    .change-card.locked { border-left-color: #d98b3a; }
     .change-card.error { border-left-color: #d05950; }
     .change-header {
         display: flex;
@@ -181,6 +182,7 @@ STATUS_COLORS = {
     "applied": "#f5bb5b",
     "optimal": "#5a9f76",
     "dry_run": "#5b9bf5",
+    "locked": "#d98b3a",
     "error": "#d05950",
 }
 
@@ -188,6 +190,7 @@ STATUS_ICONS = {
     "applied": "&#10003;",
     "optimal": "&#10003;",
     "dry_run": "&#8635;",
+    "locked": "&#128274;",
     "error": "&#9888;",
 }
 
@@ -1165,6 +1168,7 @@ with tab_changes:
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f5bb5b;margin-right:4px;"></span>Changes Made</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#5a9f76;margin-right:4px;"></span>Lineup Set</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#5b9bf5;margin-right:4px;"></span>Dry Run</span>'
+            '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d98b3a;margin-right:4px;"></span>Locked</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d05950;margin-right:4px;"></span>Error</span>'
             '<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.2);margin-right:4px;"></span>No Data</span>'
             '</div>',
@@ -1186,6 +1190,8 @@ with tab_changes:
                 dot_color = "#d05950"
             elif last_status == "dry_run":
                 dot_color = "#5b9bf5"
+            elif last_status == "locked":
+                dot_color = "#d98b3a"
             else:
                 dot_color = "rgba(255,255,255,0.2)"
 
@@ -1216,7 +1222,7 @@ with tab_changes:
         with col_f2:
             selected_date = st.selectbox("Game Date", ["All Dates"] + all_dates, key="f_date")
         with col_f3:
-            status_display = {"All": "All", "Changes Made": "applied", "Lineup Set": "optimal", "Dry Run": "dry_run", "Error": "error"}
+            status_display = {"All": "All", "Changes Made": "applied", "Lineup Set": "optimal", "Locked": "locked", "Dry Run": "dry_run", "Error": "error"}
             selected_display = st.selectbox("Status", list(status_display.keys()), key="f_status")
             selected_status = status_display[selected_display]
 
@@ -1323,7 +1329,10 @@ with tab_changes:
                     moves_html += "".join(pitching_moves)
                 moves_html += '</div>'
             else:
-                moves_html = '<div class="moves-container"><div class="no-changes">&#10003; Lineup set - no changes needed</div></div>'
+                if status_key == "locked":
+                    moves_html = '<div class="moves-container"><div class="no-changes">&#128274; Proposed moves blocked after first pitch</div></div>'
+                else:
+                    moves_html = '<div class="moves-container"><div class="no-changes">&#10003; Lineup set - no changes needed</div></div>'
 
             # Recommendations section
             recs = entry.get("recommendations", [])
@@ -1366,6 +1375,8 @@ with tab_changes:
                             "no open slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
                             "no open RP slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
                             "no open SP slot": ("rgba(255,255,255,0.06)", "rgba(255,255,255,0.4)"),
+                            "game already started": ("rgba(217,139,58,0.15)", "rgba(217,139,58,0.85)"),
+                            "move blocked by locked player": ("rgba(217,139,58,0.15)", "rgba(217,139,58,0.85)"),
                         }
                         tags = ""
                         for rsn in reasons:
@@ -1425,6 +1436,9 @@ with tab_changes:
             elif status_key == "dry_run":
                 display_status = "Dry Run"
                 display_icon = "&#8635;"
+            elif status_key == "locked":
+                display_status = "Locked after first pitch"
+                display_icon = "&#128274;"
             else:
                 display_status = status
                 display_icon = icon
@@ -1591,7 +1605,7 @@ with tab_insights:
         with icol_f2:
             i_selected_date = st.selectbox("Game Date", ["All Dates"] + i_all_dates, key="i_f_date")
         with icol_f3:
-            i_status_display = {"All": "All", "Changes Made": "applied", "Lineup Set": "optimal", "Dry Run": "dry_run", "Error": "error"}
+            i_status_display = {"All": "All", "Changes Made": "applied", "Lineup Set": "optimal", "Locked": "locked", "Dry Run": "dry_run", "Error": "error"}
             i_selected_display = st.selectbox("Status", list(i_status_display.keys()), key="i_f_status")
             i_selected_status = i_status_display[i_selected_display]
 
