@@ -1915,7 +1915,7 @@ with tab_config:
 
         # Configurable rules (vertical list)
         st.markdown('<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Configurable Rules</p>', unsafe_allow_html=True)
-        lhb_block = st.toggle("LHB vs LHP block", value=rules.get("lhb_vs_lhp_block", True), key="rule_lhb", help="Skip left-handed batters facing a left-handed pitcher.", disabled=not can_edit)
+        lhb_block = st.toggle("LHB vs LHP block", value=rules.get("lhb_vs_lhp_block", True), key="rule_lhb", help="Skip left-handed batters facing a left-handed pitcher unless they have a league exception.", disabled=not can_edit)
         active_roster = st.toggle("Active roster filter", value=rules.get("active_roster_filter", True), key="rule_active", help="Skip bench players not on the MLB 26-man active roster.", disabled=not can_edit)
         rp_freshness = st.toggle("RP freshness priority", value=rules.get("rp_freshness", True), key="rule_freshness", help="Prefer well-rested relievers when filling RP slots. Factors in consecutive days, pitch counts, and rest.", disabled=not can_edit)
         flex_optimization = st.toggle("Flex slot optimization", value=rules.get("flex_optimization", True), key="rule_flex", help="Put latest-game-time players in Util/MI flex slots.", disabled=not can_edit)
@@ -2087,7 +2087,7 @@ with tab_config:
         league_cfg = config.get(sel_lid, {})
 
         st.markdown('<p style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin:16px 0 8px;">League Rules</p>', unsafe_allow_html=True)
-        rule_col1, rule_col2, rule_col3 = st.columns(3)
+        rule_col1, rule_col2 = st.columns(2)
         rules = config.setdefault("rules", {})
 
         with rule_col1:
@@ -2124,7 +2124,9 @@ with tab_config:
                 rules["util_priority_leagues"] = sorted(util_priority_lids)
                 changed = True
 
-        with rule_col3:
+        player_rule_col1, player_rule_col2 = st.columns(2)
+
+        with player_rule_col1:
             st.markdown('<div class="config-section-title">Do Not Start SPs</div>', unsafe_allow_html=True)
             st.caption("Never activate these pitchers into SP")
             no_start_ids = [
@@ -2175,6 +2177,72 @@ with tab_config:
                         parsed.append(int(line))
                 if parsed != no_start_ids:
                     config.setdefault(sel_lid, {})["do_not_start_sp"] = parsed
+                    changed = True
+
+        with player_rule_col2:
+            st.markdown('<div class="config-section-title">LHB vs LHP Exceptions</div>', unsafe_allow_html=True)
+            st.caption("Allow selected hitters to start against left-handed pitchers")
+            lhb_exempt_ids = [
+                int(pid) for pid in league_cfg.get("lhb_vs_lhp_exempt", [])
+                if str(pid).isdigit()
+            ]
+            if has_cache:
+                hitter_options = eligible_players_for_position(
+                    "Util", sel_lid_int, roster_cache
+                )
+                hitter_label_map = {pid: label for pid, label in hitter_options}
+                for pid in lhb_exempt_ids:
+                    label = hitter_label_map.get(
+                        str(pid), player_name(pid, roster_cache, config)
+                    )
+                    if can_edit:
+                        c_name, c_rm = st.columns([4, 1])
+                        c_name.markdown(f"**{label}**")
+                        if c_rm.button("x", key=f"rm_lhbex_{sel_lid}_{pid}"):
+                            config.setdefault(sel_lid, {})["lhb_vs_lhp_exempt"] = [
+                                p for p in lhb_exempt_ids if p != pid
+                            ]
+                            changed = True
+                    else:
+                        st.markdown(f"**{label}**")
+                if not lhb_exempt_ids:
+                    st.caption("No matchup exceptions")
+                if can_edit:
+                    available_hitters = [
+                        (pid, label) for pid, label in hitter_options
+                        if int(pid) not in lhb_exempt_ids
+                    ]
+                    if available_hitters:
+                        add_hitter_options = {
+                            label: int(pid) for pid, label in available_hitters
+                        }
+                        hitter_add = st.selectbox(
+                            "Add hitter exception",
+                            [""] + list(add_hitter_options.keys()),
+                            key=f"add_lhbex_{sel_lid}",
+                            label_visibility="collapsed",
+                        )
+                        if hitter_add and st.button(
+                            "Add Exception", key=f"btn_lhbex_{sel_lid}"
+                        ):
+                            config.setdefault(sel_lid, {}).setdefault(
+                                "lhb_vs_lhp_exempt", []
+                            ).append(add_hitter_options[hitter_add])
+                            changed = True
+            elif can_edit:
+                new_val = st.text_area(
+                    "LHB vs LHP Exception IDs",
+                    value="\n".join(str(x) for x in lhb_exempt_ids),
+                    height=120,
+                    key=f"cfg_lhbex_{sel_lid}",
+                )
+                parsed = []
+                for line in new_val.strip().split("\n"):
+                    line = line.strip()
+                    if line.isdigit():
+                        parsed.append(int(line))
+                if parsed != lhb_exempt_ids:
+                    config.setdefault(sel_lid, {})["lhb_vs_lhp_exempt"] = parsed
                     changed = True
 
         # Show positions in card grid, split by hitting/pitching
