@@ -14472,7 +14472,13 @@
         "SP",
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 1,
+      "mlb_team": "NYM",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38415": {
       "name": "Tekoah Roby",
@@ -14834,6 +14840,7 @@
       "18196",
       "18465",
       "22426",
+      "23311",
       "42754",
       "43264",
       "47646",
@@ -15132,7 +15139,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-20T19:22:01.374889+00:00",
+  "updated_at": "2026-08-20T21:38:54.020587+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15363,6 +15370,7 @@
       "18196": 13,
       "18465": 4,
       "22426": 13,
+      "23311": 1,
       "42754": 1,
       "43264": 1,
       "47646": 1,
