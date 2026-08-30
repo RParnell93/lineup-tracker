@@ -5,7 +5,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 40,
+      "salary": 55,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -58,13 +58,13 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 9,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18466": {
       "name": "Ketel Marte",
@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 35,
+      "salary": 44,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 5,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -867,7 +867,7 @@
         "1B",
         "3B"
       ],
-      "salary": 13,
+      "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1102,7 +1102,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1416,7 +1416,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
@@ -1448,7 +1448,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18355": {
       "name": "Luis Severino",
@@ -2353,7 +2353,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -2723,13 +2723,13 @@
       "positions": [
         "1B"
       ],
-      "salary": 37,
+      "salary": 27,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18407": {
       "name": "Willy Adames",
@@ -2814,7 +2814,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2947,7 +2947,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 53,
+      "salary": 67,
       "mlb_team": "NYY",
       "is_pitcher": false,
       "ppg": null,
@@ -3073,7 +3073,7 @@
         "1B",
         "OF"
       ],
-      "salary": 23,
+      "salary": 41,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3474,9 +3474,13 @@
       "positions": [
         "1B"
       ],
+      "salary": 34,
+      "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": 5.77,
-      "pts": 34.6
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "18368": {
       "name": "Trea Turner",
@@ -3560,7 +3564,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 21,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -3984,7 +3988,13 @@
       "positions": [
         "C"
       ],
-      "is_pitcher": false
+      "salary": 10,
+      "mlb_team": "BOS",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33627": {
       "name": "Nico Hoerner",
@@ -4440,7 +4450,7 @@
         "1B",
         "3B"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -5990,7 +6000,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -7446,7 +7456,7 @@
       "positions": [
         "C"
       ],
-      "salary": 9,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -14997,23 +15007,26 @@
       "45884",
       "18216",
       "18124",
-      "18546",
       "23840",
       "27058",
       "40927",
+      "18546",
       "18480",
+      "23717",
+      "23859",
+      "37257",
       "18126",
       "18152",
       "22048",
       "22219",
-      "23796",
       "26404",
       "35304",
       "35928",
       "37480",
       "37806",
-      "38308",
       "39279",
+      "38308",
+      "23796",
       "43569",
       "45018",
       "18466",
@@ -15036,8 +15049,8 @@
       "18786",
       "21961",
       "22651",
-      "35196",
-      "42741"
+      "42741",
+      "35196"
     ],
     "663": [
       "22654",
@@ -15434,7 +15447,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-30T22:46:02.002786+00:00",
+  "updated_at": "2026-08-30T23:58:29.285451+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15540,23 +15553,26 @@
       "45884": 3,
       "18216": 23,
       "18124": 9,
-      "18546": 38,
       "23840": 25,
       "27058": 9,
       "40927": 29,
+      "18546": 38,
       "18480": 32,
+      "23717": 69,
+      "23859": 34,
+      "37257": 10,
       "18126": 21,
       "18152": 3,
       "22048": 11,
       "22219": 2,
-      "23796": 4,
       "26404": 1,
       "35304": 2,
       "35928": 1,
       "37480": 4,
       "37806": 44,
-      "38308": 2,
       "39279": 10,
+      "38308": 2,
+      "23796": 4,
       "43569": 5,
       "45018": 1,
       "18466": 35,
@@ -15579,8 +15595,8 @@
       "18786": 3,
       "21961": 1,
       "22651": 4,
-      "35196": 12,
-      "42741": 1
+      "42741": 1,
+      "35196": 12
     },
     "791": {
       "18152": 1,
