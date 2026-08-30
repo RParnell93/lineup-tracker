@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 13,
+      "salary": 21,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -1468,7 +1468,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -2143,7 +2143,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2474,7 +2474,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 9,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -2542,7 +2542,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 13,
+      "salary": 14,
       "mlb_team": "CHC",
       "is_pitcher": true,
       "ppg": null,
@@ -2828,7 +2828,7 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -2841,7 +2841,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 9,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -2867,7 +2867,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 4,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -3365,7 +3365,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 76,
+      "salary": 74,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -5728,7 +5728,7 @@
         "2B",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -15434,7 +15434,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-08-30T19:27:54.338314+00:00",
+  "updated_at": "2026-08-30T20:03:24.248619+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
