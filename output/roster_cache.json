@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 39,
+      "salary": 35,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -1986,7 +1986,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 27,
+      "salary": 29,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2025,7 +2025,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -3365,7 +3365,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 74,
+      "salary": 69,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -3789,7 +3789,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 18,
+      "salary": 21,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -4929,7 +4929,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 3,
+      "salary": 5,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -9604,7 +9604,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -10070,7 +10070,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -14918,6 +14918,14 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "46227": {
+      "name": "Jacob Kmatz",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -15455,7 +15463,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-09-01T00:36:17.237659+00:00",
+  "updated_at": "2026-09-01T01:19:26.815942+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
