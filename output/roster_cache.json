@@ -5,7 +5,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 40,
+      "salary": 55,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -215,13 +215,13 @@
         "2B",
         "SS"
       ],
-      "salary": 19,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "36048": {
       "name": "Luisangel Acuna",
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 5,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -1102,7 +1102,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1416,7 +1416,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
@@ -1448,7 +1448,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18355": {
       "name": "Luis Severino",
@@ -1850,7 +1850,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "45739": {
       "name": "Braden Montgomery",
@@ -1987,7 +1987,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 29,
+      "salary": 27,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2026,7 +2026,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2104,7 +2104,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2724,13 +2724,13 @@
       "positions": [
         "1B"
       ],
-      "salary": 37,
+      "salary": 27,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18407": {
       "name": "Willy Adames",
@@ -2948,13 +2948,13 @@
       "positions": [
         "OF"
       ],
-      "salary": 53,
+      "salary": 67,
       "mlb_team": "NYY",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18236": {
       "name": "Tyler Glasnow",
@@ -3074,7 +3074,7 @@
         "1B",
         "OF"
       ],
-      "salary": 23,
+      "salary": 45,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3366,7 +3366,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 69,
+      "salary": 74,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -3569,7 +3569,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 21,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -3794,7 +3794,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 21,
+      "salary": 18,
       "mlb_team": "TEX",
       "is_pitcher": false,
       "ppg": null,
@@ -4465,7 +4465,7 @@
         "1B",
         "3B"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -4976,7 +4976,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -6021,7 +6021,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -9621,7 +9621,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -9730,7 +9730,7 @@
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "38402": {
@@ -13151,7 +13151,7 @@
         "SS",
         "3B"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -13898,7 +13898,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -15037,6 +15037,20 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "38741": {
+      "name": "Ryan Watson",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "42953": {
+      "name": "Sandro Santana",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -15377,30 +15391,31 @@
       "37234"
     ],
     "791": [
+      "22219",
+      "43949",
       "38378",
       "31741",
-      "35300",
-      "18644",
-      "45884",
+      "23767",
+      "36769",
+      "44223",
       "18126",
       "23327",
-      "33625",
+      "23717",
       "33954",
       "40927",
-      "18152",
       "18466",
-      "22219",
-      "23717",
-      "23767",
+      "14934",
+      "18644",
       "31687",
       "33600",
       "33609",
-      "44223",
+      "33625",
+      "35300",
       "45789",
+      "45884",
       "45947",
       "44117",
       "23745",
-      "43949",
       "45716",
       "18116",
       "33682",
@@ -15410,14 +15425,13 @@
       "5644",
       "19904",
       "33259",
-      "37700",
       "38754",
-      "13335",
+      "42850",
       "19394",
       "22426",
       "23311",
       "23672",
-      "42850",
+      "37700",
       "43841",
       "15261",
       "19378",
@@ -15575,7 +15589,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-09-04T12:49:19.133379+00:00",
+  "updated_at": "2026-09-04T19:08:11.228997+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15723,30 +15737,31 @@
       "22651": 4
     },
     "791": {
+      "22219": 2,
+      "43949": 2,
       "38378": 1,
       "31741": 15,
-      "35300": 3,
-      "18644": 5,
-      "45884": 3,
+      "23767": 22,
+      "36769": 1,
+      "44223": 2,
       "18126": 18,
       "23327": 55,
-      "33625": 49,
+      "23717": 74,
       "33954": 3,
       "40927": 27,
-      "18152": 1,
       "18466": 39,
-      "22219": 2,
-      "23717": 74,
-      "23767": 22,
+      "14934": 14,
+      "18644": 5,
       "31687": 2,
       "33600": 86,
       "33609": 5,
-      "44223": 2,
+      "33625": 49,
+      "35300": 3,
       "45789": 2,
+      "45884": 3,
       "45947": 5,
       "44117": 1,
       "23745": 1,
-      "43949": 2,
       "45716": 27,
       "18116": 8,
       "33682": 22,
@@ -15756,14 +15771,13 @@
       "5644": 9,
       "19904": 1,
       "33259": 11,
-      "37700": 2,
       "38754": 5,
-      "13335": 1,
+      "42850": 1,
       "19394": 3,
       "22426": 21,
       "23311": 2,
       "23672": 3,
-      "42850": 1,
+      "37700": 2,
       "43841": 1,
       "15261": 1,
       "19378": 1,
