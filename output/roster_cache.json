@@ -97,7 +97,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 49,
+      "salary": 43,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 12,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -240,7 +240,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -380,7 +380,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -419,7 +419,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -446,7 +446,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 9,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -908,7 +908,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -1968,7 +1968,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "47565": {
       "name": "Jamie Arnold",
@@ -2027,7 +2027,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2315,7 +2315,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -3686,7 +3686,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 33,
+      "salary": 24,
       "mlb_team": "WSN",
       "is_pitcher": false,
       "ppg": null,
@@ -3947,7 +3947,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 28,
+      "salary": 9,
       "mlb_team": "LAA",
       "is_pitcher": false,
       "ppg": null,
@@ -4977,12 +4977,12 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "40298": {
@@ -5171,7 +5171,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -7199,7 +7199,7 @@
       "positions": [
         "C"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": false,
       "ppg": null,
@@ -10131,7 +10131,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 7,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -12734,7 +12734,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -15142,12 +15142,12 @@
       "44039",
       "45947",
       "33217",
-      "39279",
       "5680",
       "18255",
       "18479",
       "18644",
       "37480",
+      "39279",
       "41180",
       "43569",
       "44804",
@@ -15161,11 +15161,11 @@
       "44336",
       "45706",
       "18364",
-      "20900",
+      "18380",
       "22559",
       "23818",
       "44274",
-      "18380",
+      "20900",
       "46310",
       "44568",
       "21961",
@@ -15616,7 +15616,7 @@
       "42737"
     ]
   },
-  "updated_at": "2026-09-05T11:45:01.755197+00:00",
+  "updated_at": "2026-09-05T12:54:42.991818+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15685,12 +15685,12 @@
       "44039": 2,
       "45947": 3,
       "33217": 6,
-      "39279": 8,
       "5680": 44,
       "18255": 13,
       "18479": 17,
       "18644": 5,
       "37480": 5,
+      "39279": 8,
       "41180": 2,
       "43569": 1,
       "44804": 1,
@@ -15704,11 +15704,11 @@
       "44336": 6,
       "45706": 9,
       "18364": 3,
-      "20900": 4,
+      "18380": 1,
       "22559": 14,
       "23818": 1,
       "44274": 2,
-      "18380": 1,
+      "20900": 4,
       "46310": 5,
       "44568": 1,
       "21961": 1,
