@@ -84,7 +84,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 44,
+      "salary": 40,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 12,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -215,7 +215,7 @@
         "2B",
         "SS"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -240,7 +240,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -380,7 +380,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 16,
+      "salary": 17,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -419,11 +419,11 @@
       "positions": [
         "OF"
       ],
-      "salary": 5,
+      "salary": 3,
       "mlb_team": "NYM",
       "is_pitcher": false,
-      "ppg": 4.88,
-      "pts": 682.6,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -446,7 +446,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 9,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -459,20 +459,20 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "35922": {
       "name": "Drew Rasmussen",
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -881,7 +881,7 @@
         "1B",
         "3B"
       ],
-      "salary": 19,
+      "salary": 16,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -908,7 +908,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -1009,8 +1009,8 @@
       "salary": 1,
       "mlb_team": "KCR",
       "is_pitcher": false,
-      "ppg": 2.85,
-      "pts": 48.5,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -1551,8 +1551,8 @@
       "salary": 9,
       "mlb_team": "ATH",
       "is_pitcher": false,
-      "ppg": 4.08,
-      "pts": 326.5,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -2027,7 +2027,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2119,7 +2119,7 @@
         "1B",
         "OF"
       ],
-      "salary": 4,
+      "salary": 5,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -2315,7 +2315,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2374,7 +2374,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "45090": {
       "name": "Luis Pena",
@@ -2412,8 +2412,8 @@
       "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
-      "ppg": 7.98,
-      "pts": 893.7,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2793,8 +2793,8 @@
       "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": false,
-      "ppg": 5.73,
-      "pts": 692.8,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2816,7 +2816,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 4,
+      "salary": 5,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2872,8 +2872,8 @@
       "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
-      "ppg": 6.79,
-      "pts": 631.6,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2912,8 +2912,8 @@
       "salary": 2,
       "mlb_team": "SFG",
       "is_pitcher": false,
-      "ppg": 8.24,
-      "pts": 502.4,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -3698,7 +3698,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 33,
+      "salary": 24,
       "mlb_team": "WSN",
       "is_pitcher": false,
       "ppg": null,
@@ -3959,7 +3959,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 28,
+      "salary": 9,
       "mlb_team": "LAA",
       "is_pitcher": false,
       "ppg": null,
@@ -4467,8 +4467,8 @@
       "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": true,
-      "ppg": 17.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -4597,8 +4597,8 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": 3.15,
-      "pts": 160.4,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -4989,7 +4989,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -5183,13 +5183,13 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "27185": {
       "name": "Garrett Whitlock",
@@ -5384,8 +5384,8 @@
       "salary": 1,
       "mlb_team": "MIL",
       "is_pitcher": true,
-      "ppg": 13.0,
-      "pts": 35.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -5481,8 +5481,8 @@
       "salary": 1,
       "mlb_team": "SDP",
       "is_pitcher": false,
-      "ppg": 5.37,
-      "pts": 644.9,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -6037,8 +6037,8 @@
       "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
-      "ppg": 7.03,
-      "pts": 400.6,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -6171,8 +6171,8 @@
       "salary": 4,
       "mlb_team": "LAA",
       "is_pitcher": false,
-      "ppg": 3.85,
-      "pts": 396.2,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -7217,7 +7217,7 @@
       "positions": [
         "C"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": false,
       "ppg": null,
@@ -9161,8 +9161,8 @@
       "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": false,
-      "ppg": 6.98,
-      "pts": 655.7,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9408,8 +9408,8 @@
       "salary": 1,
       "mlb_team": "MIL",
       "is_pitcher": false,
-      "ppg": 7.09,
-      "pts": 503.3,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9878,11 +9878,11 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": 7.56,
-      "pts": 824.2,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -9984,8 +9984,8 @@
       "salary": 8,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": 3.09,
-      "pts": 95.9,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -10163,7 +10163,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 7,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -10268,8 +10268,8 @@
       "salary": 1,
       "mlb_team": "SFG",
       "is_pitcher": false,
-      "ppg": 6.78,
-      "pts": 813.5,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -10388,8 +10388,8 @@
       "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": false,
-      "ppg": 8.26,
-      "pts": 867.1,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -10523,8 +10523,8 @@
       "salary": 2,
       "mlb_team": "NYM",
       "is_pitcher": false,
-      "ppg": 6.05,
-      "pts": 719.8,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11152,8 +11152,8 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": 6.71,
-      "pts": 704.1,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11486,8 +11486,8 @@
       "salary": 1,
       "mlb_team": "WSN",
       "is_pitcher": false,
-      "ppg": 7.17,
-      "pts": 731.1,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11900,8 +11900,8 @@
       "salary": 1,
       "mlb_team": "CHC",
       "is_pitcher": false,
-      "ppg": 7.4,
-      "pts": 902.7,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -12773,7 +12773,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -13697,8 +13697,8 @@
       "salary": 1,
       "mlb_team": "LAA",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -13953,8 +13953,8 @@
       "salary": 3,
       "mlb_team": "MIA",
       "is_pitcher": false,
-      "ppg": 7.81,
-      "pts": 710.7,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -14089,8 +14089,8 @@
       "salary": 1,
       "mlb_team": "DET",
       "is_pitcher": false,
-      "ppg": 4.82,
-      "pts": 149.4,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -14234,8 +14234,8 @@
       "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": false,
-      "ppg": 7.89,
-      "pts": 197.2,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -14692,8 +14692,8 @@
       "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -15207,6 +15207,27 @@
         "SP"
       ],
       "is_pitcher": true
+    },
+    "49623": {
+      "name": "Caden Sorrell",
+      "positions": [
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "49672": {
+      "name": "Myles Bailey",
+      "positions": [
+        "Util"
+      ],
+      "is_pitcher": false
+    },
+    "44640": {
+      "name": "Mark Manfredi",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -15258,22 +15279,22 @@
     "530": [
       "22391",
       "26134",
-      "37480",
-      "44039",
+      "33217",
+      "33634",
+      "37806",
       "45769",
       "23831",
       "6305",
       "18479",
-      "33625",
       "43896",
+      "44039",
       "45947",
       "48240",
       "18255",
       "18644",
-      "33217",
-      "33634",
+      "33625",
       "33650",
-      "37806",
+      "37480",
       "39279",
       "41180",
       "41322",
@@ -15291,10 +15312,10 @@
       "18380",
       "20900",
       "22559",
-      "44568",
+      "44274",
       "23818",
       "42830",
-      "44274",
+      "44568",
       "45706",
       "21961",
       "22651",
@@ -15394,6 +15415,7 @@
       "38315"
     ],
     "836": [
+      "26292",
       "33654",
       "18386",
       "40284",
@@ -15401,16 +15423,15 @@
       "40262",
       "39108",
       "14982",
+      "36509",
       "39340",
       "40147",
       "42299",
-      "45789",
       "18284",
-      "34583",
-      "36509",
-      "44147",
       "33217",
-      "26292",
+      "34583",
+      "44147",
+      "45789",
       "44117",
       "44539",
       "45064",
@@ -15440,8 +15461,8 @@
     "301": [
       "14864",
       "38317",
+      "44083",
       "40284",
-      "19649",
       "18216",
       "42156",
       "44223",
@@ -15450,10 +15471,10 @@
       "40188",
       "45714",
       "45739",
-      "18389",
-      "18153",
       "23201",
-      "44083",
+      "18153",
+      "18389",
+      "19649",
       "45789",
       "38456",
       "44117",
@@ -15468,13 +15489,13 @@
       "26807",
       "35922",
       "40097",
-      "40972",
+      "40607",
       "4970",
       "19575",
       "23311",
       "23818",
       "44568",
-      "40607",
+      "40972",
       "46581",
       "47938",
       "18786",
@@ -15733,14 +15754,14 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-10T23:24:31.158162+00:00",
+  "updated_at": "2026-09-11T12:48:56.490527+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
       "14864": 1,
       "38317": 1,
+      "44083": 1,
       "40284": 2,
-      "19649": 1,
       "18216": 28,
       "42156": 9,
       "44223": 4,
@@ -15749,10 +15770,10 @@
       "40188": 24,
       "45714": 3,
       "45739": 1,
-      "18389": 1,
-      "18153": 1,
       "23201": 4,
-      "44083": 1,
+      "18153": 1,
+      "18389": 1,
+      "19649": 1,
       "45789": 1,
       "38456": 3,
       "44117": 1,
@@ -15767,13 +15788,13 @@
       "26807": 1,
       "35922": 6,
       "40097": 1,
-      "40972": 1,
+      "40607": 1,
       "4970": 1,
       "19575": 1,
       "23311": 1,
       "23818": 1,
       "44568": 1,
-      "40607": 1,
+      "40972": 1,
       "46581": 1,
       "47938": 1,
       "18786": 1,
@@ -15791,22 +15812,22 @@
     "530": {
       "22391": 17,
       "26134": 3,
-      "37480": 5,
-      "44039": 2,
+      "33217": 6,
+      "33634": 4,
+      "37806": 40,
       "45769": 2,
       "23831": 15,
       "6305": 29,
       "18479": 17,
-      "33625": 43,
       "43896": 20,
+      "44039": 2,
       "45947": 3,
       "48240": 16,
       "18255": 13,
       "18644": 5,
-      "33217": 6,
-      "33634": 4,
+      "33625": 43,
       "33650": 4,
-      "37806": 40,
+      "37480": 5,
       "39279": 8,
       "41180": 2,
       "41322": 2,
@@ -15824,10 +15845,10 @@
       "18380": 1,
       "20900": 4,
       "22559": 14,
-      "44568": 1,
+      "44274": 2,
       "23818": 1,
       "42830": 1,
-      "44274": 2,
+      "44568": 1,
       "45706": 9,
       "21961": 1,
       "22651": 5,
@@ -15927,6 +15948,7 @@
       "41042": 20
     },
     "836": {
+      "26292": 1,
       "33654": 12,
       "18386": 41,
       "40284": 1,
@@ -15934,16 +15956,15 @@
       "40262": 9,
       "39108": 30,
       "14982": 45,
+      "36509": 29,
       "39340": 1,
       "40147": 1,
       "42299": 1,
-      "45789": 1,
       "18284": 41,
-      "34583": 1,
-      "36509": 29,
-      "44147": 3,
       "33217": 6,
-      "26292": 1,
+      "34583": 1,
+      "44147": 3,
+      "45789": 1,
       "44117": 1,
       "44539": 6,
       "45064": 2,
