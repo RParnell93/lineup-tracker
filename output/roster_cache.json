@@ -84,13 +84,13 @@
       "positions": [
         "SS"
       ],
-      "salary": 40,
+      "salary": 44,
       "mlb_team": "BAL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "33625": {
       "name": "Julio Rodriguez",
@@ -215,13 +215,13 @@
         "2B",
         "SS"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "36048": {
       "name": "Luisangel Acuna",
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 7,
+      "salary": 5,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -2375,7 +2375,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "45090": {
       "name": "Luis Pena",
@@ -9879,7 +9879,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 1,
+      "salary": 5,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -14666,7 +14666,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
@@ -15354,23 +15354,23 @@
       "23859",
       "18466",
       "18216",
-      "18480",
       "14893",
       "23717",
       "23840",
       "27058",
-      "40927",
-      "48240",
+      "44046",
+      "18480",
       "18124",
       "18126",
       "22048",
       "22219",
       "26404",
       "37480",
+      "40927",
       "45713",
+      "48240",
       "43569",
       "45018",
-      "36769",
       "37806",
       "38402",
       "45769",
@@ -15782,7 +15782,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-12T17:51:35.352121+00:00",
+  "updated_at": "2026-09-12T17:53:56.689011+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -15888,23 +15888,23 @@
       "23859": 34,
       "18466": 35,
       "18216": 23,
-      "18480": 32,
       "14893": 29,
       "23717": 69,
       "23840": 25,
       "27058": 9,
-      "40927": 29,
-      "48240": 19,
+      "44046": 1,
+      "18480": 32,
       "18124": 9,
       "18126": 21,
       "22048": 11,
       "22219": 2,
       "26404": 1,
       "37480": 4,
+      "40927": 29,
       "45713": 2,
+      "48240": 19,
       "43569": 5,
       "45018": 1,
-      "36769": 3,
       "37806": 44,
       "38402": 4,
       "45769": 2,
