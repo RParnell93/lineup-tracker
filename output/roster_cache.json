@@ -58,12 +58,12 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 9,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "18466": {
@@ -215,7 +215,7 @@
         "2B",
         "SS"
       ],
-      "salary": 19,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 5,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -867,7 +867,7 @@
         "1B",
         "3B"
       ],
-      "salary": 13,
+      "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1102,7 +1102,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1417,13 +1417,13 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "40607": {
       "name": "Andrew Abbott",
@@ -2028,7 +2028,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
@@ -2106,7 +2106,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2726,7 +2726,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 37,
+      "salary": 12,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2817,7 +2817,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2950,7 +2950,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 53,
+      "salary": 67,
       "mlb_team": "NYY",
       "is_pitcher": false,
       "ppg": null,
@@ -3076,7 +3076,7 @@
         "1B",
         "OF"
       ],
-      "salary": 23,
+      "salary": 45,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3584,7 +3584,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 21,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -4088,13 +4088,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 5,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "34788": {
       "name": "Lawrence Butler",
@@ -4991,7 +4991,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -6035,7 +6035,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -8465,7 +8465,13 @@
       "positions": [
         "SS"
       ],
-      "is_pitcher": false
+      "salary": 1,
+      "mlb_team": "LAA",
+      "is_pitcher": false,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "38894": {
       "name": "Brandan Bidois",
@@ -9786,7 +9792,7 @@
         "3B",
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -10533,7 +10539,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -13963,7 +13969,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -15630,6 +15636,7 @@
       "40541",
       "37480",
       "40262",
+      "43892",
       "43950",
       "45881",
       "44117",
@@ -15860,7 +15867,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-15T13:27:54.216355+00:00",
+  "updated_at": "2026-09-15T15:17:44.037926+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16203,6 +16210,7 @@
       "40541": 1,
       "37480": 6,
       "40262": 7,
+      "43892": 1,
       "43950": 8,
       "45881": 2,
       "44117": 1,
