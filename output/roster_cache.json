@@ -5,7 +5,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 55,
+      "salary": 40,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
@@ -58,12 +58,12 @@
       "positions": [
         "RP"
       ],
-      "salary": 9,
+      "salary": 5,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "18466": {
@@ -215,7 +215,7 @@
         "2B",
         "SS"
       ],
-      "salary": 2,
+      "salary": 19,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
@@ -485,7 +485,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 24,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -867,7 +867,7 @@
         "1B",
         "3B"
       ],
-      "salary": 15,
+      "salary": 13,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1102,7 +1102,7 @@
         "SS",
         "3B"
       ],
-      "salary": 6,
+      "salary": 1,
       "mlb_team": "HOU",
       "is_pitcher": false,
       "ppg": null,
@@ -1417,13 +1417,13 @@
         "SP",
         "RP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "40607": {
       "name": "Andrew Abbott",
@@ -2106,7 +2106,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2726,7 +2726,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 27,
+      "salary": 37,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2817,7 +2817,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": true,
       "ppg": null,
@@ -2900,8 +2900,8 @@
       "salary": 1,
       "mlb_team": "CLE",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 7.18,
+      "pts": 847.6,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -2950,7 +2950,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 83,
+      "salary": 53,
       "mlb_team": "NYY",
       "is_pitcher": false,
       "ppg": null,
@@ -3076,7 +3076,7 @@
         "1B",
         "OF"
       ],
-      "salary": 45,
+      "salary": 23,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3411,13 +3411,13 @@
       "positions": [
         "1B"
       ],
-      "salary": 32,
+      "salary": 21,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "23795": {
       "name": "Yordan Alvarez",
@@ -3584,7 +3584,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 6,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -4088,13 +4088,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 2,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "34788": {
       "name": "Lawrence Butler",
@@ -5830,8 +5830,8 @@
       "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 2.41,
+      "pts": 166.4,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -6041,7 +6041,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": false,
       "ppg": null,
@@ -7130,8 +7130,8 @@
       "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 1.79,
+      "pts": 14.3,
       "minor_leaguer": false,
       "on_il": true
     },
@@ -8487,7 +8487,7 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "38894": {
@@ -9083,7 +9083,7 @@
         "2B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -10563,7 +10563,7 @@
         "SS",
         "3B"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -14000,7 +14000,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": 7.63,
@@ -15910,13 +15910,11 @@
       "47553"
     ],
     "2020": [
-      "38308",
       "42727",
       "23831",
       "42126",
       "18122",
       "41180",
-      "23762",
       "18312",
       "23327",
       "38456",
@@ -15924,8 +15922,9 @@
       "45739",
       "45789",
       "14982",
-      "33685",
+      "18549",
       "36669",
+      "43892",
       "45713",
       "41322",
       "41335",
@@ -15947,10 +15946,8 @@
       "45721",
       "41865",
       "44487",
-      "45950",
       "47533",
       "47554",
-      "47565",
       "47646",
       "47920",
       "47938",
@@ -15969,7 +15966,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-17T18:55:20.282116+00:00",
+  "updated_at": "2026-09-17T19:16:42.424198+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16348,13 +16345,11 @@
       "37234": 2
     },
     "2020": {
-      "38308": 9,
       "42727": 1,
       "23831": 13,
       "42126": 4,
       "18122": 22,
       "41180": 1,
-      "23762": 15,
       "18312": 53,
       "23327": 40,
       "38456": 1,
@@ -16362,8 +16357,9 @@
       "45739": 1,
       "45789": 1,
       "14982": 23,
-      "33685": 6,
+      "18549": 21,
       "36669": 15,
+      "43892": 1,
       "45713": 19,
       "41322": 1,
       "41335": 1,
@@ -16385,10 +16381,8 @@
       "45721": 1,
       "41865": 1,
       "44487": 1,
-      "45950": 1,
       "47533": 1,
       "47554": 1,
-      "47565": 1,
       "47646": 1,
       "47920": 1,
       "47938": 1,
