@@ -246,7 +246,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "23625": {
       "name": "Cole Ragans",
@@ -452,14 +452,14 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "41042": {
       "name": "Bryan Woo",
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -1094,7 +1094,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18160": {
       "name": "Carlos Correa",
@@ -2028,13 +2028,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "12398": {
       "name": "Willson Contreras",
@@ -2375,7 +2375,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "45090": {
       "name": "Luis Pena",
@@ -3477,7 +3477,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "23859": {
       "name": "Pete Alonso",
@@ -4995,7 +4995,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -7234,7 +7234,7 @@
       "positions": [
         "C"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "CIN",
       "is_pitcher": false,
       "ppg": null,
@@ -7827,7 +7827,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 27,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": true,
       "ppg": null,
@@ -9931,7 +9931,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -10222,7 +10222,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "44617": {
       "name": "Michael Forret",
@@ -13621,7 +13621,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "38598": {
       "name": "Casey Legumina",
@@ -14750,7 +14750,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
@@ -14786,7 +14786,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "38415": {
       "name": "Tekoah Roby",
@@ -15027,7 +15027,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "STL",
       "is_pitcher": true,
       "ppg": null,
@@ -15544,14 +15544,14 @@
       "44336",
       "45706",
       "46310",
-      "18364",
       "20900",
       "22559",
+      "42725",
       "43991",
       "44274",
       "33620",
       "40476",
-      "42725",
+      "18364",
       "36603",
       "40550",
       "44568",
@@ -15903,33 +15903,29 @@
       "40188",
       "45947",
       "18124",
-      "18344",
       "18479",
-      "22219",
-      "22654",
-      "23714",
       "23796",
       "33954",
       "36743",
       "37536",
+      "18344",
       "39340",
-      "15962",
       "18236",
       "21052",
-      "23629",
-      "45706",
+      "46310",
       "22559",
-      "26800",
       "38780",
-      "44274",
       "45721",
-      "23311",
+      "26800",
       "30725",
       "36825",
       "38781",
-      "46310",
+      "44274",
+      "15962",
+      "23629",
       "34389",
       "40564",
+      "45706",
       "47553"
     ],
     "2020": [
@@ -15989,7 +15985,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-18T12:53:18.540899+00:00",
+  "updated_at": "2026-09-18T14:46:47.904845+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16073,14 +16069,14 @@
       "44336": 6,
       "45706": 9,
       "46310": 5,
-      "18364": 3,
       "20900": 4,
       "22559": 14,
+      "42725": 3,
       "43991": 2,
       "44274": 2,
       "33620": 2,
       "40476": 2,
-      "42725": 3,
+      "18364": 3,
       "36603": 1,
       "40550": 9,
       "44568": 1,
@@ -16241,33 +16237,29 @@
       "40188": 33,
       "45947": 5,
       "18124": 11,
-      "18344": 34,
       "18479": 16,
-      "22219": 1,
-      "22654": 2,
-      "23714": 1,
       "23796": 7,
       "33954": 2,
       "36743": 6,
       "37536": 1,
+      "18344": 34,
       "39340": 7,
-      "15962": 24,
       "18236": 19,
       "21052": 25,
-      "23629": 12,
-      "45706": 24,
+      "46310": 1,
       "22559": 13,
-      "26800": 1,
       "38780": 1,
-      "44274": 1,
       "45721": 1,
-      "23311": 1,
+      "26800": 1,
       "30725": 1,
       "36825": 1,
       "38781": 2,
-      "46310": 1,
+      "44274": 1,
+      "15962": 24,
+      "23629": 12,
       "34389": 1,
       "40564": 8,
+      "45706": 24,
       "47553": 1
     },
     "663": {
