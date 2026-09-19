@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 18,
+      "salary": 21,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -615,7 +615,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 2,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -654,7 +654,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 6,
+      "salary": 5,
       "mlb_team": "CLE",
       "is_pitcher": true,
       "ppg": null,
@@ -1469,7 +1469,7 @@
         "SS",
         "3B"
       ],
-      "salary": 4,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1482,13 +1482,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "18113": {
       "name": "Sonny Gray",
@@ -1989,7 +1989,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 29,
+      "salary": 27,
       "mlb_team": "CHC",
       "is_pitcher": false,
       "ppg": null,
@@ -2028,13 +2028,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "12398": {
       "name": "Willson Contreras",
@@ -2146,7 +2146,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -3369,7 +3369,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 69,
+      "salary": 74,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -4999,7 +4999,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
@@ -15643,6 +15643,7 @@
       "23201",
       "18276",
       "39340",
+      "47596",
       "42362",
       "42988",
       "45770",
@@ -15655,7 +15656,6 @@
       "18160",
       "23856",
       "37649",
-      "40936",
       "46358",
       "47555",
       "15261",
@@ -15833,16 +15833,16 @@
       "40927",
       "45947",
       "31741",
-      "44524",
-      "47596",
       "14934",
       "18126",
       "18466",
       "18644",
       "23767",
       "26099",
+      "44524",
       "45789",
       "45884",
+      "47596",
       "49401",
       "23745",
       "33600",
@@ -15857,12 +15857,12 @@
       "23672",
       "33259",
       "38754",
+      "40936",
       "22426",
       "42765",
       "46310",
       "41478",
       "45950",
-      "46385",
       "47554",
       "15261",
       "19378",
@@ -16011,7 +16011,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-19T12:36:05.599902+00:00",
+  "updated_at": "2026-09-19T18:52:30.081240+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16167,16 +16167,16 @@
       "40927": 27,
       "45947": 5,
       "31741": 15,
-      "44524": 6,
-      "47596": 4,
       "14934": 14,
       "18126": 18,
       "18466": 39,
       "18644": 5,
       "23767": 22,
       "26099": 10,
+      "44524": 6,
       "45789": 2,
       "45884": 3,
+      "47596": 4,
       "49401": 8,
       "23745": 1,
       "33600": 86,
@@ -16191,12 +16191,12 @@
       "23672": 3,
       "33259": 11,
       "38754": 5,
+      "40936": 1,
       "22426": 21,
       "42765": 2,
       "46310": 4,
       "41478": 2,
       "45950": 1,
-      "46385": 1,
       "47554": 2,
       "15261": 1,
       "19378": 1,
@@ -16305,6 +16305,7 @@
       "23201": 1,
       "18276": 25,
       "39340": 1,
+      "47596": 4,
       "42362": 1,
       "42988": 1,
       "45770": 1,
@@ -16317,7 +16318,6 @@
       "18160": 6,
       "23856": 1,
       "37649": 5,
-      "40936": 1,
       "46358": 2,
       "47555": 1,
       "15261": 1,
