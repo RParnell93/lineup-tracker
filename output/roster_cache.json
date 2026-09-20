@@ -6550,7 +6550,7 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -15500,6 +15500,13 @@
         "RP"
       ],
       "is_pitcher": true
+    },
+    "31814": {
+      "name": "Geoff Hartlieb",
+      "positions": [
+        "RP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -15942,6 +15949,7 @@
       "18479",
       "18124",
       "18546",
+      "33147",
       "33217",
       "36743",
       "37304",
@@ -16029,7 +16037,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-20T21:06:00.978298+00:00",
+  "updated_at": "2026-09-20T22:26:58.924377+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16284,6 +16292,7 @@
       "18479": 16,
       "18124": 11,
       "18546": 45,
+      "33147": 2,
       "33217": 11,
       "36743": 6,
       "37304": 1,
