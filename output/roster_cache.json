@@ -246,7 +246,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "23625": {
       "name": "Cole Ragans",
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 18,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -1469,7 +1469,7 @@
         "SS",
         "3B"
       ],
-      "salary": 2,
+      "salary": 4,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1482,7 +1482,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -2028,13 +2028,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "12398": {
       "name": "Willson Contreras",
@@ -2146,7 +2146,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2375,7 +2375,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "45090": {
       "name": "Luis Pena",
@@ -4999,13 +4999,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "40298": {
       "name": "Sal Frelick",
@@ -5696,7 +5696,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "42627": {
       "name": "Carson Whisenhunt",
@@ -6969,7 +6969,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": true,
       "ppg": null,
@@ -7843,7 +7843,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 27,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": true,
       "ppg": null,
@@ -9947,7 +9947,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -12008,7 +12008,7 @@
         "RP"
       ],
       "salary": 1,
-      "mlb_team": "MIL",
+      "mlb_team": "SFG",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
@@ -15049,7 +15049,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "STL",
       "is_pitcher": true,
       "ppg": null,
@@ -15163,7 +15163,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "SFG",
       "is_pitcher": true,
       "ppg": null,
@@ -15942,18 +15942,21 @@
       "44046",
       "18344",
       "39340",
+      "15962",
       "18236",
       "21052",
       "46310",
       "22559",
       "30725",
-      "38780",
-      "38781",
-      "45721",
-      "26800",
       "36825",
+      "38780",
+      "45721",
+      "23339",
+      "26800",
+      "32736",
+      "35878",
+      "38781",
       "44274",
-      "15962",
       "23629",
       "34389",
       "40564",
@@ -16017,7 +16020,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-20T01:35:45.125230+00:00",
+  "updated_at": "2026-09-20T12:59:46.311798+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16278,18 +16281,21 @@
       "44046": 2,
       "18344": 34,
       "39340": 7,
+      "15962": 24,
       "18236": 19,
       "21052": 25,
       "46310": 1,
       "22559": 13,
       "30725": 1,
-      "38780": 1,
-      "38781": 2,
-      "45721": 1,
-      "26800": 1,
       "36825": 1,
+      "38780": 1,
+      "45721": 1,
+      "23339": 1,
+      "26800": 1,
+      "32736": 1,
+      "35878": 1,
+      "38781": 2,
       "44274": 1,
-      "15962": 24,
       "23629": 12,
       "34389": 1,
       "40564": 8,
