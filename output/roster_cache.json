@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 39,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -110,7 +110,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 13,
+      "salary": 12,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -240,7 +240,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
@@ -908,7 +908,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 11,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": false,
       "ppg": null,
@@ -2316,7 +2316,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -5199,13 +5199,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "27185": {
       "name": "Garrett Whitlock",
@@ -8187,7 +8187,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -10239,7 +10239,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 7,
+      "salary": 1,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": 5.62,
@@ -16046,7 +16046,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-21T15:04:36.520962+00:00",
+  "updated_at": "2026-09-21T16:38:08.953600+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
