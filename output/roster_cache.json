@@ -58,7 +58,7 @@
       "positions": [
         "RP"
       ],
-      "salary": 5,
+      "salary": 9,
       "mlb_team": "LAD",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 20,
+      "salary": 16,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 7,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -867,11 +867,11 @@
         "1B",
         "3B"
       ],
-      "salary": 13,
+      "salary": 15,
       "mlb_team": "HOU",
       "is_pitcher": false,
-      "ppg": 5.31,
-      "pts": 790.9,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1482,7 +1482,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 10,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -5258,9 +5258,16 @@
     "31541": {
       "name": "David Peterson",
       "positions": [
-        "SP"
+        "SP",
+        "RP"
       ],
-      "is_pitcher": true
+      "salary": 4,
+      "mlb_team": "CHC",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "33616": {
       "name": "Casey Mize",
@@ -6992,7 +6999,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 21,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": true,
       "ppg": null,
@@ -7866,7 +7873,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 27,
+      "salary": 2,
       "mlb_team": "MIL",
       "is_pitcher": true,
       "ppg": null,
@@ -9524,7 +9531,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ATL",
       "is_pitcher": true,
       "ppg": null,
@@ -9976,7 +9983,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 5,
+      "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
       "ppg": null,
@@ -10618,11 +10625,11 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "NYM",
       "is_pitcher": false,
-      "ppg": 6.2,
-      "pts": 781.1,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": true,
       "on_il": false
     },
@@ -11497,7 +11504,13 @@
         "SP",
         "RP"
       ],
-      "is_pitcher": true
+      "salary": 2,
+      "mlb_team": "LAA",
+      "is_pitcher": true,
+      "ppg": null,
+      "pts": null,
+      "minor_leaguer": false,
+      "on_il": false
     },
     "42352": {
       "name": "Rhylan Thomas",
@@ -15084,7 +15097,7 @@
         "SP",
         "RP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "STL",
       "is_pitcher": true,
       "ppg": null,
@@ -15646,13 +15659,11 @@
       "6305",
       "37480",
       "43896",
+      "45947",
       "23831",
-      "19285",
-      "22219",
       "41322",
       "43569",
       "45018",
-      "44975",
       "18255",
       "18312",
       "18344",
@@ -15661,8 +15672,8 @@
       "41180",
       "44003",
       "44046",
-      "45947",
       "48240",
+      "22426",
       "35922",
       "44336",
       "46310",
@@ -15670,20 +15681,19 @@
       "22559",
       "43991",
       "44274",
-      "20900",
-      "22426",
-      "40476",
-      "40648",
-      "42725",
       "2916",
+      "8147",
+      "18375",
+      "31541",
+      "40648",
+      "46217",
       "23601",
       "33620",
-      "36603",
+      "40476",
       "41042",
-      "44568",
+      "42725",
       "22078",
       "21961",
-      "22651",
       "45706"
     ],
     "649": [
@@ -16122,7 +16132,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-23T19:20:14.652013+00:00",
+  "updated_at": "2026-09-23T19:23:53.073820+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16185,13 +16195,11 @@
       "6305": 29,
       "37480": 5,
       "43896": 20,
+      "45947": 3,
       "23831": 15,
-      "19285": 1,
-      "22219": 1,
       "41322": 2,
       "43569": 1,
       "45018": 1,
-      "44975": 1,
       "18255": 13,
       "18312": 83,
       "18344": 31,
@@ -16200,8 +16208,8 @@
       "41180": 2,
       "44003": 9,
       "44046": 2,
-      "45947": 3,
       "48240": 16,
+      "22426": 15,
       "35922": 7,
       "44336": 6,
       "46310": 5,
@@ -16209,20 +16217,19 @@
       "22559": 14,
       "43991": 2,
       "44274": 2,
-      "20900": 2,
-      "22426": 15,
-      "40476": 2,
+      "2916": 3,
+      "8147": 2,
+      "18375": 10,
+      "31541": 4,
       "40648": 1,
-      "42725": 3,
-      "2916": 5,
+      "46217": 2,
       "23601": 9,
       "33620": 2,
-      "36603": 1,
+      "40476": 2,
       "41042": 16,
-      "44568": 1,
+      "42725": 3,
       "22078": 5,
       "21961": 1,
-      "22651": 5,
       "45706": 9
     },
     "649": {
