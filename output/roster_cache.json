@@ -97,7 +97,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 43,
+      "salary": 31,
       "mlb_team": "SEA",
       "is_pitcher": false,
       "ppg": null,
@@ -215,13 +215,13 @@
         "2B",
         "SS"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "STL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "36048": {
       "name": "Luisangel Acuna",
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 18,
+      "salary": 13,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -472,7 +472,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 6,
       "mlb_team": "TBR",
       "is_pitcher": true,
       "ppg": null,
@@ -827,7 +827,7 @@
         "3B",
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -1469,7 +1469,7 @@
         "SS",
         "3B"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1925,7 +1925,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "LAA",
       "is_pitcher": true,
       "ppg": null,
@@ -2028,13 +2028,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 8,
+      "salary": 5,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "12398": {
       "name": "Willson Contreras",
@@ -2106,7 +2106,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2146,7 +2146,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 3,
+      "salary": 2,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2356,7 +2356,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -2477,7 +2477,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 9,
+      "salary": 3,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -2728,7 +2728,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 27,
+      "salary": 12,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2833,7 +2833,7 @@
         "SS",
         "3B"
       ],
-      "salary": 7,
+      "salary": 9,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -2872,7 +2872,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 4,
+      "salary": 6,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -3079,7 +3079,7 @@
         "1B",
         "OF"
       ],
-      "salary": 41,
+      "salary": 45,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -5003,13 +5003,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 6,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "40298": {
       "name": "Sal Frelick",
@@ -5791,7 +5791,7 @@
         "2B",
         "3B"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -7418,7 +7418,7 @@
         "SP",
         "RP"
       ],
-      "salary": 2,
+      "salary": 4,
       "mlb_team": "WSN",
       "is_pitcher": true,
       "ppg": null,
@@ -10368,7 +10368,7 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "30833": {
@@ -14078,7 +14078,7 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "39588": {
@@ -15574,6 +15574,21 @@
         "OF"
       ],
       "is_pitcher": false
+    },
+    "39785": {
+      "name": "Jedixson Paez",
+      "positions": [
+        "SP",
+        "RP"
+      ],
+      "is_pitcher": true
+    },
+    "38393": {
+      "name": "Aaron Sabato",
+      "positions": [
+        "1B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -15768,23 +15783,24 @@
     "836": [
       "33654",
       "34583",
-      "44147",
-      "40284",
+      "18386",
+      "33645",
       "44223",
+      "40284",
       "14982",
+      "33625",
       "36509",
-      "40147",
       "42299",
       "45789",
       "39108",
-      "18386",
       "26292",
       "33217",
-      "33645",
       "37181",
       "39345",
+      "40147",
       "40262",
       "44117",
+      "44147",
       "44539",
       "45064",
       "46099",
@@ -15794,18 +15810,17 @@
       "39340",
       "22426",
       "33607",
+      "40607",
       "40609",
       "42711",
-      "42754",
       "22559",
       "31488",
       "35566",
       "43991",
-      "18196",
       "18449",
       "23813",
-      "40607",
       "40707",
+      "42754",
       "47646",
       "18786",
       "23660",
@@ -16107,7 +16122,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-23T13:19:41.831520+00:00",
+  "updated_at": "2026-09-23T19:16:45.121914+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16306,23 +16321,24 @@
     "836": {
       "33654": 12,
       "34583": 1,
-      "44147": 3,
-      "40284": 1,
+      "18386": 41,
+      "33645": 8,
       "44223": 1,
+      "40284": 1,
       "14982": 45,
+      "33625": 31,
       "36509": 29,
-      "40147": 1,
       "42299": 1,
       "45789": 1,
       "39108": 30,
-      "18386": 41,
       "26292": 1,
       "33217": 6,
-      "33645": 8,
       "37181": 1,
       "39345": 1,
+      "40147": 1,
       "40262": 9,
       "44117": 1,
+      "44147": 3,
       "44539": 6,
       "45064": 2,
       "46099": 2,
@@ -16332,18 +16348,17 @@
       "39340": 1,
       "22426": 13,
       "33607": 3,
+      "40607": 1,
       "40609": 4,
       "42711": 4,
-      "42754": 1,
       "22559": 12,
       "31488": 1,
       "35566": 3,
       "43991": 1,
-      "18196": 13,
       "18449": 1,
       "23813": 4,
-      "40607": 1,
       "40707": 1,
+      "42754": 1,
       "47646": 1,
       "18786": 2,
       "23660": 1,
