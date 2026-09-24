@@ -51,7 +51,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "23601": {
       "name": "Edwin Diaz",
@@ -116,7 +116,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18347": {
       "name": "Kyle Schwarber",
@@ -246,7 +246,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "23625": {
       "name": "Cole Ragans",
@@ -386,7 +386,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "43896": {
       "name": "Wyatt Langford",
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 13,
+      "salary": 18,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -459,7 +459,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 16,
+      "salary": 20,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
@@ -696,8 +696,8 @@
       "salary": 1,
       "mlb_team": "TOR",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 8.0,
+      "pts": 16.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -827,7 +827,7 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
@@ -914,7 +914,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "38403": {
       "name": "Carmen Mlodzinski",
@@ -1135,8 +1135,8 @@
       "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": 4.09,
-      "pts": 523.6,
+      "ppg": 4.04,
+      "pts": 525.1,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1469,7 +1469,7 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
@@ -1800,7 +1800,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "18480": {
       "name": "Alex Bregman",
@@ -1925,7 +1925,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "LAA",
       "is_pitcher": true,
       "ppg": null,
@@ -2028,13 +2028,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 5,
+      "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "12398": {
       "name": "Willson Contreras",
@@ -2106,7 +2106,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 4,
+      "salary": 1,
       "mlb_team": "ARI",
       "is_pitcher": true,
       "ppg": null,
@@ -2146,7 +2146,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 1,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2356,7 +2356,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -2477,7 +2477,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 9,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -2639,8 +2639,8 @@
       "salary": 8,
       "mlb_team": "WSN",
       "is_pitcher": false,
-      "ppg": 3.86,
-      "pts": 405.3,
+      "ppg": 3.79,
+      "pts": 401.3,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2728,7 +2728,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 12,
+      "salary": 27,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2833,7 +2833,7 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
@@ -2872,7 +2872,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 4,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -2971,7 +2971,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "36686": {
       "name": "Nick Lodolo",
@@ -3079,7 +3079,7 @@
         "1B",
         "OF"
       ],
-      "salary": 45,
+      "salary": 41,
       "mlb_team": "PHI",
       "is_pitcher": false,
       "ppg": null,
@@ -3437,7 +3437,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 50,
+      "salary": 41,
       "mlb_team": "PIT",
       "is_pitcher": true,
       "ppg": null,
@@ -3707,8 +3707,8 @@
       "salary": 33,
       "mlb_team": "WSN",
       "is_pitcher": false,
-      "ppg": 7.29,
-      "pts": 955.4,
+      "ppg": 7.21,
+      "pts": 951.4,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -4239,7 +4239,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "36669": {
       "name": "Shea Langeliers",
@@ -5003,13 +5003,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 6,
+      "salary": 1,
       "mlb_team": "NYM",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "40298": {
       "name": "Sal Frelick",
@@ -5798,7 +5798,7 @@
         "2B",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
@@ -6007,13 +6007,13 @@
         "SP",
         "RP"
       ],
-      "salary": 8,
+      "salary": 1,
       "mlb_team": "HOU",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "31937": {
       "name": "Jason Foley",
@@ -14091,7 +14091,7 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "39588": {
@@ -15223,7 +15223,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "36603": {
       "name": "Anthony Molina",
@@ -15972,10 +15972,10 @@
       "38754",
       "18375",
       "27148",
-      "40936",
       "42110",
       "42653",
       "42765",
+      "43894",
       "46310",
       "41478",
       "45950",
@@ -16033,36 +16033,31 @@
       "36686"
     ],
     "1940": [
-      "33217",
       "18466",
-      "18368",
       "42156",
+      "18368",
       "42358",
-      "18479",
-      "18546",
-      "32291",
       "33954",
       "40142",
-      "37536",
+      "32291",
       "23796",
       "36743",
       "40188",
-      "44046",
       "45947",
       "18124",
       "18344",
+      "18479",
+      "18546",
+      "33217",
+      "37536",
       "39340",
-      "15962",
-      "18236",
-      "23779",
       "46310",
       "2916",
-      "22559",
-      "32736",
-      "43991",
       "4514",
+      "15962",
+      "18236",
       "21052",
-      "22694",
+      "22559",
       "26800",
       "30725",
       "34389",
@@ -16072,6 +16067,7 @@
       "38780",
       "38781",
       "40564",
+      "43991",
       "44274",
       "45706",
       "45721",
@@ -16134,7 +16130,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-24T01:30:29.673833+00:00",
+  "updated_at": "2026-09-24T13:23:49.045086+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16314,10 +16310,10 @@
       "38754": 5,
       "18375": 2,
       "27148": 5,
-      "40936": 1,
       "42110": 2,
       "42653": 2,
       "42765": 2,
+      "43894": 41,
       "46310": 4,
       "41478": 2,
       "45950": 1,
@@ -16377,36 +16373,31 @@
       "42719": 1
     },
     "1940": {
-      "33217": 11,
       "18466": 41,
-      "18368": 27,
       "42156": 28,
+      "18368": 27,
       "42358": 16,
-      "18479": 16,
-      "18546": 45,
-      "32291": 14,
       "33954": 2,
       "40142": 17,
-      "37536": 1,
+      "32291": 14,
       "23796": 7,
       "36743": 6,
       "40188": 33,
-      "44046": 2,
       "45947": 5,
       "18124": 11,
       "18344": 34,
+      "18479": 16,
+      "18546": 45,
+      "33217": 11,
+      "37536": 1,
       "39340": 7,
-      "15962": 24,
-      "18236": 19,
-      "23779": 1,
       "46310": 1,
       "2916": 1,
-      "22559": 13,
-      "32736": 1,
-      "43991": 1,
       "4514": 1,
+      "15962": 24,
+      "18236": 19,
       "21052": 25,
-      "22694": 8,
+      "22559": 13,
       "26800": 1,
       "30725": 1,
       "34389": 1,
@@ -16416,6 +16407,7 @@
       "38780": 1,
       "38781": 2,
       "40564": 8,
+      "43991": 1,
       "44274": 1,
       "45706": 24,
       "45721": 1,
