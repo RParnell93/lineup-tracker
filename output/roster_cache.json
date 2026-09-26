@@ -9058,7 +9058,7 @@
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "40472": {
@@ -15659,6 +15659,14 @@
         "OF"
       ],
       "is_pitcher": false
+    },
+    "36725": {
+      "name": "Will Wilson",
+      "positions": [
+        "2B",
+        "3B"
+      ],
+      "is_pitcher": false
     }
   },
   "league_rosters": {
@@ -15760,10 +15768,10 @@
       "40927",
       "23859",
       "18216",
-      "42238",
       "45769",
       "34602",
       "38424",
+      "42238",
       "43569",
       "45018",
       "46484",
@@ -16185,7 +16193,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-26T20:15:27.754388+00:00",
+  "updated_at": "2026-09-26T21:29:18.141386+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16292,10 +16300,10 @@
       "40927": 29,
       "23859": 34,
       "18216": 23,
-      "42238": 1,
       "45769": 2,
       "34602": 1,
       "38424": 1,
+      "42238": 1,
       "43569": 5,
       "45018": 1,
       "46484": 1,
