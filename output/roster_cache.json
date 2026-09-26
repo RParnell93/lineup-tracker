@@ -71,7 +71,7 @@
       "positions": [
         "2B"
       ],
-      "salary": 41,
+      "salary": 39,
       "mlb_team": "ARI",
       "is_pitcher": false,
       "ppg": null,
@@ -148,7 +148,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 14,
+      "salary": 19,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -162,12 +162,12 @@
         "OF"
       ],
       "salary": 1,
-      "mlb_team": "CHW",
+      "mlb_team": "SDP",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "37216": {
       "name": "Spencer Steer",
@@ -240,13 +240,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 24,
+      "salary": 19,
       "mlb_team": "PHI",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "23625": {
       "name": "Cole Ragans",
@@ -446,7 +446,7 @@
         "SP",
         "RP"
       ],
-      "salary": 24,
+      "salary": 6,
       "mlb_team": "CIN",
       "is_pitcher": true,
       "ppg": null,
@@ -1575,12 +1575,12 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
-      "mlb_team": "WSN",
+      "salary": 1,
+      "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": false,
+      "minor_leaguer": true,
       "on_il": false
     },
     "6130": {
@@ -2316,7 +2316,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 4,
       "mlb_team": "BOS",
       "is_pitcher": true,
       "ppg": null,
@@ -2929,9 +2929,9 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
-      "minor_leaguer": false,
+      "ppg": 5.96,
+      "pts": 184.7,
+      "minor_leaguer": true,
       "on_il": false
     },
     "44703": {
@@ -3475,7 +3475,7 @@
       "positions": [
         "1B"
       ],
-      "salary": 34,
+      "salary": 35,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
@@ -3562,13 +3562,13 @@
       "positions": [
         "3B"
       ],
-      "salary": 18,
+      "salary": 10,
       "mlb_team": "ATL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "21015": {
       "name": "Logan Webb",
@@ -3704,7 +3704,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 33,
+      "salary": 24,
       "mlb_team": "WSN",
       "is_pitcher": false,
       "ppg": null,
@@ -3965,7 +3965,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 28,
+      "salary": 9,
       "mlb_team": "LAA",
       "is_pitcher": false,
       "ppg": null,
@@ -4007,7 +4007,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 11,
+      "salary": 9,
       "mlb_team": "TOR",
       "is_pitcher": false,
       "ppg": null,
@@ -5202,13 +5202,13 @@
       "positions": [
         "SP"
       ],
-      "salary": 1,
+      "salary": 3,
       "mlb_team": "SEA",
       "is_pitcher": true,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "27185": {
       "name": "Garrett Whitlock",
@@ -6856,7 +6856,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "38319": {
       "name": "Heston Kjerstad",
@@ -8216,7 +8216,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "MIA",
       "is_pitcher": false,
       "ppg": null,
@@ -10280,7 +10280,7 @@
       "positions": [
         "OF"
       ],
-      "salary": 7,
+      "salary": 2,
       "mlb_team": "PIT",
       "is_pitcher": false,
       "ppg": null,
@@ -10549,7 +10549,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "36940": {
       "name": "Anthony Nunez",
@@ -12861,7 +12861,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "18240": {
       "name": "Julio Urias",
@@ -15236,7 +15236,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "36603": {
       "name": "Anthony Molina",
@@ -15244,7 +15244,7 @@
         "SP",
         "RP"
       ],
-      "salary": 8,
+      "salary": 2,
       "mlb_team": "SFG",
       "is_pitcher": true,
       "ppg": null,
@@ -15744,17 +15744,21 @@
       "23717",
       "23840",
       "27058",
-      "37480",
       "40927",
       "23859",
       "18216",
       "45769",
+      "34602",
+      "38424",
       "43569",
       "45018",
       "46484",
       "18124",
       "18344",
-      "39285",
+      "22674",
+      "23805",
+      "37480",
+      "40520",
       "45713",
       "48240",
       "18375",
@@ -15766,8 +15770,6 @@
       "34132",
       "35602",
       "38754",
-      "41119",
-      "31819",
       "31951",
       "35922",
       "40648",
@@ -15817,7 +15819,6 @@
       "45950",
       "46358",
       "47555",
-      "15261",
       "15962",
       "18116",
       "18196",
@@ -15930,7 +15931,7 @@
     "757": [
       "48240",
       "40398",
-      "40262",
+      "18276",
       "26198",
       "14934",
       "37480",
@@ -15938,8 +15939,9 @@
       "43950",
       "44039",
       "45720",
-      "18276",
       "40541",
+      "40262",
+      "41335",
       "43892",
       "44539",
       "45770",
@@ -15953,17 +15955,16 @@
       "44003",
       "45716",
       "45881",
-      "18164",
+      "9335",
       "26807",
       "40820",
       "40829",
       "44336",
-      "20900",
       "26800",
       "31984",
       "41452",
       "44568",
-      "9335",
+      "18164",
       "22426",
       "47554",
       "47555",
@@ -16017,13 +16018,13 @@
       "41478",
       "45950",
       "47554",
-      "15261",
       "19378",
       "23660",
       "33600",
       "33682",
       "34389",
-      "43841"
+      "43841",
+      "15261"
     ],
     "1487": [
       "36325",
@@ -16170,7 +16171,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-26T12:41:43.976303+00:00",
+  "updated_at": "2026-09-26T18:33:39.663840+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16274,17 +16275,21 @@
       "23717": 69,
       "23840": 25,
       "27058": 9,
-      "37480": 4,
       "40927": 29,
       "23859": 34,
       "18216": 23,
       "45769": 2,
+      "34602": 1,
+      "38424": 1,
       "43569": 5,
       "45018": 1,
       "46484": 1,
       "18124": 9,
       "18344": 35,
-      "39285": 2,
+      "22674": 10,
+      "23805": 1,
+      "37480": 4,
+      "40520": 1,
       "45713": 2,
       "48240": 19,
       "18375": 1,
@@ -16296,8 +16301,6 @@
       "34132": 3,
       "35602": 3,
       "38754": 6,
-      "41119": 2,
-      "31819": 2,
       "31951": 4,
       "35922": 5,
       "40648": 21,
@@ -16350,12 +16353,12 @@
       "41478": 2,
       "45950": 1,
       "47554": 2,
-      "15261": 1,
       "19378": 1,
       "23660": 1,
       "33682": 22,
       "34389": 1,
-      "43841": 1
+      "43841": 1,
+      "15261": 1
     },
     "836": {
       "14934": 19,
@@ -16487,7 +16490,6 @@
       "45950": 1,
       "46358": 2,
       "47555": 1,
-      "15261": 1,
       "15962": 19,
       "18116": 5,
       "18196": 14,
@@ -16501,7 +16503,7 @@
     "757": {
       "48240": 15,
       "40398": 1,
-      "40262": 7,
+      "18276": 26,
       "26198": 8,
       "14934": 14,
       "37480": 6,
@@ -16509,8 +16511,9 @@
       "43950": 8,
       "44039": 1,
       "45720": 6,
-      "18276": 26,
       "40541": 1,
+      "40262": 7,
+      "41335": 3,
       "43892": 1,
       "44539": 4,
       "45770": 1,
@@ -16524,17 +16527,16 @@
       "44003": 6,
       "45716": 12,
       "45881": 2,
-      "18164": 25,
+      "9335": 7,
       "26807": 1,
       "40820": 1,
       "40829": 2,
       "44336": 5,
-      "20900": 1,
       "26800": 1,
       "31984": 1,
       "41452": 1,
       "44568": 1,
-      "9335": 7,
+      "18164": 25,
       "22426": 18,
       "47554": 1,
       "47555": 1,
