@@ -246,7 +246,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "23625": {
       "name": "Cole Ragans",
@@ -432,7 +432,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 13,
+      "salary": 18,
       "mlb_team": "DET",
       "is_pitcher": true,
       "ppg": null,
@@ -827,13 +827,13 @@
         "3B",
         "OF"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "NYM",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "33634": {
       "name": "Brice Turang",
@@ -1135,8 +1135,8 @@
       "salary": 1,
       "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": 4.04,
-      "pts": 525.1,
+      "ppg": 4.09,
+      "pts": 539.9,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1469,13 +1469,13 @@
         "SS",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "DET",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "18375": {
       "name": "Grant Holmes",
@@ -2146,7 +2146,7 @@
       "positions": [
         "SP"
       ],
-      "salary": 2,
+      "salary": 3,
       "mlb_team": "MIN",
       "is_pitcher": true,
       "ppg": null,
@@ -2477,13 +2477,13 @@
       "positions": [
         "1B"
       ],
-      "salary": 3,
+      "salary": 9,
       "mlb_team": "SFG",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "45884": {
       "name": "Sam Antonacci",
@@ -2833,12 +2833,12 @@
         "SS",
         "3B"
       ],
-      "salary": 9,
+      "salary": 7,
       "mlb_team": "CHW",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
-      "minor_leaguer": true,
+      "minor_leaguer": false,
       "on_il": false
     },
     "40550": {
@@ -2872,7 +2872,7 @@
       "positions": [
         "SS"
       ],
-      "salary": 6,
+      "salary": 4,
       "mlb_team": "ATH",
       "is_pitcher": false,
       "ppg": null,
@@ -3549,7 +3549,7 @@
       "positions": [
         "3B"
       ],
-      "salary": 19,
+      "salary": 14,
       "mlb_team": "SDP",
       "is_pitcher": false,
       "ppg": null,
@@ -4298,7 +4298,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": false
+      "on_il": true
     },
     "29666": {
       "name": "John Means",
@@ -5040,8 +5040,8 @@
       "salary": 1,
       "mlb_team": "BOS",
       "is_pitcher": false,
-      "ppg": 4.1,
-      "pts": 619.6,
+      "ppg": 4.05,
+      "pts": 615.6,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -5798,13 +5798,13 @@
         "2B",
         "3B"
       ],
-      "salary": 1,
+      "salary": 2,
       "mlb_team": "COL",
       "is_pitcher": false,
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "37239": {
       "name": "Hunter Gaddis",
@@ -7425,7 +7425,7 @@
         "SP",
         "RP"
       ],
-      "salary": 4,
+      "salary": 2,
       "mlb_team": "WSN",
       "is_pitcher": true,
       "ppg": null,
@@ -8082,7 +8082,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "36539": {
       "name": "Edgardo Henriquez",
@@ -15250,7 +15250,7 @@
       "ppg": null,
       "pts": null,
       "minor_leaguer": false,
-      "on_il": true
+      "on_il": false
     },
     "43443": {
       "name": "Erik Tolman",
@@ -15739,13 +15739,14 @@
     ],
     "649": [
       "22219",
-      "23859",
       "18466",
       "12379",
       "23717",
       "23840",
       "27058",
+      "37480",
       "40927",
+      "23859",
       "18216",
       "45769",
       "43569",
@@ -15753,7 +15754,6 @@
       "46484",
       "18124",
       "18344",
-      "37480",
       "39285",
       "45713",
       "48240",
@@ -16071,15 +16071,15 @@
     ],
     "1940": [
       "18466",
-      "18368",
       "42156",
       "42358",
-      "33954",
       "40142",
-      "40188",
+      "18368",
       "23796",
       "32291",
+      "33954",
       "36743",
+      "40188",
       "45947",
       "18124",
       "18344",
@@ -16088,21 +16088,21 @@
       "33217",
       "37536",
       "39340",
-      "46310",
-      "20920",
-      "25866",
-      "31819",
-      "2916",
       "4514",
       "15962",
+      "31819",
+      "36603",
+      "25866",
+      "46310",
+      "2916",
       "18236",
+      "20920",
       "21052",
       "22559",
       "26800",
       "30725",
       "34389",
       "35878",
-      "36603",
       "36825",
       "38780",
       "38781",
@@ -16170,7 +16170,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-26T00:57:35.702195+00:00",
+  "updated_at": "2026-09-26T12:41:43.976303+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
@@ -16269,13 +16269,14 @@
     },
     "649": {
       "22219": 2,
-      "23859": 34,
       "18466": 35,
       "12379": 2,
       "23717": 69,
       "23840": 25,
       "27058": 9,
+      "37480": 4,
       "40927": 29,
+      "23859": 34,
       "18216": 23,
       "45769": 2,
       "43569": 5,
@@ -16283,7 +16284,6 @@
       "46484": 1,
       "18124": 9,
       "18344": 35,
-      "37480": 4,
       "39285": 2,
       "45713": 2,
       "48240": 19,
@@ -16407,15 +16407,15 @@
     },
     "1940": {
       "18466": 41,
-      "18368": 27,
       "42156": 28,
       "42358": 16,
-      "33954": 2,
       "40142": 17,
-      "40188": 33,
+      "18368": 27,
       "23796": 7,
       "32291": 14,
+      "33954": 2,
       "36743": 6,
+      "40188": 33,
       "45947": 5,
       "18124": 11,
       "18344": 34,
@@ -16424,21 +16424,21 @@
       "33217": 11,
       "37536": 1,
       "39340": 7,
-      "46310": 1,
-      "20920": 2,
-      "25866": 1,
-      "31819": 9,
-      "2916": 1,
       "4514": 1,
       "15962": 24,
+      "31819": 9,
+      "36603": 8,
+      "25866": 1,
+      "46310": 1,
+      "2916": 1,
       "18236": 19,
+      "20920": 2,
       "21052": 25,
       "22559": 13,
       "26800": 1,
       "30725": 1,
       "34389": 1,
       "35878": 1,
-      "36603": 8,
       "36825": 1,
       "38780": 1,
       "38781": 2,
