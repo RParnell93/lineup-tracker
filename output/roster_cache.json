@@ -15812,6 +15812,30 @@
         "SP"
       ],
       "is_pitcher": true
+    },
+    "42395": {
+      "name": "Cade Doughty",
+      "positions": [
+        "2B",
+        "SS",
+        "3B"
+      ],
+      "is_pitcher": false
+    },
+    "40503": {
+      "name": "Niko Kavadas",
+      "positions": [
+        "1B",
+        "OF"
+      ],
+      "is_pitcher": false
+    },
+    "45190": {
+      "name": "Yhoiker Fajardo",
+      "positions": [
+        "SP"
+      ],
+      "is_pitcher": true
     }
   },
   "league_rosters": {
@@ -16345,7 +16369,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-09-27T19:16:44.089011+00:00",
+  "updated_at": "2026-09-27T20:23:18.877701+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
