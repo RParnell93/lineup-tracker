@@ -786,8 +786,8 @@
       "salary": 3,
       "mlb_team": "BAL",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2023,8 +2023,8 @@
       "salary": 8,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 105.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2219,8 +2219,8 @@
       "salary": 1,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 0.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2232,8 +2232,8 @@
       "salary": 1,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 2.67,
+      "pts": 325.7,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -3480,8 +3480,8 @@
       "salary": 34,
       "mlb_team": "BAL",
       "is_pitcher": false,
-      "ppg": null,
-      "pts": null,
+      "ppg": 6.58,
+      "pts": 1059.1,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -16401,7 +16401,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-10-01T15:05:07.403623+00:00",
+  "updated_at": "2026-10-03T12:53:19.119977+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
