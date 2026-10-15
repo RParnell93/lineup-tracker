@@ -1634,8 +1634,8 @@
       "salary": 27,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": null,
-      "pts": null,
+      "ppg": 97.0,
+      "pts": 0.0,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -16400,7 +16400,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-10-15T00:47:58.715645+00:00",
+  "updated_at": "2026-10-15T13:04:56.732165+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
