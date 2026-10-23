@@ -643,8 +643,8 @@
       "salary": 6,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": 11.0,
-      "pts": 16.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -1634,8 +1634,8 @@
       "salary": 27,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": 97.0,
-      "pts": 0.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2022,8 +2022,8 @@
       "salary": 10,
       "mlb_team": "NYY",
       "is_pitcher": true,
-      "ppg": 0.0,
-      "pts": 105.0,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -2943,8 +2943,8 @@
       "salary": 55,
       "mlb_team": "NYY",
       "is_pitcher": false,
-      "ppg": 6.31,
-      "pts": 416.5,
+      "ppg": null,
+      "pts": null,
       "minor_leaguer": false,
       "on_il": false
     },
@@ -16400,7 +16400,7 @@
       "42741"
     ]
   },
-  "updated_at": "2026-10-20T01:21:40.909526+00:00",
+  "updated_at": "2026-10-23T13:22:48.874102+00:00",
   "_note": "Bootstrap cache - will be fully populated on next bot run",
   "league_salaries": {
     "301": {
